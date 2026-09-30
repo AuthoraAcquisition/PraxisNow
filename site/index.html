@@ -80,12 +80,12 @@ nav a:hover{opacity:1}
 body:not(.on-discover) .backdrop,body:not(.on-discover) .library-bg{display:none}
 /* the library: fades in as the cherubs fade out, sits dim and soft behind the reel and card, then fades away */
 .library-bg{position:absolute;left:0;right:0;top:520px;height:1000px;z-index:0;overflow:hidden;pointer-events:none;
-  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 26%,#000 52%,transparent 100%);
-          mask-image:linear-gradient(180deg,transparent 0%,#000 26%,#000 52%,transparent 100%)}
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 32%,#000 50%,transparent 100%);
+          mask-image:linear-gradient(180deg,transparent 0%,#000 32%,#000 50%,transparent 100%)}
 .library-bg img{position:absolute;inset:-12px;width:calc(100% + 24px);height:calc(100% + 24px);max-width:none;object-fit:cover;object-position:50% 45%;
-  filter:blur(2.5px) brightness(.44) saturate(.8) sepia(.18)}
+  filter:blur(7px) brightness(.3) saturate(.6) sepia(.25);opacity:.75}
 .intro .label,.begin-side .plan,.scope{text-shadow:0 1px 2px rgba(16,13,12,.9),0 0 12px rgba(16,13,12,.8)}
-.library-bg::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 55% at 50% 40%,rgba(16,13,12,.35),transparent 75%)}
+.library-bg::after{content:"";position:absolute;inset:0;background:radial-gradient(46% 60% at 50% 45%,rgba(16,13,12,.55),transparent 80%)}
 .hero-copy{position:relative;max-width:1200px;margin:0 auto;display:grid;gap:8px}
 .hero h1{font-family:var(--f-title);font-weight:400;font-size:clamp(2.2rem,4.4vw,4.1rem);line-height:1.05;margin:0;text-wrap:balance;text-shadow:0 1px 2px rgba(16,13,12,.55),0 2px 28px rgba(16,13,12,.6)}
 .hero .ask{font-family:var(--f-title);font-weight:400;font-size:clamp(1.5rem,2.3vw,2.1rem);line-height:1.1;margin:6px 0 0;text-wrap:balance;text-shadow:0 1px 2px rgba(16,13,12,.55),0 2px 22px rgba(16,13,12,.6)}
@@ -846,7 +846,7 @@ function alignSpin(){try{
   beg.style.setProperty('--begin-gap',Math.max(0,d2)+'px');
 }catch(e){}}
 addEventListener('resize',alignSpin);addEventListener('load',alignSpin);try{document.fonts&&document.fonts.ready.then(alignSpin)}catch(e){}
-function sizeBackdrop(){alignSpin();const st=document.querySelector('.stage');if(!st)return;const y=st.getBoundingClientRect().top+window.scrollY+40;$('backdrop').style.height=Math.max(360,y)+'px';$('library-bg').style.top=Math.max(360,y)-260+'px'}
+function sizeBackdrop(){alignSpin();const st=document.querySelector('.stage');if(!st)return;const y=st.getBoundingClientRect().top+window.scrollY+40;$('backdrop').style.height=Math.max(360,y)+'px';const cd=document.getElementById('card');const cy=cd?cd.getBoundingClientRect().top+window.scrollY:y+300;$('library-bg').style.top=(cy-380)+'px'}
 addEventListener('resize',sizeBackdrop);addEventListener('load',sizeBackdrop);
 try{document.fonts&&document.fonts.ready.then(sizeBackdrop)}catch(e){}
 function go(v){
