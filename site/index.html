@@ -124,6 +124,8 @@ body:not(.on-discover) .backdrop{display:none}
 .pointer{position:absolute;left:-2px;top:calc(var(--item-h)*2.5 + 3px);transform:translateY(-50%);width:0;height:0;
   border-top:15px solid transparent;border-bottom:15px solid transparent;border-left:24px solid var(--gold-hi);z-index:3;filter:drop-shadow(0 2px 3px rgba(0,0,0,.6))}
 .actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;justify-content:center}
+/* desktop: Spin sits right of the reel, level with the Impromptu/Research row on the left */
+.actions.side{justify-content:flex-start;align-self:start;margin-top:var(--side-top,137px)}
 .btn{border-radius:999px;padding:16px 34px;font-size:1.02rem;border:1px solid var(--faint);background:rgba(20,16,12,.55);transition:background .2s}
 .btn:hover{background:rgba(40,32,24,.8)}
 .btn.primary{background:var(--burgundy);border-color:rgba(146,116,62,.7);color:var(--cream);box-shadow:0 0 0 3px var(--umber),0 0 0 4px rgba(146,116,62,.45),0 10px 24px rgba(0,0,0,.45)}
@@ -257,8 +259,9 @@ footer{position:relative;z-index:1;text-align:center;padding-block:24px 40px;fon
 @media (max-width:1060px){
   .stage{grid-template-columns:minmax(0,1fr)}
   .reel-col{order:1;width:min(460px,100%);justify-self:center}
-  .intro{order:2;padding-top:0;text-align:center;justify-items:center}
-  .card{order:3}
+  .actions.side{order:2;justify-content:center;margin-top:0}
+  .intro{order:3;padding-top:0;text-align:center;justify-items:center}
+  .card{order:4}
   .intro p,.plan{max-width:44ch}
   .step{justify-content:center}
 }
@@ -332,12 +335,13 @@ footer{position:relative;z-index:1;text-align:center;padding-block:24px 40px;fon
           </div>
           <div class="cap"></div>
         </div>
-        <div class="actions">
+      </div>
+
+      <div class="actions side">
           <button class="btn primary spin" id="spin" type="button">Spin</button>
           <button class="icon-btn" id="open-settings" type="button" aria-label="Timer settings">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
           </button>
-        </div>
       </div>
 
       <article class="card" id="card" aria-live="polite"></article>
@@ -811,7 +815,9 @@ $("lib").onclick=e=>{
 $("domain-list").innerHTML=DOMAINS.map(d=>`<li>${esc(d)}<span>${DATA.filter(c=>c.d===d).length}</span></li>`).join("");
 
 /* routing */
-function sizeBackdrop(){const st=document.querySelector('.stage');if(!st)return;const y=st.getBoundingClientRect().top+window.scrollY+40;$('backdrop').style.height=Math.max(360,y)+'px'}
+function alignSpin(){try{const seg=document.querySelector('.intro .seg'),side=document.querySelector('.actions.side'),st=document.querySelector('.stage');if(!seg||!side||!st)return;if(innerWidth<=1060){side.style.removeProperty('--side-top');return}const sr=seg.getBoundingClientRect(),tr=st.getBoundingClientRect();const h=side.getBoundingClientRect().height;side.style.setProperty('--side-top',Math.max(0,sr.top-tr.top+sr.height/2-h/2)+'px')}catch(e){}}
+addEventListener('resize',alignSpin);addEventListener('load',alignSpin);try{document.fonts&&document.fonts.ready.then(alignSpin)}catch(e){}
+function sizeBackdrop(){alignSpin();const st=document.querySelector('.stage');if(!st)return;const y=st.getBoundingClientRect().top+window.scrollY+40;$('backdrop').style.height=Math.max(360,y)+'px'}
 addEventListener('resize',sizeBackdrop);addEventListener('load',sizeBackdrop);
 try{document.fonts&&document.fonts.ready.then(sizeBackdrop)}catch(e){}
 function go(v){
