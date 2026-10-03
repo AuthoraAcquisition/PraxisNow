@@ -228,10 +228,10 @@ table.sum td:last-child,table.sum th:last-child{text-align:right}
 <div class="sky"></div>
 <div class="wrap">
   <header>
-    <a class="mark" href="/">Praxis</a>
+    <a class="mark" id="mark" href="/">Praxis</a>
     <span style="display:flex;gap:18px;align-items:center">
       <button class="back" id="go-notes" type="button" style="background:none;border:0;border-bottom:1px solid var(--faint);padding:0 0 2px">Field Notes</button>
-      <a class="back" href="/">Back to Discover</a>
+      <a class="back" id="to-discover" href="/">Back to Discover</a>
     </span>
   </header>
 
@@ -240,6 +240,16 @@ table.sum td:last-child,table.sum th:last-child{text-align:right}
 
 <script>
 const CONCEPTS = /*__CONCEPTS__*/[];
+/* The site serves this page at /comprehend. Anywhere else, such as a preview
+   or a saved copy, this page stands alone and the links home lead nowhere. */
+(function(){
+  if (location.pathname === '/comprehend' || location.pathname === '/comprehend/') return;
+  const back = document.getElementById('to-discover');
+  if (back) back.remove();
+  const mark = document.getElementById('mark');
+  if (mark) mark.removeAttribute('href');
+})();
+
 const app = document.getElementById('app');
 const esc = s => String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
