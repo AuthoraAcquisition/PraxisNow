@@ -118,6 +118,24 @@ table.sum th{text-align:left;font-weight:400;color:var(--muted);font-size:.72rem
 table.sum td{padding:13px 0;border-bottom:1px solid rgba(244,235,221,.07);vertical-align:top}
 table.sum td:last-child,table.sum th:last-child{text-align:right}
 .note{color:var(--muted);font-size:.9rem;margin-top:26px;border-top:1px solid var(--faint);padding-top:18px}
+/* ---- field notes ---- */
+.notes-block{border-top:1px solid var(--faint);margin-top:34px;padding-top:26px}
+.notes-intro{color:var(--muted);font-size:.95rem;max-width:58ch;margin-bottom:22px}
+.prompt{margin-bottom:20px}
+.prompt label{display:block;font-family:var(--f-title);font-size:1.18rem;margin-bottom:4px}
+.prompt .hint{display:block;color:var(--muted);font-size:.9rem;margin-bottom:9px}
+.prompt textarea{width:100%;min-height:82px;resize:vertical;background:rgba(37,21,18,.55);
+  color:var(--cream);border:1px solid var(--faint);border-radius:10px;padding:13px 15px;
+  font-family:var(--f-body);font-size:1rem;line-height:1.5}
+.prompt textarea:focus{outline:none;border-color:var(--gold)}
+.saved-note{border-left:2px solid var(--gold);padding:4px 0 4px 16px;margin:16px 0}
+.saved-note .q{color:var(--gold-hi);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:5px}
+.saved-note .when{color:var(--muted);font-size:.82rem;display:block;margin-top:6px}
+.kindtag{display:inline-block;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--muted);border:1px solid var(--faint);border-radius:99px;padding:2px 9px;margin-left:8px;vertical-align:2px}
+.pick .seal-mini{float:right;color:var(--gold-hi);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase}
+.toast{color:var(--good);font-size:.92rem;margin-top:10px}
+
 @media (max-width:560px){ body{font-size:17px} .opt{padding:14px} }
 </style>
 </head>
@@ -195,6 +213,61 @@ function buildRungs(c, all){
   return [r1, r2, r3].filter(Boolean);
 }
 
+/* ------------------------------ storage ------------------------------
+   Kept in this browser only. Clearing site data loses it, and it does not
+   follow you to another device — accounts come later. Everything is wrapped
+   so a blocked or full store degrades to an unsaved session rather than a
+   broken page. */
+const KEY = 'praxis.v1';
+const blank = () => ({ concepts:{}, notes:[] });
+
+function load(){
+  try { const raw = localStorage.getItem(KEY); return raw ? {...blank(), ...JSON.parse(raw)} : blank(); }
+  catch(e){ return blank(); }
+}
+function save(s){
+  try { localStorage.setItem(KEY, JSON.stringify(s)); return true; } catch(e){ return false; }
+}
+let store = load();
+
+function recordAttempt(conceptId, results){
+  const rec = store.concepts[conceptId] || { attempts: [], comprehended: false };
+  const passed = results.every(r => r.right);
+  rec.attempts.push({ at: Date.now(), results });
+  if (passed) rec.comprehended = true;
+  store.concepts[conceptId] = rec;
+  save(store);
+  return rec;
+}
+function addNote(conceptId, prompt, text){
+  store.notes.push({ at: Date.now(), conceptId, kind: 'reflection', prompt, text });
+  return save(store);
+}
+function notesFor(id){ return store.notes.filter(n => n.conceptId === id).sort((a,b) => b.at - a.at); }
+function when(ts){
+  const d = new Date(ts), days = Math.floor((Date.now() - ts) / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 30) return days + ' days ago';
+  return d.toLocaleDateString(undefined, { day:'numeric', month:'long' });
+}
+
+/* Reflection prompts. These look backward and sideways — where you have met
+   the idea, what it sits beside, why it works. Forward-looking commitments
+   belong to Apply, not here. */
+function promptsFor(c){
+  const near = (c.nearestNeighbour || '').match(/^([A-Z][A-Z'’\-\s]+?)\./);
+  return [
+    { q: 'Where have you seen this?',
+      hint: 'One time you have watched it happen — in your own life, or someone else\'s.' },
+    { q: 'What does it sit next to?',
+      hint: near ? `You already know it is not quite ${near[1].toLowerCase()}. What else does it touch, and where do they part company?`
+                 : 'Which idea you already know is this closest to, and where do they part company?' },
+    { q: 'Why does it happen?',
+      hint: 'Keep asking why until you reach something you cannot explain further. That edge is the useful part.' }
+  ];
+}
+
 /* ------------------------------ state ------------------------------ */
 let concept = null, rungs = [], step = 0, results = [];
 
@@ -208,12 +281,16 @@ function chooser(){
     <p class="lede">Three questions. Recall the idea, spot it working inside a situation you have not seen,
     and tell it apart from the version the internet repeats. Answer all three and the concept is comprehended.</p>
     <div class="picklist">
-      ${CONCEPTS.map((c,i) => `
+      ${CONCEPTS.map((c,i) => {
+        const rec = store.concepts[c.id], n = notesFor(c.id).length;
+        return `
         <button class="pick" data-i="${i}" type="button">
+          ${rec && rec.comprehended ? '<span class="seal-mini">Comprehended ✓</span>' : ''}
           <b>${esc(c.name)}</b>
           <span>${esc(c.domain)}</span>
           <span class="tag">${esc(c.type)}</span>
-        </button>`).join('')}
+          ${n ? `<span class="tag">${n} field note${n>1?'s':''}</span>` : ''}
+        </button>`; }).join('')}
     </div>
     ${CONCEPTS.length ? '' : '<p class="note">No concepts are authored yet.</p>'}
   `);
@@ -293,6 +370,10 @@ function summary(){
   const got = results.filter(r => r.right).length;
   const passed = got === rungs.length;
   const confidentWrong = results.filter(r => !r.right && r.confidence === 'Certain');
+  const rec = recordAttempt(concept.id, results);
+  const firstGo = rec.attempts.length === 1;
+  const prompts = promptsFor(concept);
+  const prior = notesFor(concept.id);
   render(`
     <div class="scorebox">
       <div class="big">${got} / ${rungs.length}</div>
@@ -311,15 +392,56 @@ function summary(){
       <b>Confident but wrong.</b> ${confidentWrong.length === 1 ? 'One answer' : confidentWrong.length + ' answers'}
       you were certain about turned out to be wrong. These are the ones worth returning to —
       a wrong answer held confidently is corrected more lastingly than one you already doubted.</div>` : ''}
-    ${passed ? `<p class="note">You can now apply it. The real test is whether it changes anything you do this week.</p>`
-             : `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now — the gap is what makes the second attempt stick.</p>`}
+    ${passed && !firstGo ? `<p class="note">Cleared on attempt ${rec.attempts.length}. Your first attempt is kept separately — the ✓ is the badge, the first try is the data.</p>` : ''}
+    ${passed && firstGo ? `<p class="note">Cleared first time.</p>` : ''}
+    ${!passed ? `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now — the gap between attempts is what makes the second one stick.</p>` : ''}
+
+    <div class="notes-block">
+      <span class="label">Field Notes</span>
+      <h2 style="margin-top:.3em">Put it somewhere it can be found again.</h2>
+      <p class="notes-intro">Three questions, all optional. One honest line is worth more than three filled boxes.
+      These look backward — where you have met this idea before and why it works. What you will
+      <em>do</em> about it comes later.</p>
+      ${prompts.map((p,i) => `
+        <div class="prompt">
+          <label for="n${i}">${esc(p.q)}</label>
+          <span class="hint">${esc(p.hint)}</span>
+          <textarea id="n${i}" data-q="${esc(p.q)}" placeholder="Optional"></textarea>
+        </div>`).join('')}
+      <div class="row">
+        <button class="btn" id="savenotes" type="button">Save to Field Notes</button>
+      </div>
+      <div id="toast"></div>
+
+      ${prior.length ? `
+        <div style="margin-top:34px">
+          <span class="label">Earlier notes on this concept</span>
+          ${prior.map(n => `
+            <div class="saved-note">
+              <span class="q">${esc(n.prompt)}<span class="kindtag">Reflection</span></span>
+              ${esc(n.text)}
+              <span class="when">${esc(when(n.at))}</span>
+            </div>`).join('')}
+        </div>` : ''}
+    </div>
+
     <div class="row">
-      <button class="btn" id="again" type="button">Try another concept</button>
+      <button class="btn ghost" id="again" type="button">Try another concept</button>
       <button class="btn ghost" id="redo" type="button">Run this one again</button>
     </div>
   `);
   app.querySelector('#again').onclick = chooser;
   app.querySelector('#redo').onclick = () => { rungs = buildRungs(concept, CONCEPTS); step = 0; results = []; question(); };
+  app.querySelector('#savenotes').onclick = () => {
+    const boxes = [...app.querySelectorAll('.prompt textarea')].filter(t => t.value.trim());
+    const toast = app.querySelector('#toast');
+    if (!boxes.length){ toast.innerHTML = '<p class="note" style="margin:0;border:0;padding:0">Nothing written yet — that is fine, they are optional.</p>'; return; }
+    let ok = true;
+    boxes.forEach(t => { if (!addNote(concept.id, t.dataset.q, t.value.trim())) ok = false; t.value = ''; });
+    toast.innerHTML = ok
+      ? `<p class="toast">Saved ${boxes.length} note${boxes.length>1?'s':''}.</p>`
+      : `<p class="note" style="margin:0;border:0;padding:0">Could not save — this browser is blocking storage, so the notes are lost when you leave.</p>`;
+  };
 }
 
 chooser();
