@@ -670,7 +670,7 @@ function reveal(q, picked, confidence){
       <div class="verdict ${right?'ok':'no'}">${right ? 'That is it.' : 'Not that one.'}</div>
       <p>${esc(q.why)}</p>
       ${flagged ? `<div class="flagged"><b>Worth noticing.</b> You were certain and it was wrong.
-        That is the most useful kind of mistake there is, because it is a gap you did not know you had.
+        That is the most useful kind of mistake there is, because it is a blind spot you did not know you had.
         Praxis will bring this one back sooner.</div>` : ''}
       <div class="row">
         <button class="btn" id="next" type="button">${step+1 < rungs.length ? 'Next question' : 'See how you did'}</button>
@@ -708,7 +708,7 @@ function summary(){
       A wrong answer held confidently is corrected more lastingly than one you already doubted.</div>` : ''}
     ${passed && !firstGo ? `<p class="note">Cleared on attempt ${rec.attempts.length}. Your first attempt is kept separately. The ✓ is the badge, the first try is the data.</p>` : ''}
     ${passed && firstGo ? `<p class="note">Cleared first time.</p>` : ''}
-    ${!passed ? `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now. The gap between attempts is what makes the second one stick.</p>` : ''}
+    ${!passed ? `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now. The time between attempts is what makes the second one stick.</p>` : ''}
 
     <div class="notes-block">
       <span class="label">Field Notes</span>

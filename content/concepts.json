@@ -385,7 +385,7 @@
     },
     "misconception": "\"Active listening means nodding and saying mm hmm.\" Those are signals, not the practice. A person can nod continuously while composing their rebuttal. The practice is the internal act of trying to build their meaning rather than your answer, and the signals only matter if that is actually happening.",
     "nearestNeighbour": "REFLECTIVE LISTENING. That is one technique inside this practice, where you say back what you understood. Active listening is the wider posture of attending to meaning first, which can be shown in many ways besides reflecting.",
-    "discriminateScenario": "Priya's colleague starts describing a problem with the schedule. Twenty seconds in, Priya has the answer and is waiting for a gap to say it. She delivers a good solution. Her colleague thanks her, and does not mention the part he had not got to yet, which was the actual difficulty.",
+    "discriminateScenario": "Priya's colleague starts describing a problem with the schedule. Twenty seconds in, Priya has the answer and is waiting for a pause to say it. She delivers a good solution. Her colleague thanks her, and does not mention the part he had not got to yet, which was the actual difficulty.",
     "praxisExercise": "THE NO REPLY MINUTE\n\n1. Choose one conversation today that matters.\n2. For the first minute, do not plan any part of your response.\n3. When they pause, say what you understood before you say anything else.\n4. Note afterwards: did they add something they had not said yet?\n\nCOMMITMENT (if then):\n\"When someone brings me a problem, I will say back what I understood before I offer anything.\"",
     "identityTags": [
       "Clear communicator",
@@ -433,7 +433,7 @@
     "misconception": "\"It means repeating their words back to them.\" Repeating the words proves nothing, since you can parrot a sentence you have not understood. It has to be in your own words, because the act of rephrasing is what exposes whether you actually got it.",
     "nearestNeighbour": "ACTIVE LISTENING. That is the wider practice of attending to meaning rather than to your reply. This is one specific move inside it, and you can do this move badly while listening well, or do it mechanically while listening poorly.",
     "discriminateScenario": "A client writes a long message about wanting things to move faster. Tom replies with a revised timeline. She writes back that speed was not really the issue, it was that she had not known where things stood. Tom had solved the problem he recognised rather than the one she had.",
-    "praxisExercise": "SAY IT BACK\n\n1. Pick a conversation where you and the other person keep missing each other.\n2. Before responding, say: so what I am hearing is, and then put their point in your own words.\n3. Ask whether that is right.\n4. Write down what they corrected. That gap is what you had been answering.\n\nCOMMITMENT (if then):\n\"When a conversation feels like it is going in circles, I will restate their point in my own words and ask if I have it.\"",
+    "praxisExercise": "SAY IT BACK\n\n1. Pick a conversation where you and the other person keep missing each other.\n2. Before responding, say: so what I am hearing is, and then put their point in your own words.\n3. Ask whether that is right.\n4. Write down what they corrected. That difference is what you had been answering.\n\nCOMMITMENT (if then):\n\"When a conversation feels like it is going in circles, I will restate their point in my own words and ask if I have it.\"",
     "identityTags": [
       "Clear communicator",
       "Emotionally regulated"
@@ -640,7 +640,7 @@
     "date": "",
     "difficulty": "introductory",
     "oneSentence": "Once you know something, you cannot imagine not knowing it.",
-    "definition": "A bias in which knowing something makes it very hard to model the mind of someone who does not. It shows up whenever an expert explains their field: the gaps they skip are invisible to them, because the knowledge that fills those gaps is already in place. Demonstrated memorably in Elizabeth Newton's tapping study, where tappers wildly overestimated how often listeners would recognise the tune.",
+    "definition": "A bias in which knowing something makes it very hard to model the mind of someone who does not. It shows up whenever an expert explains their field: the steps they skip are invisible to them, because the knowledge that fills them is already in place. Demonstrated memorably in Elizabeth Newton's tapping study, where tappers wildly overestimated how often listeners would recognise the tune.",
     "mechanism": {
       "chains": [
         [
@@ -648,15 +648,15 @@
           "it becomes automatic",
           "it stops feeling like knowledge",
           "you leave it out",
-          "the listener loses the thread where you did not notice a gap"
+          "the listener loses the thread where you skipped something without noticing"
         ]
       ],
       "prose": []
     },
-    "misconception": "\"It means experts are bad communicators.\" Expertise is not the problem; the invisibility of one's own knowledge is. A novice explaining something they half-know is often clearer, not because they know more but because the gaps are still visible to them.",
+    "misconception": "\"It means experts are bad communicators.\" Expertise is not the problem; the invisibility of one's own knowledge is. A novice explaining something they half-know is often clearer, not because they know more but because the missing pieces are still visible to them.",
     "nearestNeighbour": "ILLUSION OF EXPLANATORY DEPTH. That one is about overestimating how well you understand something yourself. This one is about underestimating how much other people need told. One is a misjudgement of your own knowledge, the other a misjudgement of theirs.",
     "discriminateScenario": "A consultant presents to a new client and uses four abbreviations in the first two minutes without expanding any of them. The room nods along. Afterwards almost no one can describe what was proposed, and the consultant concludes that the client was not paying attention.",
-    "praxisExercise": "NAME THE GAP\n\n1. Take something you are about to explain or publish.\n2. Underline every term that would need explaining to someone outside your field.\n3. For each, ask: did I actually explain it, or assume it?\n4. Rewrite the three worst offenders.\n\nCOMMITMENT (if-then):\n\"When I write something for people outside my work, I will mark every assumed term before I send it.\"",
+    "praxisExercise": "NAME WHAT YOU SKIPPED\n\n1. Take something you are about to explain or publish.\n2. Underline every term that would need explaining to someone outside your field.\n3. For each, ask: did I actually explain it, or assume it?\n4. Rewrite the three worst offenders.\n\nCOMMITMENT (if-then):\n\"When I write something for people outside my work, I will mark every assumed term before I send it.\"",
     "identityTags": [
       "Clear communicator"
     ],
@@ -859,7 +859,7 @@
     "date": "",
     "difficulty": "introductory",
     "oneSentence": "Explain it simply, and the parts you cannot explain are what you do not know.",
-    "definition": "A study method in which you write an explanation of a topic as though to someone with no background, find the points where the explanation fails or retreats into jargon, go back to the source for those points specifically, and repeat. Its value is diagnostic: it locates gaps rather than filling them.",
+    "definition": "A study method in which you write an explanation of a topic as though to someone with no background, find the points where the explanation fails or retreats into jargon, go back to the source for those points specifically, and repeat. Its value is diagnostic: it locates what is missing rather than filling it.",
     "mechanism": {
       "chains": [
         [
@@ -869,7 +869,7 @@
         ],
         [
           "you explain it plainly",
-          "the gaps refuse to be explained",
+          "the weak points refuse to be explained",
           "you now know exactly what to go back for"
         ]
       ],
