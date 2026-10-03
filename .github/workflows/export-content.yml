@@ -1,0 +1,99 @@
+# .github/workflows/export-content.yml
+#
+# Turns the authoring workbook into the site's JSON, on GitHub's machines.
+#
+# Fires when a new .xlsx lands in content/, or from the "Run workflow"
+# button on the Actions tab. If the library fails validation the run goes
+# red, nothing is written, and the errors appear on the run's summary page.
+
+name: Export content library
+
+on:
+  push:
+    paths:
+      - 'content/*.xlsx'
+      - 'content/export_library.py'
+      - '.github/workflows/export-content.yml'
+  workflow_dispatch:          # manual "Run workflow" button
+
+permissions:
+  contents: write             # lets the run commit the JSON back
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install openpyxl
+        run: pip install --quiet openpyxl
+
+      - name: Find the workbook
+        id: find
+        run: |
+          book=$(ls content/*.xlsx 2>/dev/null | head -n1)
+          if [ -z "$book" ]; then
+            echo "### No workbook found" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Upload \`praxis-concept-library.xlsx\` into the \`content/\` folder and this will run." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          echo "book=$book" >> "$GITHUB_OUTPUT"
+          echo "Using $book"
+
+      - name: Export and validate
+        id: export
+        run: |
+          set +e
+          output=$(python3 content/export_library.py "${{ steps.find.outputs.book }}" -o content 2>&1)
+          code=$?
+          set -e
+
+          echo "$output"
+
+          {
+            if [ $code -eq 0 ]; then
+              echo "## Content exported"
+            else
+              echo "## Export failed — nothing was written"
+              echo ""
+              echo "Fix these in the Google Sheet, download a fresh .xlsx, and upload it again."
+            fi
+            echo ""
+            echo '```'
+            echo "$output"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          exit $code
+
+      - name: Commit the JSON
+        run: |
+          git config user.name  "praxis-content-bot"
+          git config user.email "noreply@anthropic.com"
+          git add content/concepts.json content/books.json content/index.json
+
+          if git diff --staged --quiet; then
+            echo "No content changes." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          counts=$(python3 -c "import json;d=json.load(open('content/index.json'))['counts'];print(f\"{d['concepts']} concepts, {d['books']} books\")")
+          git commit -m "Content: $counts
+
+          Exported from ${{ steps.find.outputs.book }} by the export workflow."
+          git push
+
+          {
+            echo ""
+            echo "**Committed:** $counts"
+            echo ""
+            echo "Now publish from GoDaddy — Update Preview, then Publish to Live."
+          } >> "$GITHUB_STEP_SUMMARY"
