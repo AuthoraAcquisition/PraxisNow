@@ -1,1 +1,255 @@
-[]
+[
+  {
+    "id": "01.01",
+    "slug": "first-principles-thinking",
+    "name": "First Principles Thinking",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Mental Model",
+    "legacyType": "Mental Model",
+    "tradition": "Reasoning / Philosophy",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Break a problem down to what you know is true, then rebuild from there.",
+    "definition": "Reasoning from foundational truths rather than by analogy to how things are already done. Descartes resolved to doubt everything he could and rebuild only on what survived the doubting. The move is to strip a problem back to the things you can actually defend, then reason forward from those alone.",
+    "mechanism": {
+      "chains": [
+        [
+          "inherited assumption",
+          "unexamined constraint",
+          "only incremental improvement"
+        ],
+        [
+          "stripped to fundamentals",
+          "constraints tested",
+          "solutions convention was hiding"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means ignoring what everyone else does.\" It does not require discarding convention. It requires knowing which parts of it are load-bearing. Most conventions encode a real constraint; the work is separating those from the ones that merely persist.",
+    "nearestNeighbour": "CHESTERTON'S FENCE. That one warns you not to remove a convention until you understand why it exists. This one is the method for examining it. They pull in opposite directions and are strongest used together.",
+    "discriminateScenario": "A caterer prices every job at twice her ingredient cost, because that is what her old employer did. When a large order loses money she sits down and works out what actually drives her costs, and finds that labour, not ingredients, is the thing her pricing should have been tracking all along.",
+    "praxisExercise": "STRIP IT DOWN\n\n1. Name one rule you follow in your work.\n2. Write down why you believe it is true.\n3. For each reason ask: do I know this, or did I inherit it?\n4. Keep only what you can defend, and rebuild the rule from those parts.\n\nCOMMITMENT (if-then):\n\"When I catch myself saying this is how it is done, I will write down what I actually know to be true before going further.\"",
+    "identityTags": [
+      "Clear thinker"
+    ],
+    "related": [
+      "01.02"
+    ],
+    "books": [
+      "BK030"
+    ],
+    "author": "Claude draft — needs Lindsay review"
+  },
+  {
+    "id": "01.02",
+    "slug": "inversion",
+    "name": "Inversion",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Mental Model",
+    "legacyType": "Mental Model",
+    "tradition": "Decision Theory / Practical Reasoning",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Solve a problem backwards by asking what would guarantee failure.",
+    "definition": "Rather than asking how to succeed, you ask how you would reliably fail, then remove those conditions. Attributed to the mathematician Carl Jacobi, who advised inverting difficult problems, and made a standing habit of thought by Charlie Munger.",
+    "mechanism": {
+      "chains": [
+        [
+          "forward question",
+          "vague aspirational answers",
+          "nothing to act on"
+        ],
+        [
+          "inverted question",
+          "concrete failure conditions",
+          "specific behaviours to remove"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Inversion is just negative thinking.\" It is not pessimism. Failure conditions are simply easier to name precisely than success conditions, which is why inverting produces a list you can act on where the forward question produces platitudes.",
+    "nearestNeighbour": "PREMORTEM. That one imagines a particular project has already failed and asks why. This is the general move of flipping any question on its head; the premortem is one applied instance of it.",
+    "discriminateScenario": "Tom wants to write a book and keeps making plans that go nowhere. A friend asks him instead to list everything he could do to make sure he never finishes it. He names four things straight away, realises he is already doing three of them, and stops one that week.",
+    "praxisExercise": "FAILURE AUDIT\n\n1. Choose one goal you currently care about.\n2. Ask: how could I guarantee failure here?\n3. List five behaviours that would make failure likely.\n4. Mark the ones you are already doing.\n5. Remove one of them this week.\n\nCOMMITMENT (if-then):\n\"When I set a goal, I will write the five ways I could guarantee failure before I write any plan.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Disciplined"
+    ],
+    "related": [
+      "01.01"
+    ],
+    "books": [
+      "BK059"
+    ],
+    "author": "Claude draft — needs Lindsay review"
+  },
+  {
+    "id": "02.06",
+    "slug": "sunk-cost-fallacy",
+    "name": "Sunk-Cost Fallacy",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Cognitive Bias",
+    "legacyType": "Cognitive Bias",
+    "tradition": "Behavioral Economics / Decision Science",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Carrying on with something because of what you already spent on it.",
+    "definition": "A sunk cost is a cost already paid that cannot be recovered. The fallacy is letting it influence a decision about the future. Rationally, only the costs and benefits still ahead of you should count; in practice, what has already gone in exerts a strong pull toward continuing.",
+    "mechanism": {
+      "chains": [
+        [
+          "resources already committed",
+          "continuing feels like recovering them",
+          "quitting feels like admitting waste",
+          "the decision is made on the past rather than the future"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means you should quit things easily.\" It does not. Plenty of commitments are worth continuing on their own merits. The fallacy is specifically about using past expenditure as the reason, rather than whether the thing is still worth doing from here.",
+    "nearestNeighbour": "LOSS AVERSION. That one is the general tendency to feel losses more sharply than equivalent gains. Sunk cost is a specific decision error that loss aversion helps explain. You can be loss averse without committing the fallacy, and the fallacy also draws on a reluctance to look inconsistent.",
+    "discriminateScenario": "Elena is two years into a qualification she no longer wants, in a field she has decided against. Every time she considers stopping, she thinks about the fees and the evenings already spent. She signs up for another year, and cannot say what the qualification will actually get her.",
+    "praxisExercise": "THE FRESH START TEST\n\n1. Name a commitment you are unsure about.\n2. Ask: if I were arriving at this today, with none of the history, would I choose it?\n3. If no, write what is actually keeping you in it.\n4. Separate the reasons that look forward from the ones that look back.\n\nCOMMITMENT (if-then):\n\"When I notice I am justifying something by what I have already put in, I will ask what I would choose if I were starting from today.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Disciplined"
+    ],
+    "related": [],
+    "books": [
+      "BK026",
+      "BK061"
+    ],
+    "author": "Claude draft — needs Lindsay review"
+  },
+  {
+    "id": "03.13",
+    "slug": "solomons-paradox",
+    "name": "Solomon’s Paradox",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Paradox",
+    "legacyType": "Psychological Effect / Paradox",
+    "tradition": "Social Psychology / Wisdom Research",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "We reason more wisely about other people's problems than our own.",
+    "definition": "Named for King Solomon, who counselled others wisely but governed his own household badly. Grossmann and Kross found that people reason about their own problems with measurably less wisdom — acknowledging the limits of what they know, allowing for change, weighing other perspectives, seeking compromise — than about an identical problem belonging to someone else.",
+    "mechanism": {
+      "chains": [
+        [
+          "my problem",
+          "high emotional proximity",
+          "narrowed perspective",
+          "poorer reasoning"
+        ],
+        [
+          "someone else's problem",
+          "psychological distance",
+          "broader perspective",
+          "wiser reasoning"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"People are just smarter about other people's lives.\" The effect is not about intelligence, and not about caring less. The same person, with the same intelligence, reasons worse on their own problem. The variable is distance, not ability, which is why manufacturing distance artificially reverses the effect.",
+    "nearestNeighbour": "ACTOR-OBSERVER BIAS. That one is about attribution: we explain our own behaviour by circumstance and other people's by character. This is about the quality of reasoning itself, not about who gets blamed. A person can show either one without the other.",
+    "discriminateScenario": "Maya tells her friend, without hesitating, that she should leave a relationship in which she is constantly let down. Six months later Maya is in a near-identical situation and finds herself explaining why this time the circumstances are different, and why leaving now would be premature.",
+    "praxisExercise": "THE OUTSIDER TEST\n\n1. Choose one unresolved problem currently affecting you.\n2. Write it in the third person: \"[Name] has been struggling with...\"\n3. Answer as though advising your closest friend:\n   - What would you tell her?\n   - What is she failing to see?\n   - What is she treating as certain that is not?\n   - Whose perspective has she not considered?\n   - What might look different in six months?\n4. Return to the first person: what advice still applies to you?\n\nCOMMITMENT (if-then):\n\"When I notice I am emotionally invested in a decision, I will write the problem in the third person before deciding anything.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Self-authoring",
+      "Emotionally regulated"
+    ],
+    "related": [],
+    "books": [
+      "BK019"
+    ],
+    "author": "Claude draft — needs Lindsay review"
+  },
+  {
+    "id": "06.11",
+    "slug": "curse-of-knowledge",
+    "name": "Curse of Knowledge",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Cognitive Bias",
+    "legacyType": "Cognitive Bias",
+    "tradition": "Cognitive Psychology / Communication",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Once you know something, you cannot imagine not knowing it.",
+    "definition": "A bias in which knowing something makes it very hard to model the mind of someone who does not. It shows up whenever an expert explains their field: the gaps they skip are invisible to them, because the knowledge that fills those gaps is already in place. Demonstrated memorably in Elizabeth Newton's tapping study, where tappers wildly overestimated how often listeners would recognise the tune.",
+    "mechanism": {
+      "chains": [
+        [
+          "you acquire knowledge",
+          "it becomes automatic",
+          "it stops feeling like knowledge",
+          "you leave it out",
+          "the listener loses the thread where you did not notice a gap"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means experts are bad communicators.\" Expertise is not the problem; the invisibility of one's own knowledge is. A novice explaining something they half-know is often clearer, not because they know more but because the gaps are still visible to them.",
+    "nearestNeighbour": "ILLUSION OF EXPLANATORY DEPTH. That one is about overestimating how well you understand something yourself. This one is about underestimating how much other people need told. One is a misjudgement of your own knowledge, the other a misjudgement of theirs.",
+    "discriminateScenario": "A consultant presents to a new client and uses four abbreviations in the first two minutes without expanding any of them. The room nods along. Afterwards almost no one can describe what was proposed, and the consultant concludes that the client was not paying attention.",
+    "praxisExercise": "NAME THE GAP\n\n1. Take something you are about to explain or publish.\n2. Underline every term that would need explaining to someone outside your field.\n3. For each, ask: did I actually explain it, or assume it?\n4. Rewrite the three worst offenders.\n\nCOMMITMENT (if-then):\n\"When I write something for people outside my work, I will mark every assumed term before I send it.\"",
+    "identityTags": [
+      "Clear communicator"
+    ],
+    "related": [],
+    "books": [
+      "BK047"
+    ],
+    "author": "Claude draft — needs Lindsay review"
+  },
+  {
+    "id": "09.25",
+    "slug": "ship-of-theseus",
+    "name": "Ship of Theseus",
+    "tier": "discovery",
+    "domain": "Meaning, Ethics & Philosophy",
+    "type": "Thought Experiment",
+    "legacyType": "Thought Experiment / Paradox",
+    "tradition": "Metaphysics / Philosophy of Identity",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "If every part of a thing is replaced over time, is it still the same thing?",
+    "definition": "The ship on which Theseus returned was preserved by the Athenians, who replaced each plank as it decayed until no original timber remained. Plutarch records that philosophers disagreed over whether it was still the same ship. The puzzle probes what we mean when we say something persists through change.",
+    "mechanism": {
+      "chains": [
+        [
+          "gradual replacement",
+          "no single moment of change",
+          "identity criteria become undecidable",
+          "competing answers (material continuity against continuity of form and function)"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a trick question with no answer.\" It is not unanswerable. It demonstrates that \"the same thing\" means different criteria in different contexts, and the puzzle's job is to expose which criterion you were silently using all along.",
+    "nearestNeighbour": "THE SORITES PARADOX. The puzzle of the heap is also about vagueness under gradual change, but it concerns when a predicate stops applying — how many grains make a heap. This concerns the identity of one particular thing across time.",
+    "discriminateScenario": "A company keeps its name and its logo but over fifteen years replaces every employee, relocates twice, changes its product line entirely and is sold to new owners. A long-standing customer insists it is not the same company any more. The current chief executive insists that it obviously is.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Clear thinker"
+    ],
+    "related": [],
+    "books": [
+      "BK109",
+      "BK117"
+    ],
+    "author": "Claude draft — needs Lindsay review"
+  }
+]

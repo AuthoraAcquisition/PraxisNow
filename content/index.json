@@ -1,13 +1,58 @@
 {
   "counts": {
-    "concepts": 0,
-    "integration": 0,
-    "discovery": 0,
+    "concepts": 6,
+    "integration": 5,
+    "discovery": 1,
     "books": 133
   },
-  "identities": {},
-  "domains": {},
-  "scenarioPool": [],
+  "identities": {
+    "Clear communicator": [
+      "06.11"
+    ],
+    "Clear thinker": [
+      "01.01",
+      "01.02",
+      "02.06",
+      "03.13",
+      "09.25"
+    ],
+    "Disciplined": [
+      "01.02",
+      "02.06"
+    ],
+    "Emotionally regulated": [
+      "03.13"
+    ],
+    "Self-authoring": [
+      "03.13"
+    ]
+  },
+  "domains": {
+    "Communication & Influence": [
+      "06.11"
+    ],
+    "Decisions & Risk": [
+      "02.06"
+    ],
+    "Meaning, Ethics & Philosophy": [
+      "09.25"
+    ],
+    "Reasoning & Sensemaking": [
+      "01.01",
+      "01.02"
+    ],
+    "Self-Knowledge & Behaviour": [
+      "03.13"
+    ]
+  },
+  "scenarioPool": [
+    "01.01",
+    "01.02",
+    "02.06",
+    "03.13",
+    "06.11",
+    "09.25"
+  ],
   "vocabulary": {
     "Domains": [
       "Communication & Influence",

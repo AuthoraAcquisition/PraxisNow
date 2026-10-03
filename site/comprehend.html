@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Prove you understand an idea: recall it, spot it in a situation, and tell it apart from the idea it is confused with.">
+<meta name="theme-color" content="#100D0C">
+<title>Praxis — Comprehend</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234A0C1C'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' text-anchor='middle' fill='%23F4EBDD'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Gilda+Display&display=swap">
+<style>
+:root{
+  --umber:#100D0C; --umber-2:#251512; --cream:#F4EBDD; --parch:#EDE1CC;
+  --muted:#B9A98D; --faint:rgba(244,235,221,.14);
+  --burgundy:#4A0C1C; --burgundy-hi:#621429;
+  --gold:#92743E; --gold-hi:#B8985C; --brass-dk:#3a2a16; --ink-dark:#251512;
+  --good:#6E8E5E; --wrong:#8E4B4B;
+  --f-title:"Runiga","DM Serif Display","Bodoni 72",Didot,Georgia,serif;
+  --f-body:"Muse","Gilda Display","Cormorant Garamond",Garamond,Georgia,serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--umber);color:var(--cream);margin:0}
+body{font-family:var(--f-body);font-size:18px;line-height:1.55;min-height:100%;overflow-x:hidden}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:1px solid var(--gold-hi);outline-offset:3px}
+.label{font-family:var(--f-body);font-size:.74rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+
+.sky{position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(60% 40% at 18% 12%, rgba(196,190,172,.28), transparent 70%),
+    radial-gradient(45% 35% at 82% 18%, rgba(170,170,160,.22), transparent 70%),
+    radial-gradient(70% 30% at 50% 58%, rgba(60,56,48,.55), transparent 70%),
+    radial-gradient(50% 40% at 10% 88%, rgba(90,84,70,.35), transparent 70%),
+    radial-gradient(60% 45% at 92% 84%, rgba(80,76,64,.30), transparent 70%),
+    linear-gradient(180deg,#322620 0%,#221814 45%,#100D0C 100%);}
+.sky::after{content:"";position:absolute;inset:0;opacity:.35;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E");}
+
+.wrap{position:relative;z-index:1;max-width:820px;margin:0 auto;padding-inline:clamp(16px,5vw,40px);padding-bottom:80px}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:18px;flex-wrap:wrap}
+.mark{font-family:var(--f-title);font-size:2.1rem;letter-spacing:.02em;text-decoration:none;line-height:1;color:var(--cream)}
+.back{font-size:.86rem;color:var(--muted);text-decoration:none;border-bottom:1px solid var(--faint);padding-bottom:2px}
+.back:hover{color:var(--cream)}
+
+h1{font-family:var(--f-title);font-weight:400;font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:.2em 0 .3em}
+h2{font-family:var(--f-title);font-weight:400;font-size:clamp(1.4rem,3.4vw,2rem);line-height:1.2;margin:0 0 .5em}
+p{margin:0 0 1em}
+.lede{color:var(--muted);max-width:60ch}
+
+/* ---- concept chooser ---- */
+.picklist{display:grid;gap:12px;margin-top:26px}
+.pick{display:block;width:100%;text-align:left;background:rgba(37,21,18,.6);border:1px solid var(--faint);
+  border-radius:12px;padding:16px 18px;transition:border-color .18s,background .18s}
+.pick:hover{border-color:var(--gold);background:rgba(37,21,18,.9)}
+.pick b{font-family:var(--f-title);font-weight:400;font-size:1.3rem;display:block;margin-bottom:3px}
+.pick span{color:var(--muted);font-size:.92rem}
+.pick .tag{display:inline-block;margin-top:9px;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold-hi);border:1px solid var(--faint);border-radius:99px;padding:3px 10px}
+
+/* ---- progress rail ---- */
+.rail{display:flex;gap:8px;margin:28px 0 22px}
+.rail i{flex:1;height:3px;background:var(--faint);border-radius:2px;transition:background .3s}
+.rail i.on{background:var(--gold)}
+.rail i.done{background:var(--gold-hi)}
+
+/* ---- question ---- */
+.stem{background:rgba(37,21,18,.55);border-left:2px solid var(--gold);border-radius:0 10px 10px 0;
+  padding:18px 20px;margin:0 0 24px;font-size:1.06rem}
+.opts{display:grid;gap:10px;margin-bottom:26px}
+.opt{display:flex;gap:14px;align-items:flex-start;width:100%;text-align:left;
+  background:rgba(37,21,18,.5);border:1px solid var(--faint);border-radius:12px;padding:15px 17px;
+  transition:border-color .16s,background .16s}
+.opt:hover:not(:disabled){border-color:var(--gold)}
+.opt:disabled{cursor:default}
+.opt .key{flex:none;width:26px;height:26px;border-radius:50%;border:1px solid var(--faint);
+  display:grid;place-items:center;font-size:.8rem;color:var(--muted);margin-top:1px}
+.opt.sel{border-color:var(--gold);background:rgba(146,116,62,.14)}
+.opt.right{border-color:var(--good);background:rgba(110,142,94,.16)}
+.opt.right .key{border-color:var(--good);color:var(--cream)}
+.opt.wrong{border-color:var(--wrong);background:rgba(142,75,75,.16)}
+.opt.wrong .key{border-color:var(--wrong);color:var(--cream)}
+
+/* ---- confidence ---- */
+.conf{border-top:1px solid var(--faint);padding-top:20px;margin-bottom:8px}
+.conf .label{display:block;margin-bottom:12px}
+.confbtns{display:flex;gap:10px;flex-wrap:wrap}
+.cbtn{background:transparent;border:1px solid var(--faint);border-radius:99px;padding:10px 20px;
+  font-size:.95rem;transition:border-color .16s,background .16s}
+.cbtn:hover{border-color:var(--gold-hi)}
+
+/* ---- feedback ---- */
+.fb{border-top:1px solid var(--faint);padding-top:22px}
+.verdict{font-family:var(--f-title);font-size:1.5rem;margin-bottom:.35em}
+.verdict.ok{color:var(--good)}
+.verdict.no{color:var(--wrong)}
+.flagged{border:1px solid var(--gold);background:rgba(146,116,62,.1);border-radius:10px;
+  padding:14px 16px;margin:16px 0;font-size:.96rem}
+.flagged b{color:var(--gold-hi);font-family:var(--f-title);font-weight:400}
+
+.btn{background:var(--burgundy);border:1px solid var(--burgundy-hi);color:var(--cream);
+  border-radius:10px;padding:13px 28px;font-size:1rem;letter-spacing:.02em;transition:background .16s}
+.btn:hover{background:var(--burgundy-hi)}
+.btn.ghost{background:transparent;border-color:var(--faint)}
+.btn.ghost:hover{background:rgba(244,235,221,.06)}
+.row{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+
+/* ---- summary ---- */
+.scorebox{text-align:center;padding:30px 0 10px}
+.big{font-family:var(--f-title);font-size:3.4rem;line-height:1}
+.seal{font-size:1.1rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-hi);margin-top:10px}
+table.sum{width:100%;border-collapse:collapse;margin-top:26px;font-size:.95rem}
+table.sum th{text-align:left;font-weight:400;color:var(--muted);font-size:.72rem;letter-spacing:.2em;
+  text-transform:uppercase;border-bottom:1px solid var(--faint);padding:0 0 10px}
+table.sum td{padding:13px 0;border-bottom:1px solid rgba(244,235,221,.07);vertical-align:top}
+table.sum td:last-child,table.sum th:last-child{text-align:right}
+.note{color:var(--muted);font-size:.9rem;margin-top:26px;border-top:1px solid var(--faint);padding-top:18px}
+@media (max-width:560px){ body{font-size:17px} .opt{padding:14px} }
+</style>
+</head>
+<body>
+<div class="sky"></div>
+<div class="wrap">
+  <header>
+    <a class="mark" href="/">Praxis</a>
+    <a class="back" href="/">Back to Discover</a>
+  </header>
+
+  <main id="app"></main>
+</div>
+
+<script>
+const CONCEPTS = /*__CONCEPTS__*/[];
+const app = document.getElementById('app');
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+const KEYS = ['A','B','C','D'];
+
+/* The quoted claim at the front of a misconception is the false statement the
+   Distinguish rung asks you to find. The rest is why it is false. */
+function splitMisconception(text){
+  const m = String(text||'').match(/^\s*["“](.+?)["”]\s*(.*)$/s);
+  return m ? {claim:m[1].trim(), why:m[2].trim()} : {claim:'', why:String(text||'').trim()};
+}
+function firstChain(c){
+  const ch = (c.mechanism && c.mechanism.chains) || [];
+  return ch.length ? ch[0] : null;
+}
+
+function buildRungs(c, all){
+  const others = all.filter(x => x.id !== c.id);
+  const sameDomain = others.filter(x => x.domain === c.domain);
+  const pool = (sameDomain.length >= 3 ? sameDomain : others);
+  const mis = splitMisconception(c.misconception);
+
+  // 1. Recall — the one-sentence meaning, against other concepts' meanings
+  const r1 = {
+    rung: 'Recall',
+    ask: 'Without looking back',
+    stem: `What does <b>${esc(c.name)}</b> describe?`,
+    correct: c.oneSentence,
+    options: shuffle([c.oneSentence, ...shuffle(pool).slice(0,3).map(x => x.oneSentence)]),
+    why: c.definition
+  };
+
+  // 2. Spot — the scenario, concept never named
+  const r2 = {
+    rung: 'Spot',
+    ask: 'Which idea is operating here?',
+    stem: esc(c.discriminateScenario),
+    correct: c.name,
+    options: shuffle([c.name, ...shuffle(pool).slice(0,3).map(x => x.name)]),
+    why: c.oneSentence
+  };
+
+  // 3. Distinguish — find the false statement among true ones
+  const chain = firstChain(c);
+  const truths = [
+    c.oneSentence,
+    c.nearestNeighbour.replace(/^([A-Z][A-Z'’\-\s]+?)\.\s*/, 'It is not the same as $1. '),
+    chain ? `The sequence runs: ${chain.join(' → ')}.` : c.definition.split(/(?<=\.)\s/)[0]
+  ].filter(Boolean);
+  const r3 = mis.claim ? {
+    rung: 'Distinguish',
+    ask: 'One of these is the popular version, not the real idea',
+    stem: `Which statement about <b>${esc(c.name)}</b> is <b>wrong</b>?`,
+    correct: mis.claim,
+    options: shuffle([mis.claim, ...truths.slice(0,3)]),
+    why: mis.why
+  } : null;
+
+  return [r1, r2, r3].filter(Boolean);
+}
+
+/* ------------------------------ state ------------------------------ */
+let concept = null, rungs = [], step = 0, results = [];
+
+function render(html){ app.innerHTML = html; window.scrollTo({top:0,behavior:'instant'}); }
+
+function chooser(){
+  concept = null; results = []; step = 0;
+  render(`
+    <span class="label">Comprehend</span>
+    <h1>Prove you understand it.</h1>
+    <p class="lede">Three questions. Recall the idea, spot it working inside a situation you have not seen,
+    and tell it apart from the version the internet repeats. Answer all three and the concept is comprehended.</p>
+    <div class="picklist">
+      ${CONCEPTS.map((c,i) => `
+        <button class="pick" data-i="${i}" type="button">
+          <b>${esc(c.name)}</b>
+          <span>${esc(c.domain)}</span>
+          <span class="tag">${esc(c.type)}</span>
+        </button>`).join('')}
+    </div>
+    ${CONCEPTS.length ? '' : '<p class="note">No concepts are authored yet.</p>'}
+  `);
+  app.querySelectorAll('.pick').forEach(b =>
+    b.onclick = () => { concept = CONCEPTS[+b.dataset.i]; rungs = buildRungs(concept, CONCEPTS); step = 0; question(); });
+}
+
+function rail(){
+  return `<div class="rail">${rungs.map((_,i) =>
+    `<i class="${i<step?'done':i===step?'on':''}"></i>`).join('')}</div>`;
+}
+
+function question(){
+  const q = rungs[step];
+  let picked = null;
+  render(`
+    ${rail()}
+    <span class="label">${esc(q.rung)} &nbsp;·&nbsp; ${esc(concept.name)}</span>
+    <h2>${esc(q.ask)}</h2>
+    <div class="stem">${q.stem}</div>
+    <div class="opts" id="opts">
+      ${q.options.map((o,i) => `
+        <button class="opt" data-i="${i}" type="button">
+          <span class="key">${KEYS[i]}</span><span>${esc(o)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="conf" id="conf" hidden>
+      <span class="label">How sure are you?</span>
+      <div class="confbtns">
+        <button class="cbtn" data-c="Guessing" type="button">Guessing</button>
+        <button class="cbtn" data-c="Pretty sure" type="button">Pretty sure</button>
+        <button class="cbtn" data-c="Certain" type="button">Certain</button>
+      </div>
+    </div>
+  `);
+  const opts = app.querySelector('#opts'), conf = app.querySelector('#conf');
+  opts.querySelectorAll('.opt').forEach(b => b.onclick = () => {
+    picked = q.options[+b.dataset.i];
+    opts.querySelectorAll('.opt').forEach(x => x.classList.remove('sel'));
+    b.classList.add('sel');
+    conf.hidden = false;
+    conf.scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+  conf.querySelectorAll('.cbtn').forEach(b => b.onclick = () => reveal(q, picked, b.dataset.c));
+}
+
+function reveal(q, picked, confidence){
+  const right = picked === q.correct;
+  results.push({rung:q.rung, right, confidence});
+  const flagged = !right && confidence === 'Certain';
+  render(`
+    ${rail()}
+    <span class="label">${esc(q.rung)} &nbsp;·&nbsp; ${esc(concept.name)}</span>
+    <h2>${esc(q.ask)}</h2>
+    <div class="stem">${q.stem}</div>
+    <div class="opts">
+      ${q.options.map((o,i) => {
+        const cls = o === q.correct ? 'right' : (o === picked ? 'wrong' : '');
+        return `<button class="opt ${cls}" disabled><span class="key">${KEYS[i]}</span><span>${esc(o)}</span></button>`;
+      }).join('')}
+    </div>
+    <div class="fb">
+      <div class="verdict ${right?'ok':'no'}">${right ? 'That is it.' : 'Not that one.'}</div>
+      <p>${esc(q.why)}</p>
+      ${flagged ? `<div class="flagged"><b>Worth noticing.</b> You were certain and it was wrong.
+        That is the most useful kind of mistake there is — a gap you did not know you had.
+        Praxis will bring this one back sooner.</div>` : ''}
+      <div class="row">
+        <button class="btn" id="next" type="button">${step+1 < rungs.length ? 'Next question' : 'See how you did'}</button>
+      </div>
+    </div>
+  `);
+  app.querySelector('#next').onclick = () => { step++; step < rungs.length ? question() : summary(); };
+}
+
+function summary(){
+  const got = results.filter(r => r.right).length;
+  const passed = got === rungs.length;
+  const confidentWrong = results.filter(r => !r.right && r.confidence === 'Certain');
+  render(`
+    <div class="scorebox">
+      <div class="big">${got} / ${rungs.length}</div>
+      <div class="seal">${passed ? 'Comprehended' : 'Not yet'}</div>
+    </div>
+    <h2 style="text-align:center">${esc(concept.name)}</h2>
+    <table class="sum">
+      <tr><th>Question</th><th>You said</th><th></th></tr>
+      ${results.map(r => `<tr>
+        <td>${esc(r.rung)}</td>
+        <td style="color:var(--muted)">${esc(r.confidence)}</td>
+        <td style="color:var(--${r.right?'good':'wrong'})">${r.right ? 'Right' : 'Wrong'}</td>
+      </tr>`).join('')}
+    </table>
+    ${confidentWrong.length ? `<div class="flagged" style="margin-top:24px">
+      <b>Confident but wrong.</b> ${confidentWrong.length === 1 ? 'One answer' : confidentWrong.length + ' answers'}
+      you were certain about turned out to be wrong. These are the ones worth returning to —
+      a wrong answer held confidently is corrected more lastingly than one you already doubted.</div>` : ''}
+    ${passed ? `<p class="note">You can now apply it. The real test is whether it changes anything you do this week.</p>`
+             : `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now — the gap is what makes the second attempt stick.</p>`}
+    <div class="row">
+      <button class="btn" id="again" type="button">Try another concept</button>
+      <button class="btn ghost" id="redo" type="button">Run this one again</button>
+    </div>
+  `);
+  app.querySelector('#again').onclick = chooser;
+  app.querySelector('#redo').onclick = () => { rungs = buildRungs(concept, CONCEPTS); step = 0; results = []; question(); };
+}
+
+chooser();
+</script>
+</body>
+</html>
