@@ -136,6 +136,57 @@ table.sum td:last-child,table.sum th:last-child{text-align:right}
 .pick .seal-mini{float:right;color:var(--gold-hi);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase}
 .toast{color:var(--good);font-size:.92rem;margin-top:10px}
 
+/* ---- the book ---- */
+.booknav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:22px 0 18px}
+.booknav .pager{display:flex;align-items:center;gap:14px}
+.turn{background:transparent;border:1px solid var(--faint);border-radius:50%;width:42px;height:42px;
+  display:grid;place-items:center;transition:border-color .16s,opacity .16s}
+.turn:hover:not(:disabled){border-color:var(--gold)}
+.turn:disabled{opacity:.3;cursor:default}
+.turn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6}
+.folio{color:var(--muted);font-size:.84rem;letter-spacing:.14em;min-width:92px;text-align:center}
+
+.bookstage{perspective:2000px}
+.spread{display:grid;grid-template-columns:1fr 1fr;gap:0;position:relative;
+  border-radius:4px;overflow:hidden;box-shadow:0 26px 60px rgba(0,0,0,.55)}
+.leaf{background:linear-gradient(175deg,#F7F0E4 0%,#EFE4D0 100%);color:var(--ink-dark);
+  padding:38px 34px;min-height:470px;position:relative}
+.leaf.left{box-shadow:inset -22px 0 34px -26px rgba(60,40,24,.55)}
+.leaf.right{box-shadow:inset 22px 0 34px -26px rgba(60,40,24,.55)}
+.leaf .lday{font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:#8a7458}
+.leaf h3{font-family:var(--f-title);font-weight:400;font-size:1.62rem;line-height:1.15;margin:.22em 0 .9em;color:#3a2416}
+.leaf .entry{margin-bottom:20px}
+.leaf .entry q{display:block;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;
+  color:#9c6b4a;quotes:none;margin-bottom:5px}
+.leaf .entry p{margin:0;font-size:1.02rem;line-height:1.62;color:#2d1c12}
+.leaf .folio-no{position:absolute;bottom:18px;left:0;right:0;text-align:center;
+  font-size:.76rem;color:#9c8a6e;letter-spacing:.16em}
+.leaf.blank{display:grid;place-items:center}
+.leaf.blank span{color:#a6937a;font-style:italic;font-size:.96rem}
+
+.turning{position:absolute;inset:0 0 0 50%;transform-origin:left center;backface-visibility:hidden;
+  background:linear-gradient(175deg,#F7F0E4 0%,#EFE4D0 100%);z-index:3;
+  animation:flip .62s cubic-bezier(.46,.03,.52,.96) forwards;box-shadow:-10px 0 30px rgba(0,0,0,.3)}
+.turning.back{inset:0 50% 0 0;transform-origin:right center;animation-name:flipback}
+@keyframes flip{to{transform:rotateY(-178deg)}}
+@keyframes flipback{to{transform:rotateY(178deg)}}
+@media (prefers-reduced-motion:reduce){ .turning{animation-duration:.01s} }
+
+.contents{margin-top:30px;border-top:1px solid var(--faint);padding-top:22px}
+.contents ol{list-style:none;padding:0;margin:14px 0 0}
+.contents li{border-bottom:1px solid rgba(244,235,221,.07)}
+.contents button{display:flex;justify-content:space-between;gap:18px;width:100%;text-align:left;
+  background:transparent;border:0;padding:12px 2px;color:var(--cream);font-size:.97rem}
+.contents button:hover{color:var(--gold-hi)}
+.contents .cwhen{color:var(--muted);font-size:.86rem;white-space:nowrap}
+
+@media (max-width:760px){
+  .spread{grid-template-columns:1fr}
+  .leaf.right{display:none}
+  .leaf{min-height:400px;padding:30px 24px}
+  .turning{inset:0}
+}
+
 @media (max-width:560px){ body{font-size:17px} .opt{padding:14px} }
 </style>
 </head>
@@ -144,7 +195,10 @@ table.sum td:last-child,table.sum th:last-child{text-align:right}
 <div class="wrap">
   <header>
     <a class="mark" href="/">Praxis</a>
-    <a class="back" href="/">Back to Discover</a>
+    <span style="display:flex;gap:18px;align-items:center">
+      <button class="back" id="go-notes" type="button" style="background:none;border:0;border-bottom:1px solid var(--faint);padding:0 0 2px">Field Notes</button>
+      <a class="back" href="/">Back to Discover</a>
+    </span>
   </header>
 
   <main id="app"></main>
@@ -270,6 +324,126 @@ function promptsFor(c){
 
 /* ------------------------------ state ------------------------------ */
 let concept = null, rungs = [], step = 0, results = [];
+
+/* --------------------------- the book ---------------------------
+   A page is one sitting: every note written about one concept on one
+   day. That is what a journal page actually is, and it keeps the book
+   from filling with near-empty leaves. */
+function entries(){
+  const byKey = {};
+  store.notes.forEach(n => {
+    const day = new Date(n.at).toISOString().slice(0,10);
+    const key = n.conceptId + '|' + day;
+    (byKey[key] = byKey[key] || { conceptId:n.conceptId, day, at:n.at, notes:[] }).notes.push(n);
+    byKey[key].at = Math.min(byKey[key].at, n.at);
+  });
+  return Object.values(byKey).sort((a,b) => a.at - b.at);   // oldest first, as a journal reads
+}
+const conceptName = id => (CONCEPTS.find(c => c.id === id) || {}).name || id;
+const longDate = ts => new Date(ts).toLocaleDateString(undefined,
+  { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+
+let spread = 0;   // which pair of pages is open
+
+function leaf(e, folio){
+  if (!e) return `<div class="leaf right blank"><span>The rest of the book is still empty.</span></div>`;
+  return `<div class="leaf ${folio % 2 ? 'left' : 'right'}">
+    <div class="lday">${esc(longDate(e.at))}</div>
+    <h3>${esc(conceptName(e.conceptId))}</h3>
+    ${e.notes.map(n => `<div class="entry"><q>${esc(n.prompt)}</q><p>${esc(n.text)}</p></div>`).join('')}
+    <div class="folio-no">${folio}</div>
+  </div>`;
+}
+
+function notesView(dir){
+  const all = entries();
+  if (!all.length){
+    render(`
+      <span class="label">Field Notes</span>
+      <h1>Nothing written yet.</h1>
+      <p class="lede">Work through a concept and the questions at the end become the first page.
+      A page here is one sitting: everything you wrote about one idea on one day.</p>
+      <div class="row"><button class="btn" id="back-ch" type="button">Choose a concept</button></div>`);
+    app.querySelector('#back-ch').onclick = chooser;
+    return;
+  }
+  const pages = Math.ceil(all.length / 2);
+  spread = Math.max(0, Math.min(spread, pages - 1));
+  const l = all[spread*2], r = all[spread*2 + 1];
+
+  render(`
+    <span class="label">Field Notes</span>
+    <h1>Your book.</h1>
+    <p class="lede">${all.length} ${all.length === 1 ? 'entry' : 'entries'} across
+      ${new Set(all.map(e => e.conceptId)).size} ${new Set(all.map(e => e.conceptId)).size === 1 ? 'concept' : 'concepts'}.
+      Turn the pages, or jump straight to one from the contents.</p>
+
+    <div class="booknav">
+      <div class="pager">
+        <button class="turn" id="prev" type="button" aria-label="Previous page" ${spread === 0 ? 'disabled' : ''}>
+          <svg viewBox="0 0 16 16"><path d="M10 2L4 8l6 6"/></svg></button>
+        <span class="folio">${spread*2 + 1}${r ? '&ndash;' + (spread*2 + 2) : ''} of ${all.length}</span>
+        <button class="turn" id="next" type="button" aria-label="Next page" ${spread >= pages - 1 ? 'disabled' : ''}>
+          <svg viewBox="0 0 16 16"><path d="M6 2l6 6-6 6"/></svg></button>
+      </div>
+      <button class="btn ghost" id="dl" type="button">Download all notes</button>
+    </div>
+
+    <div class="bookstage">
+      <div class="spread" id="spread">
+        ${leaf(l, spread*2 + 1)}
+        ${leaf(r, spread*2 + 2)}
+        ${dir ? `<div class="turning ${dir === 'back' ? 'back' : ''}"></div>` : ''}
+      </div>
+    </div>
+
+    <div class="contents">
+      <span class="label">Contents</span>
+      <ol>
+        ${all.map((e,i) => `<li><button type="button" data-p="${Math.floor(i/2)}">
+          <span>${esc(conceptName(e.conceptId))}</span>
+          <span class="cwhen">${esc(when(e.at))}</span></button></li>`).join('')}
+      </ol>
+    </div>
+
+    <div class="row">
+      <button class="btn ghost" id="back-ch" type="button">Back to concepts</button>
+    </div>
+  `);
+
+  const go = (n, d) => { spread = n; notesView(d); };
+  const pv = app.querySelector('#prev'), nx = app.querySelector('#next');
+  if (pv) pv.onclick = () => go(spread - 1, 'back');
+  if (nx) nx.onclick = () => go(spread + 1, 'fwd');
+  app.querySelectorAll('.contents button').forEach(b =>
+    b.onclick = () => go(+b.dataset.p, null));
+  app.querySelector('#back-ch').onclick = chooser;
+  app.querySelector('#dl').onclick = downloadNotes;
+
+  const turning = app.querySelector('.turning');
+  if (turning) turning.addEventListener('animationend', () => turning.remove());
+}
+
+document.addEventListener('keydown', e => {
+  if (!app.querySelector('#spread')) return;
+  if (e.key === 'ArrowRight'){ const n = app.querySelector('#next'); if (n && !n.disabled) n.click(); }
+  if (e.key === 'ArrowLeft'){ const p = app.querySelector('#prev'); if (p && !p.disabled) p.click(); }
+});
+
+/* Notes live in this browser, so they must be able to leave it. */
+function downloadNotes(){
+  const all = entries();
+  const text = all.map(e =>
+    `${longDate(e.at)}\n${conceptName(e.conceptId)}\n${'-'.repeat(40)}\n\n` +
+    e.notes.map(n => `${n.prompt}\n${n.text}\n`).join('\n')
+  ).join('\n\n');
+  const blob = new Blob(['PRAXIS FIELD NOTES\n\n\n' + text], {type:'text/plain;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'praxis-field-notes.txt';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
 
 function render(html){ app.innerHTML = html; window.scrollTo({top:0,behavior:'instant'}); }
 
@@ -444,6 +618,7 @@ function summary(){
   };
 }
 
+document.getElementById('go-notes').onclick = () => { spread = 1e9; notesView(null); };
 chooser();
 </script>
 </body>
