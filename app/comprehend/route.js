@@ -19,6 +19,7 @@ const slim = JSON.stringify(
     domain: c.domain,
     type: c.type,
     tier: c.tier,
+    identityTags: c.identityTags,
     oneSentence: c.oneSentence,
     definition: c.definition,
     mechanism: c.mechanism,
