@@ -206,6 +206,9 @@ def build_concepts(raw, vocab, books, rep):
         if tier == "integration" and not tags:
             rep.error(where, "Integration tier needs at least one Identity Tag "
                              "or it can never be surfaced by a goal")
+        if tier == "discovery" and not tags:
+            rep.warn(where, "no Identity Tag — this concept can appear on the wheel but "
+                            "will never be weighted toward anyone's goal")
 
         # books
         bids = split_list(r.get("Book IDs"))
