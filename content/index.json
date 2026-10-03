@@ -1,0 +1,84 @@
+{
+  "counts": {
+    "concepts": 0,
+    "integration": 0,
+    "discovery": 0,
+    "books": 133
+  },
+  "identities": {},
+  "domains": {},
+  "scenarioPool": [],
+  "vocabulary": {
+    "Domains": [
+      "Communication & Influence",
+      "Creativity, Craft & Mastery",
+      "Decisions & Risk",
+      "Domains are your existing twelve, straight from the live site — 25 concepts each. Do not add a thirteenth without deciding what it does to that balance.\n\nTypes were 130+ distinct strings in the live data ('Psychological Effect' vs 'Psychological Effect / Paradox' vs 'Psychological Concept'). They are consolidated here to 29. Each concept's original string is preserved in the Legacy Type column on the Concepts sheet, so nothing is lost — but the Type column is what the site should use.\n\nTradition is deliberately NOT validated: the live data has 197 distinct values across 300 concepts. Cleaning that up is its own pass, and it does not block anything.",
+      "Human Nature & Social Behaviour",
+      "Learning, Memory & Attention",
+      "Meaning, Ethics & Philosophy",
+      "Myth, Symbol & Spiritual Traditions",
+      "Power, Strategy & Conflict",
+      "Reasoning & Sensemaking",
+      "Relationships & Attraction",
+      "Self-Knowledge & Behaviour",
+      "Society, Culture & Systems"
+    ],
+    "Types": [
+      "Archetype",
+      "Attachment Pattern",
+      "Behavioural Principle",
+      "Cognitive Bias",
+      "Communication Principle",
+      "Creativity Concept",
+      "Decision Model",
+      "Defense Mechanism",
+      "Economic Concept",
+      "Ethical Principle",
+      "Expertise Concept",
+      "Fallacy",
+      "Game-Theory Concept",
+      "Heuristic",
+      "Influence Principle",
+      "Jungian Concept",
+      "Learning Principle",
+      "Mental Model",
+      "Motivation Theory",
+      "Mythic Concept",
+      "Paradox",
+      "Philosophical Principle",
+      "Power Framework",
+      "Psychological Effect",
+      "Relationship Pattern",
+      "Social Dynamic",
+      "Strategic Principle",
+      "Systems Concept",
+      "Thought Experiment"
+    ],
+    "Identities": [
+      "Clear communicator",
+      "Clear thinker",
+      "Creatively unblocked",
+      "Disciplined",
+      "Emotionally regulated",
+      "High integrity",
+      "Manipulation proof",
+      "Self-authoring"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate",
+      "Introductory"
+    ],
+    "Tier": [
+      "Discovery",
+      "Integration"
+    ],
+    "Status": [
+      "Done",
+      "Drafted",
+      "In review",
+      "Stub"
+    ]
+  }
+}
