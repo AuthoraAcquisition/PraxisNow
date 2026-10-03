@@ -89,6 +89,142 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "01.09",
+    "slug": "principle-of-charity",
+    "name": "Principle of Charity",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Influence Principle",
+    "legacyType": "Argumentation Principle",
+    "tradition": "Philosophy / Argumentation",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Interpreting what someone said in its strongest reasonable sense.",
+    "definition": "A principle of interpretation holding that when a statement admits of several readings, you should engage the one that is most coherent and most likely to be meant. It is not generosity for its own sake. A weak reading of an argument tells you nothing about whether the argument is any good, so charity is a condition of learning anything from disagreement.",
+    "mechanism": {
+      "chains": [
+        [
+          "you take the weakest available reading",
+          "you refute something nobody argued",
+          "you learn nothing and they do not change"
+        ],
+        [
+          "you take the strongest reading",
+          "you engage the real claim",
+          "either you are changed or they are"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Being charitable means agreeing more, or being soft on bad arguments.\" It makes criticism harder to escape, not softer. Refuting the strongest version is a far more serious challenge than refuting a sloppy one, and the person cannot reply that you misunderstood them.",
+    "nearestNeighbour": "STEELMANNING. That goes a step further and improves the argument beyond what was actually said, constructing the best possible case. Charity stays within what the person plausibly meant. One is accurate interpretation, the other is active reconstruction.",
+    "discriminateScenario": "In a thread about remote work, someone writes that offices help junior staff. A reply treats this as a claim that everyone must return five days a week, and knocks it down easily. The original poster never meant that, and the exchange ends with both sides more certain than before.",
+    "praxisExercise": "THE BEST READING\n\n1. Find something you disagreed with this week, in writing.\n2. Write the reading of it you reacted to.\n3. Write the strongest reading it could bear.\n4. Decide whether your objection still holds against the second one.\n\nCOMMITMENT (if then):\n\"When I am about to disagree in writing, I will write the strongest version of their point first and check my objection against that.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Clear communicator",
+      "High integrity"
+    ],
+    "related": [
+      "01.10",
+      "01.11"
+    ],
+    "books": [
+      "BK022"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "01.10",
+    "slug": "steelmanning",
+    "name": "Steelmanning",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Influence Principle",
+    "legacyType": "Argumentation Technique",
+    "tradition": "Argumentation / Debate",
+    "origin": "",
+    "date": "",
+    "difficulty": "intermediate",
+    "oneSentence": "Building the strongest version of an argument before you take it apart.",
+    "definition": "A practice of constructing the best case for a position, including improvements its actual defenders have not made, and then responding to that. Where charity asks you to read fairly, steelmanning asks you to build. Its purpose is partly honesty and partly self interest, because an objection that only defeats a weak version has told you nothing about whether you are right.",
+    "mechanism": {
+      "chains": [
+        [
+          "you argue against what was said",
+          "any weakness in their phrasing does your work for you",
+          "your own position is never tested"
+        ],
+        [
+          "you argue against the strongest possible version",
+          "their phrasing is no longer the weak point",
+          "you find out whether you are actually right"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Steelmanning is a debate tactic for looking fair minded.\" If it is performed rather than done, it is worthless. The point is private, not social: you build the strong version in order to find out whether your own view survives it, and sometimes it does not.",
+    "nearestNeighbour": "PRINCIPLE OF CHARITY. That asks you to interpret what was said in its strongest reasonable sense, staying within what the person meant. This goes beyond them, improving the argument past anything they said. Charity is about accuracy, this is about construction.",
+    "discriminateScenario": "Before writing a piece arguing against a popular productivity method, Nadia spends an afternoon writing the best case for it she can manage. Two of her four objections do not survive the exercise. The piece she eventually publishes makes the remaining two, and is far harder to dismiss.",
+    "praxisExercise": "BUILD IT FIRST\n\n1. Take a position you argue against.\n2. Write the best case for it you can, including points its defenders usually miss.\n3. Show it to someone who holds that view and ask what you left out.\n4. Now write your objection, against that version.\n\nCOMMITMENT (if then):\n\"When I plan to argue against something publicly, I will write its strongest case first and check which of my objections survive.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Clear communicator"
+    ],
+    "related": [
+      "01.09",
+      "01.11"
+    ],
+    "books": [
+      "BK022"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "01.11",
+    "slug": "straw-man-fallacy",
+    "name": "Straw Man Fallacy",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Fallacy",
+    "legacyType": "Fallacy",
+    "tradition": "Informal Logic",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Refuting a distorted version of an argument instead of the real one.",
+    "definition": "An error of reasoning in which a position is restated in a weakened or exaggerated form, and the weakened form is then defeated. The appearance of victory comes from the substitution, not from the argument. It is often unintentional, since the distorted version is usually the one that felt easiest to answer.",
+    "mechanism": {
+      "chains": [
+        [
+          "real claim is hard to answer",
+          "a simpler version comes to mind",
+          "the simpler version is attacked",
+          "the original claim stands untouched"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"A straw man is just any unfair characterisation of someone's view.\" Unfairness alone is not enough. The error is specifically substituting a weaker claim and then treating its defeat as a defeat of the original. Describing someone's view rudely but accurately is not this.",
+    "nearestNeighbour": "MOTTE AND BAILEY. That is the mirror image, where a speaker defends a modest claim and then behaves as though a far bolder one had been established. One distorts the opponent's position downward, the other shifts one's own position back and forth.",
+    "discriminateScenario": "A councillor proposes reducing the speed limit on two residential streets. At the public meeting a resident stands up to say that banning cars from the town centre would destroy local business, and sits down to applause. The speed limit proposal is never discussed.",
+    "praxisExercise": "FIND THE SUBSTITUTION\n\n1. Recall an argument you felt you won easily.\n2. Write what you argued against.\n3. Write what they actually claimed, in their words if you have them.\n4. If the two differ, your win was against something you built.\n\nCOMMITMENT (if then):\n\"When an opposing argument feels easy to defeat, I will check their actual words before replying.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Manipulation proof",
+      "Clear communicator"
+    ],
+    "related": [
+      "01.09",
+      "01.10"
+    ],
+    "books": [
+      "BK014"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "02.06",
     "slug": "sunk-cost-fallacy",
     "name": "Sunk-Cost Fallacy",
@@ -175,6 +311,323 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "05.20",
+    "slug": "gottmans-four-horsemen",
+    "name": "Gottman’s Four Horsemen",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Framework",
+    "tradition": "Relationship Research",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Four patterns in conflict that predict a relationship is in trouble.",
+    "definition": "Gottman's observational work identified four communication patterns that reliably predict relationship breakdown: criticism, which attacks character rather than behaviour, contempt, which conveys superiority, defensiveness, which deflects responsibility, and stonewalling, which withdraws from the exchange altogether. Contempt was the strongest single predictor.",
+    "mechanism": {
+      "chains": [
+        [
+          "complaint about behaviour",
+          "criticism of character",
+          "contempt",
+          "the partner defends",
+          "one of them withdraws",
+          "the cycle repeats with nothing addressed"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means couples who argue are in trouble.\" Arguing frequency was not what predicted anything. Stable couples argued plenty. What separated them was the absence of these four patterns inside the arguing, particularly contempt.",
+    "nearestNeighbour": "DEMAND WITHDRAW PATTERN. That is one specific cycle where one partner pursues and the other retreats, and it maps closely onto two of the four, criticism and stonewalling. The four horsemen are a wider set of markers rather than a single interactional loop.",
+    "discriminateScenario": "Every time the finances come up, one of them starts with you never and the other starts with well you are the one who. Within four minutes one has stopped responding and is looking at their phone. They have had this exact exchange perhaps thirty times and have never once discussed the actual budget.",
+    "praxisExercise": "SPOT YOUR OWN\n\n1. Recall your last difficult conversation with someone close.\n2. Of the four, which one did you supply? Be specific about the sentence.\n3. Write what the behaviour based version of that sentence would have been.\n4. Use it next time the subject arises.\n\nCOMMITMENT (if then):\n\"When I catch myself starting a sentence with you always or you never, I will stop and name the specific behaviour instead.\"",
+    "identityTags": [
+      "Emotionally regulated",
+      "Clear communicator",
+      "High integrity"
+    ],
+    "related": [
+      "06.25"
+    ],
+    "books": [
+      "BK133"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.01",
+    "slug": "active-listening",
+    "name": "Active Listening",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication Practice",
+    "tradition": "Communication Studies / Counseling",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Listening to understand the person rather than to prepare your reply.",
+    "definition": "A practice in which the listener's whole attention goes to building an accurate picture of what the speaker means, and the speaker can see that happening. It involves not interrupting, not rehearsing a response while the other person talks, and checking your understanding out loud before responding to it. Rogers and Farson set it out as a working method rather than a personality trait.",
+    "mechanism": {
+      "chains": [
+        [
+          "attention on your own reply",
+          "you hear only the parts you can answer",
+          "the speaker feels processed"
+        ],
+        [
+          "attention on their meaning",
+          "you hear the whole thing",
+          "the speaker feels understood and says more"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Active listening means nodding and saying mm hmm.\" Those are signals, not the practice. A person can nod continuously while composing their rebuttal. The practice is the internal act of trying to build their meaning rather than your answer, and the signals only matter if that is actually happening.",
+    "nearestNeighbour": "REFLECTIVE LISTENING. That is one technique inside this practice, where you say back what you understood. Active listening is the wider posture of attending to meaning first, which can be shown in many ways besides reflecting.",
+    "discriminateScenario": "Priya's colleague starts describing a problem with the schedule. Twenty seconds in, Priya has the answer and is waiting for a gap to say it. She delivers a good solution. Her colleague thanks her, and does not mention the part he had not got to yet, which was the actual difficulty.",
+    "praxisExercise": "THE NO REPLY MINUTE\n\n1. Choose one conversation today that matters.\n2. For the first minute, do not plan any part of your response.\n3. When they pause, say what you understood before you say anything else.\n4. Note afterwards: did they add something they had not said yet?\n\nCOMMITMENT (if then):\n\"When someone brings me a problem, I will say back what I understood before I offer anything.\"",
+    "identityTags": [
+      "Clear communicator",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "06.02",
+      "06.05"
+    ],
+    "books": [
+      "BK022",
+      "BK103"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.02",
+    "slug": "reflective-listening",
+    "name": "Reflective Listening",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication Practice",
+    "tradition": "Counseling / Communication",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Saying back what you understood, so the speaker can correct you.",
+    "definition": "A technique in which the listener restates the speaker's meaning in their own words and invites correction. Its value is not politeness. It converts a private, unverified guess about what someone meant into something they can confirm or fix, which is the only way to know whether you understood.",
+    "mechanism": {
+      "chains": [
+        [
+          "you form a private interpretation",
+          "it is never tested",
+          "you respond to the wrong thing"
+        ],
+        [
+          "you say the interpretation out loud",
+          "they confirm or correct it",
+          "you respond to what they meant"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means repeating their words back to them.\" Repeating the words proves nothing, since you can parrot a sentence you have not understood. It has to be in your own words, because the act of rephrasing is what exposes whether you actually got it.",
+    "nearestNeighbour": "ACTIVE LISTENING. That is the wider practice of attending to meaning rather than to your reply. This is one specific move inside it, and you can do this move badly while listening well, or do it mechanically while listening poorly.",
+    "discriminateScenario": "A client writes a long message about wanting things to move faster. Tom replies with a revised timeline. She writes back that speed was not really the issue, it was that she had not known where things stood. Tom had solved the problem he recognised rather than the one she had.",
+    "praxisExercise": "SAY IT BACK\n\n1. Pick a conversation where you and the other person keep missing each other.\n2. Before responding, say: so what I am hearing is, and then put their point in your own words.\n3. Ask whether that is right.\n4. Write down what they corrected. That gap is what you had been answering.\n\nCOMMITMENT (if then):\n\"When a conversation feels like it is going in circles, I will restate their point in my own words and ask if I have it.\"",
+    "identityTags": [
+      "Clear communicator",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "06.01",
+      "06.04"
+    ],
+    "books": [
+      "BK022",
+      "BK103"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.04",
+    "slug": "affect-labeling",
+    "name": "Affect Labeling",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication / Emotion Technique",
+    "tradition": "Affective Science / Communication",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Naming an emotion out loud reduces its intensity.",
+    "definition": "Putting a feeling into words measurably lowers its grip, in yourself and in the person you are speaking to. Lieberman's imaging work found that labelling an emotion reduced activity in the amygdala and raised it in regions associated with deliberate control. In conversation it means naming what the other person appears to feel rather than arguing with it.",
+    "mechanism": {
+      "chains": [
+        [
+          "feeling goes unnamed",
+          "it stays diffuse and large",
+          "it drives the conversation"
+        ],
+        [
+          "feeling is named plainly",
+          "it becomes a specific thing on the table",
+          "it can be discussed instead of acted out"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"You are telling people how they feel.\" The move is tentative, not declarative. It is closer to it sounds like this has been frustrating than to you are frustrated. Getting it slightly wrong still works, because the person corrects you and has now named it themselves.",
+    "nearestNeighbour": "COGNITIVE REAPPRAISAL. That one changes how you interpret a situation in order to change the feeling. This one does not reinterpret anything. It simply names the feeling as it is, and the naming alone does the work.",
+    "discriminateScenario": "A customer has been escalating for ten minutes. Instead of restating the refund policy again, the agent says it sounds like the worst part was being passed between three people. The customer stops, agrees, and the volume drops. Nothing about the policy has changed.",
+    "praxisExercise": "NAME IT FIRST\n\n1. Choose a conversation you expect to be tense.\n2. Before addressing the content, name what the other person seems to be feeling, tentatively.\n3. Let them correct you if you are off.\n4. Only then move to the substance.\n\nCOMMITMENT (if then):\n\"When someone is clearly upset, I will name what they seem to be feeling before I address the facts.\"",
+    "identityTags": [
+      "Clear communicator",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "06.02",
+      "06.25"
+    ],
+    "books": [
+      "BK022"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.05",
+    "slug": "open-ended-questions",
+    "name": "Open Ended Questions",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication Technique",
+    "tradition": "Communication / Counseling",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Questions that cannot be answered yes or no, so the other person chooses what matters.",
+    "definition": "A question built so the answer has to be constructed rather than selected. Closed questions test a hypothesis you already have. Open questions hand the choice of direction to the other person, which is how you find out the thing you did not know to ask about.",
+    "mechanism": {
+      "chains": [
+        [
+          "closed question",
+          "they confirm or deny your guess",
+          "you learn only about your guess"
+        ],
+        [
+          "open question",
+          "they decide what is relevant",
+          "you learn what you did not know to ask"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Open questions are just longer questions.\" Length has nothing to do with it. Tell me more is open and short. Did the delay frustrate you is closed and long. What makes a question open is whether the shape of the answer is already decided by the asker.",
+    "nearestNeighbour": "ELABORATIVE INTERROGATION. That is a study technique where you ask yourself why a fact is true in order to remember it. This is a conversational move aimed at another person, with the purpose of discovery rather than retention.",
+    "discriminateScenario": "A manager asks each person leaving the company whether they were happy with their pay. Almost all say yes, and she concludes pay is not the problem. She never finds out that three of them left because of the same colleague, because nothing she asked left room for it.",
+    "praxisExercise": "THE QUESTION SWAP\n\n1. Write the three questions you plan to ask in your next important conversation.\n2. For each, ask whether you could answer it yourself with a guess.\n3. If you could, rewrite it so you could not.\n4. Ask the rewritten versions.\n\nCOMMITMENT (if then):\n\"When I prepare questions for a conversation that matters, I will rewrite any I could already guess the answer to.\"",
+    "identityTags": [
+      "Clear communicator"
+    ],
+    "related": [
+      "06.01",
+      "06.09"
+    ],
+    "books": [
+      "BK022",
+      "BK103"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.06",
+    "slug": "grices-cooperative-principle",
+    "name": "Grice’s Cooperative Principle",
+    "tier": "discovery",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication Principle",
+    "tradition": "Pragmatics / Linguistics",
+    "origin": "",
+    "date": "",
+    "difficulty": "intermediate",
+    "oneSentence": "Conversation runs on an unspoken agreement to be informative, truthful, relevant and clear.",
+    "definition": "Grice proposed that conversation is governed by a cooperative principle and four maxims: say enough but not too much, say what you believe true, say what is relevant, and say it clearly. The maxims are not rules people obey. They are expectations that let a listener work out what is meant from what is said, including when a maxim is deliberately broken.",
+    "mechanism": {
+      "chains": [
+        [
+          "listener assumes the speaker is cooperating",
+          "speaker says something that seems to break a maxim",
+          "listener infers the meaning that would restore cooperation",
+          "more is communicated than was said"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The maxims are rules for how to speak well.\" Grice was describing how understanding works, not giving advice. The interesting cases are the ones where a maxim is flouted on purpose, since that is precisely how sarcasm, understatement and implication carry meaning.",
+    "nearestNeighbour": "CONVERSATIONAL IMPLICATURE. That is the meaning a listener derives beyond the literal words. This is the underlying account that explains why the derivation is possible at all. One is the mechanism, the other is its output.",
+    "discriminateScenario": "Asked for a reference, a professor writes only that the candidate has excellent handwriting and was always punctual. Every word is true and nothing negative is stated. The committee understands the letter perfectly, and the candidate is not shortlisted.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Clear communicator"
+    ],
+    "related": [
+      "06.09"
+    ],
+    "books": [
+      "BK044"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.09",
+    "slug": "common-ground-in-conversation",
+    "name": "Common Ground in Conversation",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication Concept",
+    "tradition": "Psycholinguistics / Communication",
+    "origin": "",
+    "date": "",
+    "difficulty": "intermediate",
+    "oneSentence": "Conversation works by building a shared store of what both people already know.",
+    "definition": "Clark's account of conversation as a joint activity, in which participants continuously track what they can assume the other already knows. Every reference to a previous point, every shorthand, every it or that draws on this store. Where the store is thin, speakers must spell more out; where it is thick, a few words carry a great deal.",
+    "mechanism": {
+      "chains": [
+        [
+          "speaker assumes shared ground that is not there",
+          "listener loses the referent",
+          "the thread breaks silently"
+        ],
+        [
+          "speaker checks the ground first",
+          "references land",
+          "short phrases carry full meaning"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means finding things you have in common.\" That is rapport, which is a different thing. Common ground here is strictly about what each person can assume the other already knows, and two people with nothing in common can build plenty of it over one careful conversation.",
+    "nearestNeighbour": "CURSE OF KNOWLEDGE. That is the bias that makes you unable to imagine not knowing what you know. This is the mechanism it damages: common ground is the thing being misjudged, and the curse is why the misjudgement happens.",
+    "discriminateScenario": "Two teams meet about a shared project. One uses the phrase the migration throughout. The other team nods, and spends the following fortnight preparing for something different, because in their world that word refers to a different piece of work entirely.",
+    "praxisExercise": "CHECK THE GROUND\n\n1. Before an important conversation, list the three terms you will rely on most.\n2. For each, write what you are assuming the other person already knows.\n3. Open by checking one of those assumptions out loud.\n4. Note which one was wrong.\n\nCOMMITMENT (if then):\n\"When I start a conversation with someone outside my team, I will check one assumed term before relying on it.\"",
+    "identityTags": [
+      "Clear communicator"
+    ],
+    "related": [
+      "06.05",
+      "06.06",
+      "06.11"
+    ],
+    "books": [
+      "BK022",
+      "BK044"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "06.11",
     "slug": "curse-of-knowledge",
     "name": "Curse of Knowledge",
@@ -207,9 +660,235 @@
     "identityTags": [
       "Clear communicator"
     ],
-    "related": [],
+    "related": [
+      "06.09",
+      "08.25"
+    ],
     "books": [
       "BK047"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.12",
+    "slug": "message-framing",
+    "name": "Message Framing",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication Principle",
+    "tradition": "Rhetoric / Behavioral Science",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "The same fact persuades differently depending on how it is framed.",
+    "definition": "Tversky and Kahneman showed that logically identical information produces different choices depending on presentation. A treatment described as having a ninety per cent survival rate is chosen more often than one with a ten per cent mortality rate. Framing is not a way of adding information. It is a choice about which true description of the same thing you put forward.",
+    "mechanism": {
+      "chains": [
+        [
+          "one framing is chosen",
+          "it sets what counts as the baseline",
+          "the audience judges gains or losses against that baseline",
+          "the same facts lead to a different decision"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Framing is a polite word for spin.\" Spin involves saying things that are not true or hiding things that are. Every statement has a frame, including the plainest one available, so the choice is never between framing and not framing. It is between choosing the frame deliberately and letting it fall where it lands.",
+    "nearestNeighbour": "ANCHORING. That is the pull of a specific number that was mentioned first, which then drags later estimates toward it. Framing is about which description of a situation is offered. One works through a numeric reference point, the other through the shape of the description.",
+    "discriminateScenario": "A subscription team tests two versions of the same price. One reads twelve pounds a month, the other reads under forty pence a day. The cost is identical and both are accurate. The second converts markedly better, and nobody involved said anything untrue.",
+    "praxisExercise": "TWO TRUE FRAMES\n\n1. Take something you need to communicate this week.\n2. Write it in the frame that comes naturally.\n3. Write a second version, equally true, from the opposite direction.\n4. Choose deliberately, and note why.\n\nCOMMITMENT (if then):\n\"When I write anything meant to persuade, I will draft a second equally true framing before choosing.\"",
+    "identityTags": [
+      "Clear communicator",
+      "Manipulation proof"
+    ],
+    "related": [
+      "06.14"
+    ],
+    "books": [
+      "BK047",
+      "BK061"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.14",
+    "slug": "ethos-pathos-logos",
+    "name": "Ethos, Pathos & Logos",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Influence Principle",
+    "legacyType": "Rhetorical Framework",
+    "tradition": "Classical Rhetoric",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Persuasion rests on character, feeling and reasoning together.",
+    "definition": "Aristotle's account of the three available means of persuasion: ethos, the credibility of the speaker, pathos, the emotional state of the audience, and logos, the reasoning of the argument itself. His point was not that all three are equally weighted in every case, but that an argument relying on only one of them is doing a third of the available work.",
+    "mechanism": {
+      "chains": [
+        [
+          "argument rests on reasoning alone",
+          "the audience has no reason to trust the speaker and no stake in the outcome",
+          "sound logic persuades nobody"
+        ],
+        [
+          "all three are present",
+          "credibility makes it worth hearing, feeling makes it matter, reasoning makes it hold"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Ethos, pathos and logos are three styles, and you pick one.\" They are not alternatives. They are three things present in every act of persuasion, including when you neglect them. A speech with no attention to ethos still conveys an impression of its speaker, usually a worse one.",
+    "nearestNeighbour": "ELABORATION LIKELIHOOD MODEL. That is a modern account of when audiences scrutinise an argument closely and when they go on surface cues instead. Aristotle's three are the materials of persuasion; the model is about the conditions under which each gets weight.",
+    "discriminateScenario": "A researcher presents a genuinely strong case for a funding change. The reasoning is airtight. She does not mention that she ran the pilot herself, and she never says what happens to the families affected if nothing changes. The committee finds no fault with the argument and does not act on it.",
+    "praxisExercise": "THE MISSING THIRD\n\n1. Take something you need to argue for.\n2. Mark which of the three your draft leans on most.\n3. Identify the one you have neglected entirely.\n4. Add one sentence that supplies it, and no more.\n\nCOMMITMENT (if then):\n\"When I finish a persuasive draft, I will find the one of the three I neglected and add a single sentence for it.\"",
+    "identityTags": [
+      "Clear communicator"
+    ],
+    "related": [
+      "06.12"
+    ],
+    "books": [
+      "BK047"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.25",
+    "slug": "nonviolent-communication-framework",
+    "name": "Nonviolent Communication Framework",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Communication Principle",
+    "legacyType": "Communication Framework",
+    "tradition": "Conflict Resolution / Communication",
+    "origin": "",
+    "date": "",
+    "difficulty": "intermediate",
+    "oneSentence": "Separating what happened from how you felt, what you need and what you are asking.",
+    "definition": "Rosenberg's framework splits a difficult statement into four parts: the observation, stripped of evaluation, the feeling it produced, the need underneath that feeling, and a specific request. Its work is done by the separation itself, since most conflict comes from these four arriving fused into a single accusation.",
+    "mechanism": {
+      "chains": [
+        [
+          "observation, feeling, need and request arrive fused",
+          "it lands as an accusation",
+          "the other person defends",
+          "nothing is resolved"
+        ],
+        [
+          "the four are separated",
+          "there is something concrete to respond to",
+          "the conversation is about the request"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a softer, more polite way of complaining.\" Politeness is not the mechanism and the framework is often more direct than what it replaces, because it requires naming a specific request rather than hinting. A fused accusation delivered gently is still fused.",
+    "nearestNeighbour": "AFFECT LABELING. That names the feeling and stops there, and it can be applied to the other person's feeling as well as your own. This framework includes naming a feeling as one of four steps, but the step that does the structural work is the specific request at the end.",
+    "discriminateScenario": "After a third late delivery, Dan writes to his supplier that he is being treated as unimportant. The supplier replies defending their workload. Nothing changes. What Dan had wanted, and never said, was to be told on the day something would be late rather than finding out himself.",
+    "praxisExercise": "SPLIT IT INTO FOUR\n\n1. Take something you need to raise with someone.\n2. Write the observation with every evaluative word removed.\n3. Write the feeling it produced, in one word.\n4. Write the need underneath it.\n5. Write one specific request that someone could say yes or no to.\n\nCOMMITMENT (if then):\n\"When I need to raise something difficult, I will write the specific request first and build the rest around it.\"",
+    "identityTags": [
+      "Clear communicator",
+      "Emotionally regulated",
+      "High integrity"
+    ],
+    "related": [
+      "05.20",
+      "06.04"
+    ],
+    "books": [
+      "BK022",
+      "BK103"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.14",
+    "slug": "positions-vs-interests",
+    "name": "Positions vs. Interests",
+    "tier": "integration",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Strategic Principle",
+    "legacyType": "Negotiation Principle",
+    "tradition": "Negotiation Theory",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "What someone demands is rarely the same as what they actually need.",
+    "definition": "From Fisher and Ury's work on negotiation. A position is the stated demand. An interest is the underlying need the demand is meant to serve. Positions conflict far more often than interests do, which is why negotiations that trade positions tend to deadlock while negotiations that surface interests often find room neither side knew was there.",
+    "mechanism": {
+      "chains": [
+        [
+          "both sides state positions",
+          "the positions are incompatible",
+          "the only move is splitting the difference"
+        ],
+        [
+          "both sides surface interests",
+          "the interests often differ rather than conflict",
+          "options appear that satisfy both"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means compromising, or meeting in the middle.\" Meeting in the middle is what you do when you are still trading positions. Finding interests often avoids compromise entirely, because the two parties turn out to want different things rather than the same thing in different amounts.",
+    "nearestNeighbour": "BATNA. That is your best alternative if no agreement is reached, and it sets the point below which you should walk away. This is about understanding what either side is actually trying to achieve. One defines your floor, the other opens the space above it.",
+    "discriminateScenario": "Two departments both insist on owning the new budget line, and neither will move. Eventually someone asks each what they are trying to do with it. One wants to guarantee a hire. The other wants to be able to show the spend in their own reporting. Both turn out to be possible.",
+    "praxisExercise": "FIND THE INTEREST\n\n1. Take a disagreement you are currently stuck in.\n2. Write both stated positions.\n3. For each, ask: what is this meant to achieve? Keep asking until you reach something that is not itself a demand.\n4. Look for an option that serves both answers.\n\nCOMMITMENT (if then):\n\"When a negotiation deadlocks, I will ask what the other side is trying to achieve before offering any compromise.\"",
+    "identityTags": [
+      "Clear communicator",
+      "High integrity"
+    ],
+    "related": [],
+    "books": [
+      "BK022"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "08.25",
+    "slug": "feynman-technique-learning-heuristic",
+    "name": "Feynman Technique (Learning Heuristic)",
+    "tier": "integration",
+    "domain": "Learning, Memory & Attention",
+    "type": "Learning Principle",
+    "legacyType": "Learning Technique",
+    "tradition": "Practical Learning / Pedagogy",
+    "origin": "",
+    "date": "",
+    "difficulty": "introductory",
+    "oneSentence": "Explain it simply, and the parts you cannot explain are what you do not know.",
+    "definition": "A study method in which you write an explanation of a topic as though to someone with no background, find the points where the explanation fails or retreats into jargon, go back to the source for those points specifically, and repeat. Its value is diagnostic: it locates gaps rather than filling them.",
+    "mechanism": {
+      "chains": [
+        [
+          "you reread material",
+          "it feels familiar",
+          "familiarity is mistaken for understanding"
+        ],
+        [
+          "you explain it plainly",
+          "the gaps refuse to be explained",
+          "you now know exactly what to go back for"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is about making things simple.\" Simplicity is the test, not the goal. The output is not meant to be a simplified explanation you keep. The output is the list of places where you could not manage it, and those are the only part worth acting on.",
+    "nearestNeighbour": "SELF EXPLANATION. That is explaining material to yourself as you study it, with no imagined audience and no requirement that it be plain. The imagined listener here is what forces jargon out, and jargon is where unexamined understanding hides.",
+    "discriminateScenario": "Martin has read the chapter on cash flow three times and feels he has it. Asked to explain it to his sister over dinner, he gets two sentences in and finds he cannot say why a profitable business can run out of money. He had read that paragraph twice.",
+    "praxisExercise": "EXPLAIN IT TO ONE PERSON\n\n1. Choose something you believe you understand.\n2. Write an explanation for someone with no background, on one page, with no terms from the field.\n3. Mark every point where you hesitated or reached for jargon.\n4. Go back to the source for those points only.\n\nCOMMITMENT (if then):\n\"When I think I have understood something, I will write one page explaining it with no jargon and go back for whatever I could not write.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Clear communicator",
+      "Disciplined"
+    ],
+    "related": [
+      "06.11"
+    ],
+    "books": [
+      "BK069"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
