@@ -41,7 +41,7 @@
     "books": [
       "BK030"
     ],
-    "author": "Claude draft — needs Lindsay review"
+    "author": "Claude draft, needs Lindsay review"
   },
   {
     "id": "01.02",
@@ -86,7 +86,7 @@
     "books": [
       "BK059"
     ],
-    "author": "Claude draft — needs Lindsay review"
+    "author": "Claude draft, needs Lindsay review"
   },
   {
     "id": "02.06",
@@ -126,7 +126,7 @@
       "BK026",
       "BK061"
     ],
-    "author": "Claude draft — needs Lindsay review"
+    "author": "Claude draft, needs Lindsay review"
   },
   {
     "id": "03.13",
@@ -141,7 +141,7 @@
     "date": "",
     "difficulty": "introductory",
     "oneSentence": "We reason more wisely about other people's problems than our own.",
-    "definition": "Named for King Solomon, who counselled others wisely but governed his own household badly. Grossmann and Kross found that people reason about their own problems with measurably less wisdom — acknowledging the limits of what they know, allowing for change, weighing other perspectives, seeking compromise — than about an identical problem belonging to someone else.",
+    "definition": "Named for King Solomon, who counselled others wisely but governed his own household badly. Grossmann and Kross found that people reason about their own problems with measurably less wisdom, by which is meant acknowledging the limits of what they know, allowing for change, weighing other perspectives and seeking compromise, than about an identical problem belonging to someone else.",
     "mechanism": {
       "chains": [
         [
@@ -172,7 +172,7 @@
     "books": [
       "BK019"
     ],
-    "author": "Claude draft — needs Lindsay review"
+    "author": "Claude draft, needs Lindsay review"
   },
   {
     "id": "06.11",
@@ -211,7 +211,7 @@
     "books": [
       "BK047"
     ],
-    "author": "Claude draft — needs Lindsay review"
+    "author": "Claude draft, needs Lindsay review"
   },
   {
     "id": "09.25",
@@ -239,7 +239,7 @@
       "prose": []
     },
     "misconception": "\"It is a trick question with no answer.\" It is not unanswerable. It demonstrates that \"the same thing\" means different criteria in different contexts, and the puzzle's job is to expose which criterion you were silently using all along.",
-    "nearestNeighbour": "THE SORITES PARADOX. The puzzle of the heap is also about vagueness under gradual change, but it concerns when a predicate stops applying — how many grains make a heap. This concerns the identity of one particular thing across time.",
+    "nearestNeighbour": "THE SORITES PARADOX. The puzzle of the heap is also about vagueness under gradual change, but it concerns when a predicate stops applying, as in how many grains make a heap. This concerns the identity of one particular thing across time.",
     "discriminateScenario": "A company keeps its name and its logo but over fifteen years replaces every employee, relocates twice, changes its product line entirely and is sold to new owners. A long-standing customer insists it is not the same company any more. The current chief executive insists that it obviously is.",
     "praxisExercise": "",
     "identityTags": [
@@ -250,6 +250,6 @@
       "BK109",
       "BK117"
     ],
-    "author": "Claude draft — needs Lindsay review"
+    "author": "Claude draft, needs Lindsay review"
   }
 ]

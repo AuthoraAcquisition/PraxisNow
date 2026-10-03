@@ -11,7 +11,7 @@ never reaches the repo.
 Produces:
     content/concepts.json
     content/books.json
-    content/index.json      (domains, identities, counts — cheap for the wheel)
+    content/index.json      (domains, identities, counts, cheap for the wheel)
 
 Requires: openpyxl   (pip install openpyxl)
 """
@@ -168,7 +168,7 @@ def build_concepts(raw, vocab, books, rep):
         pid = cell(r.get("Praxis ID"))
         where = f"Concepts / {pid or '??'} {name}"
         if not pid:
-            rep.error(where, "has no Praxis ID — every concept needs its NN.NN id")
+            rep.error(where, "has no Praxis ID. Every concept needs its NN.NN id")
             continue
         cid = pid
         if cid in concepts:
@@ -188,8 +188,8 @@ def build_concepts(raw, vocab, books, rep):
 
         # a Discovery concept must NOT carry an exercise
         if tier == "discovery" and cell(r.get("Praxis Exercise")):
-            rep.error(where, "Discovery tier must not have a Praxis Exercise — "
-                             "either clear it or promote the concept to Integration")
+            rep.error(where, "Discovery tier must not have a Praxis Exercise. "
+                             "Either clear it or promote the concept to Integration")
 
         # controlled vocabulary
         for field, key in (("Primary Domain", "Domains"), ("Type", "Types"),
@@ -207,7 +207,7 @@ def build_concepts(raw, vocab, books, rep):
             rep.error(where, "Integration tier needs at least one Identity Tag "
                              "or it can never be surfaced by a goal")
         if tier == "discovery" and not tags:
-            rep.warn(where, "no Identity Tag — this concept can appear on the wheel but "
+            rep.warn(where, "no Identity Tag, so this concept can appear on the wheel but "
                             "will never be weighted toward anyone's goal")
 
         # books
@@ -277,8 +277,8 @@ def build_concepts(raw, vocab, books, rep):
             oid = by_name.get(other) or by_name.get(other.lower()) or by_name.get(slug(other))
             if not oid:
                 rep.warn(f"Concepts / {name}",
-                         f"Related Concept '{other}' is not a Done concept yet — "
-                         "edge skipped, it will appear once that row is finished")
+                         f"Related Concept '{other}' is not a Done concept yet. "
+                         "Edge skipped, it will appear once that row is finished")
                 continue
             if oid == cid:
                 continue
@@ -345,11 +345,11 @@ def main():
 
     if not ok:
         n = sum(len(v) for v in rep.errors.values())
-        print(f"\n{n} error(s). Nothing was written — fix the workbook and run again.\n")
+        print(f"\n{n} error(s). Nothing was written. Fix the workbook and run again.\n")
         sys.exit(1)
 
     if not concepts:
-        print("\nNo concepts are marked 'Done' yet — writing an empty library.")
+        print("\nNo concepts are marked 'Done' yet, so this writes an empty library.")
         print("This is expected while the 300 rows are still stubs.\n")
 
     out = Path(args.out)
@@ -365,7 +365,7 @@ def main():
         print(f"  wrote {out / fname}")
 
     nwarn = sum(len(v) for v in rep.warnings.values())
-    print(f"\nDone{f' — {nwarn} warning(s) above, nothing blocking' if nwarn else ''}.\n")
+    print(f"\nDone{f', with {nwarn} warning(s) above, nothing blocking' if nwarn else ''}.\n")
 
 
 if __name__ == "__main__":

@@ -62,7 +62,7 @@ jobs:
             if [ $code -eq 0 ]; then
               echo "## Content exported"
             else
-              echo "## Export failed — nothing was written"
+              echo "## Export failed, nothing was written"
               echo ""
               echo "Fix these in the Google Sheet, download a fresh .xlsx, and upload it again."
             fi
@@ -95,5 +95,5 @@ jobs:
             echo ""
             echo "**Committed:** $counts"
             echo ""
-            echo "Now publish from GoDaddy — Update Preview, then Publish to Live."
+            echo "Now publish from GoDaddy: Update Preview, then Publish to Live."
           } >> "$GITHUB_STEP_SUMMARY"

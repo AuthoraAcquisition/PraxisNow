@@ -58,7 +58,7 @@
       "Communication & Influence",
       "Creativity, Craft & Mastery",
       "Decisions & Risk",
-      "Domains are your existing twelve, straight from the live site — 25 concepts each. Do not add a thirteenth without deciding what it does to that balance.\n\nTypes were 130+ distinct strings in the live data ('Psychological Effect' vs 'Psychological Effect / Paradox' vs 'Psychological Concept'). They are consolidated here to 29. Each concept's original string is preserved in the Legacy Type column on the Concepts sheet, so nothing is lost — but the Type column is what the site should use.\n\nTradition is deliberately NOT validated: the live data has 197 distinct values across 300 concepts. Cleaning that up is its own pass, and it does not block anything.",
+      "Domains are your existing twelve, straight from the live site, at 25 concepts each. Do not add a thirteenth without deciding what it does to that balance.\n\nTypes were 130+ distinct strings in the live data ('Psychological Effect' vs 'Psychological Effect / Paradox' vs 'Psychological Concept'). They are consolidated here to 29. Each concept's original string is preserved in the Legacy Type column on the Concepts sheet, so nothing is lost, but the Type column is what the site should use.\n\nTradition is deliberately NOT validated: the live data has 197 distinct values across 300 concepts. Cleaning that up is its own pass, and it does not block anything.",
       "Human Nature & Social Behaviour",
       "Learning, Memory & Attention",
       "Meaning, Ethics & Philosophy",

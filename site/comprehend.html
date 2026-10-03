@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Prove you understand an idea: recall it, spot it in a situation, and tell it apart from the idea it is confused with.">
 <meta name="theme-color" content="#100D0C">
-<title>Praxis — Comprehend</title>
+<title>Praxis: Comprehend</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234A0C1C'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' text-anchor='middle' fill='%23F4EBDD'%3EP%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -174,7 +174,7 @@ function buildRungs(c, all){
   const pool = (sameDomain.length >= 3 ? sameDomain : others);
   const mis = splitMisconception(c.misconception);
 
-  // 1. Recall — the one-sentence meaning, against other concepts' meanings
+  // 1. Recall. The one sentence meaning, set against other concepts' meanings.
   const r1 = {
     rung: 'Recall',
     ask: 'Without looking back',
@@ -184,7 +184,7 @@ function buildRungs(c, all){
     why: c.definition
   };
 
-  // 2. Spot — the scenario, concept never named
+  // 2. Spot. The scenario, with the concept never named.
   const r2 = {
     rung: 'Spot',
     ask: 'Which idea is operating here?',
@@ -194,7 +194,7 @@ function buildRungs(c, all){
     why: c.oneSentence
   };
 
-  // 3. Distinguish — find the false statement among true ones
+  // 3. Distinguish. Find the false statement among true ones.
   const chain = firstChain(c);
   const truths = [
     c.oneSentence,
@@ -215,7 +215,7 @@ function buildRungs(c, all){
 
 /* ------------------------------ storage ------------------------------
    Kept in this browser only. Clearing site data loses it, and it does not
-   follow you to another device — accounts come later. Everything is wrapped
+   follow you to another device. Accounts come later. Everything is wrapped
    so a blocked or full store degrades to an unsaved session rather than a
    broken page. */
 const KEY = 'praxis.v1';
@@ -252,14 +252,14 @@ function when(ts){
   return d.toLocaleDateString(undefined, { day:'numeric', month:'long' });
 }
 
-/* Reflection prompts. These look backward and sideways — where you have met
-   the idea, what it sits beside, why it works. Forward-looking commitments
+/* Reflection prompts. These look backward and sideways: where you have met
+   the idea, what it sits beside, why it works. Commitments that look forward
    belong to Apply, not here. */
 function promptsFor(c){
   const near = (c.nearestNeighbour || '').match(/^([A-Z][A-Z'’\-\s]+?)\./);
   return [
     { q: 'Where have you seen this?',
-      hint: 'One time you have watched it happen — in your own life, or someone else\'s.' },
+      hint: 'One time you have watched it happen, in your own life or in someone else\'s.' },
     { q: 'What does it sit next to?',
       hint: near ? `You already know it is not quite ${near[1].toLowerCase()}. What else does it touch, and where do they part company?`
                  : 'Which idea you already know is this closest to, and where do they part company?' },
@@ -356,7 +356,7 @@ function reveal(q, picked, confidence){
       <div class="verdict ${right?'ok':'no'}">${right ? 'That is it.' : 'Not that one.'}</div>
       <p>${esc(q.why)}</p>
       ${flagged ? `<div class="flagged"><b>Worth noticing.</b> You were certain and it was wrong.
-        That is the most useful kind of mistake there is — a gap you did not know you had.
+        That is the most useful kind of mistake there is, because it is a gap you did not know you had.
         Praxis will bring this one back sooner.</div>` : ''}
       <div class="row">
         <button class="btn" id="next" type="button">${step+1 < rungs.length ? 'Next question' : 'See how you did'}</button>
@@ -390,17 +390,17 @@ function summary(){
     </table>
     ${confidentWrong.length ? `<div class="flagged" style="margin-top:24px">
       <b>Confident but wrong.</b> ${confidentWrong.length === 1 ? 'One answer' : confidentWrong.length + ' answers'}
-      you were certain about turned out to be wrong. These are the ones worth returning to —
-      a wrong answer held confidently is corrected more lastingly than one you already doubted.</div>` : ''}
-    ${passed && !firstGo ? `<p class="note">Cleared on attempt ${rec.attempts.length}. Your first attempt is kept separately — the ✓ is the badge, the first try is the data.</p>` : ''}
+      you were certain about turned out to be wrong. These are the ones worth returning to.
+      A wrong answer held confidently is corrected more lastingly than one you already doubted.</div>` : ''}
+    ${passed && !firstGo ? `<p class="note">Cleared on attempt ${rec.attempts.length}. Your first attempt is kept separately. The ✓ is the badge, the first try is the data.</p>` : ''}
     ${passed && firstGo ? `<p class="note">Cleared first time.</p>` : ''}
-    ${!passed ? `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now — the gap between attempts is what makes the second one stick.</p>` : ''}
+    ${!passed ? `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now. The gap between attempts is what makes the second one stick.</p>` : ''}
 
     <div class="notes-block">
       <span class="label">Field Notes</span>
       <h2 style="margin-top:.3em">Put it somewhere it can be found again.</h2>
       <p class="notes-intro">Three questions, all optional. One honest line is worth more than three filled boxes.
-      These look backward — where you have met this idea before and why it works. What you will
+      These look backward, to where you have met this idea before and why it works. What you will
       <em>do</em> about it comes later.</p>
       ${prompts.map((p,i) => `
         <div class="prompt">
@@ -435,12 +435,12 @@ function summary(){
   app.querySelector('#savenotes').onclick = () => {
     const boxes = [...app.querySelectorAll('.prompt textarea')].filter(t => t.value.trim());
     const toast = app.querySelector('#toast');
-    if (!boxes.length){ toast.innerHTML = '<p class="note" style="margin:0;border:0;padding:0">Nothing written yet — that is fine, they are optional.</p>'; return; }
+    if (!boxes.length){ toast.innerHTML = '<p class="note" style="margin:0;border:0;padding:0">Nothing written yet, which is fine. They are optional.</p>'; return; }
     let ok = true;
     boxes.forEach(t => { if (!addNote(concept.id, t.dataset.q, t.value.trim())) ok = false; t.value = ''; });
     toast.innerHTML = ok
       ? `<p class="toast">Saved ${boxes.length} note${boxes.length>1?'s':''}.</p>`
-      : `<p class="note" style="margin:0;border:0;padding:0">Could not save — this browser is blocking storage, so the notes are lost when you leave.</p>`;
+      : `<p class="note" style="margin:0;border:0;padding:0">Could not save. This browser is blocking storage, so the notes are lost when you leave.</p>`;
   };
 }
 

@@ -32,7 +32,7 @@ It writes nothing at all if any Done row:
 - has a Mechanism with no `->` arrows, so Map It cannot be generated
 
 Warnings never block. The common one is a Related Concept pointing at a row that
-is still a stub — that edge appears on its own once the row is finished.
+is still a stub. That edge appears on its own once the row is finished.
 
 ## Files
 
@@ -47,5 +47,5 @@ is still a stub — that edge appears on its own once the row is finished.
 ## Not yet wired
 
 `site/index.html` still carries its own inline `DATA` array. These JSON files are
-produced but nothing reads them yet — connecting the site to them is a separate
+produced but nothing reads them yet. Connecting the site to them is a separate
 change.
