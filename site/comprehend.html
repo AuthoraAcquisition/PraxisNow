@@ -358,9 +358,9 @@ function promptsFor(c){
   return [
     { q: 'Where has this shown up in your life?',
       hint: 'One time it actually happened to you, as specifically as you can put it. If nothing comes, say that instead. An honest blank is worth more than an example you had to invent.' },
-    { q: 'What does it sit next to?',
+    { q: "What other topics you've discovered or learned in your life could this be correlated to?",
       hint: near ? `You already know it is not quite ${near[1].toLowerCase()}. What else does it touch, and where do they part company?`
-                 : 'Which idea you already know is this closest to, and where do they part company?' },
+                 : 'Anything at all, from any part of your life. The connection is what makes it stick.' },
     { q: 'Why does it happen?',
       hint: 'Keep asking why until you reach something you cannot explain further. That edge is the useful part.' }
   ];
@@ -690,9 +690,10 @@ function summary(){
     <div class="notes-block">
       <span class="label">Field Notes</span>
       <h2 style="margin-top:.3em">Put it somewhere it can be found again.</h2>
-      <p class="notes-intro">Three questions, all optional. One honest line is worth more than three filled boxes.
-      These look backward, to where you have met this idea before and why it works. What you will
-      <em>do</em> about it comes later.</p>
+      <p class="notes-intro">Discovering a topic is only the first step in learning, and now you are working on
+      the second: comprehension. Along with this digital diary of notes, never forget to write out what you learn
+      in your own personal journal or notebook. Putting an idea into your own words, rather than rereading it,
+      is one of the most reliably replicated findings in how people learn.</p>
       ${prompts.map((p,i) => `
         <div class="prompt">
           <label for="n${i}">${esc(p.q)}</label>
