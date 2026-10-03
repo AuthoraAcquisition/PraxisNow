@@ -118,6 +118,11 @@ p{margin:0 0 1em}
 .opt.wrong{border-color:var(--wrong);background:rgba(142,75,75,.16)}
 .opt.wrong .key{border-color:var(--wrong);color:var(--cream)}
 
+/* ---- scenario options ---- */
+.opts.scen .opt{align-items:flex-start;padding:18px 20px}
+.opts.scen .opt .body{flex:1;font-size:1rem;line-height:1.62}
+.opts.scen .opt .key{margin-top:2px}
+
 /* ---- confidence ---- */
 .conf{border-top:1px solid var(--faint);padding-top:20px;margin-bottom:8px}
 .conf .label{display:block;margin-bottom:12px}
@@ -282,15 +287,33 @@ function buildRungs(c, all){
     why: c.definition
   };
 
-  // 2. Spot. The scenario, with the concept never named.
-  const r2 = {
+  /* 2. Spot. Two situations, one of which is this concept at work.
+     Naming the concept in the answers made this free, since the person
+     had just chosen it. The decoy is drawn from the concept it is
+     actually confused with, so the fifty fifty is a real distinction
+     rather than a coin toss. */
+  const neighbourName = (c.nearestNeighbour || '').match(/^([A-Z][A-Z'’\-\s]+?)\./);
+  const neighbour = neighbourName
+    ? others.find(x => x.name.toUpperCase().replace(/[^A-Z]/g,'') === neighbourName[1].toUpperCase().replace(/[^A-Z]/g,''))
+    : null;
+  const decoyPool = others.filter(x => x.discriminateScenario);
+  const relatedPool = decoyPool.filter(x =>
+    (c.related || []).includes(x.id) || (x.related || []).includes(c.id));
+  const decoy =
+      (neighbour && neighbour.discriminateScenario) ? neighbour
+    : shuffle(relatedPool)
+      .concat(shuffle(decoyPool.filter(x => x.domain === c.domain)))
+      .concat(shuffle(decoyPool))[0];
+
+  const r2 = decoy ? {
     rung: 'Spot',
-    ask: 'Which idea is operating here?',
-    stem: esc(c.discriminateScenario),
-    correct: c.name,
-    options: shuffle([c.name, ...shuffle(pool).slice(0,3).map(x => x.name)]),
-    why: c.oneSentence
-  };
+    ask: `Which of these is ${c.name} at work?`,
+    stem: 'Read both. Only one of them is this idea operating.',
+    long: true,
+    correct: c.discriminateScenario,
+    options: shuffle([c.discriminateScenario, decoy.discriminateScenario]),
+    why: `The first situation is ${c.name}. ${c.oneSentence} The other one is ${decoy.name}, which is a different thing: ${decoy.oneSentence}`
+  } : null;
 
   // 3. Distinguish. Find the false statement among true ones.
   const chain = firstChain(c);
@@ -602,10 +625,10 @@ function question(){
     <span class="label">${esc(q.rung)} &nbsp;·&nbsp; ${esc(concept.name)}</span>
     <h2>${esc(q.ask)}</h2>
     <div class="stem">${q.stem}</div>
-    <div class="opts" id="opts">
+    <div class="opts ${q.long ? 'scen' : ''}" id="opts">
       ${q.options.map((o,i) => `
         <button class="opt" data-i="${i}" type="button">
-          <span class="key">${KEYS[i]}</span><span>${esc(o)}</span>
+          <span class="key">${KEYS[i]}</span><span class="${q.long ? 'body' : ''}">${esc(o)}</span>
         </button>`).join('')}
     </div>
     <div class="conf" id="conf" hidden>
@@ -637,10 +660,10 @@ function reveal(q, picked, confidence){
     <span class="label">${esc(q.rung)} &nbsp;·&nbsp; ${esc(concept.name)}</span>
     <h2>${esc(q.ask)}</h2>
     <div class="stem">${q.stem}</div>
-    <div class="opts">
+    <div class="opts ${q.long ? 'scen' : ''}">
       ${q.options.map((o,i) => {
         const cls = o === q.correct ? 'right' : (o === picked ? 'wrong' : '');
-        return `<button class="opt ${cls}" disabled><span class="key">${KEYS[i]}</span><span>${esc(o)}</span></button>`;
+        return `<button class="opt ${cls}" disabled><span class="key">${KEYS[i]}</span><span class="${q.long ? 'body' : ''}">${esc(o)}</span></button>`;
       }).join('')}
     </div>
     <div class="fb">
