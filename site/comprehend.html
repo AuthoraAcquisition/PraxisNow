@@ -312,8 +312,8 @@ function when(ts){
 function promptsFor(c){
   const near = (c.nearestNeighbour || '').match(/^([A-Z][A-Z'’\-\s]+?)\./);
   return [
-    { q: 'Where have you seen this?',
-      hint: 'One time you have watched it happen, in your own life or in someone else\'s.' },
+    { q: 'Where has this shown up in your life?',
+      hint: 'One time it actually happened to you, as specifically as you can put it. If nothing comes, say that instead. An honest blank is worth more than an example you had to invent.' },
     { q: 'What does it sit next to?',
       hint: near ? `You already know it is not quite ${near[1].toLowerCase()}. What else does it touch, and where do they part company?`
                  : 'Which idea you already know is this closest to, and where do they part company?' },
