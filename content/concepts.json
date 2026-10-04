@@ -649,7 +649,9 @@
       "Clear thinker",
       "High integrity"
     ],
-    "related": [],
+    "related": [
+      "08.17"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -691,7 +693,50 @@
       "Clear thinker",
       "Self-authoring"
     ],
-    "related": [],
+    "related": [
+      "02.32"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.32",
+    "slug": "ergodicity",
+    "name": "Ergodicity",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Decision Model",
+    "legacyType": "Decision Model",
+    "tradition": "Mathematics and Economics",
+    "difficulty": "advanced",
+    "evidence": "Philosophical",
+    "origin": "Statistical mechanics, applied to decisions by Ole Peters",
+    "date": "2011",
+    "oneSentence": "What happens to a crowd on average is not what happens to one person over time.",
+    "definition": "A system is ergodic when the average across many parallel instances matches the average of one instance followed through time. Many situations people face are not. Expected value is an average across the crowd, so where the two come apart it answers a question nobody asked, because you are living one life in sequence rather than many at once.",
+    "mechanism": {
+      "chains": [
+        [
+          "the average across many players is positive",
+          "the bet looks worth taking",
+          "one player repeats it through time",
+          "a single ruinous outcome ends the sequence",
+          "the crowd average was never describing them"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a technical way of saying do not take big risks.\" The claim is sharper than caution. Expected value quietly assumes the two averages agree, and where they do not it is not slightly imprecise, it is answering a different question. The number can be correct and the advice drawn from it still wrong.",
+    "nearestNeighbour": "EXPECTED VALUE. That computes the average payoff across every possible outcome weighted by its probability, which is an average across the crowd. This is the prior question of whether that average describes what happens to you in sequence, and where it does not, expected value is the wrong instrument rather than a rough one.",
+    "discriminateScenario": "A hundred people each put a tenth of their savings into a scheme that usually returns well and occasionally takes everything. Across the hundred, in one round, the arithmetic looks excellent. One person doing it every year for twenty years almost certainly ends with nothing, and the arithmetic never said otherwise.",
+    "praxisExercise": "FOLLOW ONE PERSON THROUGH TIME\n\n1. Take a decision you would repeat, or a risk you carry regularly.\n2. Write what happens on average, across many people doing it once.\n3. Now follow one person, yourself, doing it fifty times in sequence.\n4. Ask whether any single outcome in that sequence ends the sequence. If one does, the average was never about you.\n\nCOMMITMENT (if then):\n\"When something is justified to me by an average or an expected return, I will ask what happens to one person repeating it.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Self-authoring"
+    ],
+    "related": [
+      "02.31"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -1353,6 +1398,7 @@
     ],
     "related": [
       "06.09",
+      "08.17",
       "08.25"
     ],
     "books": [
@@ -1542,6 +1588,94 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "08.16",
+    "slug": "fluency-illusion",
+    "name": "Fluency Illusion",
+    "tier": "integration",
+    "domain": "Learning, Memory & Attention",
+    "type": "Learning Principle",
+    "legacyType": "Metacognitive Bias",
+    "tradition": "Cognitive Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Robert and Elizabeth Bjork",
+    "date": "2011",
+    "oneSentence": "Mistaking the ease of reading something for actually knowing it.",
+    "definition": "Material that has been read several times processes more smoothly each time, and that smoothness is felt as understanding. It is a judgement about your own mind rather than about the material, and it is systematically wrong, which is why people stop studying at the point where the text has become easy rather than at the point where they could reproduce it.",
+    "mechanism": {
+      "chains": [
+        [
+          "material is read again",
+          "it processes more easily each time",
+          "the ease is read as knowing",
+          "studying stops well before anything can be retrieved"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means rereading is useless.\" Rereading is not useless. It is simply a very poor instrument for judging whether you know something, because the thing it improves is how smoothly the words go down. Testing yourself feels considerably worse and measures considerably better.",
+    "nearestNeighbour": "ILLUSION OF EXPLANATORY DEPTH. That is overestimating how fully you could explain how something works, and it comes from having seen the thing. This comes from having read the words repeatedly, and it is exposed the moment the text is taken away.",
+    "discriminateScenario": "Before the exam Rosa reads her notes through four times. By the fourth pass every sentence feels obvious, so she stops, confident. In the hall she can produce perhaps a third of it. Nothing in the notes had changed between that fourth reading and the moment she sat down.",
+    "praxisExercise": "CLOSE THE BOOK\n\n1. Take something you have read more than once and feel you know.\n2. Put it out of sight.\n3. Write everything you can produce about it on a blank page.\n4. Only then compare. The difference is what the feeling of ease was concealing.\n\nCOMMITMENT (if then):\n\"When something I am reading starts to feel obvious, I will close it and write what I can recall before going further.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Disciplined"
+    ],
+    "related": [
+      "08.17"
+    ],
+    "books": [
+      "BK048"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "08.17",
+    "slug": "illusion-of-explanatory-depth",
+    "name": "Illusion of Explanatory Depth",
+    "tier": "integration",
+    "domain": "Learning, Memory & Attention",
+    "type": "Learning Principle",
+    "legacyType": "Metacognitive Bias",
+    "tradition": "Cognitive Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Leonid Rozenblit and Frank Keil",
+    "date": "2002",
+    "oneSentence": "We believe we understand how things work in far more detail than we actually do.",
+    "definition": "People rate their understanding of everyday mechanisms highly, then find on being asked to explain them step by step that the detail was never there, and revise their own rating downward. Rozenblit and Keil found the effect is specific to things with interacting parts. People are much better calibrated about facts, procedures and stories.",
+    "mechanism": {
+      "chains": [
+        [
+          "you have seen the thing and can picture it",
+          "familiarity is read as understanding",
+          "you rate your knowledge high",
+          "asked for the steps in order, the detail is absent",
+          "the rating falls"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means people are overconfident about everything.\" It is narrower than that and more interesting for being narrow. The effect is specific to explanatory knowledge of how something works. Ask the same people how well they know a date or a recipe and their confidence tracks their knowledge far more honestly.",
+    "nearestNeighbour": "FLUENCY ILLUSION. That is mistaking the ease of rereading for knowing, and it is produced by repeated exposure to a text. This is produced by being able to picture a thing, and it is exposed by being asked to narrate the steps in order.",
+    "discriminateScenario": "Asked how confident he is that he knows how a toilet works, Sam says very. Asked to write down what happens after the handle goes down, in order, he reaches the third step and stops. He has used one every day of his life and watched the cistern fill many times.",
+    "praxisExercise": "NARRATE THE STEPS\n\n1. Name something you are confident you understand how it works.\n2. Rate your understanding out of ten.\n3. Write the full sequence of what happens, in order, with nothing skipped.\n4. Rate yourself again. Note which step you could not write.\n\nCOMMITMENT (if then):\n\"When I am about to say I understand how something works, I will try to narrate the steps in order before saying it.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Self-authoring"
+    ],
+    "related": [
+      "02.30",
+      "06.11",
+      "08.16",
+      "08.25"
+    ],
+    "books": [
+      "BK098"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "08.25",
     "slug": "feynman-technique-learning-heuristic",
     "name": "Feynman Technique (Learning Heuristic)",
@@ -1581,10 +1715,56 @@
       "Disciplined"
     ],
     "related": [
-      "06.11"
+      "06.11",
+      "08.17"
     ],
     "books": [
       "BK069"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "09.01",
+    "slug": "dichotomy-of-control",
+    "name": "Dichotomy of Control",
+    "tier": "integration",
+    "domain": "Meaning, Ethics & Philosophy",
+    "type": "Philosophical Principle",
+    "legacyType": "Philosophical Principle",
+    "tradition": "Stoicism",
+    "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "Epictetus",
+    "date": "c. 125 CE",
+    "oneSentence": "Some things are up to you and some are not, and most suffering comes from confusing the two.",
+    "definition": "Epictetus opens the Enchiridion by dividing everything into what is within our power, which is our judgements and our responses, and what is not, which is everything else including our bodies, reputations and outcomes. Later writers have proposed a third category for things we influence without controlling, though Epictetus himself did not allow one.",
+    "mechanism": {
+      "chains": [
+        [
+          "effort and worry are spent on the outcome",
+          "the outcome does not answer to either",
+          "frustration follows, and the part you could have affected receives less attention than it deserved"
+        ],
+        [
+          "the situation is sorted first",
+          "effort goes to what is yours",
+          "the rest is met rather than fought"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means not caring how things turn out.\" Epictetus was not recommending indifference and the Stoics acted vigorously in the world. What is given up is the demand that an outcome go your way, not the preference that it does. You can want something intensely and still know the wanting does not steer it.",
+    "nearestNeighbour": "LOCUS OF CONTROL. That is a psychological trait describing where a person habitually believes causation sits, and it varies between people as a lasting disposition. This is a practice applied to one situation at a time, available to anyone regardless of their disposition.",
+    "discriminateScenario": "Two days before the interview Nadia has rehearsed the likely questions, researched the panel and prepared well. She also lies awake constructing the reasons they will choose someone else. The preparation will help her. The lying awake has added nothing, and she will do it again before the next one.",
+    "praxisExercise": "THE TWO COLUMNS\n\n1. Name something currently occupying your mind.\n2. Draw two columns: what is mine, and what is not.\n3. Put every part of the situation in one column or the other, including your own reaction.\n4. Act on the first column today. Write one sentence accepting the second.\n\nCOMMITMENT (if then):\n\"When I notice I am turning something over at night, I will write the two columns before I try to sleep again.\"",
+    "identityTags": [
+      "Emotionally regulated",
+      "Self-authoring"
+    ],
+    "related": [],
+    "books": [
+      "BK002",
+      "BK053"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
