@@ -819,7 +819,11 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "07.29",
+      "07.30",
+      "07.31"
+    ]
   },
   {
     "id": "BK079",
@@ -1131,7 +1135,11 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "07.34",
+      "07.35",
+      "07.36"
+    ]
   },
   {
     "id": "BK109",
@@ -1404,6 +1412,31 @@
       "11.28",
       "11.29",
       "11.30"
+    ]
+  },
+  {
+    "id": "BK135",
+    "title": "Manufacturing Consent: The Political Economy of the Mass Media",
+    "author": "Edward S. Herman and Noam Chomsky",
+    "year": "1988",
+    "summaryStatus": "Summarised",
+    "oneLineTake": "",
+    "primaryDomain": "",
+    "concepts": [
+      "12.31"
+    ]
+  },
+  {
+    "id": "BK136",
+    "title": "Power: A New Social Analysis",
+    "author": "Bertrand Russell",
+    "year": "1938",
+    "summaryStatus": "Summarised",
+    "oneLineTake": "",
+    "primaryDomain": "",
+    "concepts": [
+      "07.32",
+      "07.33"
     ]
   }
 ]

@@ -1630,6 +1630,359 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "07.29",
+    "slug": "condign-power",
+    "name": "Condign Power",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Power Framework",
+    "legacyType": "Power Framework",
+    "tradition": "Political Economy",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "John Kenneth Galbraith",
+    "date": "1983",
+    "oneSentence": "Compliance won by making refusal painful.",
+    "story": "",
+    "definition": "Galbraith's first instrument of power. Submission is obtained because the alternative has been made unpleasant enough that a person abandons what they would otherwise have chosen. Dismissal, penalty and force are the obvious forms, but a rebuke, a withdrawal of access or exclusion from a group produce the same structure at a smaller scale.",
+    "mechanism": {
+      "chains": [
+        [
+          "refusal is attached to a cost",
+          "the cost is credible",
+          "the preferred course is abandoned",
+          "compliance follows, and the person knows exactly why they complied"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Condign power means violence or cruelty.\" The defining feature is the adverse consequence attached to refusal, not its severity. Galbraith's point is that it is the most visible of the three instruments precisely because the person submitting can usually name what they were avoiding.",
+    "nearestNeighbour": "COMPENSATORY POWER. That wins submission by offering something wanted, so the person accepts rather than avoids. Both are transactions the person is aware of, and the difference is only the direction: one removes something if you refuse, the other adds something if you agree.",
+    "discriminateScenario": "Nobody in the department has said the new reporting process is unworkable, though in private most of them say exactly that. The last person who raised a process objection was moved to a different team within the quarter. Nothing was announced, and everyone drew the same conclusion.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Manipulation proof"
+    ],
+    "related": [
+      "07.30",
+      "07.31",
+      "07.32"
+    ],
+    "books": [
+      "BK078"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.30",
+    "slug": "compensatory-power",
+    "name": "Compensatory Power",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Power Framework",
+    "legacyType": "Power Framework",
+    "tradition": "Political Economy",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "John Kenneth Galbraith",
+    "date": "1983",
+    "oneSentence": "Compliance won by offering something wanted.",
+    "story": "",
+    "definition": "Galbraith's second instrument. Instead of attaching a cost to refusal, something of value is attached to agreement. Money is the dominant modern form, but status, praise, access, promotion and privilege all work the same way. It feels freer than punishment because the person is accepting a benefit rather than avoiding a harm.",
+    "mechanism": {
+      "chains": [
+        [
+          "agreement is attached to a reward",
+          "the reward is worth having",
+          "the person accepts",
+          "submission occurs and does not feel like submission because nothing was taken"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"If someone is paid or rewarded, that is just a fair exchange rather than power.\" Galbraith's argument is that an exchange and an exercise of power are frequently the same event. The test is whether the person would have made that choice without the inducement, and in a great many cases the honest answer is no.",
+    "nearestNeighbour": "CONDIGN POWER. That wins submission by making refusal costly. This wins it by making agreement rewarding. The structures mirror each other, and the practical difference is that this one is far less likely to be experienced as being made to do something.",
+    "discriminateScenario": "The consultant genuinely believes the recommendation she is about to give. She also knows which recommendation leads to a follow on contract and which one ends the relationship cleanly. She has never once written a report she thought was dishonest, and she could not tell you where the line sits.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Manipulation proof"
+    ],
+    "related": [
+      "07.29",
+      "07.31"
+    ],
+    "books": [
+      "BK078"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.31",
+    "slug": "conditioned-power",
+    "name": "Conditioned Power",
+    "tier": "integration",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Power Framework",
+    "legacyType": "Power Framework",
+    "tradition": "Political Economy",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "John Kenneth Galbraith",
+    "date": "1983",
+    "oneSentence": "Compliance won by changing what a person believes is normal, right or inevitable.",
+    "story": "",
+    "definition": "Galbraith's third instrument and the one he considers most important in modern societies. Submission is secured not by threat or reward but by belief. Education, culture, advertising, repetition and social approval shape what a person takes to be obvious, and the compliance that follows does not feel like compliance at all.",
+    "mechanism": {
+      "chains": [
+        [
+          "belief is shaped before the question arises",
+          "the preferred course now seems right rather than imposed",
+          "the person complies willingly",
+          "and would say, honestly, that nobody made them do anything"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Conditioned power is just another word for brainwashing.\" Galbraith's claim is more unsettling. Conditioning is ordinary, continuous and mostly invisible, and it works best on people who believe they are thinking independently. There is no moment of capture to point at, which is exactly why it is the hardest of the three to notice from inside.",
+    "nearestNeighbour": "CONDIGN POWER. That makes refusal costly, and the person submitting can name what they were avoiding. This one leaves nothing to name, because the preference itself was formed earlier. Galbraith's whole point in separating them is that only the first is visible to the person it acts on.",
+    "discriminateScenario": "Asked why she works the hours she does, she says she simply likes to be thorough and always has. No manager has ever asked her to stay late. Everyone around her stayed late during her first year, nobody discussed it, and she has never once considered that the preference arrived from outside.",
+    "praxisExercise": "WHERE DID THIS BELIEF COME FROM\n\n1. Name something about how you work or live that feels obviously correct to you.\n2. Write down when you first believed it.\n3. Ask who around you believed it at that time, and what it would have cost to disagree.\n4. Decide whether you would choose it today from scratch. Keeping it is fine. Keeping it knowingly is the point.\n\nCOMMITMENT (if then):\n\"When I catch myself saying that something is just obvious, I will ask where I first learned it.\"",
+    "identityTags": [
+      "Manipulation proof",
+      "Self-authoring"
+    ],
+    "related": [
+      "07.29",
+      "07.30",
+      "12.31"
+    ],
+    "books": [
+      "BK078"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.32",
+    "slug": "naked-power",
+    "name": "Naked Power",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Power Framework",
+    "legacyType": "Power Framework",
+    "tradition": "Political Philosophy",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Bertrand Russell",
+    "date": "1938",
+    "oneSentence": "Power that rests on force alone, with no claim to being deserved.",
+    "story": "",
+    "definition": "Russell's term for power held purely through the capacity to compel, without tradition, consent or shared belief supporting it. Conquest and military rule are his examples. Its distinguishing feature is that the people subject to it do not regard it as legitimate, which makes it expensive to maintain and unstable over time.",
+    "mechanism": {
+      "chains": [
+        [
+          "no tradition or belief supports the authority",
+          "obedience depends entirely on continued force",
+          "surveillance and punishment must be constant",
+          "and the system fails the moment the force weakens"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Naked power is the strongest kind because it does not depend on anyone's agreement.\" Russell argues close to the reverse. Not depending on agreement is precisely its weakness, because every unit of compliance has to be purchased with force. Powers that rest on belief are cheaper and far more durable.",
+    "nearestNeighbour": "REVOLUTIONARY POWER. That also breaks with existing tradition, but it is carried by a creed its followers genuinely hold, which does the work that force would otherwise have to do. One commands bodies, the other commands conviction.",
+    "discriminateScenario": "The new owner has removed three managers in six weeks and reversed every decision the previous leadership made. Staff do exactly what is asked and nothing beyond it. Nobody argues. Output has fallen quietly by a fifth and no single person is responsible for any part of that.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Manipulation proof"
+    ],
+    "related": [
+      "07.29",
+      "07.33"
+    ],
+    "books": [
+      "BK136"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.33",
+    "slug": "revolutionary-power",
+    "name": "Revolutionary Power",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Power Framework",
+    "legacyType": "Power Framework",
+    "tradition": "Political Philosophy",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Bertrand Russell",
+    "date": "1938",
+    "oneSentence": "Power carried by a new creed that its followers genuinely believe.",
+    "story": "",
+    "definition": "Russell's category for power that breaks with existing tradition and is held together by shared conviction rather than inherited authority. Because the belief is real, obedience is willing and costs little to maintain. Russell is particularly wary of movements promising permanent liberation while treating disagreement as evidence of betrayal.",
+    "mechanism": {
+      "chains": [
+        [
+          "a new creed takes hold",
+          "followers obey from conviction rather than compulsion",
+          "the movement needs little force while belief lasts",
+          "and dissent becomes a sign of bad faith rather than a position to answer"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Power based on genuine belief is safer than power based on force.\" Russell does not grant that. A creed held sincerely can license more cruelty than naked force, because those carrying it out are certain they are right. His concern is structural: a good ruler today can be replaced tomorrow, so the restraint must sit in the institutions rather than in anyone's conscience.",
+    "nearestNeighbour": "NAKED POWER. That rests on force with nothing legitimating it, so it is costly and brittle. This rests on belief, which makes it cheap and durable, and which also removes the ordinary brakes that self interest places on a cynical ruler.",
+    "discriminateScenario": "Everyone who joined in the first year still talks about the mission in the same words. Three people have left saying the place had become hard to question. Each time, those who remained concluded the leavers had never really understood what they were part of.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Manipulation proof",
+      "Clear thinker"
+    ],
+    "related": [
+      "07.32"
+    ],
+    "books": [
+      "BK136"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.34",
+    "slug": "virtu",
+    "name": "Virtu",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Strategic Principle",
+    "legacyType": "Strategic Principle",
+    "tradition": "Renaissance Political Thought",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Niccolo Machiavelli",
+    "date": "1532",
+    "oneSentence": "The capacity to act decisively and impose form on circumstance, which is not the same as being virtuous.",
+    "story": "",
+    "definition": "Machiavelli's term for the qualities that let a person shape events rather than be shaped by them: decisiveness, adaptability, skill, boldness and the willingness to act when action is required. It is deliberately not moral virtue, and translating it that way reverses his argument. A ruler with virtu meets fortune with capability instead of hope.",
+    "mechanism": {
+      "chains": [
+        [
+          "circumstances arrive",
+          "a person with virtu acts on them while they are still open to being shaped",
+          "the situation takes the form they gave it",
+          "and fortune governs only what was left unshaped"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Virtu means virtue, so Machiavelli is saying a prince should be good.\" The word is a false friend and the mistranslation inverts the book. Machiavelli's virtu is closer to effective capability than to moral goodness, and he is explicit that a ruler who practises every admired quality at all times will not last.",
+    "nearestNeighbour": "FORTUNA. That is everything outside your control, the circumstance you are handed. This is the capacity you bring to meet it. Machiavelli's argument lives in the relation between the two, and neither concept means much without the other.",
+    "discriminateScenario": "Two managers inherit the same failing department in the same month. One writes a careful report on why the situation is impossible and is largely right. The other moves three people, cancels two projects and is wrong about one of them. A year later only one department still exists.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Manipulation proof"
+    ],
+    "related": [
+      "07.35",
+      "07.36"
+    ],
+    "books": [
+      "BK108"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.35",
+    "slug": "fortuna",
+    "name": "Fortuna",
+    "tier": "integration",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Strategic Principle",
+    "legacyType": "Strategic Principle",
+    "tradition": "Renaissance Political Thought",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Niccolo Machiavelli",
+    "date": "1532",
+    "oneSentence": "Everything you do not control, which can be prepared for but not commanded.",
+    "story": "",
+    "definition": "Machiavelli compares fortune to a river that floods and sweeps everything before it. Nobody can stop the flood. What people can do is build banks and channels in the calm season, so that when the water rises it is directed rather than catastrophic. He adds that fortune falls hardest where no preparation was made.",
+    "mechanism": {
+      "chains": [
+        [
+          "calm conditions arrive",
+          "no defences are built because nothing is threatening",
+          "conditions change",
+          "and the same event that would have been managed becomes ruinous because the time to prepare has passed"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means success is mostly luck, so planning does not matter much.\" Machiavelli's claim is the opposite of fatalism. Fortune governs roughly half, he suggests, and the other half is ours, which is exactly why the calm period matters. The river image is an argument for working hardest when nothing appears to be wrong.",
+    "nearestNeighbour": "VIRTU. That is the capacity a person brings to events. This is the events themselves. Machiavelli's further point in chapter twenty five is that the two must match the moment, and people fail because they stay attached to a style that worked before.",
+    "discriminateScenario": "The business has had four good years and no one has looked at what happens if the largest client leaves, because the largest client has never shown any sign of leaving. The conversation about it keeps being postponed on the grounds that there is no urgency, which is true and is the whole problem.",
+    "praxisExercise": "BUILD IN THE CALM\n\n1. Name the thing currently going well that you depend on most.\n2. Write what happens to you if it stops within six months.\n3. Identify the one preparation you could make now that would be impossible to make later.\n4. Do that one thing while nothing is wrong.\n\nCOMMITMENT (if then):\n\"When something has been going well for a long time, I will ask what I would need already to have done if it stopped.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Self-authoring"
+    ],
+    "related": [
+      "07.34",
+      "07.36"
+    ],
+    "books": [
+      "BK108"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.36",
+    "slug": "fox-and-lion-strategy",
+    "name": "Fox-and-Lion Strategy",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Strategic Principle",
+    "legacyType": "Strategic Principle",
+    "tradition": "Renaissance Political Thought",
+    "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "Niccolo Machiavelli",
+    "date": "1532",
+    "oneSentence": "Force cannot see traps and cunning cannot fight, so a ruler needs both.",
+    "story": "",
+    "definition": "From chapter eighteen of The Prince. The lion frightens wolves but walks into snares. The fox recognises snares but cannot drive off wolves. Machiavelli's point is that either alone is insufficient, and he extends it to appearance, arguing that public judgement runs on what can be seen rather than on what is true.",
+    "mechanism": {
+      "chains": [
+        [
+          "only force is used",
+          "the trap is not seen",
+          "the strong party is caught by a weaker one"
+        ],
+        [
+          "only cunning is used",
+          "the confrontation cannot be won",
+          "the clever party is simply overpowered"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The lesson is that deception wins.\" Machiavelli says neither half wins alone, and the fox without the lion is as doomed as the lion without the fox. This is also the place where the phrase about ends justifying means is usually attached to him, and he never wrote it anywhere.",
+    "nearestNeighbour": "VIRTU. That is the general capacity to act effectively and shape circumstance. This is one specific component of it, concerning when to meet a situation with force and when with guile, and it is an observation about method rather than about character.",
+    "discriminateScenario": "The larger firm wins the public argument comprehensively, with better lawyers and a stronger position in every room. It loses anyway, because the smaller firm spent that period quietly signing the three suppliers that everything depended on and said nothing about it at any point.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Manipulation proof"
+    ],
+    "related": [
+      "07.34",
+      "07.35"
+    ],
+    "books": [
+      "BK108"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "08.16",
     "slug": "fluency-illusion",
     "name": "Fluency Illusion",
@@ -2312,6 +2665,49 @@
     ],
     "books": [
       "BK134"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "12.31",
+    "slug": "propaganda-model",
+    "name": "Propaganda Model",
+    "tier": "integration",
+    "domain": "Society, Culture & Systems",
+    "type": "Systems Concept",
+    "legacyType": "Social / Systems Model",
+    "tradition": "Media Studies",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Edward S. Herman and Noam Chomsky",
+    "date": "1988",
+    "oneSentence": "News is shaped by ownership, advertising, sourcing, pressure and ideology before anyone writes a word.",
+    "story": "",
+    "definition": "Herman and Chomsky argue that news passes through five filters before reaching an audience: who owns the outlet, who funds it through advertising, which institutions supply information cheaply and continuously, who can impose costs on unwelcome reporting, and which assumptions are treated as normal before any debate begins.",
+    "mechanism": {
+      "chains": [
+        [
+          "five filters sit upstream of any story",
+          "some sources, frames and topics become cheap and safe while others become expensive",
+          "journalists act sincerely inside those conditions",
+          "and a pattern emerges across many stories that nobody had to coordinate"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a conspiracy theory about journalists colluding.\" The authors explicitly reject that account, and the model is weaker if it is true. Their claim is structural: similar incentives produce similar outcomes without anyone meeting. Critics argue in turn that a model predicting patterns rather than particular stories is hard to test, which is a fair objection to weigh.",
+    "nearestNeighbour": "THOUGHT COMMUNITIES. Those are the groups whose shared way of seeing decides what counts as worth noticing at all. This describes the institutional machinery upstream of that, which determines which material is cheap to report and which is costly, before anyone forms a view.",
+    "discriminateScenario": "The reporter has never been told what to write and would resign if she were. She also knows which three organisations return calls before deadline, which stories her editor will find space for, and which subject caused a six month legal headache last year. None of that is written down.",
+    "praxisExercise": "TRACE ONE STORY UPSTREAM\n\n1. Take a story you have seen covered widely this month.\n2. Ask who supplied the original information, and how cheaply it arrived.\n3. Ask who would complain if it were covered differently.\n4. Look for a comparable event that received far less attention, and ask what was different about it.\n\nCOMMITMENT (if then):\n\"When a story is everywhere at once, I will ask who supplied it before I decide what I think about it.\"",
+    "identityTags": [
+      "Manipulation proof",
+      "Clear thinker"
+    ],
+    "related": [
+      "07.31"
+    ],
+    "books": [
+      "BK135"
     ],
     "author": "Claude draft, needs Lindsay review"
   }
