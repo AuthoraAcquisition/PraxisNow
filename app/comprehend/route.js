@@ -25,6 +25,7 @@ const slim = JSON.stringify(
     identityTags: c.identityTags,
     related: c.related,
     oneSentence: c.oneSentence,
+    story: c.story,
     definition: c.definition,
     mechanism: c.mechanism,
     misconception: c.misconception,

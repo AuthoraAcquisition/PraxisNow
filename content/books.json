@@ -526,7 +526,9 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "10.08"
+    ]
   },
   {
     "id": "BK051",
@@ -608,7 +610,9 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "10.25"
+    ]
   },
   {
     "id": "BK059",
@@ -1112,7 +1116,12 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "10.08",
+      "10.12",
+      "10.13",
+      "10.25"
+    ]
   },
   {
     "id": "BK108",

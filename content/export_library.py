@@ -195,6 +195,10 @@ def build_concepts(raw, vocab, books, rep):
             rep.error(where, "status is Done but 'Evidence' is empty. Every finished concept "
                              "has to say how well supported it is")
 
+        if cell(r.get("Type")) in ("Mythic Concept", "Archetype") and not cell(r.get("Story")):
+            rep.error(where, "a myth or archetype needs a Story. Without it the concept "
+                             "reaches the reader as a definition, which is not what it is")
+
         # controlled vocabulary
         for field, key in (("Primary Domain", "Domains"), ("Type", "Types"),
                            ("Difficulty", "Difficulty"), ("Evidence", "Evidence")):
@@ -254,6 +258,7 @@ def build_concepts(raw, vocab, books, rep):
             "origin": cell(r.get("Origin")),
             "date": cell(r.get("Date")),
             "oneSentence": cell(r.get("One Sentence")),
+            "story": cell(r.get("Story")),
             "definition": cell(r.get("Definition")),
             "mechanism": {"chains": chains, "prose": prose},
             "misconception": cell(r.get("Common Misconception")),

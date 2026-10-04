@@ -95,6 +95,15 @@ p{margin:0 0 1em}
 .crow .tick{color:var(--gold-hi);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap}
 .crow.done .nm{color:var(--muted)}
 
+/* ---- the told story ---- */
+.tale{max-width:40em;margin:6px 0 30px}
+.tale p{font-size:1.14rem;line-height:1.82;margin:0 0 1.15em;color:var(--cream)}
+.tale p:first-of-type::first-letter{float:left;font-family:var(--f-title);font-size:3.5rem;
+  line-height:.84;padding:5px 11px 0 0;color:var(--gold-hi)}
+.tale .src{color:var(--muted);font-size:.86rem;border-top:1px solid var(--faint);
+  padding-top:14px;margin-top:26px}
+.storyhead{margin-bottom:4px}
+
 /* ---- progress rail ---- */
 .rail{display:flex;gap:8px;margin:28px 0 22px}
 .rail i{flex:1;height:3px;background:var(--faint);border-radius:2px;transition:background .3s}
@@ -639,6 +648,7 @@ function chooser(){
           ${byDomain[d].sort((a,b) => a.id.localeCompare(b.id)).map(c => `
             <button class="crow ${isDone(c.id) ? 'done' : ''}" data-id="${esc(c.id)}" type="button">
               <span class="nm">${esc(c.name)}</span>
+              ${c.story ? '<span class="meta2">Story</span>' : ''}
               ${c.evidence === 'Contested' ? '<span class="flag">Contested</span>' : ''}
               ${isDone(c.id) ? '<span class="tick">Comprehended</span>'
                              : `<span class="meta2">${esc(c.type)}</span>`}
@@ -649,8 +659,30 @@ function chooser(){
   app.querySelector('#swap').onclick = goalPicker;
   app.querySelectorAll('.crow').forEach(b => b.onclick = () => {
     concept = CONCEPTS.find(c => c.id === b.dataset.id);
-    rungs = buildRungs(concept, CONCEPTS); step = 0; results = []; question();
+    rungs = buildRungs(concept, CONCEPTS); step = 0; results = [];
+    concept.story ? storyScreen() : question();
   });
+}
+
+/* A myth is not a definition with a plot attached. Where a concept arrives as
+   a narrative, the narrative is what the reader should meet first, on its own,
+   before anything asks them a question about it. */
+function storyScreen(){
+  const who = [concept.origin, concept.date].filter(Boolean).join(', ');
+  render(`
+    <span class="label storyhead">${esc(concept.domain)}</span>
+    <h1>${esc(concept.name)}</h1>
+    <div class="tale">
+      ${concept.story.split(/\n\s*\n/).map(par => `<p>${esc(par.trim())}</p>`).join('')}
+      ${who ? `<div class="src">${esc(who)}</div>` : ''}
+    </div>
+    <div class="row">
+      <button class="btn" id="go" type="button">Begin</button>
+      <button class="btn ghost" id="back" type="button">Choose something else</button>
+    </div>
+  `);
+  app.querySelector('#go').onclick = () => question();
+  app.querySelector('#back').onclick = chooser;
 }
 
 function rail(){
@@ -790,7 +822,8 @@ function summary(){
     </div>
   `);
   app.querySelector('#again').onclick = chooser;
-  app.querySelector('#redo').onclick = () => { rungs = buildRungs(concept, CONCEPTS); step = 0; results = []; question(); };
+  app.querySelector('#redo').onclick = () => { rungs = buildRungs(concept, CONCEPTS); step = 0; results = [];
+    concept.story ? storyScreen() : question(); };
   app.querySelector('#savenotes').onclick = () => {
     const boxes = [...app.querySelectorAll('.prompt textarea')].filter(t => t.value.trim());
     const toast = app.querySelector('#toast');

@@ -13,6 +13,7 @@
     "origin": "Rene Descartes",
     "date": "1637",
     "oneSentence": "Break a problem down to what you know is true, then rebuild from there.",
+    "story": "",
     "definition": "Reasoning from foundational truths rather than by analogy to how things are already done. Descartes resolved to doubt everything he could and rebuild only on what survived the doubting. The move is to strip a problem back to the things you can actually defend, then reason forward from those alone.",
     "mechanism": {
       "chains": [
@@ -59,6 +60,7 @@
     "origin": "Carl Jacobi, popularised by Charlie Munger",
     "date": "2005",
     "oneSentence": "Solve a problem backwards by asking what would guarantee failure.",
+    "story": "",
     "definition": "Rather than asking how to succeed, you ask how you would reliably fail, then remove those conditions. Attributed to the mathematician Carl Jacobi, who advised inverting difficult problems, and made a standing habit of thought by Charlie Munger.",
     "mechanism": {
       "chains": [
@@ -106,6 +108,7 @@
     "origin": "Neil Wilson and Donald Davidson",
     "date": "1959",
     "oneSentence": "Interpreting what someone said in its strongest reasonable sense.",
+    "story": "",
     "definition": "A principle of interpretation holding that when a statement admits of several readings, you should engage the one that is most coherent and most likely to be meant. It is not generosity for its own sake. A weak reading of an argument tells you nothing about whether the argument is any good, so charity is a condition of learning anything from disagreement.",
     "mechanism": {
       "chains": [
@@ -154,6 +157,7 @@
     "origin": "Attributed to Daniel Dennett and others",
     "date": "2013",
     "oneSentence": "Building the strongest version of an argument before you take it apart.",
+    "story": "",
     "definition": "A practice of constructing the best case for a position, including improvements its actual defenders have not made, and then responding to that. Where charity asks you to read fairly, steelmanning asks you to build. Its purpose is partly honesty and partly self interest, because an objection that only defeats a weak version has told you nothing about whether you are right.",
     "mechanism": {
       "chains": [
@@ -201,6 +205,7 @@
     "origin": "Classical informal logic",
     "date": "",
     "oneSentence": "Refuting a distorted version of an argument instead of the real one.",
+    "story": "",
     "definition": "An error of reasoning in which a position is restated in a weakened or exaggerated form, and the weakened form is then defeated. The appearance of victory comes from the substitution, not from the argument. It is often unintentional, since the distorted version is usually the one that felt easiest to answer.",
     "mechanism": {
       "chains": [
@@ -245,6 +250,7 @@
     "origin": "Chris Argyris",
     "date": "1970",
     "oneSentence": "We climb from what happened to what we conclude in steps we never notice taking.",
+    "story": "",
     "definition": "A description of the ascent from observation to action. You start with everything available, select part of it, add meaning drawn from your own experience, form an assumption, reach a conclusion, adopt a belief and act. The climb is fast and feels like a single act of perception, and the belief at the top then shapes what you select next time.",
     "mechanism": {
       "chains": [
@@ -286,6 +292,7 @@
     "origin": "Chris Argyris and Donald Schon",
     "date": "1974",
     "oneSentence": "Fixing the error is one loop. Questioning the goal that produced it is the second.",
+    "story": "",
     "definition": "A distinction between two kinds of correction. Single loop learning adjusts actions to hit an existing target. Double loop learning puts the target itself, and the assumptions behind it, up for revision. Argyris found organisations overwhelmingly do the first, because the second requires examining commitments people would rather leave alone.",
     "mechanism": {
       "chains": [
@@ -331,6 +338,7 @@
     "origin": "Dave Snowden",
     "date": "1999",
     "oneSentence": "Different kinds of problem need different kinds of response, and the first job is telling which kind you have.",
+    "story": "",
     "definition": "A way of placing a situation before deciding how to act on it. Clear situations have an obvious right answer. Complicated ones have a right answer an expert can find. Complex ones have no answer available in advance, only patterns that appear once you act. Chaotic ones require acting first to establish any stability at all.",
     "mechanism": {
       "chains": [
@@ -374,6 +382,7 @@
     "origin": "Ancient, popularised by Nassim Nicholas Taleb",
     "date": "2012",
     "oneSentence": "You often improve something faster by removing what harms it than by adding what helps.",
+    "story": "",
     "definition": "A principle holding that subtraction is more reliable than addition. Its root is theological, defining the divine by what it is not, and it carries into practical matters as a claim about knowledge: we know what damages a system with far greater confidence than we know what improves it, so acting on the first is the better bet.",
     "mechanism": {
       "chains": [
@@ -418,6 +427,7 @@
     "origin": "Hal Arkes and Catherine Blumer",
     "date": "1985",
     "oneSentence": "Carrying on with something because of what you already spent on it.",
+    "story": "",
     "definition": "A sunk cost is a cost already paid that cannot be recovered. The fallacy is letting it influence a decision about the future. Rationally, only the costs and benefits still ahead of you should count; in practice, what has already gone in exerts a strong pull toward continuing.",
     "mechanism": {
       "chains": [
@@ -459,6 +469,7 @@
     "origin": "Attributed to Dwight D. Eisenhower, set out by Stephen Covey",
     "date": "1989",
     "oneSentence": "Sort what you have to do by urgent and important, and most of what feels pressing turns out to be neither.",
+    "story": "",
     "definition": "A sorting device that places every task on two axes, how urgent it is and how important it is. The four resulting groups get different treatment: important and urgent is done now, important and not urgent is scheduled, urgent and not important is declined or handed on, and neither is dropped.",
     "mechanism": {
       "chains": [
@@ -501,6 +512,7 @@
     "origin": "Jeff Bezos",
     "date": "1994",
     "oneSentence": "Choose by imagining yourself at eighty, looking back on whether you did it.",
+    "story": "",
     "definition": "A way of reframing a hard choice by projecting yourself to the end of your life and asking which option you would regret not taking. Bezos describes using it to decide whether to leave a secure job, on the grounds that the things people regret at eighty are rarely the risks they took.",
     "mechanism": {
       "chains": [
@@ -543,6 +555,7 @@
     "origin": "Jeff Bezos",
     "date": "2015",
     "oneSentence": "Decisions you can reverse deserve far less deliberation than ones you cannot.",
+    "story": "",
     "definition": "A way of sorting decisions by whether they can be undone. A two way door can be walked back through at modest cost, so it should be made quickly and corrected if wrong. A one way door cannot, so it deserves slow and careful treatment. The claim is that most decisions are the first kind and are treated as though they were the second.",
     "mechanism": {
       "chains": [
@@ -585,6 +598,7 @@
     "origin": "Suzy Welch",
     "date": "2009",
     "oneSentence": "Ask how you will feel about this in ten minutes, ten months and ten years.",
+    "story": "",
     "definition": "A device for holding a decision at three timescales at once. The ten minute answer captures the immediate feeling, the ten month answer captures the practical consequence, and the ten year answer captures whether it touches anything that lasts. Choices that look different across the three are the ones worth slowing down for.",
     "mechanism": {
       "chains": [
@@ -627,6 +641,7 @@
     "origin": "Warren Buffett and Charlie Munger",
     "date": "1996",
     "oneSentence": "Know where the edge of what you actually understand sits, and treat crossing it as the decision.",
+    "story": "",
     "definition": "The area in which you have real working knowledge, bounded by an edge you can describe. Buffett's argument is that the size of the circle matters far less than knowing where its boundary runs, because confidence does not drop when you cross it and you will go on deciding as though you were still informed.",
     "mechanism": {
       "chains": [
@@ -672,6 +687,7 @@
     "origin": "Nassim Nicholas Taleb",
     "date": "2012",
     "oneSentence": "Put most of what you have somewhere very safe and a little somewhere very risky, and nothing in the middle.",
+    "story": "",
     "definition": "A way of arranging exposure so that the worst case cannot ruin you and the best case can still pay. Most of your resources sit in something close to safe, a small portion goes into things with large potential upside, and the moderate middle is deliberately avoided. Taleb's argument is that the middle carries real downside without the upside that would justify it.",
     "mechanism": {
       "chains": [
@@ -716,6 +732,7 @@
     "origin": "Statistical mechanics, applied to decisions by Ole Peters",
     "date": "2011",
     "oneSentence": "What happens to a crowd on average is not what happens to one person over time.",
+    "story": "",
     "definition": "A system is ergodic when the average across many parallel instances matches the average of one instance followed through time. Many situations people face are not. Expected value is an average across the crowd, so where the two come apart it answers a question nobody asked, because you are living one life in sequence rather than many at once.",
     "mechanism": {
       "chains": [
@@ -757,6 +774,7 @@
     "origin": "Igor Grossmann and Ethan Kross",
     "date": "2014",
     "oneSentence": "We reason more wisely about other people's problems than our own.",
+    "story": "",
     "definition": "Named for King Solomon, who counselled others wisely but governed his own household badly. Grossmann and Kross found that people reason about their own problems with measurably less wisdom, by which is meant acknowledging the limits of what they know, allowing for change, weighing other perspectives and seeking compromise, than about an identical problem belonging to someone else.",
     "mechanism": {
       "chains": [
@@ -804,6 +822,7 @@
     "origin": "B. J. Fogg, Stanford",
     "date": "2009",
     "oneSentence": "A behaviour happens when motivation, ability and a prompt arrive at the same moment.",
+    "story": "",
     "definition": "A model holding that three things must coincide for any behaviour to occur: enough motivation, enough ability, and a prompt to act. Where the behaviour is easy, very little motivation is needed. Where it is hard, a great deal is. If the prompt is missing, nothing happens regardless of the other two.",
     "mechanism": {
       "chains": [
@@ -850,6 +869,7 @@
     "origin": "Susan Michie, Maartje van Stralen and Robert West",
     "date": "2011",
     "oneSentence": "Behaviour needs capability, opportunity and motivation, and the one that is missing is the one to fix.",
+    "story": "",
     "definition": "A diagnostic model from health psychology holding that any behaviour requires three conditions. Capability is whether the person can physically and mentally do it. Opportunity is whether their environment and social world permit it. Motivation is whether they want to. It underpins the Behaviour Change Wheel and is widely used in public health.",
     "mechanism": {
       "chains": [
@@ -892,6 +912,7 @@
     "origin": "James Prochaska and Carlo DiClemente",
     "date": "1983",
     "oneSentence": "Change is described as a sequence running from not considering it, through preparing, to keeping it up.",
+    "story": "",
     "definition": "Also called the transtheoretical model. It describes change as movement through precontemplation, contemplation, preparation, action and maintenance, with relapse treated as a return to an earlier stage rather than a failure. It is taught very widely in health, counselling and addiction settings.",
     "mechanism": {
       "chains": [
@@ -930,6 +951,7 @@
     "origin": "B. J. Fogg, popularised by James Clear",
     "date": "2018",
     "oneSentence": "Attach a new habit to one you already do without thinking about it.",
+    "story": "",
     "definition": "A technique for supplying a reliable trigger. Rather than relying on remembering, a new behaviour is tied directly to the end of an existing automatic one, in the form after I do X, I will do Y. The existing habit becomes the prompt, so the new behaviour does not depend on intention surviving a busy day.",
     "mechanism": {
       "chains": [
@@ -974,6 +996,7 @@
     "origin": "Katherine Milkman, Julia Minson and Kevin Volpp",
     "date": "2014",
     "oneSentence": "Only allow yourself something you enjoy while you are doing something you avoid.",
+    "story": "",
     "definition": "A technique that pairs a tempting activity with one that is good for you but unappealing, and restricts the tempting one so it is only available during the other. The restriction is what distinguishes it, since it makes the moment itself rewarding rather than offering a reward at the end.",
     "mechanism": {
       "chains": [
@@ -1016,6 +1039,7 @@
     "origin": "Hengchen Dai, Katherine Milkman and Jason Riis",
     "date": "2014",
     "oneSentence": "Dates that feel like a new beginning make people more willing to start something hard.",
+    "story": "",
     "definition": "The observation that people pursue goals more readily after moments that mark a boundary in time, such as a birthday, a Monday or the start of a month. The proposed mechanism is that such moments separate a person from their past record of failure, making the imperfect version of themselves feel like someone previous.",
     "mechanism": {
       "chains": [
@@ -1058,6 +1082,7 @@
     "origin": "John Gottman",
     "date": "1994",
     "oneSentence": "Four patterns in conflict that predict a relationship is in trouble.",
+    "story": "",
     "definition": "Gottman's observational work identified four communication patterns that reliably predict relationship breakdown: criticism, which attacks character rather than behaviour, contempt, which conveys superiority, defensiveness, which deflects responsibility, and stonewalling, which withdraws from the exchange altogether. Contempt was the strongest single predictor.",
     "mechanism": {
       "chains": [
@@ -1103,6 +1128,7 @@
     "origin": "Carl Rogers and Richard Farson",
     "date": "1957",
     "oneSentence": "Listening to understand the person rather than to prepare your reply.",
+    "story": "",
     "definition": "A practice in which the listener's whole attention goes to building an accurate picture of what the speaker means, and the speaker can see that happening. It involves not interrupting, not rehearsing a response while the other person talks, and checking your understanding out loud before responding to it. Rogers and Farson set it out as a working method rather than a personality trait.",
     "mechanism": {
       "chains": [
@@ -1151,6 +1177,7 @@
     "origin": "Carl Rogers",
     "date": "1951",
     "oneSentence": "Saying back what you understood, so the speaker can correct you.",
+    "story": "",
     "definition": "A technique in which the listener restates the speaker's meaning in their own words and invites correction. Its value is not politeness. It converts a private, unverified guess about what someone meant into something they can confirm or fix, which is the only way to know whether you understood.",
     "mechanism": {
       "chains": [
@@ -1199,6 +1226,7 @@
     "origin": "Matthew Lieberman",
     "date": "2007",
     "oneSentence": "Naming an emotion out loud reduces its intensity.",
+    "story": "",
     "definition": "Putting a feeling into words measurably lowers its grip, in yourself and in the person you are speaking to. Lieberman's imaging work found that labelling an emotion reduced activity in the amygdala and raised it in regions associated with deliberate control. In conversation it means naming what the other person appears to feel rather than arguing with it.",
     "mechanism": {
       "chains": [
@@ -1246,6 +1274,7 @@
     "origin": "Standard interviewing and counselling practice",
     "date": "",
     "oneSentence": "Questions that cannot be answered yes or no, so the other person chooses what matters.",
+    "story": "",
     "definition": "A question built so the answer has to be constructed rather than selected. Closed questions test a hypothesis you already have. Open questions hand the choice of direction to the other person, which is how you find out the thing you did not know to ask about.",
     "mechanism": {
       "chains": [
@@ -1293,6 +1322,7 @@
     "origin": "Paul Grice",
     "date": "1975",
     "oneSentence": "Conversation runs on an unspoken agreement to be informative, truthful, relevant and clear.",
+    "story": "",
     "definition": "Grice proposed that conversation is governed by a cooperative principle and four maxims: say enough but not too much, say what you believe true, say what is relevant, and say it clearly. The maxims are not rules people obey. They are expectations that let a listener work out what is meant from what is said, including when a maxim is deliberately broken.",
     "mechanism": {
       "chains": [
@@ -1334,6 +1364,7 @@
     "origin": "Herbert Clark",
     "date": "1996",
     "oneSentence": "Conversation works by building a shared store of what both people already know.",
+    "story": "",
     "definition": "Clark's account of conversation as a joint activity, in which participants continuously track what they can assume the other already knows. Every reference to a previous point, every shorthand, every it or that draws on this store. Where the store is thin, speakers must spell more out; where it is thick, a few words carry a great deal.",
     "mechanism": {
       "chains": [
@@ -1382,6 +1413,7 @@
     "origin": "Colin Camerer, George Loewenstein and Martin Weber",
     "date": "1989",
     "oneSentence": "Once you know something, you cannot imagine not knowing it.",
+    "story": "",
     "definition": "A bias in which knowing something makes it very hard to model the mind of someone who does not. It shows up whenever an expert explains their field: the steps they skip are invisible to them, because the knowledge that fills them is already in place. Demonstrated memorably in Elizabeth Newton's tapping study, where tappers wildly overestimated how often listeners would recognise the tune.",
     "mechanism": {
       "chains": [
@@ -1426,6 +1458,7 @@
     "origin": "Amos Tversky and Daniel Kahneman",
     "date": "1981",
     "oneSentence": "The same fact persuades differently depending on how it is framed.",
+    "story": "",
     "definition": "Tversky and Kahneman showed that logically identical information produces different choices depending on presentation. A treatment described as having a ninety per cent survival rate is chosen more often than one with a ten per cent mortality rate. Framing is not a way of adding information. It is a choice about which true description of the same thing you put forward.",
     "mechanism": {
       "chains": [
@@ -1469,6 +1502,7 @@
     "origin": "Aristotle",
     "date": "c. 350 BCE",
     "oneSentence": "Persuasion rests on character, feeling and reasoning together.",
+    "story": "",
     "definition": "Aristotle's account of the three available means of persuasion: ethos, the credibility of the speaker, pathos, the emotional state of the audience, and logos, the reasoning of the argument itself. His point was not that all three are equally weighted in every case, but that an argument relying on only one of them is doing a third of the available work.",
     "mechanism": {
       "chains": [
@@ -1513,6 +1547,7 @@
     "origin": "Marshall Rosenberg",
     "date": "1999",
     "oneSentence": "Separating what happened from how you felt, what you need and what you are asking.",
+    "story": "",
     "definition": "Rosenberg's framework splits a difficult statement into four parts: the observation, stripped of evaluation, the feeling it produced, the need underneath that feeling, and a specific request. Its work is done by the separation itself, since most conflict comes from these four arriving fused into a single accusation.",
     "mechanism": {
       "chains": [
@@ -1563,6 +1598,7 @@
     "origin": "Roger Fisher and William Ury",
     "date": "1981",
     "oneSentence": "What someone demands is rarely the same as what they actually need.",
+    "story": "",
     "definition": "From Fisher and Ury's work on negotiation. A position is the stated demand. An interest is the underlying need the demand is meant to serve. Positions conflict far more often than interests do, which is why negotiations that trade positions tend to deadlock while negotiations that surface interests often find room neither side knew was there.",
     "mechanism": {
       "chains": [
@@ -1607,6 +1643,7 @@
     "origin": "Robert and Elizabeth Bjork",
     "date": "2011",
     "oneSentence": "Mistaking the ease of reading something for actually knowing it.",
+    "story": "",
     "definition": "Material that has been read several times processes more smoothly each time, and that smoothness is felt as understanding. It is a judgement about your own mind rather than about the material, and it is systematically wrong, which is why people stop studying at the point where the text has become easy rather than at the point where they could reproduce it.",
     "mechanism": {
       "chains": [
@@ -1649,6 +1686,7 @@
     "origin": "Leonid Rozenblit and Frank Keil",
     "date": "2002",
     "oneSentence": "We believe we understand how things work in far more detail than we actually do.",
+    "story": "",
     "definition": "People rate their understanding of everyday mechanisms highly, then find on being asked to explain them step by step that the detail was never there, and revise their own rating downward. Rozenblit and Keil found the effect is specific to things with interacting parts. People are much better calibrated about facts, procedures and stories.",
     "mechanism": {
       "chains": [
@@ -1695,6 +1733,7 @@
     "origin": "Attributed to Richard Feynman",
     "date": "1985",
     "oneSentence": "Explain it simply, and the parts you cannot explain are what you do not know.",
+    "story": "",
     "definition": "A study method in which you write an explanation of a topic as though to someone with no background, find the points where the explanation fails or retreats into jargon, go back to the source for those points specifically, and repeat. Its value is diagnostic: it locates what is missing rather than filling it.",
     "mechanism": {
       "chains": [
@@ -1743,6 +1782,7 @@
     "origin": "Epictetus",
     "date": "c. 125 CE",
     "oneSentence": "Some things are up to you and some are not, and most suffering comes from confusing the two.",
+    "story": "",
     "definition": "Epictetus opens the Enchiridion by dividing everything into what is within our power, which is our judgements and our responses, and what is not, which is everything else including our bodies, reputations and outcomes. Later writers have proposed a third category for things we influence without controlling, though Epictetus himself did not allow one.",
     "mechanism": {
       "chains": [
@@ -1788,6 +1828,7 @@
     "origin": "Plutarch, recording an older puzzle",
     "date": "c. 100 CE",
     "oneSentence": "If every part of a thing is replaced over time, is it still the same thing?",
+    "story": "",
     "definition": "The ship on which Theseus returned was preserved by the Athenians, who replaced each plank as it decayed until no original timber remained. Plutarch records that philosophers disagreed over whether it was still the same ship. The puzzle probes what we mean when we say something persists through change.",
     "mechanism": {
       "chains": [
@@ -1815,6 +1856,181 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "10.08",
+    "slug": "narcissus-myth",
+    "name": "The Narcissus Myth",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "Myth Pattern",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Ovid, Metamorphoses Book III",
+    "date": "c. 8 CE",
+    "oneSentence": "Being held in place by an image you cannot reach and do not recognise as your own.",
+    "story": "Narcissus was a hunter of remarkable beauty who had refused every lover who came to him. One of them, cast off, prayed that he might one day love and not have what he loved. The goddess Nemesis heard it.\n\nShe led him, thirsty from hunting, to a pool no shepherd had ever disturbed, its surface unbroken and clear. He knelt to drink and saw a face looking back at him from the water. He did not know it was his own. He reached in and it scattered. He waited for it to settle and reached again, and again it scattered.\n\nHe lay there and would not leave. He spoke to it and it moved its lips without sound. He wept and the water shook and the face was gone and returned. In Ovid's telling he eventually understands, and it does not save him. He says: what I want, I carry. He wastes there at the edge of the pool until nothing is left of him but a flower.",
+    "definition": "The myth is usually read as a story about vanity. The older reading is stranger and closer to the text: Narcissus does not know that the face is his. He is caught by something that appears to be another person, responds to his every movement, and cannot be reached. The curse he was given was not to love himself, but to love and not have what he loved.",
+    "mechanism": {
+      "chains": [
+        [
+          "an image appears that seems to be another",
+          "it answers every movement perfectly",
+          "it cannot be touched or possessed",
+          "he will not leave, and recognising it at last does not free him"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a story about vanity and self love.\" Narcissus does not admire himself, because he does not know who he is looking at. The horror of Ovid's version is the moment he realises, and finds that knowing changes nothing. A story about vanity would end at the pool with a lesson. This one ends with a man unable to leave something that was never there.",
+    "nearestNeighbour": "THE ICARUS MYTH. That one turns on disobeying a specific instruction and overshooting a limit. This one turns on recognition, and on an attachment to an image that cannot answer. One is about excess, the other about mistaking a reflection for a person.",
+    "discriminateScenario": "He checks the account forty times a day. The version of himself that lives there is funny and unbothered, and people respond to it warmly. He knows it is not quite him. He keeps feeding it anyway, and the distance between the two has stopped being something he notices.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "10.12",
+      "10.13"
+    ],
+    "books": [
+      "BK050",
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.12",
+    "slug": "icarus-myth",
+    "name": "The Icarus Myth",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "Myth Pattern",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Ovid, Metamorphoses Book VIII",
+    "date": "c. 8 CE",
+    "oneSentence": "A warning about leaving the middle course, which is usually told as a warning about ambition alone.",
+    "story": "Daedalus, imprisoned on Crete with his son, understood that the king held the land and the sea but not the air. He gathered feathers, laid them in order from short to long, bound them with thread and sealed them with wax, and bent them into the curve of a real wing.\n\nWhen the wings were finished he fitted a pair to the boy, and his hands shook as he did it. Then he gave his instruction, and the instruction has two halves. Do not fly too low, he said, or the sea's damp will weigh the feathers down. Do not fly too high, or the sun will melt the wax. Keep the middle course.\n\nThey went up together. Fishermen looked up and took them for gods. And then the boy, delighted, left his father and climbed, wanting the sky. The wax softened. The feathers loosened and fell. He beat his bare arms and caught nothing, and the sea that took him carries his name.",
+    "definition": "Daedalus gives two instructions and almost every retelling preserves only one. Flying too low would soak the feathers and bring Icarus down just as surely as flying too high. The teaching in Ovid is the middle course between two failures, and the version that survives in common use has quietly removed one of them.",
+    "mechanism": {
+      "chains": [
+        [
+          "an instruction has two limits",
+          "only the dramatic limit is remembered",
+          "the lesson becomes do not aim too high",
+          "the equally fatal failure of aiming too low disappears from the story entirely"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a warning against ambition.\" That is half the instruction. Daedalus warned just as clearly against flying too low, where the sea spray would clog the wings. The myth is about holding a middle course between two ways of dying, and the common retelling has lost the one that would caution a person against staying safe.",
+    "nearestNeighbour": "THE NARCISSUS MYTH. That turns on an image that cannot be reached and on failing to recognise oneself. This turns on a clear instruction, correctly given and not followed. One is about recognition, the other about limits.",
+    "discriminateScenario": "Every year she is offered work that would stretch her and every year she takes the safer contract instead. She is careful, well regarded and completely secure. At forty one she cannot name a single thing she has made that she would defend, and nobody has ever warned her about this direction.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Disciplined"
+    ],
+    "related": [
+      "10.08"
+    ],
+    "books": [
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.13",
+    "slug": "orpheus-and-eurydice",
+    "name": "Orpheus and Eurydice",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "Myth Pattern",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Virgil, Georgics IV, and Ovid, Metamorphoses X",
+    "date": "c. 29 BCE",
+    "oneSentence": "Being given what you asked for on a condition you cannot bear, which is to act on trust without checking.",
+    "story": "Orpheus sang so well that rivers turned to listen. On their wedding day his wife Eurydice stepped on a snake in the long grass and died, and he went down after her, living, into the country of the dead.\n\nHe sang there. The story says the bloodless shades wept, that the wheel stopped turning and the vulture paused, and that for the first time the faces of the dead were wet. The lord of that place granted what had never been granted. She would follow him up, and he could have her back, on one condition. He was not to look behind him until both of them stood in the upper air.\n\nThey climbed the long dark path, Orpheus ahead, Eurydice behind him in silence, and he could not hear her footsteps. Near the top, within sight of daylight, he was seized by the need to know she was there. He turned. She was there. He watched her drawn backwards into the dark, and she said goodbye in a voice he could barely hear, and the second death was final.",
+    "definition": "The condition in the myth is not arbitrary. Orpheus is given his wife back on terms that require him to walk a long way in silence with no evidence that she is following. What destroys him is not disobedience in the ordinary sense but the need for confirmation, and he turns within sight of the end.",
+    "mechanism": {
+      "chains": [
+        [
+          "something is granted on condition of trust",
+          "no evidence is permitted along the way",
+          "the silence becomes unbearable",
+          "the check is made",
+          "and the checking is what destroys the thing"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The lesson is do not look back at the past.\" That reading makes it a story about nostalgia, which it is not. He looks back to find out whether she is there. The myth is about the cost of needing confirmation when the terms of the thing require you to proceed without it, which is a different and far more ordinary failure.",
+    "nearestNeighbour": "KATABASIS, the descent into the underworld. That is the broader motif of going down into darkness and returning changed, and many stories share it. This is one particular descent, and its weight sits in the condition attached to the return rather than in the journey.",
+    "discriminateScenario": "They agreed to give it six months without discussing it, and let the thing settle on its own. In the eleventh week he asked her where they stood. She told him honestly, which was that she had not known yet and now had to answer. The asking is what produced the answer.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Emotionally regulated",
+      "Self-authoring"
+    ],
+    "related": [
+      "10.08"
+    ],
+    "books": [
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.25",
+    "slug": "grail-quest",
+    "name": "The Grail Quest",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "Myth Pattern",
+    "tradition": "Arthurian Romance",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Chretien de Troyes, Perceval",
+    "date": "c. 1180",
+    "oneSentence": "A failure that comes not from doing the wrong thing but from not asking the question in front of you.",
+    "story": "Perceval was raised in a forest by a mother who kept the word knight from him, so that he would not go the way his father and brothers had gone. He saw knights anyway, took them for angels, and left.\n\nHe learned quickly and badly. A man who taught him courtesy told him not to talk too much, and he took it to heart. Riding one evening he came to a river and a fisherman directed him to a castle nearby, and in its hall he was received by a wounded king who could not stand.\n\nThen a procession crossed the room. A youth carrying a white lance with a drop of blood running from its tip. Two boys with candelabra. A girl carrying a grail, worked in gold and set with stones, and the light of it put out the light of every candle. It passed in front of him and went into another chamber, and came again, and again, at every course of the meal.\n\nPerceval wanted to ask whom the grail served. He said nothing, because he had been told not to talk too much. In the morning the castle was empty. He learned later that the question itself would have healed the king, and that by holding it he had left a country to waste.",
+    "definition": "In Chretien's original the quest does not turn on finding or seizing the grail. Perceval is already in the room with it. What ruins him is that he follows a rule of etiquette instead of asking the obvious question, and the question was the thing that would have healed the wounded king and the wasted land.",
+    "mechanism": {
+      "chains": [
+        [
+          "the decisive moment arrives quietly",
+          "a rule of politeness or convention applies",
+          "the obvious question is swallowed",
+          "the moment passes",
+          "and the cost is learned long afterwards"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The point of the story is the search for the grail.\" In the earliest version there is barely a search. Perceval is served dinner in the same room as it on his first night. The failure is already complete before any quest begins, and what the later romances turned into a long pursuit started as a story about one unasked question.",
+    "nearestNeighbour": "KATABASIS, the descent into the underworld. That concerns going down into darkness and coming back altered. This concerns a moment of ordinary hospitality in a lit hall, where nothing is demanded except speech, and speech is the thing withheld.",
+    "discriminateScenario": "Everyone in the meeting could see the number did not add up. The partner presenting it was senior and well liked and nobody wanted to be the one. They moved to the next item. Eleven months later the same number appeared in a report that could not be withdrawn.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "High integrity"
+    ],
+    "related": [],
+    "books": [
+      "BK058",
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "11.15",
     "slug": "ritualized-creative-practice",
     "name": "Ritualized Creative Practice",
@@ -1828,6 +2044,7 @@
     "origin": "Twyla Tharp",
     "date": "2003",
     "oneSentence": "A repeatable first action that gets you working before you can talk yourself out of it.",
+    "story": "",
     "definition": "Tharp begins each day by putting on workout clothes, leaving her apartment, hailing a taxi and telling the driver where to go. She is precise that the ritual is not the workout. It is the cab. The moment the destination is spoken the ritual is complete, and everything after it follows without further argument.",
     "mechanism": {
       "chains": [
@@ -1875,6 +2092,7 @@
     "origin": "Twyla Tharp",
     "date": "2003",
     "oneSentence": "The tendencies that keep reappearing in your work, which you can stretch but not swap.",
+    "story": "",
     "definition": "Tharp's term for the preferences visible across everything a person makes: the scale they work at, the themes they return to, the kind of problem that makes them want to engage. She includes a diagnostic she calls focal length, meaning whether your attention naturally sharpens at great distance, at arm's length, or in close up.",
     "mechanism": {
       "chains": [
@@ -1921,6 +2139,7 @@
     "origin": "Twyla Tharp",
     "date": "2003",
     "oneSentence": "Give every project a container, and begin it by putting one thing inside.",
+    "story": "",
     "definition": "Tharp starts every piece with a file box, writes the project name on it, and fills it with everything that feeds the work: notebooks, clippings, recordings, photographs, objects. It is a record of the research rather than a filing system, and its first value arrives at the beginning, when naming a box is a way of starting something you cannot yet describe.",
     "mechanism": {
       "chains": [
@@ -1968,6 +2187,7 @@
     "origin": "Twyla Tharp",
     "date": "2003",
     "oneSentence": "When you have no idea, go looking for one rather than waiting for it.",
+    "story": "",
     "definition": "Tharp's name for the active search for raw material at the start of a piece. She compares it to scratching a lottery ticket, and to clawing at a mountainside for a toehold. It covers reading, travelling, watching other people's work, and anything else that brings you into contact with material you did not have an hour ago.",
     "mechanism": {
       "chains": [
@@ -2013,6 +2233,7 @@
     "origin": "Twyla Tharp",
     "date": "2003",
     "oneSentence": "The private statement of what the work is trying to do, which you return to when it wanders.",
+    "story": "",
     "definition": "Tharp defines the spine as the statement you make to yourself outlining your intentions for the work. It is not the theme an audience perceives and it need not be visible in the finished piece at all. Its function is navigational. When the work begins drifting, the spine is the thing that tells you which direction was ever yours.",
     "mechanism": {
       "chains": [
@@ -2060,6 +2281,7 @@
     "origin": "Twyla Tharp",
     "date": "2003",
     "oneSentence": "Spinning your wheels is not the same as being stopped, and the two need different answers.",
+    "story": "",
     "definition": "Tharp's distinction for reading your own momentum. In a rut the engine runs and you are moving, but nothing advances. In a groove the wheels turn and the work goes forward with little effort. She separates both sharply from a creative block, in which the engine has stopped entirely and the tank is empty.",
     "mechanism": {
       "chains": [
