@@ -580,6 +580,7 @@ const GOALS = [
   { id:'High integrity',        claim:'I have integrity with myself and others' },
   { id:'Self-authoring',        claim:"I don't let my past define my future" },
   { id:'Creatively unblocked',  claim:'I make creativity a priority' },
+  { id:'Builds lasting bonds',  claim:'I build relationships that last' },
 ];
 const forGoal = g => g === 'all' ? CONCEPTS : CONCEPTS.filter(c => (c.identityTags||[]).includes(g));
 const isDone  = id => !!(store.concepts[id] && store.concepts[id].comprehended);
