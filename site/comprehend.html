@@ -72,6 +72,17 @@ p{margin:0 0 1em}
 .goal.thin{opacity:.58}
 .goal.thin .ready{color:var(--muted)}
 
+/* ---- the browse shelf: library the goals do not claim ---- */
+.browse{margin-top:34px;padding-top:22px;border-top:1px solid var(--faint)}
+.browse > .label{display:block;margin-bottom:12px}
+.browsecard{display:block;width:100%;text-align:left;background:transparent;
+  border:1px solid var(--faint);border-left:2px solid var(--gold);border-radius:10px;
+  padding:18px 20px 16px;transition:border-color .18s,background .18s}
+.browsecard:hover{border-color:var(--gold);background:rgba(37,21,18,.7)}
+.browsecard b{display:block;font-family:var(--f-title);font-weight:400;font-size:1.3rem;line-height:1.15;margin-bottom:6px}
+.browsecard .claim{display:block;color:var(--muted);font-size:.93rem;line-height:1.45;margin-bottom:12px;max-width:62ch}
+.browsecard .ready{display:block;font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-hi)}
+
 /* ---- the goal bar ---- */
 .goalbar{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;
   border-bottom:1px solid var(--faint);padding-bottom:16px;margin-bottom:4px}
@@ -582,7 +593,20 @@ const GOALS = [
   { id:'Creatively unblocked',  claim:'I make creativity a priority' },
   { id:'Builds lasting bonds',  claim:'I build relationships that last' },
 ];
-const forGoal = g => g === 'all' ? CONCEPTS : CONCEPTS.filter(c => (c.identityTags||[]).includes(g));
+/* Some parts of the library are not goals. Myth and symbol is read because
+   someone wants to read it, not because it earns an identity claim, so it is
+   selected by its domain and carries no claim and no progress bar.
+   A selection of the form 'domain:NAME' means that whole domain. */
+const BROWSE = [
+  { domain:'Myth, Symbol & Spiritual Traditions',
+    label:'Myths, symbology and spiritual traditions',
+    blurb:'Stories and symbols that have been told for long enough to be worth asking why. Read these for their own sake rather than toward a goal.' },
+];
+const forGoal = g =>
+    g === 'all' ? CONCEPTS
+  : String(g).startsWith('domain:') ? CONCEPTS.filter(c => c.domain === String(g).slice(7))
+  : CONCEPTS.filter(c => (c.identityTags||[]).includes(g));
+const isBrowse = g => String(g||'').startsWith('domain:');
 const isDone  = id => !!(store.concepts[id] && store.concepts[id].comprehended);
 
 function setGoal(g){ store.goal = g; save(store); }
@@ -591,7 +615,8 @@ function setGoal(g){ store.goal = g; save(store); }
    longer matches anything is moved to the nearest of its descendants rather
    than being dropped back to the picker with their progress apparently gone. */
 (function migrate(){
-  if (store.goal && store.goal !== 'all' && !GOALS.some(g => g.id === store.goal)) {
+  if (store.goal && store.goal !== 'all' && !isBrowse(store.goal)
+      && !GOALS.some(g => g.id === store.goal)) {
     const heirs = ['Clear thinker', 'Sound judgement', 'Sees power structures'];
     const best = heirs.map(h => [h, forGoal(h).length]).sort((a,b) => b[1]-a[1])[0];
     store.goal = best && best[1] ? best[0] : null;
@@ -615,10 +640,26 @@ function goalPicker(){
             : done ? `${done} of ${pool.length} comprehended` : `${pool.length} ready`}</span>
         </button>`; }).join('')}
     </div>
+    ${BROWSE.map(b => {
+      const pool = forGoal('domain:' + b.domain);
+      if (!pool.length) return '';
+      const done = pool.filter(c => isDone(c.id)).length;
+      return `<div class="browse">
+        <span class="label">Not a goal, just worth reading</span>
+        <button class="browsecard" data-d="${esc(b.domain)}" type="button">
+          <b>${esc(b.label)}</b>
+          <span class="claim">${esc(b.blurb)}</span>
+          <span class="ready">${done ? `${done} of ${pool.length} read` : `${pool.length} ready`}</span>
+        </button>
+      </div>`;
+    }).join('')}
     <div class="row">
       <button class="btn ghost" id="allc" type="button">Show me everything instead</button>
     </div>
   `);
+  app.querySelectorAll('.browsecard').forEach(b => b.onclick = () => {
+    setGoal('domain:' + b.dataset.d); chooser();
+  });
   app.querySelectorAll('.goal').forEach(b => b.onclick = () => {
     if (!forGoal(b.dataset.g).length) return;
     setGoal(b.dataset.g); chooser();
@@ -635,26 +676,33 @@ function chooser(){
   if (!pool.length){ goalPicker(); return; }
 
   const done = pool.filter(c => isDone(c.id)).length;
-  const label = goal === 'all' ? 'Everything' : goal;
-  const claim = goal === 'all' ? 'The whole library, ungrouped by goal.'
+  const browse = isBrowse(goal) ? BROWSE.find(b => 'domain:' + b.domain === goal) : null;
+  const label = browse ? browse.label : goal === 'all' ? 'Everything' : goal;
+  const claim = browse ? browse.blurb
+              : goal === 'all' ? 'The whole library, ungrouped by goal.'
               : (GOALS.find(g => g.id === goal) || {}).claim;
+  const kicker = browse ? 'Reading' : 'Working toward';
 
-  // grouped by domain, so a long list reads as a few short ones
+  /* Grouped by domain, so a long list reads as a few short ones. A browse
+     selection is already one domain, so grouping by it would print the same
+     heading once. Those group by type instead. */
+  const key = browse ? (c => c.type) : (c => c.domain);
   const byDomain = {};
-  pool.forEach(c => (byDomain[c.domain] = byDomain[c.domain] || []).push(c));
+  pool.forEach(c => (byDomain[key(c)] = byDomain[key(c)] || []).push(c));
   const domains = Object.keys(byDomain).sort();
 
   render(`
     <div class="goalbar">
       <div>
-        <span class="label">Working toward</span>
+        <span class="label">${esc(kicker)}</span>
         <h1>${esc(label)}</h1>
         <div class="meta">${esc(claim)}</div>
       </div>
-      <button class="swap" id="swap" type="button">Change goal</button>
+      <button class="swap" id="swap" type="button">${browse ? 'Back to goals' : 'Change goal'}</button>
     </div>
-    <div class="bar"><i style="width:${pool.length ? Math.round(done/pool.length*100) : 0}%"></i></div>
-    <div class="meta" style="color:var(--muted);font-size:.88rem">${done} of ${pool.length} comprehended</div>
+    ${browse ? `<div class="meta" style="color:var(--muted);font-size:.88rem;margin-top:18px">${pool.length} in the library${done ? `, ${done} read` : ''}</div>`
+      : `<div class="bar"><i style="width:${pool.length ? Math.round(done/pool.length*100) : 0}%"></i></div>
+    <div class="meta" style="color:var(--muted);font-size:.88rem">${done} of ${pool.length} comprehended</div>`}
 
     ${domains.map(d => `
       <div class="group">
