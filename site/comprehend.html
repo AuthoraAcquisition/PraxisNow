@@ -572,7 +572,7 @@ function render(html){ app.innerHTML = html; window.scrollTo({top:0,behavior:'in
 const GOALS = [
   { id:'Clear thinker',         claim:'I am a critical thinker' },
   { id:'Sound judgement',       claim:'I decide well under uncertainty' },
-  { id:'Systems literate',      claim:'I see why things turn out as they do' },
+  { id:'Sees power structures', claim:'I can see the game being played' },
   { id:'Clear communicator',    claim:'I am a clear communicator' },
   { id:'Emotionally regulated', claim:'I have a calm nervous system' },
   { id:'Manipulation proof',    claim:'I understand human nature' },
@@ -591,7 +591,7 @@ function setGoal(g){ store.goal = g; save(store); }
    than being dropped back to the picker with their progress apparently gone. */
 (function migrate(){
   if (store.goal && store.goal !== 'all' && !GOALS.some(g => g.id === store.goal)) {
-    const heirs = ['Clear thinker', 'Sound judgement', 'Systems literate'];
+    const heirs = ['Clear thinker', 'Sound judgement', 'Sees power structures'];
     const best = heirs.map(h => [h, forGoal(h).length]).sort((a,b) => b[1]-a[1])[0];
     store.goal = best && best[1] ? best[0] : null;
     save(store);

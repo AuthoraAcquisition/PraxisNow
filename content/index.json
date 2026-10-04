@@ -101,6 +101,11 @@
       "07.36",
       "12.31"
     ],
+    "Sees power structures": [
+      "07.33",
+      "07.35",
+      "12.31"
+    ],
     "Self-authoring": [
       "01.27",
       "02.27",
@@ -131,11 +136,6 @@
       "02.30",
       "02.31",
       "02.32"
-    ],
-    "Systems literate": [
-      "07.33",
-      "07.35",
-      "12.31"
     ]
   },
   "domains": {
@@ -341,9 +341,9 @@
       "Emotionally regulated",
       "High integrity",
       "Manipulation proof",
+      "Sees power structures",
       "Self-authoring",
-      "Sound judgement",
-      "Systems literate"
+      "Sound judgement"
     ],
     "Difficulty": [
       "Advanced",
