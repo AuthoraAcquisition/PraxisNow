@@ -1084,6 +1084,250 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "05.01",
+    "slug": "attachment-theory",
+    "name": "Attachment Theory",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Psychological Effect",
+    "legacyType": "Psychological Theory",
+    "tradition": "Developmental Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "John Bowlby, then Mary Ainsworth",
+    "date": "1950s to 1970s",
+    "oneSentence": "People carry a working model of whether closeness is reliable, built early and running quietly underneath adult love.",
+    "story": "",
+    "definition": "Bowlby's claim was that the need for a reliable other is a biological system in its own right, not a by-product of hunger or sex. Ainsworth made it measurable: separate a one year old from a caregiver, watch what happens on reunion, and the reunion rather than the separation is what sorts children into patterns. Decades later Hazan and Shaver showed adults describe their romantic relationships in strikingly similar terms, which is where the adult literature begins.",
+    "mechanism": {
+      "chains": [
+        [
+          "an infant needs a reliable other to survive",
+          "the other responds consistently, erratically, or not at all",
+          "the infant learns what closeness costs and whether it works",
+          "that expectation becomes the default read on intimacy",
+          "it runs underneath adult relationships without being chosen"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Your attachment style is fixed by your childhood and you are stuck with it.\" The research says the early pattern is a strong starting position, not a sentence. Roughly a quarter of people measure differently across their lives, and a long relationship with someone steady is one of the documented routes to change. What persists is the default, not the ceiling.",
+    "nearestNeighbour": "SCHEMA CHEMISTRY. That describes two specific adult patterns locking into each other because each confirms what the other already expects. This is the underlying system that produced those expectations in the first place, and it is about one person rather than a pair.",
+    "discriminateScenario": "She notices she reads delay as rejection. A reply that takes four hours produces a whole internal case for why he has lost interest, and the case is always ready, as though it had been written long before she met him. When he replies warmly the case dissolves and nothing is learned from it. The next delay builds it again.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.02",
+      "05.03",
+      "05.04",
+      "05.05",
+      "05.31"
+    ],
+    "books": [
+      "BK013",
+      "BK144"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.02",
+    "slug": "secure-attachment",
+    "name": "Secure Attachment",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Attachment Pattern",
+    "legacyType": "Attachment Pattern",
+    "tradition": "Developmental Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Mary Ainsworth",
+    "date": "1978",
+    "oneSentence": "Treating closeness as available, so neither wanting it nor being apart from it is an emergency.",
+    "story": "",
+    "definition": "The pattern is not an absence of need. It is a person who expects their need to be met and therefore states it plainly, early, and without strategy. Conflict is uncomfortable rather than threatening. Distance is tolerable because it is not read as the beginning of an ending. Roughly half the adult population measures here, which makes it the most common pattern and the least discussed, because it generates no drama worth writing about.",
+    "mechanism": {
+      "chains": [
+        [
+          "closeness has reliably been available",
+          "a need can be stated directly rather than engineered",
+          "stating it usually works",
+          "the expectation is confirmed",
+          "distance and conflict stop reading as threat"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Secure people are the ones who do not need anybody.\" That is the avoidant pattern wearing this one as a disguise. Self sufficiency presented as health is one of the clearer markers of avoidance. The secure version depends on someone openly and is unembarrassed by it, which is why it looks less impressive than it is.",
+    "nearestNeighbour": "AVOIDANT ATTACHMENT. That one also looks calm and unbothered from outside, and the calm is doing opposite work: there it suppresses the need, here the need is met. The tell is what happens when the other person gets closer rather than further away.",
+    "discriminateScenario": "He tells her he felt sidelined at dinner. He says it the next morning, in one sentence, without building a case or waiting to be asked. She says she had not noticed and is sorry. He believes her, and by lunchtime it is genuinely finished rather than filed. Neither of them has thought about the exchange since.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.01",
+      "05.03",
+      "05.04",
+      "05.31"
+    ],
+    "books": [
+      "BK013",
+      "BK144"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.03",
+    "slug": "anxious-attachment",
+    "name": "Anxious Attachment",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Attachment Pattern",
+    "legacyType": "Attachment Pattern",
+    "tradition": "Developmental Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Mary Ainsworth, adult form from Hazan and Shaver",
+    "date": "1978, adult form 1987",
+    "oneSentence": "Wanting closeness badly and watching for its withdrawal so closely that the watching itself pushes it away.",
+    "story": "",
+    "definition": "The underlying expectation is that care is available but unreliable, which makes vigilance rational. Small signals are read as large ones, because when care was inconsistent the small signals genuinely were the warning. The pattern is often described as needing too much. More precisely it is needing a normal amount and having no confidence it will arrive, so the need gets expressed as pursuit rather than as a request.",
+    "mechanism": {
+      "chains": [
+        [
+          "care was available but inconsistent",
+          "monitoring became the way to keep it",
+          "a small signal of distance now reads as a large one",
+          "the response is pursuit, protest or testing",
+          "the other person withdraws from the pressure",
+          "the original fear is confirmed"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Anxious people are clingy and need to learn to give others space.\" Space is the one intervention that reliably makes it worse, because the fear being managed is abandonment and distance is the feared thing itself. What settles the pattern is not less contact but more predictable contact, which is the opposite of the usual advice.",
+    "nearestNeighbour": "ATTACHMENT PROTEST BEHAVIOUR. That is one specific set of actions, the moves made in the moment of feeling dropped. This is the standing orientation that produces those moves, and it is present on quiet days when nothing has triggered it.",
+    "discriminateScenario": "He has read the message four times looking for the tone. She said sounds good and he has decided that sounds good is cold. He drafts something light, deletes it, sends something lighter, then sends a second one explaining the first. By the time she answers warmly he has spent two hours on an exchange she experienced as nothing at all.",
+    "praxisExercise": "NAME IT BEFORE YOU ACT\n\n1. Think of the last time you felt dropped by someone close and did something about it within the hour.\n2. Write the action you took. Then write the sentence you actually needed to say.\n3. Notice how much shorter the second one is.\n4. Next time, say the short one first.\n\nCOMMITMENT (if then):\n\"When I notice I am about to send a second message to manage how the first one landed, I will stop and say plainly what I need instead.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.01",
+      "05.02",
+      "05.04",
+      "05.05"
+    ],
+    "books": [
+      "BK013",
+      "BK140"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.04",
+    "slug": "avoidant-attachment",
+    "name": "Avoidant Attachment",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Attachment Pattern",
+    "legacyType": "Attachment Pattern",
+    "tradition": "Developmental Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Mary Ainsworth, adult form from Hazan and Shaver",
+    "date": "1978, adult form 1987",
+    "oneSentence": "Having learned that needing someone does not pay, and calling the result independence.",
+    "story": "",
+    "definition": "The expectation here is that closeness will not be met, so the need is turned down rather than expressed. It presents as competence and self sufficiency, and that presentation is sincere: the person is not pretending to be fine. Physiological measures tell a different story, showing arousal during conflict while the person reports feeling calm. The need has been disconnected from awareness, not removed.",
+    "mechanism": {
+      "chains": [
+        [
+          "reaching out reliably failed or was punished",
+          "the need was turned down rather than voiced",
+          "self sufficiency became identity rather than strategy",
+          "closeness now registers as pressure",
+          "distance is created and reads to the other person as rejection"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Avoidant people do not want a relationship.\" They form long relationships at ordinary rates. What they avoid is the state of depending on someone, which is a different thing from avoiding partnership. The classic shape is a committed relationship held at a stable distance, with the distance defended as a personality trait rather than negotiated.",
+    "nearestNeighbour": "SECURE ATTACHMENT. Both look unbothered by distance and both can say they are fine. The difference is what the calm is made of: one is a need that is being met, the other is a need that has been switched off. Watch what happens when the other person moves closer rather than away.",
+    "discriminateScenario": "Things have been good for three months, which is when she starts noticing how he chews. She books a weekend away with friends she has not seen in a year and feels relief at the booking itself. When he says he will miss her she feels a flicker of something unpleasant and changes the subject to logistics.",
+    "praxisExercise": "LET ONE THING BE NEEDED\n\n1. Pick one small thing you currently handle alone that someone close to you would gladly help with.\n2. Ask them for it. Do not explain why you could have managed.\n3. Notice the urge to repay it immediately. Do not repay it.\n4. Write down what the discomfort actually felt like.\n\nCOMMITMENT (if then):\n\"When I notice myself making distance because things have been good, I will say that out loud to them instead of acting on it.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.01",
+      "05.02",
+      "05.03"
+    ],
+    "books": [
+      "BK013",
+      "BK140"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.05",
+    "slug": "attachment-protest-behaviour",
+    "name": "Attachment Protest Behaviour",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Pattern",
+    "tradition": "Developmental Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "John Bowlby, named for adults by Levine and Heller",
+    "date": "1969, adult form 2010",
+    "oneSentence": "The actions a person takes to force a response when they feel the bond slipping, which almost always get the opposite.",
+    "story": "",
+    "definition": "Bowlby observed that a separated infant does not go quiet. It protests loudly, because noise is the only tool it has for restoring contact, and the noise is adaptive. The adult version keeps the function and loses the fit: excessive contact, withdrawal designed to be noticed, score keeping, threats to leave, manufactured jealousy. Every one of them is a bid for reassurance shaped so that reassurance is hard to give.",
+    "mechanism": {
+      "chains": [
+        [
+          "the bond feels at risk",
+          "an alarm fires that predates language",
+          "the action it produces is designed to compel a response",
+          "the partner experiences pressure or punishment rather than a request",
+          "they respond with distance",
+          "the alarm gets louder"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is manipulation and should be called what it is.\" Manipulation runs through a goal the person can state. This runs faster than that, and the person is often as surprised by their own behaviour as the partner is. Treating it as calculated misses the only useful fact about it, which is that naming the underlying need out loud switches it off.",
+    "nearestNeighbour": "ANXIOUS ATTACHMENT. That is the standing orientation, present on a quiet Tuesday with nothing happening. This is the specific set of moves that fire when the orientation is triggered, and a securely attached person under enough threat will produce them too.",
+    "discriminateScenario": "He has not replied since lunchtime so she posts a photograph from a night out, checks who has seen it, then puts her phone face down. When he finally calls she lets it ring twice and answers brightly, saying she has been busy. She wants him to ask what she was doing. He does not, and the evening sours without either of them naming anything.",
+    "praxisExercise": "TRANSLATE THE MOVE\n\n1. Write down your three most frequent moves when you feel dropped. Be specific and unflattering.\n2. Beside each, write the plain sentence underneath it, starting with \"I need\".\n3. Those three sentences are your script.\n4. Use one the next time a move starts, before it finishes.\n\nCOMMITMENT (if then):\n\"When I catch myself doing something to make them notice rather than telling them, I will say the I need sentence instead, even badly.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated",
+      "Clear communicator"
+    ],
+    "related": [
+      "05.01",
+      "05.03"
+    ],
+    "books": [
+      "BK013",
+      "BK140"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "05.20",
     "slug": "gottmans-four-horsemen",
     "name": "Gottman’s Four Horsemen",
@@ -1126,6 +1370,53 @@
     ],
     "books": [
       "BK133"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.31",
+    "slug": "dependency-paradox",
+    "name": "Dependency Paradox",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Pattern",
+    "tradition": "Developmental Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "John Bowlby, named by Levine and Heller",
+    "date": "1988, named 2010",
+    "oneSentence": "The more reliably someone can depend on another person, the more independently they act.",
+    "story": "",
+    "definition": "Bowlby called it a secure base. A child with a dependable caregiver explores further from them, not closer. The counterintuitive part is that the exploration is caused by the dependability rather than limited by it. The adult version holds: people in reliably responsive relationships take more career risk, travel more, and recover faster from setbacks than people managing alone. Having somewhere to return to is what makes leaving cheap.",
+    "mechanism": {
+      "chains": [
+        [
+          "one person is reliably responsive",
+          "the other stops spending attention on whether support will be there",
+          "that attention becomes available for everything else",
+          "they range further and risk more",
+          "returning costs nothing, so going out stays cheap"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Needing someone makes you weak, so independence has to be built alone.\" The evidence runs the other way. Forced self reliance produces vigilance rather than freedom, because the question of who would catch you stays permanently open. The independence people admire usually turns out to be sitting on top of one or two relationships nobody sees.",
+    "nearestNeighbour": "SECURE ATTACHMENT. That describes a person and how they hold closeness. This describes a consequence, and specifically a counterintuitive one about autonomy, which is why it is worth separating from the pattern that produces it.",
+    "discriminateScenario": "She takes the job in another country, which everyone reads as her being fearless. What actually happened is that he said he would come for a month at a time and she believed him without needing to check. The version of her who would have stayed is the version who had nobody to call at two in the morning.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.01",
+      "05.02"
+    ],
+    "books": [
+      "BK013",
+      "BK144"
     ],
     "author": "Claude draft, needs Lindsay review"
   },

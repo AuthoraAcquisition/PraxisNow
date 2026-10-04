@@ -136,7 +136,14 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "05.01",
+      "05.02",
+      "05.03",
+      "05.04",
+      "05.05",
+      "05.31"
+    ]
   },
   {
     "id": "BK014",
@@ -519,9 +526,9 @@
     "id": "BK050",
     "title": "Man & His Symbols",
     "author": "Carl G. Jung",
-    "year": "",
-    "summaryStatus": "",
-    "oneLineTake": "",
+    "year": "1978",
+    "summaryStatus": "Not started",
+    "oneLineTake": "The origin of differentiation of self, triangles and the family as an emotional unit.",
     "primaryDomain": "",
     "concepts": [
       "10.08"
@@ -532,8 +539,8 @@
     "title": "Man’s Search for Meaning",
     "author": "Viktor E. Frankl",
     "year": "1946",
-    "summaryStatus": "",
-    "oneLineTake": "",
+    "summaryStatus": "Not started",
+    "oneLineTake": "Argues desire and security pull against each other, and that closeness alone does not produce wanting.",
     "primaryDomain": "",
     "concepts": []
   },
@@ -541,9 +548,9 @@
     "id": "BK052",
     "title": "Mastery",
     "author": "Robert Greene",
-    "year": "",
-    "summaryStatus": "",
-    "oneLineTake": "",
+    "year": "1992",
+    "summaryStatus": "Not started",
+    "oneLineTake": "A hugely popular taxonomy of how people express affection, with far less evidence behind it than its reach suggests.",
     "primaryDomain": "",
     "concepts": []
   },
@@ -551,9 +558,9 @@
     "id": "BK053",
     "title": "Meditations",
     "author": "Marcus Aurelius",
-    "year": "",
-    "summaryStatus": "",
-    "oneLineTake": "",
+    "year": "1988",
+    "summaryStatus": "Not started",
+    "oneLineTake": "Bowlby late in his career, setting out attachment as a lifelong system rather than an infant phase.",
     "primaryDomain": "",
     "concepts": [
       "09.01"
@@ -1460,13 +1467,61 @@
     "concepts": []
   },
   {
-    "id": "BK139",
-    "title": "The Sacred and the Profane",
-    "author": "Mircea Eliade",
-    "year": "1957",
-    "summaryStatus": "Summarised",
-    "oneLineTake": "",
+    "id": "BK140",
+    "title": "Hold Me Tight",
+    "author": "Sue Johnson",
+    "year": "2008",
+    "summaryStatus": "Not started",
+    "oneLineTake": "The clinical case that adult love is an attachment bond, and that most fights are a protest against losing it.",
+    "primaryDomain": "",
+    "concepts": [
+      "05.03",
+      "05.04",
+      "05.05"
+    ]
+  },
+  {
+    "id": "BK141",
+    "title": "Family Therapy in Clinical Practice",
+    "author": "Murray Bowen",
+    "year": "1978",
+    "summaryStatus": "Not started",
+    "oneLineTake": "The origin of differentiation of self, triangles and the family as an emotional unit.",
     "primaryDomain": "",
     "concepts": []
+  },
+  {
+    "id": "BK142",
+    "title": "Mating in Captivity",
+    "author": "Esther Perel",
+    "year": "2006",
+    "summaryStatus": "Not started",
+    "oneLineTake": "Argues desire and security pull against each other, and that closeness alone does not produce wanting.",
+    "primaryDomain": "",
+    "concepts": []
+  },
+  {
+    "id": "BK143",
+    "title": "The Five Love Languages",
+    "author": "Gary Chapman",
+    "year": "1992",
+    "summaryStatus": "Not started",
+    "oneLineTake": "A hugely popular taxonomy of how people express affection, with far less evidence behind it than its reach suggests.",
+    "primaryDomain": "",
+    "concepts": []
+  },
+  {
+    "id": "BK144",
+    "title": "A Secure Base",
+    "author": "John Bowlby",
+    "year": "1988",
+    "summaryStatus": "Not started",
+    "oneLineTake": "Bowlby late in his career, setting out attachment as a lifelong system rather than an infant phase.",
+    "primaryDomain": "",
+    "concepts": [
+      "05.01",
+      "05.02",
+      "05.31"
+    ]
   }
 ]
