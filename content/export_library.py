@@ -340,6 +340,11 @@ def update_spinner(wb, site_html, rep):
 
     Existing entries keep their book references exactly: those were authored
     on the page and are not in the workbook.
+
+    Retired rows are the one exception to showing everything. A concept that
+    was folded into another, or decided against, is not a stub waiting to be
+    written, and spinning it up on Discover would offer the reader something
+    that is never going to exist.
     """
     if not site_html.exists():
         rep.warn("Spinner", f"{site_html} not found, leaving the spinner alone")
@@ -363,6 +368,8 @@ def update_spinner(wb, site_html, rep):
     for r in read_sheet(wb["Concepts"]):
         pid, name = cell(r.get("Praxis ID")), cell(r.get("Canonical Name"))
         if not pid or not name:
+            continue
+        if cell(r.get("Status")).lower() == "retired":
             continue
         prev = old.get(pid, {})
         refs = prev.get("r")

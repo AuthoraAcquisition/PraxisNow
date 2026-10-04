@@ -450,7 +450,9 @@
       "Sound judgement",
       "Disciplined"
     ],
-    "related": [],
+    "related": [
+      "05.08"
+    ],
     "books": [
       "BK026",
       "BK061"
@@ -1173,6 +1175,7 @@
       "05.01",
       "05.03",
       "05.04",
+      "05.16",
       "05.31"
     ],
     "books": [
@@ -1223,7 +1226,10 @@
       "05.01",
       "05.02",
       "05.04",
-      "05.05"
+      "05.05",
+      "05.21",
+      "05.35",
+      "05.38"
     ],
     "books": [
       "BK013",
@@ -1271,7 +1277,8 @@
     "related": [
       "05.01",
       "05.02",
-      "05.03"
+      "05.03",
+      "05.21"
     ],
     "books": [
       "BK013",
@@ -1319,11 +1326,488 @@
     ],
     "related": [
       "05.01",
-      "05.03"
+      "05.03",
+      "05.21",
+      "05.26"
     ],
     "books": [
       "BK013",
       "BK140"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.06",
+    "slug": "self-expansion-model",
+    "name": "Self-Expansion Model",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Theory",
+    "tradition": "Social Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Arthur and Elaine Aron",
+    "date": "1986",
+    "oneSentence": "People are drawn to partners who widen the range of what they are, and stay where that widening continues.",
+    "story": "",
+    "definition": "The Arons proposed that a basic human motive is to expand the self, meaning its abilities, perspectives and identities. A new relationship delivers that in bulk, which is part of why early love feels enlarging rather than merely pleasant. The model predicts the rest too: when expansion stops, satisfaction falls, and couples who do genuinely novel things together report sharper gains than couples who simply spend more pleasant time together.",
+    "mechanism": {
+      "chains": [
+        [
+          "a person wants a wider self",
+          "a new partner supplies perspectives and abilities they lacked",
+          "absorbing them feels like growth and is attributed to the relationship",
+          "the supply runs down as the two become familiar",
+          "satisfaction tracks the slowdown rather than the affection"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Couples drift apart because the spark goes.\" That names the feeling and skips the cause. What falls away is novelty, and novelty is specific enough to act on. Studies putting couples through unfamiliar shared activities found higher reported satisfaction afterwards than couples given pleasant familiar ones, which means the lever is strangeness rather than more time together.",
+    "nearestNeighbour": "MICHELANGELO PHENOMENON. That is one partner actively sculpting the other toward who they want to become, a directed thing done to a person. This is wider and less intentional: simply being near someone different enlarges you, with nobody doing any sculpting.",
+    "discriminateScenario": "Year one they learned to sail badly and argued about the Balkans. Year six they are kind to each other, eat well, and have not had a conversation that surprised either of them since spring. Nothing is wrong. She keeps saying nothing is wrong, which is true and is also the whole problem.",
+    "praxisExercise": "ONE UNFAMILIAR THING\n\n1. List three things neither of you has done and both find slightly uncomfortable.\n2. Pick the cheapest one and book it this week.\n3. Afterwards, write one sentence about something you learned about them.\n4. If there is nothing to write, pick a stranger activity next time.\n\nCOMMITMENT (if then):\n\"When a month passes with nothing new in it, I will book one unfamiliar thing for the two of us rather than waiting to feel like it.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.23",
+      "05.25",
+      "05.31"
+    ],
+    "books": [
+      "BK046"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.07",
+    "slug": "triangular-theory-of-love",
+    "name": "Triangular Theory of Love",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Framework",
+    "legacyType": "Relationship Theory",
+    "tradition": "Psychology",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Robert Sternberg",
+    "date": "1986",
+    "oneSentence": "Love as three separate ingredients, which explains why two loves can both be real and feel nothing alike.",
+    "story": "",
+    "definition": "Sternberg separated intimacy, the sense of closeness and disclosure, passion, the drive and physical pull, and commitment, the decision to stay and the structures built around it. Any combination is possible. Passion and commitment without intimacy is a certain kind of marriage. Intimacy and commitment without passion is companionate love and is what most long partnerships become. Intimacy and passion without commitment is an affair. All three is what the theory calls consummate, and Sternberg was clear it is easier to reach than to hold.",
+    "mechanism": {
+      "chains": [
+        [
+          "three components vary independently",
+          "each rises and falls on its own schedule",
+          "passion peaks early and decays, intimacy accumulates, commitment is chosen",
+          "the mix at any moment is what the relationship feels like",
+          "naming which component is missing is more useful than saying love is gone"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Real love has all three, so anything less is settling.\" The theory makes no such claim. It is a description of combinations, not a ranking of them, and companionate love with low passion is among the most stable arrangements people report. Treating the full set as the only valid version is how people leave working relationships looking for a feeling that decays on a schedule.",
+    "nearestNeighbour": "INVESTMENT MODEL OF COMMITMENT. That explains why people stay, through satisfaction, alternatives and what they have sunk in. This is a taxonomy of what the love itself is made of, and it predicts nothing about leaving.",
+    "discriminateScenario": "They have been together eleven years and are genuinely each other’s closest person. They have built a life nobody could dismantle easily. They also have not wanted each other in that way for about three years, and have begun to describe this privately as a failure rather than as one of three things having changed.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds"
+    ],
+    "related": [
+      "05.08",
+      "05.14",
+      "05.30"
+    ],
+    "books": [
+      "BK006"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.08",
+    "slug": "investment-model-of-commitment",
+    "name": "Investment Model of Commitment",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Theory",
+    "tradition": "Social Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Replicated",
+    "origin": "Caryl Rusbult",
+    "date": "1980",
+    "oneSentence": "Whether someone stays is predicted by three things, and how happy they are is only one of them.",
+    "story": "",
+    "definition": "Rusbult found commitment rests on satisfaction, the quality of alternatives, and investment size, meaning what would be lost on leaving: years, shared friends, a home, children, a reputation. The three are independent. High investment and poor alternatives produce strong commitment at low satisfaction, which is the model’s uncomfortable and well replicated result. It has since been used to predict who stays in abusive relationships, and it predicts well.",
+    "mechanism": {
+      "chains": [
+        [
+          "satisfaction, alternatives and investment are each assessed separately",
+          "commitment is a function of all three rather than of happiness",
+          "investment keeps accumulating whether or not satisfaction does",
+          "a person with much invested and few alternatives stays through low satisfaction",
+          "staying is then explained to themselves as love"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"If you are unhappy you will leave.\" Satisfaction is one of three inputs and frequently the weakest. The model’s practical use is diagnostic: when someone cannot say why they are staying, the answer is usually investment rather than satisfaction, and naming which of the three is holding them is the beginning of an honest decision.",
+    "nearestNeighbour": "SUNK-COST FALLACY. That is a reasoning error about unrecoverable costs in any decision. This is a specific descriptive model of relationships in which investment is a real and rational input rather than a mistake, because what is lost on leaving genuinely is lost.",
+    "discriminateScenario": "She has drafted the message four times in two years. The flat is in both names, his mother is the person she calls when she is ill, and every friend she has she met through him. When asked if she is happy she says it is complicated, which is accurate, and she has stopped noticing that she never answers the question.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Sound judgement"
+    ],
+    "related": [
+      "02.06",
+      "05.07",
+      "05.24"
+    ],
+    "books": [
+      "BK105"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.13",
+    "slug": "misattribution-of-arousal",
+    "name": "Misattribution of Arousal",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Psychological Effect",
+    "legacyType": "Psychological Effect",
+    "tradition": "Social Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Donald Dutton and Arthur Aron",
+    "date": "1974",
+    "oneSentence": "The body produces a state, the mind looks around for a cause, and sometimes picks the wrong one.",
+    "story": "",
+    "definition": "Dutton and Aron had men cross either a high swaying suspension bridge or a low solid one, then meet a woman who asked them to complete a questionnaire and left a number. The men from the high bridge were markedly more likely to call. The reading is that physiological arousal with an ambiguous source gets attached to whatever is salient, and a person standing in front of you is extremely salient. Later work supports the effect while narrowing it: it needs genuine ambiguity about the cause.",
+    "mechanism": {
+      "chains": [
+        [
+          "something raises heart rate and alertness",
+          "the body offers a state without a label",
+          "the mind reaches for the most available explanation",
+          "an attractive person nearby is more available than a bridge",
+          "the state is filed as attraction and acted on"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Fear turns into attraction, so take dates somewhere frightening.\" The effect is not a transformation and does not survive a clear cause. Standing somewhere obviously terrifying gives the arousal an unmissable source, which is exactly the condition under which the misattribution does not happen. The effect needs the cause to be unclear, which is hard to arrange on purpose.",
+    "nearestNeighbour": "LIMERENCE. That is a sustained obsessive state lasting months or years, with its own internal logic. This is a momentary labelling error about where a physical state came from, and it is over in minutes.",
+    "discriminateScenario": "They met in the last twenty minutes of a delayed flight through heavy turbulence, talking the whole way down. For about three weeks afterwards both described it as the most immediate connection either had felt. Over coffee in a quiet place in February neither of them could find it again, and both privately blamed the other.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear thinker",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.14",
+      "05.35"
+    ],
+    "books": [
+      "BK006"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.14",
+    "slug": "limerence",
+    "name": "Limerence",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Psychological Effect",
+    "legacyType": "Psychological Concept",
+    "tradition": "Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Dorothy Tennov",
+    "date": "1979",
+    "oneSentence": "The involuntary obsessive state of early infatuation, which runs on uncertainty and ends on its own.",
+    "story": "",
+    "definition": "Tennov coined the word for something she found people describing in nearly identical terms: intrusive thinking about one person, acute sensitivity to any sign of reciprocation, and mood entirely hostage to the last signal received. Her central observation was that it feeds on uncertainty. Definite rejection ends it and so, more slowly, does secure mutual attachment. It has a course and a duration, typically measured in months to a couple of years, and it is not love in the sense of a durable bond.",
+    "mechanism": {
+      "chains": [
+        [
+          "attention fixes on one person",
+          "uncertainty about reciprocation keeps the question open",
+          "the mind returns to it involuntarily and reinterprets every signal",
+          "each ambiguous sign feeds another round",
+          "certainty in either direction, acceptance or refusal, is what ends it"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is what being in love feels like, so if it fades the love has gone.\" Tennov separated the two deliberately. The obsessive state is time limited by its nature and is sustained by not knowing, which is why it so often peaks before a relationship is secure and declines once it is. Treating its end as the end of love is one of the more expensive mistakes people make with it.",
+    "nearestNeighbour": "SCHEMA CHEMISTRY. That explains who you fall for, the selection of the person. This describes the state itself once it has started, its mechanics and its half life, whoever triggered it.",
+    "discriminateScenario": "He has reread the same four messages enough times to know the punctuation. He has been unable to work since Tuesday, has constructed six readings of one word, and has twice walked a longer route for no reason he would admit to. They have met three times.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.07",
+      "05.13",
+      "05.30",
+      "05.35"
+    ],
+    "books": [
+      "BK006"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.15",
+    "slug": "positive-illusions-in-relationships",
+    "name": "Positive Illusions in Relationships",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Psychological Effect",
+    "legacyType": "Relationship Effect",
+    "tradition": "Social Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Sandra Murray and John Holmes",
+    "date": "1996",
+    "oneSentence": "Seeing a partner slightly more generously than the evidence warrants predicts the relationship lasting.",
+    "story": "",
+    "definition": "Murray and Holmes compared how people rated their partners against how those partners rated themselves and against how friends rated them. Happier couples held views of each other more flattering than either. The effect is not blindness: the same people could list their partner’s faults accurately when asked directly. What differed was the weight given to them, and the illusion appeared to be partly self fulfilling, with partners moving toward the better view over time.",
+    "mechanism": {
+      "chains": [
+        [
+          "one person holds a view of their partner slightly better than the evidence supports",
+          "they interpret ambiguous behaviour in line with it",
+          "the partner is treated as that better version",
+          "they behave more like it",
+          "the flattering view becomes more accurate than it was when adopted"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Healthy relationships are built on seeing each other clearly.\" Accuracy about a partner’s faults is not what distinguishes couples who last, and in this research mild overestimation does better than precision. The caveat matters: the effect is documented for small generous distortions, not for the large ones that make people stay somewhere harmful, which is a different phenomenon with a different name.",
+    "nearestNeighbour": "MICHELANGELO PHENOMENON. That is a partner eliciting the traits a person is deliberately reaching for, a directed process with a target the person has named. This is a general upward bias in perception with no particular aim attached to it.",
+    "discriminateScenario": "Everyone agrees he is disorganised, including him. She describes him as someone whose mind is on bigger things, which is the same fact wearing better clothes. Asked whether he is disorganised she says yes, obviously. Asked what he is like she does not mention it. Five years in, he is noticeably better at it.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.17",
+      "05.25"
+    ],
+    "books": [
+      "BK006",
+      "BK013"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.16",
+    "slug": "differentiation-of-self",
+    "name": "Differentiation of Self",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Concept",
+    "tradition": "Family Systems Therapy",
+    "difficulty": "advanced",
+    "evidence": "Framework",
+    "origin": "Murray Bowen",
+    "date": "1978",
+    "oneSentence": "Staying yourself while staying close, rather than choosing between the two.",
+    "story": "",
+    "definition": "Bowen treated the family as a single emotional unit and asked how much of a person survives inside it. A poorly differentiated person has two options when the unit gets tense: fuse, meaning take on its anxiety as their own, or cut off, meaning leave and stay gone. Both are reactions to the same pressure and neither is a self. Differentiation is the third thing: holding your own position while remaining in contact with people who disagree with it and are upset about it.",
+    "mechanism": {
+      "chains": [
+        [
+          "anxiety rises somewhere in the family",
+          "it travels through the unit and looks for somewhere to settle",
+          "a poorly differentiated person absorbs it as their own feeling or escapes contact entirely",
+          "either response keeps the unit’s anxiety in charge",
+          "holding a position while staying in the room is what interrupts it"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Differentiation means setting firm boundaries and not letting family affect you.\" Not being affected is cut off, which Bowen treated as the mirror image of fusion rather than the cure for it. The difficult version stays in contact and remains affected, and holds its own position anyway. Distance is the easy counterfeit.",
+    "nearestNeighbour": "SEPARATION OF TASKS. That is an Adlerian rule for deciding whose problem a thing is, and it is a clean line you can draw in advance. This is a capacity rather than a rule, and it is specifically about staying close to people whose anxiety is pulling on you.",
+    "discriminateScenario": "His mother cries on the phone about Christmas. He has two familiar moves: cancel his own plans and feel noble, or not take the call for three weeks. This year he says he is not coming, stays on the line while she is upset, asks about her week, and rings again on Sunday. It is the hardest thing he does that month.",
+    "praxisExercise": "STAY IN THE ROOM\n\n1. Name one position you hold that someone in your family is upset about.\n2. Write the two easy exits you usually take: give in, or go quiet and distant.\n3. Next contact, hold the position and stay in contact. Ask them something about themselves.\n4. Make the next contact yourself rather than waiting.\n\nCOMMITMENT (if then):\n\"When family pressure rises, I will keep my position and keep the contact, rather than surrendering one to protect the other.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "High integrity",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.02",
+      "05.27",
+      "05.35"
+    ],
+    "books": [
+      "BK141"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.17",
+    "slug": "perceived-partner-responsiveness",
+    "name": "Perceived Partner Responsiveness",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Construct",
+    "tradition": "Social Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Harry Reis",
+    "date": "2004",
+    "oneSentence": "The belief that the other person understands you, values you and will act on it, which predicts more than almost anything else measured.",
+    "story": "",
+    "definition": "Reis argued this single perception sits underneath most of what makes close relationships work. It has three parts: feeling understood, feeling valued, and feeling that the other will do something about your needs. What matters is the perception rather than the behaviour, which sounds like a weakness in the construct and is actually its point. A partner can be objectively helpful and not read as responsive, and the relationship tracks the reading.",
+    "mechanism": {
+      "chains": [
+        [
+          "one person discloses something that matters",
+          "the other responds in a way that shows they took it in",
+          "the first reads understanding, valuing and willingness to act",
+          "disclosing becomes safe and happens more",
+          "each round supplies more material for the next"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Being supportive is about doing things for your partner.\" Doing the thing without showing you understood why it mattered often fails to register at all. The research finding is that the demonstration of understanding is doing the work, not the assistance, which is why unsolicited practical help can land as dismissal.",
+    "nearestNeighbour": "BIDS FOR CONNECTION. Those are the small offers one person makes, counted from the side of whoever is reaching out. This is the reading the reacher takes from what came back, and it is the thing that actually predicts outcomes.",
+    "discriminateScenario": "He tells her the presentation went badly. She immediately offers to review his slides for next time, which is generous and takes an hour. He thanks her and feels oddly worse. What he had wanted was for someone to say that sounds humiliating, and he cannot work out how to ask for that now without seeming ungrateful.",
+    "praxisExercise": "UNDERSTAND BEFORE YOU FIX\n\n1. Recall the last time someone close brought you a problem.\n2. Write what you offered. Then write whether you first said anything showing you grasped why it mattered to them.\n3. Next time, say that sentence first and wait.\n4. Only offer the fix if they ask for one.\n\nCOMMITMENT (if then):\n\"When someone tells me something difficult, I will say what I understood about why it matters before I offer anything.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear communicator",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.15",
+      "05.18",
+      "05.22",
+      "05.23",
+      "05.25",
+      "05.36"
+    ],
+    "books": [
+      "BK106"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.18",
+    "slug": "bids-for-connection",
+    "name": "Bids for Connection",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Concept",
+    "tradition": "Clinical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "John Gottman",
+    "date": "2001",
+    "oneSentence": "The small, deniable offers people make to be noticed, and the answer to which is the whole relationship.",
+    "story": "",
+    "definition": "Gottman called them bids: reading something aloud, pointing at a bird, a hand on a shoulder, a question about nothing. Each one asks are you there, in a form small enough that refusal costs nothing. He described three responses. Turning toward, which answers it. Turning away, which misses it. Turning against, which punishes the asking. His observational work found couples who stayed together turned toward the large majority of bids, and couples who separated turned toward a minority of them.",
+    "mechanism": {
+      "chains": [
+        [
+          "one person makes a small deniable offer",
+          "the other turns toward it, away from it, or against it",
+          "the asker learns what bidding costs here",
+          "the rate of bidding adjusts to match",
+          "the relationship thins or thickens one exchange at a time, below the level of anything either would call an event"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Relationships are won and lost in the big conversations.\" The big conversations are where the damage becomes visible, not where it is done. These exchanges are too small to remember and happen perhaps a hundred times a day, which is why their cumulative weight beats anything a single difficult discussion can do in either direction.",
+    "nearestNeighbour": "PERCEIVED PARTNER RESPONSIVENESS. That is the standing belief that someone understands and values you, measured from the receiving side. These are the specific countable moments that build or erode it, measured from the side of whoever reached out.",
+    "discriminateScenario": "He says huh, listen to this, and reads out two lines about a whale. She says mm without looking up. He does it again twenty minutes later with something about the weather and gets the same. By the evening he has stopped, and if asked she would say they had a perfectly nice day, which they did.",
+    "praxisExercise": "COUNT A DAY\n\n1. For one day, notice every small offer someone close makes to you. Reading aloud, pointing, touching, asking nothing much.\n2. Tally the ones you answered and the ones you did not.\n3. Do not tell them you are counting.\n4. The next day, answer every one, however trivial.\n\nCOMMITMENT (if then):\n\"When someone close says something small to me, I will look up and answer it before finishing what I am doing.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear communicator",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.17",
+      "05.19",
+      "05.20",
+      "05.22",
+      "05.23",
+      "05.34",
+      "05.36",
+      "05.37"
+    ],
+    "books": [
+      "BK110"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.19",
+    "slug": "repair-attempts",
+    "name": "Repair Attempts",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Concept",
+    "tradition": "Clinical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "John Gottman",
+    "date": "1999",
+    "oneSentence": "The clumsy move someone makes mid argument to stop it getting worse, and whether the other person lets it work.",
+    "story": "",
+    "definition": "A repair attempt is any effort to de escalate while a conflict is running: a joke, an apology for tone, a hand, let me start again, can we take ten minutes. Gottman’s observation was that happy and unhappy couples make them at similar rates. The difference is acceptance. In couples that lasted, a badly timed joke was received as the olive branch it was. In couples that did not, the same joke was read as evasion and the argument continued through it.",
+    "mechanism": {
+      "chains": [
+        [
+          "conflict escalates past the point of usefulness",
+          "one person reaches for anything that might slow it",
+          "the attempt arrives clumsy, poorly timed or disguised as humour",
+          "the other either takes it as an offer or reads it as a dodge",
+          "the argument either ends there or runs until exhaustion"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Couples who argue less are doing better.\" Rate of conflict predicts very little. What predicts outcomes is whether either of them can stop one, and specifically whether a graceless attempt to stop one gets accepted. Learning to accept a bad repair is more useful than learning to make a good one.",
+    "nearestNeighbour": "GOTTMAN’S FOUR HORSEMEN. Those are the four behaviours that make conflict corrosive, so they describe what goes wrong. This is the counter move, and the finding attached to it is about the listener rather than the speaker.",
+    "discriminateScenario": "Forty minutes into it he says, in a bad voice, that at least they are getting their cardio in. It is not funny and it is not an apology. She has a choice in the next two seconds, and the whole evening turns on which way she goes, and she is too angry to notice she is choosing.",
+    "praxisExercise": "ACCEPT THE BAD ONE\n\n1. Think of the last argument that ran too long.\n2. Find the moment the other person tried to stop it. There almost always is one.\n3. Write what you did with it.\n4. Next time, take the next one offered, even if it is graceless and badly timed.\n\nCOMMITMENT (if then):\n\"When someone tries to lighten or pause an argument, I will take it rather than pointing out that it was not good enough.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear communicator",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.18",
+      "05.20",
+      "05.21",
+      "05.37",
+      "05.38"
+    ],
+    "books": [
+      "BK114"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -1366,10 +1850,390 @@
       "High integrity"
     ],
     "related": [
+      "05.18",
+      "05.19",
+      "05.21",
+      "05.37",
+      "05.38",
       "06.25"
     ],
     "books": [
       "BK133"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.21",
+    "slug": "demand-withdraw-pattern",
+    "name": "Demand-Withdraw Pattern",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Pattern",
+    "tradition": "Clinical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Andrew Christensen and Christopher Heavey",
+    "date": "1990",
+    "oneSentence": "One person presses for engagement, the other retreats from the pressing, and each move supplies the other’s reason.",
+    "story": "",
+    "definition": "One partner pursues: raises the subject, asks for a response, escalates to be heard. The other withdraws: goes quiet, leaves the room, agrees to anything to end it. The structure is self feeding, because pursuit confirms that engagement is overwhelming and withdrawal confirms that pursuit is necessary. It is among the most replicated findings in couples research and predicts dissatisfaction across cultures. Which role each person takes is less stable than people assume and often swaps by topic.",
+    "mechanism": {
+      "chains": [
+        [
+          "one raises something that matters",
+          "the other feels flooded and retreats",
+          "the retreat reads as not caring, so the first presses harder",
+          "harder pressing makes retreat more necessary",
+          "neither position is available to abandon, because each is a response to the other"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"One of them is the problem, usually whoever is shouting.\" The pattern is a loop and has no author. The loudest person looks like the cause and is responding to silence, while the quietest looks reasonable and is producing the volume. Both halves have to move, and the one who moves first is usually whoever notices the shape.",
+    "nearestNeighbour": "ATTACHMENT PROTEST BEHAVIOUR. That is one person’s moves when they feel the bond slipping, describable without reference to anyone else. This needs two people and exists only as a loop between them.",
+    "discriminateScenario": "She brings up his mother’s visit. He says now is not a good time, three nights running. On the fourth she raises it at eleven at night with some heat in it, and he says this is exactly why he did not want to do this now, and walks to the kitchen. Both of them believe they have just been proved right.",
+    "praxisExercise": "NAME THE LOOP, NOT THE PERSON\n\n1. Identify one subject where you and someone close reliably take these two positions.\n2. Write which half you supply. Be honest; the quiet half counts.\n3. Agree one rule in advance: a time limit, or a scheduled return, whichever your half needs.\n4. Use it on that subject only, three times, before judging it.\n\nCOMMITMENT (if then):\n\"When I notice myself either pressing harder or going quiet, I will name the loop out loud instead of playing my half better.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear communicator",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.03",
+      "05.04",
+      "05.05",
+      "05.19",
+      "05.20"
+    ],
+    "books": [
+      "BK013",
+      "BK022"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.22",
+    "slug": "active-constructive-responding",
+    "name": "Active Constructive Responding",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Practice",
+    "legacyType": "Relationship Practice",
+    "tradition": "Positive Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Shelly Gable",
+    "date": "2004",
+    "oneSentence": "How you answer someone’s good news predicts the relationship better than how you answer their bad news.",
+    "story": "",
+    "definition": "Gable mapped four responses to a partner’s good news along two axes, active or passive and constructive or destructive. Active constructive is enthusiastic and curious, asking for more. Passive constructive is mild approval. Active destructive finds the problem with it. Passive destructive changes the subject. Her finding, which surprised the field, was that the response to good news predicted relationship wellbeing more strongly than the response to bad news did.",
+    "mechanism": {
+      "chains": [
+        [
+          "one person brings good news, which is an offer of something they are pleased about",
+          "the response either amplifies it, flattens it, punctures it, or ignores it",
+          "the bringer learns what good news is worth here",
+          "they bring more or stop bringing it",
+          "shared pleasure is either a resource the relationship has or one it does not"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Being there for someone means showing up when things are bad.\" Being present in trouble is necessary and is not where the variance is, because most people manage it. Far more relationships are quietly thinned by the small puncturing of good news, which nobody logs as unkindness and which the research shows matters more.",
+    "nearestNeighbour": "PERCEIVED PARTNER RESPONSIVENESS. That is the general belief that someone understands and values you, built from every kind of exchange. This is one narrow practice, defined only around good news, and it is the specific thing you can change on a Tuesday.",
+    "discriminateScenario": "She says she has been asked to speak at the conference. He says that is great, then asks whether it is paid, and then whether it is the weekend of his brother’s thing. Every question is reasonable. By the end of it she is doing logistics and has not once said out loud that she is proud.",
+    "praxisExercise": "THE FIRST THIRTY SECONDS\n\n1. Next time someone close brings you good news, say nothing practical for thirty seconds.\n2. Ask two questions whose only purpose is to let them enjoy telling you.\n3. Logistics and concerns can wait until later in the conversation.\n4. Notice whether they tell you more next time.\n\nCOMMITMENT (if then):\n\"When someone tells me good news, my first response will be a question that lets them keep talking about it, not a practical one.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear communicator"
+    ],
+    "related": [
+      "05.17",
+      "05.18"
+    ],
+    "books": [
+      "BK033"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.23",
+    "slug": "reciprocal-self-disclosure",
+    "name": "Reciprocal Self Disclosure",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Dynamic",
+    "tradition": "Social Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Irwin Altman and Dalmas Taylor, later Arthur Aron",
+    "date": "1973, Aron 1997",
+    "oneSentence": "Closeness is built by graded turns of telling, where each person goes slightly further than the last.",
+    "story": "",
+    "definition": "Altman and Taylor described intimacy developing in layers, each disclosure licensing a slightly deeper one in return. Aron built the mechanism into a procedure: thirty six questions in escalating order, asked in turns by strangers, which reliably produced closeness ratings higher than small talk and in some pairs higher than ordinary friendships. The escalation and the reciprocity both matter. One person disclosing alone produces discomfort rather than closeness.",
+    "mechanism": {
+      "chains": [
+        [
+          "one person says something slightly costly to say",
+          "the other matches it or goes marginally further",
+          "each round raises what is permissible",
+          "the risk taken is read as trust extended",
+          "closeness accumulates from the turn taking rather than from the content"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Opening up brings people closer.\" Only in turns. Unreciprocated disclosure is the most common way people mistake this, and it reliably produces the opposite: the listener feels burdened, the discloser feels exposed, and both pull back. The reciprocity is not politeness, it is the active ingredient.",
+    "nearestNeighbour": "PERCEIVED PARTNER RESPONSIVENESS. That is about whether a disclosure is met with understanding, so it concerns the quality of the response. This is about the structure of the exchange itself, the taking of turns and the gradient, independent of how well any single response lands.",
+    "discriminateScenario": "Forty minutes in, he has told her about his father’s drinking, the job he was pushed out of, and the thing he has never told anyone. She has said that must have been hard, three times, warmly. He walks home feeling strange and cannot name why, and will avoid her slightly for a fortnight.",
+    "praxisExercise": "MATCH THE DEPTH\n\n1. Think of someone you want to be closer to.\n2. Say one thing slightly costlier than you normally would. Then stop and wait.\n3. If they match it, go one step further. If they do not, stay at that level.\n4. Do not go three steps alone.\n\nCOMMITMENT (if then):\n\"When I notice I have disclosed more than the other person has, I will stop and let the turn pass rather than filling the silence.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear communicator",
+      "High integrity"
+    ],
+    "related": [
+      "05.06",
+      "05.17",
+      "05.18"
+    ],
+    "books": [
+      "BK018",
+      "BK055"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.24",
+    "slug": "communal-vs-exchange-relationships",
+    "name": "Communal vs. Exchange Relationships",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Model",
+    "tradition": "Social Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Replicated",
+    "origin": "Margaret Clark and Judson Mills",
+    "date": "1979",
+    "oneSentence": "Two different rules for giving, and most trouble comes from two people running different ones.",
+    "story": "",
+    "definition": "In an exchange relationship, benefits are tracked and reciprocity is expected on a comparable scale and timescale: colleagues, acquaintances, most commerce. In a communal relationship, benefits are given in response to need with no ledger, and introducing one is itself a violation. Clark and Mills showed the rules are so distinct that prompt repayment of a favour, which raises satisfaction in exchange relationships, lowers it in communal ones, because repaying marks the relationship as the other kind.",
+    "mechanism": {
+      "chains": [
+        [
+          "a relationship is implicitly filed as communal or exchange",
+          "giving is then governed by need or by ledger",
+          "a move from the other rulebook reads as an insult rather than an error",
+          "the offended party rarely names what happened, because the rule was never stated",
+          "both conclude the other person is somehow wrong"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Fairness means keeping things even between people who are close.\" Evenness is the exchange rule, and applying it to a close relationship is what people experience as coldness. The communal rule is not generosity either; it is a different accounting in which need rather than balance determines who gives, and in which being owed is not a concept.",
+    "nearestNeighbour": "COVERT CONTRACTS. Those are a specific failure in which someone runs a private ledger while presenting as communal, so the ledger is hidden deliberately. This describes the two legitimate rulebooks and the ordinary confusion of two people using different ones in good faith.",
+    "discriminateScenario": "She drove him to the airport at five in the morning. He sends twenty pounds for the petrol that afternoon with a thumbs up. He thinks he has been considerate. She is annoyed and feels ridiculous for being annoyed, because he is right that petrol costs money, and neither of them raises it again.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "High integrity",
+      "Manipulation proof"
+    ],
+    "related": [
+      "05.08",
+      "05.26",
+      "05.34"
+    ],
+    "books": [
+      "BK036"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.25",
+    "slug": "michelangelo-phenomenon",
+    "name": "Michelangelo Phenomenon",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Effect",
+    "tradition": "Social Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Stephen Drigotas and Caryl Rusbult",
+    "date": "1999",
+    "oneSentence": "A partner who treats you as the person you are trying to become makes you more like them.",
+    "story": "",
+    "definition": "The name comes from Michelangelo’s claim that the figure was already in the stone and his work was removal. Drigotas and Rusbult found partners do something similar: by perceiving and eliciting the traits a person is reaching for, they measurably move them toward their own ideal self, and movement toward it predicts satisfaction for both. The inverse exists too and is called disaffirmation, in which a partner perceives and elicits a version the person is trying to leave behind.",
+    "mechanism": {
+      "chains": [
+        [
+          "one person has an ideal self they are moving toward",
+          "the partner perceives them as already carrying some of it",
+          "they behave toward that version and create situations calling for it",
+          "the person acts from it more often",
+          "the ideal self is approached, and both report higher satisfaction"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Loving someone means accepting them exactly as they are.\" Acceptance of who someone is and belief in who they are trying to become are not in competition, and the research suggests the second is doing more work than the first. What harms people is a partner sculpting toward their own preference rather than the person’s own stated ideal, which is a different thing and shows up as disaffirmation.",
+    "nearestNeighbour": "SELF-EXPANSION MODEL. That is the passive version: being near someone different widens you with nobody intending it. This is directed, and it requires the partner to have noticed what you are actually aiming at rather than what they would prefer.",
+    "discriminateScenario": "He has always described himself as not a details person. She keeps handing him the parts of their plans that need care, not as a test, because she appears to believe he is good at it. Two years in he is the one who books things properly, and he has quietly stopped using that phrase about himself.",
+    "praxisExercise": "ASK WHAT THEY ARE AIMING AT\n\n1. Ask someone close what they are trying to become more of. Use their words, not yours.\n2. Write the distance between that and how you usually treat them.\n3. Create one situation this month that calls for the version they named.\n4. Say nothing about why.\n\nCOMMITMENT (if then):\n\"When I catch myself describing someone close by a limitation, I will say the thing they are aiming at instead.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "High integrity",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.06",
+      "05.15",
+      "05.17"
+    ],
+    "books": [
+      "BK077"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.26",
+    "slug": "covert-contracts",
+    "name": "Covert Contracts",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Pattern",
+    "tradition": "Clinical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Robert Glover",
+    "date": "2003",
+    "oneSentence": "Giving in order to be owed, without telling the other person they have agreed to anything.",
+    "story": "",
+    "definition": "A private agreement one party has signed and the other has not been shown. The giver does something generous, expects a specific return, and does not state it. Because it was never stated it cannot be refused, renegotiated or honoured on purpose. The predictable ending is resentment that feels entirely justified from inside, because a debt really was incurred, and bewildering from outside, because no debt was ever agreed.",
+    "mechanism": {
+      "chains": [
+        [
+          "someone wants something they are unwilling to ask for",
+          "they give instead, treating the gift as a down payment",
+          "the terms stay unspoken, so the other cannot accept or decline them",
+          "the return does not come, because nobody knew it was due",
+          "resentment arrives feeling like evidence of being used"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is just manipulation.\" Manipulation runs through terms the manipulator could state. The distinguishing feature here is that the person often cannot state them either, and experiences their own resentment as proof they were wronged rather than as the receipt for a contract nobody signed. Calling it manipulation ends the inquiry at the point it becomes useful.",
+    "nearestNeighbour": "COMMUNAL VS. EXCHANGE RELATIONSHIPS. That describes two legitimate rulebooks for giving and the honest confusion of mixing them. This is specifically an exchange ledger disguised as communal giving, which is why the hiding is the defining part.",
+    "discriminateScenario": "He has driven her to work every morning for five months and insisted it is no trouble, which he has meant. When she makes plans for Saturday without him, something in him goes cold and he cannot say why with a straight face. He has begun keeping a list, and the list has never once been read aloud.",
+    "praxisExercise": "READ THE CONTRACT OUT LOUD\n\n1. Find one thing you do for someone that you privately feel should be noticed more.\n2. Write the return you have been expecting. Be exact and unflattering.\n3. Either ask for it directly, or keep doing the thing and give up the claim.\n4. Those are the only two honest options.\n\nCOMMITMENT (if then):\n\"When I notice resentment about something I chose to give, I will either ask for what I actually wanted or drop the ledger.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "High integrity",
+      "Self-authoring"
+    ],
+    "related": [
+      "05.05",
+      "05.24",
+      "05.27"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.27",
+    "slug": "separation-of-tasks",
+    "name": "Separation of Tasks",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Philosophical Principle",
+    "legacyType": "Relationship Pattern",
+    "tradition": "Adlerian Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Alfred Adler, popularised by Kishimi and Koga",
+    "date": "1920s, popularised 2013",
+    "oneSentence": "Deciding whose task a thing is by asking who finally bears the outcome, and then staying out of the other person’s.",
+    "story": "",
+    "definition": "The Adlerian test is simple: who ultimately lives with the result. Your child’s studying is their task, because they carry the consequence. Whether they resent you is also their task. Whether you nag is yours. The position is not indifference. Adler held that interfering in another person’s task is the main engine of interpersonal misery, and that help is legitimate when asked for and intrusion when not.",
+    "mechanism": {
+      "chains": [
+        [
+          "ask who finally bears the outcome",
+          "that person owns the task",
+          "interference in their task produces resentment on both sides, because one is controlled and the other is responsible for something they cannot control",
+          "withdrawing from it returns the consequence to its owner",
+          "help becomes available on request rather than imposed"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is a licence to stop caring what happens to people.\" Adler’s claim was the reverse: relationships are only possible once you stop trying to control outcomes that are not yours. The hard version keeps caring visibly and still does not interfere, which is considerably more demanding than either nagging or detaching.",
+    "nearestNeighbour": "DIFFERENTIATION OF SELF. That is a capacity built over years for holding your own position inside an anxious family. This is a decision rule you can apply this afternoon to a specific situation, which makes it narrower and more immediately usable.",
+    "discriminateScenario": "Her brother will not deal with the letters from the bank. She has rung on his behalf twice, which fixed nothing and made him furious. This time she tells him she thinks it is serious, says she will sit with him if he wants, and then does not ring the bank. It takes him five more weeks and he does it himself.",
+    "praxisExercise": "WHO BEARS IT\n\n1. Name one situation where you are carrying something that belongs to someone else.\n2. Write who finally lives with the outcome. That names the owner.\n3. State your view once, offer help once, then stop.\n4. Do not restate either.\n\nCOMMITMENT (if then):\n\"When I am about to intervene in something I will not bear the consequence of, I will say my view once, offer help once, and then leave it.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "High integrity",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.16",
+      "05.26",
+      "09.01"
+    ],
+    "books": [
+      "BK085"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.30",
+    "slug": "lust-attraction-and-attachment-systems",
+    "name": "Lust, Attraction and Attachment Systems",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Framework",
+    "legacyType": "Relationship Pattern",
+    "tradition": "Biological Anthropology",
+    "difficulty": "intermediate",
+    "evidence": "Contested",
+    "origin": "Helen Fisher",
+    "date": "1998",
+    "oneSentence": "Three systems that evolved for different jobs, run on different timescales, and need not point at the same person.",
+    "story": "",
+    "definition": "Fisher proposed sex drive, which seeks partners generally, romantic attraction, which focuses energy on one, and attachment, which sustains a pair long enough to raise young. Her claim is that the three are partly independent, which explains being attached to one person while attracted to another, or desiring someone you have no interest in attaching to. The architecture is a useful organiser. The specific neurochemical assignments Fisher gave each system are not settled, and imaging work in this area has been criticised for small samples.",
+    "mechanism": {
+      "chains": [
+        [
+          "three systems evolved for three different reproductive problems",
+          "each has its own triggers and its own timescale",
+          "they can activate together or separately",
+          "directed at one person they produce what people call being in love",
+          "directed at different people they produce the ordinary conflicts of adult life"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Love is one thing, so wanting someone else means something is wrong with your relationship.\" The framework’s most useful implication is that simultaneous attachment to one person and attraction to another is the predictable output of three systems rather than evidence of a failing bond. That is an explanation rather than a permission, and Fisher was explicit that what you do about it is not a biological question.",
+    "nearestNeighbour": "TRIANGULAR THEORY OF LOVE. That is a psychological taxonomy of what love is made of, intimacy, passion and commitment, derived from how people describe their relationships. This is an evolutionary account of separate biological systems, and it makes claims about mechanism rather than about experience.",
+    "discriminateScenario": "He has been with her for nine years and would be destroyed if she left. He also thinks about the woman from the Tuesday class more than he would say out loud, and feels no pull to do anything about it. He has decided this makes him a bad person, and has never considered that it might simply be ordinary.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear thinker"
+    ],
+    "related": [
+      "05.07",
+      "05.14"
+    ],
+    "books": [
+      "BK006",
+      "BK132"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -1412,11 +2276,246 @@
     ],
     "related": [
       "05.01",
-      "05.02"
+      "05.02",
+      "05.06"
     ],
     "books": [
       "BK013",
       "BK144"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.34",
+    "slug": "emotional-bank-account",
+    "name": "Emotional Bank Account",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Management and Self-Help",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Stephen Covey",
+    "date": "1989",
+    "oneSentence": "Trust as a balance that small reliable acts pay into and that one withdrawal can overdraw.",
+    "story": "",
+    "definition": "Covey’s metaphor: every interaction deposits or withdraws. Deposits are keeping small promises, remembering what matters to someone, apologising cleanly. Withdrawals are broken commitments, unkindness, taking someone for granted. The useful part is the asymmetry. A high balance means a mistake is absorbed as an exception. A low balance means the same mistake is read as the pattern finally showing itself, and the identical act lands as either forgivable or damning depending on the balance behind it.",
+    "mechanism": {
+      "chains": [
+        [
+          "small acts accumulate as a balance of trust",
+          "the balance sets how any new act is interpreted",
+          "an identical mistake reads as an exception at a high balance and as confirmation at a low one",
+          "interpretation then changes the response",
+          "the response moves the balance again"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Trust is built by big gestures and broken by big betrayals.\" The accounting runs mostly on small change. Remembering a name, arriving when you said, replying to the dull message: the balance is built from items too small to be remembered individually, which is also why people cannot explain why they do or do not trust someone.",
+    "nearestNeighbour": "BIDS FOR CONNECTION. Those are offers of contact and the finding attached to them is about whether they are answered. This is about accumulated trust and specifically about how a balance changes the reading of whatever happens next.",
+    "discriminateScenario": "Two colleagues each forget the same meeting in the same week. One gets a message asking if everything is all right. The other gets copied into a note to the manager. Neither outcome is about the meeting, and anyone looking only at the week would see two identical events.",
+    "praxisExercise": "THE SMALLEST PROMISE\n\n1. Pick one person whose balance with you is low or uncertain.\n2. Make one small promise to them this week. Small enough that keeping it is certain.\n3. Keep it exactly, on time, without mentioning that you did.\n4. Repeat weekly for a month before expecting anything.\n\nCOMMITMENT (if then):\n\"When I say I will do something small, I will treat it as the whole account rather than as a small thing.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "High integrity",
+      "Clear communicator"
+    ],
+    "related": [
+      "05.18",
+      "05.24"
+    ],
+    "books": [
+      "BK137"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.35",
+    "slug": "schema-chemistry",
+    "name": "Schema Chemistry",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "Relationship Pattern",
+    "tradition": "Schema Therapy",
+    "difficulty": "advanced",
+    "evidence": "Framework",
+    "origin": "Jeffrey Young",
+    "date": "1993",
+    "oneSentence": "The pull toward the person whose behaviour confirms what you already believe about being loved.",
+    "story": "",
+    "definition": "Young observed that the strongest attraction often runs toward someone whose patterns activate a person’s existing schema rather than contradict it. Someone who learned love is conditional finds withholding people compelling, and finds steady availability flat. The chemistry is real and is reporting familiarity rather than fit. Young’s clinical claim is that the intensity itself is diagnostic, and that the recognition people describe as knowing someone immediately is often recognition of a pattern rather than of a person.",
+    "mechanism": {
+      "chains": [
+        [
+          "an early belief forms about what love costs and whether it lasts",
+          "a person appears whose behaviour matches that belief",
+          "the match registers as intensity and recognition rather than as familiarity",
+          "the relationship confirms the belief in operation",
+          "the belief is strengthened and the next pull is stronger"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"If it feels this strong there must be something real there.\" Intensity measures fit with a template, not fit with a person, and Young’s point is that the most schema confirming partner produces the strongest pull. The corollary is the hard part: a healthier relationship often feels muted at the start, and that flatness gets read as absence of chemistry.",
+    "nearestNeighbour": "LIMERENCE. That is the involuntary obsessive state of early infatuation, a condition with a course and a duration. This is about the selection that happened before it, and specifically why the pull went to this person rather than another.",
+    "discriminateScenario": "Every person she has wanted badly has been slightly unavailable, and she has a theory about each one explaining why that case was different. The man who texts back promptly and says what he means she describes as lovely, and she does not think about him between meetings. She has noticed the pattern and has not yet let it change a decision.",
+    "praxisExercise": "LIST THE PATTERN\n\n1. Write the three people you have wanted most. Beside each, one sentence on how they handled closeness.\n2. Look for what the three share. It is usually obvious and unwelcome.\n3. Write what belief about love that pattern keeps proving.\n4. Keep the list. You will need it the next time something feels immediate.\n\nCOMMITMENT (if then):\n\"When an attraction feels instant and certain, I will check it against my list before treating the intensity as information about them.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Self-authoring",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.03",
+      "05.13",
+      "05.14",
+      "05.16"
+    ],
+    "books": [
+      "BK066"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.36",
+    "slug": "five-love-languages",
+    "name": "The Five Love Languages",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Framework",
+    "legacyType": "",
+    "tradition": "Self-Help",
+    "difficulty": "introductory",
+    "evidence": "Contested",
+    "origin": "Gary Chapman",
+    "date": "1992",
+    "oneSentence": "The claim that each person has one primary way of receiving affection, and that mismatches explain unhappiness.",
+    "story": "",
+    "definition": "Chapman, a pastoral counsellor, proposed five channels: words of affirmation, quality time, receiving gifts, acts of service and physical touch. Each person is said to have a primary one, and the prescription is to give in your partner’s rather than your own. The book has sold in the tens of millions. The empirical record is thin: studies find little support for discrete primary languages, no reliable improvement from matching, and the five category structure does not hold up well when tested.",
+    "mechanism": {
+      "chains": [
+        [
+          "the framework proposes one dominant channel per person",
+          "affection given in another channel is said not to register",
+          "partners are told to identify and then speak the other’s language",
+          "the research finds no stable primary languages and no benefit from matching",
+          "what does hold is the ordinary point that people differ in what they notice"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Find out your partner’s love language and the mismatch resolves itself.\" Tests of exactly this have not supported it. People do not sort cleanly into one of five, most value most of them, and matching does not reliably improve satisfaction. The useful residue is much smaller than the framework: asking someone what makes them feel cared for, and believing the answer, which needs no taxonomy.",
+    "nearestNeighbour": "PERCEIVED PARTNER RESPONSIVENESS. That is the well supported construct this framework gestures at: whether someone feels understood and valued. It makes no claim about discrete channels, and it is what the evidence actually points to.",
+    "discriminateScenario": "They did the quiz on the sofa and he came out as acts of service, so for two months she did things rather than saying things. He appreciated it and still felt unseen. Nothing in the quiz covered the thing he had been missing, which was being asked about his day and having the answer remembered on Thursday.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear thinker",
+      "Manipulation proof"
+    ],
+    "related": [
+      "05.17",
+      "05.18"
+    ],
+    "books": [
+      "BK143"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.37",
+    "slug": "five-to-one-ratio",
+    "name": "The Five to One Ratio",
+    "tier": "discovery",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "",
+    "tradition": "Clinical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Contested",
+    "origin": "John Gottman",
+    "date": "1994",
+    "oneSentence": "The claim that stable couples produce roughly five positive exchanges for every negative one during conflict.",
+    "story": "",
+    "definition": "From Gottman’s observational coding of couples in his laboratory: during conflict, couples who remained together showed around five positive behaviours to each negative one, while those who separated approached one to one. The underlying observation that positive exchanges must substantially outnumber negative ones is widely accepted. The specific number carries more weight in popular use than the data supports, having come from a modest sample of couples in a particular setting, and attempts to use it as a target rather than a description have no evidence behind them.",
+    "mechanism": {
+      "chains": [
+        [
+          "negative exchanges in conflict carry more weight than positive ones",
+          "a surplus of positive behaviour is needed to offset them",
+          "couples who maintain a surplus absorb conflict without accumulating damage",
+          "couples near parity accumulate it",
+          "the balance rather than the frequency of conflict is what tracks outcomes"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Aim for five good things to every criticism and the relationship improves.\" The figure is a description of couples already doing well, not an instruction that produces the state. Manufacturing compliments to hit a quota is not what was measured, and the related claim of a universal positivity ratio in psychology was retracted after its mathematics was shown to be unsound.",
+    "nearestNeighbour": "GOTTMAN’S FOUR HORSEMEN. Those are four specific corrosive behaviours, named and identifiable in a transcript. This is a quantitative balance across all behaviour during conflict, and its problem is the precision of the number rather than the behaviours it counts.",
+    "discriminateScenario": "They have started keeping score, sincerely and with good intentions. He adds a compliment after each complaint and she has noticed the rhythm of it. The arithmetic is being satisfied and the warmth it was supposed to measure has quietly left the room, which neither of them can say without sounding ungrateful.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Clear thinker",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "05.18",
+      "05.19",
+      "05.20"
+    ],
+    "books": [
+      "BK133"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "05.38",
+    "slug": "attachment-injury",
+    "name": "Attachment Injury",
+    "tier": "integration",
+    "domain": "Relationships & Attraction",
+    "type": "Relationship Pattern",
+    "legacyType": "",
+    "tradition": "Emotionally Focused Therapy",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Sue Johnson",
+    "date": "2001",
+    "oneSentence": "A specific moment where someone needed the other most and was not there, which keeps reappearing until it is addressed directly.",
+    "story": "",
+    "definition": "Johnson identified a pattern in couples who could not progress in therapy: a single incident, often small to an outsider, where one partner reached for the other at a moment of real need and found nothing. A hospital waiting room. A funeral. A miscarriage. The incident is not a grievance to be resolved by apology for the facts. Until the hurt partner can say what it meant about whether they can count on the other, and be heard saying it, every subsequent conflict routes back through it.",
+    "mechanism": {
+      "chains": [
+        [
+          "one partner reaches at a moment of acute need",
+          "the other is absent, dismissive or elsewhere",
+          "the event is encoded not as a failure of behaviour but as evidence about whether the bond holds",
+          "it becomes unavailable to ordinary repair",
+          "each later conflict reactivates it, so arguments about anything become arguments about that"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"We have been over it, they apologised, they should let it go.\" Apology for the facts does not reach it, because the wound is not about the facts. What closes it is the hurt partner being able to say what the moment told them about being alone, and the other being able to hear that without defending the circumstances. That is a different conversation from the one most couples keep having.",
+    "nearestNeighbour": "REPAIR ATTEMPTS. Those operate inside a live argument and work in seconds, de escalating something in progress. This is a single historical event that sits underneath many arguments, and it does not respond to in the moment repair at all.",
+    "discriminateScenario": "Every argument about the washing up ends up at the night of the scan four years ago, and he cannot see how they got there. He has apologised for not leaving work that day perhaps thirty times. She accepts each apology and the subject returns, because what she needs to say about that afternoon has never once been the thing he apologises for.",
+    "praxisExercise": "THE ONE INCIDENT\n\n1. Name the moment you keep returning to. One incident, one day.\n2. Write what it told you about whether you could count on them. Not what they did.\n3. Say that sentence to them, once, when nothing else is being argued about.\n4. If you are the other person: do not explain the circumstances. Answer the sentence.\n\nCOMMITMENT (if then):\n\"When an argument lands on the same old incident again, I will stop arguing the facts of it and say what it told me instead.\"",
+    "identityTags": [
+      "Builds lasting bonds",
+      "Emotionally regulated",
+      "Clear communicator"
+    ],
+    "related": [
+      "05.03",
+      "05.19",
+      "05.20"
+    ],
+    "books": [
+      "BK140"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -2473,7 +3572,9 @@
       "Emotionally regulated",
       "Self-authoring"
     ],
-    "related": [],
+    "related": [
+      "05.27"
+    ],
     "books": [
       "BK002",
       "BK053"
