@@ -61,19 +61,6 @@ p{margin:0 0 1em}
 .pick .tag{display:inline-block;margin-top:9px;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;
   color:var(--gold-hi);border:1px solid var(--faint);border-radius:99px;padding:3px 10px}
 
-/* ---- review ---- */
-.due{display:inline-flex;align-items:center;gap:8px;background:rgba(146,116,62,.14);
-  border:1px solid var(--gold);border-radius:99px;padding:6px 15px;font-size:.88rem;color:var(--cream)}
-.due b{font-family:var(--f-title);font-weight:400;font-size:1.05rem;color:var(--gold-hi)}
-.totals{color:var(--muted);font-size:.95rem;margin:-6px 0 2px}
-.rev-head{border-bottom:1px solid var(--faint);padding-bottom:14px;margin-bottom:22px;
-  display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.rev-count{color:var(--muted);font-size:.86rem;letter-spacing:.14em}
-.streak{display:flex;gap:6px;margin:18px 0 0}
-.streak i{width:26px;height:3px;border-radius:2px;background:var(--faint)}
-.streak i.ok{background:var(--good)} .streak i.no{background:var(--wrong)}
-.nextup{color:var(--muted);font-size:.9rem;border-top:1px solid var(--faint);padding-top:16px;margin-top:26px}
-
 /* ---- goals ---- */
 .goalgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:12px;margin-top:26px}
 .goal{text-align:left;background:rgba(37,21,18,.55);border:1px solid var(--faint);border-radius:12px;
@@ -269,7 +256,6 @@ table.sum td:last-child,table.sum th:last-child{text-align:right}
   <header>
     <a class="mark" id="mark" href="/">Praxis</a>
     <span style="display:flex;gap:18px;align-items:center">
-      <button class="back" id="go-review" type="button" hidden style="background:none;border:0;border-bottom:1px solid var(--gold);color:var(--gold);padding:0 0 2px">Review</button>
       <button class="back" id="go-notes" type="button" style="background:none;border:0;border-bottom:1px solid var(--faint);padding:0 0 2px">Field Notes</button>
       <a class="back" id="to-discover" href="/">Back to Discover</a>
     </span>
@@ -612,201 +598,12 @@ function setGoal(g){ store.goal = g; save(store); }
   }
 })();
 
-/* --------------------------- review ---------------------------
-   A concept comprehended once and never seen again is five minutes of
-   product. The interval doubles when you get it right and drops back to
-   three days when you do not, which is most of the benefit of a full
-   spaced repetition algorithm at a fraction of the machinery. */
-const DAY = 86400000;
-const FIRST_INTERVAL = 3;
-
-function schedule(conceptId, right){
-  const rec = store.concepts[conceptId];
-  if (!rec) return;
-  const prev = rec.interval || FIRST_INTERVAL;
-  rec.interval = right ? Math.min(prev * 2, 180) : FIRST_INTERVAL;
-  rec.due = Date.now() + rec.interval * DAY;
-  rec.reviews = (rec.reviews || 0) + 1;
-  save(store);
-}
-/* First schedule is set the moment a concept is comprehended. */
-function scheduleFirst(conceptId){
-  const rec = store.concepts[conceptId];
-  if (!rec || rec.due) return;
-  rec.interval = FIRST_INTERVAL;
-  rec.due = Date.now() + FIRST_INTERVAL * DAY;
-  save(store);
-}
-/* Anyone who used Comprehend before review existed has concepts marked
-   comprehended and no schedule on them. Without this they would never enter
-   the rotation and the feature would look broken to exactly the people who
-   used the page most. They are spread over the first few days rather than all
-   landing at once. */
-(function backfill(){
-  const waiting = Object.keys(store.concepts).filter(id => store.concepts[id].comprehended && !store.concepts[id].due);
-  if (!waiting.length) return;
-  waiting.forEach((id, i) => {
-    store.concepts[id].interval = FIRST_INTERVAL;
-    store.concepts[id].due = Date.now() + (i % 3) * DAY;
-  });
-  save(store);
-})();
-
-function dueNow(){
-  const t = Date.now();
-  return CONCEPTS.filter(c => {
-    const r = store.concepts[c.id];
-    return r && r.comprehended && r.due && r.due <= t;
-  }).sort((a,b) => store.concepts[a.id].due - store.concepts[b.id].due);
-}
-function nextDue(){
-  const up = CONCEPTS.map(c => store.concepts[c.id])
-    .filter(r => r && r.comprehended && r.due && r.due > Date.now())
-    .sort((a,b) => a.due - b.due)[0];
-  return up ? up.due : null;
-}
-function inDays(ts){
-  const d = Math.ceil((ts - Date.now()) / DAY);
-  return d <= 1 ? 'tomorrow' : `in ${d} days`;
-}
-
-/* One question per concept, and the concept is never named. Real life does
-   not announce which idea applies, so neither does this. */
-function reviewQuestion(c){
-  const all = CONCEPTS;
-  const others = all.filter(x => x.id !== c.id);
-  /* Three random names from across the library would make this free. The
-     wrong answers are the ones it is actually confused with: the stated
-     nearest neighbour first, then related concepts, then its own domain. */
-  const nm = (c.nearestNeighbour || '').match(/^([A-Z][A-Z'’\-\s]+?)\./);
-  const key = s => s.toUpperCase().replace(/[^A-Z]/g,'');
-  const neighbour = nm ? others.find(x => key(x.name) === key(nm[1])) : null;
-  const related = others.filter(x => (c.related || []).includes(x.id) || (x.related || []).includes(c.id));
-  const near = [];
-  const push = x => { if (x && !near.some(y => y.id === x.id)) near.push(x); };
-  push(neighbour);
-  shuffle(related).forEach(push);
-  shuffle(others.filter(x => x.domain === c.domain)).forEach(push);
-  shuffle(others).forEach(push);
-
-  if (c.discriminateScenario && near.length >= 3) {
-    return { stem: esc(c.discriminateScenario), ask: 'Which idea is operating here?',
-             correct: c.name, options: shuffle([c.name, ...near.slice(0,3).map(x => x.name)]),
-             why: c.oneSentence };
-  }
-  const defs = near.filter(x => x.oneSentence).slice(0,3).map(x => x.oneSentence);
-  return { stem: `What does <b>${esc(c.name)}</b> describe?`, ask: 'From memory',
-           correct: c.oneSentence,
-           options: shuffle([c.oneSentence, ...defs]),
-           why: c.definition };
-}
-
-let revQueue = [], revAt = 0, revLog = [];
-
-function reviewSession(){
-  if (revAt >= revQueue.length) return reviewDone();
-  const c = revQueue[revAt];
-  const q = reviewQuestion(c);
-  let picked = null;
-  render(`
-    <div class="rev-head">
-      <div><span class="label">Review</span>
-        <h2 style="margin:.25em 0 0">${esc(q.ask)}</h2></div>
-      <span class="rev-count">${revAt + 1} OF ${revQueue.length}</span>
-    </div>
-    <div class="stem">${q.stem}</div>
-    <div class="opts" id="opts">
-      ${q.options.map((o,i) => `<button class="opt" data-i="${i}" type="button">
-        <span class="key">${KEYS[i]}</span><span>${esc(o)}</span></button>`).join('')}
-    </div>
-  `);
-  app.querySelectorAll('.opt').forEach(b => b.onclick = () => {
-    picked = q.options[+b.dataset.i];
-    const right = picked === q.correct;
-    schedule(c.id, right);
-    revLog.push({ name: c.name, right });
-    render(`
-      <div class="rev-head">
-        <div><span class="label">Review</span>
-          <h2 style="margin:.25em 0 0">${esc(c.name)}</h2></div>
-        <span class="rev-count">${revAt + 1} OF ${revQueue.length}</span>
-      </div>
-      <div class="stem">${q.stem}</div>
-      <div class="opts">
-        ${q.options.map((o,i) => {
-          const cls = o === q.correct ? 'right' : (o === picked ? 'wrong' : '');
-          return `<button class="opt ${cls}" disabled><span class="key">${KEYS[i]}</span><span>${esc(o)}</span></button>`;
-        }).join('')}
-      </div>
-      <div class="fb">
-        <div class="verdict ${right?'ok':'no'}">${right ? 'Still there.' : 'Gone for now.'}</div>
-        <p>${esc(q.why)}</p>
-        <p class="note" style="border:0;padding:0;margin:.4em 0 0">${right
-          ? `Back again in ${store.concepts[c.id].interval} days.`
-          : `Back in ${FIRST_INTERVAL} days. Forgetting and recovering is how it sticks.`}</p>
-        <div class="row"><button class="btn" id="next" type="button">${
-          revAt + 1 < revQueue.length ? 'Next' : 'Finish'}</button></div>
-      </div>
-    `);
-    app.querySelector('#next').onclick = () => { revAt++; reviewSession(); };
-  });
-}
-
-function reviewDone(){
-  const got = revLog.filter(r => r.right).length;
-  const nd = nextDue();
-  render(`
-    <div class="scorebox">
-      <div class="big">${got} / ${revLog.length}</div>
-      <div class="seal">Reviewed</div>
-    </div>
-    <div class="streak" style="justify-content:center">
-      ${revLog.map(r => `<i class="${r.right?'ok':'no'}"></i>`).join('')}
-    </div>
-    ${revLog.some(r => !r.right) ? `<p class="note">${revLog.filter(r=>!r.right).map(r=>esc(r.name)).join(', ')}
-      ${revLog.filter(r=>!r.right).length === 1 ? 'comes' : 'come'} back in ${FIRST_INTERVAL} days.</p>` : ''}
-    <p class="nextup">${nd ? `The next one comes back ${esc(inDays(nd))}.`
-      : 'Nothing else is scheduled yet. Comprehend a concept and it joins the rotation.'}</p>
-    <div class="row">
-      <button class="btn" id="back" type="button">Back to concepts</button>
-    </div>
-  `);
-  refreshReview();
-  app.querySelector('#back').onclick = chooser;
-}
-
-function startReview(){
-  revQueue = dueNow().slice(0, 8);   // a capped queue, so a long absence is not punishing
-  revAt = 0; revLog = [];
-  if (!revQueue.length) return chooser();
-  reviewSession();
-}
-
-/* The header only offers review when there is something to review. An empty
-   button that does nothing teaches people to stop looking at it. */
-function refreshReview(){
-  const btn = document.getElementById('go-review');
-  if (!btn) return;
-  const n = dueNow().length;
-  btn.hidden = !n;
-  btn.textContent = n ? `Review ${n}` : 'Review';
-}
-
 function goalPicker(){
-  const total = CONCEPTS.length;
-  const comp = CONCEPTS.filter(c => isDone(c.id)).length;
-  const due = dueNow().length;
-  const nd = nextDue();
   render(`
     <span class="label">Comprehend</span>
     <h1>What are you building?</h1>
     <p class="lede">Choose one. Praxis will show you the ideas that serve it, in the order they
     build on each other, and keep the rest out of your way. You can change it whenever you like.</p>
-    <p class="totals">${total} concepts ready across the ten goals${comp ? `. You have comprehended ${comp}` : ''}.
-    Most sit under more than one, so the numbers below add up to more than ${total}.</p>
-    ${due ? `<div class="row" style="margin:0 0 20px"><button class="due" id="dueb" type="button">
-      ${due} ${due === 1 ? 'concept is' : 'concepts are'} due for review</button></div>`
-      : (nd ? `<p class="totals">Next review ${esc(inDays(nd))}.</p>` : '')}
     <div class="goalgrid">
       ${GOALS.map(g => {
         const pool = forGoal(g.id), done = pool.filter(c => isDone(c.id)).length;
@@ -821,9 +618,6 @@ function goalPicker(){
       <button class="btn ghost" id="allc" type="button">Show me everything instead</button>
     </div>
   `);
-  refreshReview();
-  const db = app.querySelector('#dueb');
-  if (db) db.onclick = startReview;
   app.querySelectorAll('.goal').forEach(b => b.onclick = () => {
     if (!forGoal(b.dataset.g).length) return;
     setGoal(b.dataset.g); chooser();
@@ -840,8 +634,6 @@ function chooser(){
   if (!pool.length){ goalPicker(); return; }
 
   const done = pool.filter(c => isDone(c.id)).length;
-  const dueSet = new Set(dueNow().map(c => c.id));
-  const dueHere = pool.filter(c => dueSet.has(c.id)).length;
   const label = goal === 'all' ? 'Everything' : goal;
   const claim = goal === 'all' ? 'The whole library, ungrouped by goal.'
               : (GOALS.find(g => g.id === goal) || {}).claim;
@@ -862,8 +654,6 @@ function chooser(){
     </div>
     <div class="bar"><i style="width:${pool.length ? Math.round(done/pool.length*100) : 0}%"></i></div>
     <div class="meta" style="color:var(--muted);font-size:.88rem">${done} of ${pool.length} comprehended</div>
-    ${dueHere ? `<div class="row" style="margin:16px 0 0"><button class="due" id="dueb" type="button">
-      ${dueHere} ${dueHere === 1 ? 'concept is' : 'concepts are'} due for review</button></div>` : ''}
 
     ${domains.map(d => `
       <div class="group">
@@ -874,17 +664,13 @@ function chooser(){
               <span class="nm">${esc(c.name)}</span>
               ${c.story ? '<span class="meta2">Story</span>' : ''}
               ${c.evidence === 'Contested' ? '<span class="flag">Contested</span>' : ''}
-              ${dueSet.has(c.id) ? '<span class="flag" style="border-color:var(--gold);color:var(--gold)">Due</span>' : ''}
               ${isDone(c.id) ? '<span class="tick">Comprehended</span>'
                              : `<span class="meta2">${esc(c.type)}</span>`}
             </button>`).join('')}
         </div>
       </div>`).join('')}
   `);
-  refreshReview();
   app.querySelector('#swap').onclick = goalPicker;
-  const db2 = app.querySelector('#dueb');
-  if (db2) db2.onclick = startReview;
   app.querySelectorAll('.crow').forEach(b => b.onclick = () => {
     concept = CONCEPTS.find(c => c.id === b.dataset.id);
     rungs = buildRungs(concept, CONCEPTS); step = 0; results = [];
@@ -987,7 +773,6 @@ function summary(){
   const passed = got === rungs.length;
   const confidentWrong = results.filter(r => !r.right && r.confidence === 'Certain');
   const rec = recordAttempt(concept.id, results);
-  if (passed) scheduleFirst(concept.id);   // joins the review rotation the moment it is comprehended
   const firstGo = rec.attempts.length === 1;
   const prompts = promptsFor(concept);
   const prior = notesFor(concept.id);
@@ -1013,7 +798,6 @@ function summary(){
       A wrong answer held confidently is corrected more lastingly than one you already doubted.</div>` : ''}
     ${passed && !firstGo ? `<p class="note">Cleared on attempt ${rec.attempts.length}. Your first attempt is kept separately. The ✓ is the badge, the first try is the data.</p>` : ''}
     ${passed && firstGo ? `<p class="note">Cleared first time.</p>` : ''}
-    ${passed ? `<p class="note">This one comes back in ${FIRST_INTERVAL} days, without the name attached, to see whether it stayed. Each time you recognise it the wait gets longer. That spacing is doing more for you than the first pass did.</p>` : ''}
     ${!passed ? `<p class="note">Comprehension is not a pass mark; it is evidence. Read the idea again and come back to it tomorrow rather than now. The time between attempts is what makes the second one stick.</p>` : ''}
 
     <div class="notes-block">
@@ -1051,7 +835,6 @@ function summary(){
       <button class="btn ghost" id="redo" type="button">Run this one again</button>
     </div>
   `);
-  refreshReview();
   app.querySelector('#again').onclick = chooser;
   app.querySelector('#redo').onclick = () => { rungs = buildRungs(concept, CONCEPTS); step = 0; results = [];
     concept.story ? storyScreen() : question(); };
@@ -1068,8 +851,6 @@ function summary(){
 }
 
 document.getElementById('go-notes').onclick = () => { spread = 1e9; notesView(null); };
-document.getElementById('go-review').onclick = startReview;
-refreshReview();
 chooser();
 </script>
 </body>
