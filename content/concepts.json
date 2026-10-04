@@ -408,7 +408,8 @@
       "Disciplined"
     ],
     "related": [
-      "01.02"
+      "01.02",
+      "10.45"
     ],
     "books": [
       "BK007"
@@ -586,7 +587,9 @@
       "Sound judgement",
       "Disciplined"
     ],
-    "related": [],
+    "related": [
+      "10.38"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -1036,7 +1039,9 @@
       "Disciplined",
       "Self-authoring"
     ],
-    "related": [],
+    "related": [
+      "10.41"
+    ],
     "books": [
       "BK012"
     ],
@@ -2372,7 +2377,9 @@
       "05.03",
       "05.13",
       "05.14",
-      "05.16"
+      "05.16",
+      "10.05",
+      "10.46"
     ],
     "books": [
       "BK066"
@@ -3073,7 +3080,8 @@
     "related": [
       "07.30",
       "07.31",
-      "07.32"
+      "07.32",
+      "10.37"
     ],
     "books": [
       "BK078"
@@ -3573,7 +3581,8 @@
       "Self-authoring"
     ],
     "related": [
-      "05.27"
+      "05.27",
+      "10.43"
     ],
     "books": [
       "BK002",
@@ -3623,6 +3632,294 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "10.01",
+    "slug": "archetypes",
+    "name": "Archetypes",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Jungian Concept",
+    "legacyType": "Jungian Concept",
+    "tradition": "Analytical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Carl Jung",
+    "date": "1919",
+    "oneSentence": "Recurring figures and situations that appear across unconnected cultures, which Jung took as inherited patterns rather than borrowed stories.",
+    "story": "",
+    "definition": "Jung noticed the same figures recurring in myths, dreams and the delusions of patients who had read none of the relevant literature: the mother, the trickster, the wise old man, the descent, the flood. His explanation was that these are not inherited images but inherited dispositions to form images, a predisposition toward certain shapes. The distinction matters and is usually lost. He claimed a tendency, filled in by whatever culture supplies.",
+    "mechanism": {
+      "chains": [
+        [
+          "humans share a nervous system and a narrow set of inescapable situations: birth, parents, mating, authority, death",
+          "those situations shape a disposition to organise experience in particular ways",
+          "each culture fills the disposition with its own figures",
+          "the figures differ in costume and match in structure",
+          "the match looks like transmission and is not"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Jung thought we inherit specific images, like a memory of a dragon.\" He was explicit that what is inherited is a form without content, and that the content comes from the individual life and the surrounding culture. The popular version makes the claim absurd and easy to dismiss. The actual claim is weaker, stranger and harder to test.",
+    "nearestNeighbour": "COLLECTIVE UNCONSCIOUS. That is the proposed layer of mind these patterns are said to live in, so it is the container. These are the patterns themselves, the recurring shapes, and they can be discussed and catalogued without accepting the container.",
+    "discriminateScenario": "She reads a Finnish folk tale about a girl who goes under a lake to recover something a dead parent left behind, and feels a jolt of recognition she cannot account for. She has never heard the story. Two months later she notices the same shape in a Japanese film and in something her grandmother used to say.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Clear thinker"
+    ],
+    "related": [
+      "10.02",
+      "10.03",
+      "10.04",
+      "10.05",
+      "10.10"
+    ],
+    "books": [
+      "BK050",
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.02",
+    "slug": "collective-unconscious",
+    "name": "Collective Unconscious",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Jungian Concept",
+    "legacyType": "Jungian Concept",
+    "tradition": "Analytical Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Carl Jung",
+    "date": "1916",
+    "oneSentence": "Jung’s proposal of a layer of mind that is not personal, holding the dispositions every human arrives with.",
+    "story": "",
+    "definition": "Jung split the unconscious in two. The personal unconscious holds what an individual has repressed or forgotten. Beneath it he placed a layer belonging to the species rather than the person, holding no memories but the forms by which experience gets organised. This is the most contested thing he proposed, and the least falsifiable. It is worth knowing as the position that everything else in his system rests on, and worth being clear that it is a position rather than a finding.",
+    "mechanism": {
+      "chains": [
+        [
+          "experience accumulates in a personal layer that can be recovered",
+          "beneath it Jung posits a layer with no personal content",
+          "that layer supplies the forms rather than the material",
+          "myths and dreams across cultures draw on the same forms",
+          "the resemblance is explained by shared inheritance rather than shared history"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The collective unconscious is a shared pool of memory that people can tap into.\" Jung did not claim shared memory and specifically denied inherited ideas. The telepathic reading comes from later popularisers rather than from him. He claimed inherited structure, which is a much more modest thing than the version that circulates.",
+    "nearestNeighbour": "ARCHETYPES. Those are the specific recurring patterns, which can be studied comparatively by anyone, whatever they think about where they come from. This is the explanation Jung offered for why they recur, and it is the part that cannot be tested.",
+    "discriminateScenario": "A psychiatrist notices a patient with no education in the subject describing a sun with a tube hanging from it, and later finds a near identical image in a Greek text the patient could not have read. He concludes the image came from somewhere other than the man’s own history, and builds a theory of mind on that single coincidence.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Clear thinker"
+    ],
+    "related": [
+      "10.01",
+      "10.07",
+      "10.10"
+    ],
+    "books": [
+      "BK050",
+      "BK122"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.03",
+    "slug": "shadow",
+    "name": "Shadow",
+    "tier": "integration",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Jungian Concept",
+    "legacyType": "Jungian Concept",
+    "tradition": "Analytical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Carl Jung",
+    "date": "1938",
+    "oneSentence": "Everything about yourself you have decided you are not, which does not stop existing on being disowned.",
+    "story": "",
+    "definition": "Jung used the word for the parts of a person excluded from their self image: the cruelty in someone committed to being kind, the ambition in someone committed to being humble. Exclusion does not remove the trait, it removes awareness of it. What follows is projection: the disowned quality is seen with unusual clarity in other people and reacted to with disproportionate heat. Jung held that the contents are not only bad. Vitality, appetite and ambition get disowned as often as aggression.",
+    "mechanism": {
+      "chains": [
+        [
+          "a self image forms that certain traits contradict",
+          "those traits are excluded from awareness rather than from existence",
+          "they operate unobserved and get attributed outward",
+          "the same quality in others produces a reaction out of proportion to the occasion",
+          "the size of the reaction is the clue to what was disowned"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The shadow is the dark side, the part of you that wants to do harm.\" Jung described it as whatever is incompatible with the self image, which for many people means the forbidden good things. A person who built an identity on being easygoing has their anger down there. Someone who built one on modesty has their hunger for recognition. The content depends on the mask, not on morality.",
+    "nearestNeighbour": "PERSONA. That is the face assembled for the outside world, the presentation. This is the material excluded in order to assemble it. They are made in the same act, which is why the two are usually discussed together and why one predicts the contents of the other.",
+    "discriminateScenario": "There is a man at work he finds unbearable, and he can produce a detailed account of exactly why: the self promotion, the way he angles for credit. Nobody else finds him that irritating. He has mentioned him at home four times this week, and has never once wondered why this particular failing is the one he cannot let alone.",
+    "praxisExercise": "THE DISPROPORTIONATE REACTION\n\n1. Name the person whose behaviour irritates you most out of all proportion.\n2. Write the exact quality that does it. One word if possible.\n3. Ask where that quality operates in you, in a form you would describe differently.\n4. The answer is usually available within a minute and unwelcome.\n\nCOMMITMENT (if then):\n\"When my reaction to someone is larger than the occasion, I will ask what the quality is doing in me before I describe it in them again.\"",
+    "identityTags": [
+      "Self-authoring",
+      "Emotionally regulated",
+      "High integrity"
+    ],
+    "related": [
+      "10.01",
+      "10.04",
+      "10.07"
+    ],
+    "books": [
+      "BK050",
+      "BK122"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.04",
+    "slug": "persona",
+    "name": "Persona",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Jungian Concept",
+    "legacyType": "Jungian Concept",
+    "tradition": "Analytical Psychology",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Carl Jung",
+    "date": "1935",
+    "oneSentence": "The face assembled for other people, which is necessary, and which becomes a problem only when it is mistaken for the whole person.",
+    "story": "",
+    "definition": "The word is the mask worn by an actor in classical theatre. Jung used it for the presented self: the professional manner, the reliable friend, the competent one. He was clear that it is not a lie and not optional, since social life is impossible without one. The pathology is identification, when a person comes to believe they are the mask and loses access to everything it leaves out. The classic case is the man who retires and finds there is nobody underneath the job.",
+    "mechanism": {
+      "chains": [
+        [
+          "social life requires a presentable and consistent face",
+          "one is assembled from the traits that are rewarded",
+          "it works, so it is reinforced and expanded",
+          "the unselected material is pushed out of awareness",
+          "the mask is mistaken for the person, and whatever it excluded is unavailable when needed"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Being authentic means dropping the persona.\" Jung did not treat it as a flaw to be removed. A person with no presented self is not more authentic, they are unable to function in company. The task he described is holding the mask consciously, knowing it is one, which is a different thing from having none.",
+    "nearestNeighbour": "SHADOW. That is the material the mask excluded, so the two are produced in the same act. This is the construction itself and is largely useful, where the other is what the construction left out and is largely unconscious.",
+    "discriminateScenario": "Thirty one years as the person everyone brought problems to. Six weeks after the retirement party his wife asks what he actually wants to do this afternoon and he cannot answer. He makes a joke instead, the kind he has always made, and goes out to tidy a shed that does not need tidying.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "High integrity"
+    ],
+    "related": [
+      "10.01",
+      "10.03",
+      "10.07",
+      "10.08"
+    ],
+    "books": [
+      "BK050",
+      "BK062"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.05",
+    "slug": "anima-and-animus",
+    "name": "Anima and Animus",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Jungian Concept",
+    "legacyType": "Jungian Concept",
+    "tradition": "Analytical Psychology",
+    "difficulty": "advanced",
+    "evidence": "Philosophical",
+    "origin": "Carl Jung",
+    "date": "1951",
+    "oneSentence": "Jung’s proposal that each person carries an inner figure of the opposite sex, which gets projected onto real people and mistaken for them.",
+    "story": "",
+    "definition": "Jung named the inner feminine figure in a man the anima and the inner masculine figure in a woman the animus. His clinical interest was projection: the figure gets laid over an actual person, who is then loved or feared as the image rather than as themselves. He regarded integrating it as a late and difficult stage of development. The concept carries the gender assumptions of his period openly, and most contemporary analysts treat the contrasexual framing as the dated part and the projection mechanism as the part worth keeping.",
+    "mechanism": {
+      "chains": [
+        [
+          "an inner figure forms, built from early relationships and cultural material",
+          "it remains unconscious and therefore unexamined",
+          "a real person appears who fits some of its outline",
+          "the figure is projected onto them and reacted to as though it were them",
+          "the real person disappoints it, because nobody can sustain being someone else’s image"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is about men having a feminine side and women having a masculine side.\" That is the decoration rather than the claim. The useful part is that people carry an unconscious template and fall in love with the template rather than the person in front of them, then experience the person’s refusal to match it as betrayal. That mechanism survives the gender framing entirely.",
+    "nearestNeighbour": "SCHEMA CHEMISTRY. That is a clinical account of why the strongest pull goes toward people who confirm an existing belief about love, and it is testable. This is Jung’s version, framed around an inner contrasexual figure rather than a learned belief, and it is a position rather than a finding.",
+    "discriminateScenario": "Four months in he tells her she has changed. She has not. He had assembled something out of the first three conversations and the way she looked across a room, and has spent the time since explaining to her which parts of herself are a departure from it. She has started to find it difficult to be in the same room as his idea of her.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Builds lasting bonds"
+    ],
+    "related": [
+      "05.35",
+      "10.01",
+      "10.07",
+      "10.46"
+    ],
+    "books": [
+      "BK050"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.07",
+    "slug": "individuation",
+    "name": "Individuation",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Jungian Concept",
+    "legacyType": "Jungian Process",
+    "tradition": "Analytical Psychology",
+    "difficulty": "advanced",
+    "evidence": "Philosophical",
+    "origin": "Carl Jung",
+    "date": "1928",
+    "oneSentence": "Becoming the particular person you are rather than the one your roles and upbringing assembled, which Jung placed in the second half of life.",
+    "story": "",
+    "definition": "Jung’s word for the long process of becoming a whole and distinct individual: withdrawing identification from the mask, meeting the disowned material, and arriving at something that is neither the social self nor its opposite. He insisted it is not self improvement and not individualism, since the result includes a clearer relation to other people rather than a retreat from them. He also thought it rarely begins before the middle of life, because the first half is correctly spent building the structures it then examines.",
+    "mechanism": {
+      "chains": [
+        [
+          "the first half of life is spent building a workable social self",
+          "that self succeeds and becomes confining",
+          "identification with it loosens, usually through a crisis rather than a decision",
+          "the excluded material is met and some of it reclaimed",
+          "what results is more particular and less representative of any role"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Individuation means finding your true self, the one that was always there underneath.\" Jung did not describe uncovering something pre existing. He described an integration that produces something which did not exist before the work. The true self version makes it a search; his version makes it a construction, and the difference decides what you do on a Tuesday.",
+    "nearestNeighbour": "HERO’S JOURNEY. That is the narrative shape, a story told about a figure who departs and returns transformed. This is the psychological process Jung thought the story is describing, and it has no plot, no antagonist and no return.",
+    "discriminateScenario": "At fifty one he has the job, the house and the standing he worked out he wanted at twenty four. For about eight months he has been waking at four with the sense of having completed something that was not his. He has not had an affair or bought a motorcycle. He has started reading again and telling the truth in small conversations.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "High integrity"
+    ],
+    "related": [
+      "10.02",
+      "10.03",
+      "10.04",
+      "10.05",
+      "10.11"
+    ],
+    "books": [
+      "BK050",
+      "BK122"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "10.08",
     "slug": "narcissus-myth",
     "name": "The Narcissus Myth",
@@ -3658,11 +3955,107 @@
       "Emotionally regulated"
     ],
     "related": [
+      "10.04",
       "10.12",
-      "10.13"
+      "10.13",
+      "10.46"
     ],
     "books": [
       "BK050",
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.10",
+    "slug": "synchronicity",
+    "name": "Synchronicity",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Jungian Concept",
+    "legacyType": "Jungian Concept",
+    "tradition": "Analytical Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Carl Jung, with Wolfgang Pauli",
+    "date": "1952",
+    "oneSentence": "Jung’s name for a meaningful coincidence, proposed as a connecting principle that is not cause and effect.",
+    "story": "",
+    "definition": "Jung used it for events linked by meaning rather than by causation: thinking of someone at the moment they call, a dream matching a death. His claim was not that one event caused the other but that meaning itself could be a form of connection in the world, alongside causality. He developed it with the physicist Pauli and regarded it as his most speculative work. It is best understood as a philosophical proposal about the status of meaning, and it is where his system is most often used to launder wishful thinking.",
+    "mechanism": {
+      "chains": [
+        [
+          "two events coincide in a way that carries meaning for the observer",
+          "no causal path between them can be found",
+          "Jung proposes meaning as a connecting principle in its own right",
+          "the coincidence is treated as significant rather than as chance",
+          "the proposal is unfalsifiable, because any coincidence confirms it and none can refute it"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Meaningful coincidences are evidence that something is guiding events.\" The far duller account covers nearly all cases. People experience an enormous number of events, notice the matches, forget the misses, and systematically underestimate how often coincidence occurs by chance. Jung deserves credit for taking the experience seriously. Treating the experience as evidence of a mechanism is the error.",
+    "nearestNeighbour": "APOPHENIA AND PATTERN RECOGNITION. That names the ordinary tendency to see connection in noise, and it is an account of the observer. This is Jung’s claim that some of the connections are really out there, which is a claim about the world and a much larger one.",
+    "discriminateScenario": "The morning after dreaming about her father’s watch, a parcel arrives containing her father’s watch. She tells the story for years, and it is a good story. She has never counted the hundreds of mornings she dreamed of something and no parcel came, because those mornings left nothing behind to count.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Clear thinker",
+      "Self-authoring"
+    ],
+    "related": [
+      "10.01",
+      "10.02"
+    ],
+    "books": [
+      "BK050"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.11",
+    "slug": "heros-journey",
+    "name": "Hero’s Journey",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "Mythic Framework",
+    "tradition": "Comparative Mythology",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Joseph Campbell",
+    "date": "1949",
+    "oneSentence": "A departure, an ordeal, and a return carrying something the community needed, which Campbell claimed is one story told everywhere.",
+    "story": "Siddhartha was a prince whose father had arranged that he should see nothing troubling. The palace was kept pleasant. The roads were cleared before he travelled them.\n\nHe went out four times. The first time he saw an old man and asked his charioteer what had happened to him, and was told that this happens to everyone. The second time he saw a sick man and asked the same question and received the same answer. The third time he saw a corpse being carried to the river. The fourth time he saw a wandering monk with nothing, who appeared to be at peace.\n\nThat night he left. He did not say goodbye to his wife or his son, which the story does not excuse. He cut off his hair, exchanged his clothes with a beggar, and went into the forest, where for six years he studied under teachers and then starved himself nearly to death, because that was the method available and he took it further than anyone.\n\nIt did not work. He accepted a bowl of rice from a village girl, which his fellow ascetics took as failure, and sat down under a tree having abandoned both the palace and the starving. What happened there the texts describe as a confrontation with everything in himself that did not want to know.\n\nThen he got up and walked back toward the roads. He had no interest in explaining it and the texts say he was persuaded with difficulty. The return is the part Campbell insisted on: not the insight, but coming back within reach of people who had not gone.",
+    "definition": "Campbell compared myths from unconnected traditions and claimed a single recurring structure: a call that is usually refused, a crossing out of the ordinary world, trials, a decisive ordeal at the lowest point, and a return bearing something of use. He gathered genuinely striking parallels. The structure is also elastic enough to fit almost any narrative once you are looking for it, and comparative mythologists have criticised it for that elasticity. It is a framework rather than a finding.",
+    "mechanism": {
+      "chains": [
+        [
+          "an ordinary life is interrupted by a call",
+          "the call is refused, because leaving costs more than staying",
+          "the threshold is crossed anyway and the old world stops applying",
+          "trials strip away what was brought along",
+          "the lowest point yields something",
+          "returning with it is the part that completes the pattern and the part most often left out"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Campbell discovered that all myths are the same story.\" He claimed a recurring structure, not identity, and his critics have a real point that the structure is loose enough to accommodate almost anything. Its honest use is as a lens that makes certain features of a story visible, not as evidence that a universal pattern was found in the data.",
+    "nearestNeighbour": "INDIVIDUATION. That is Jung’s psychological process of becoming a particular person, with no plot and no return. This is the narrative shape, told about a figure, and Campbell’s claim is specifically about stories rather than about development.",
+    "discriminateScenario": "She spent eleven months doing the thing everyone had told her not to do, came back with no money and a changed face, and has been home for three weeks. The part nobody warned her about is this part: sitting at her sister’s table, being asked how the trip was, and discovering there is no sentence that transfers any of it.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Creatively unblocked"
+    ],
+    "related": [
+      "10.07",
+      "10.14",
+      "10.25",
+      "10.39"
+    ],
+    "books": [
+      "BK097",
       "BK107"
     ],
     "author": "Claude draft, needs Lindsay review"
@@ -3703,7 +4096,12 @@
       "Disciplined"
     ],
     "related": [
-      "10.08"
+      "10.08",
+      "10.36",
+      "10.37",
+      "10.39",
+      "10.40",
+      "10.42"
     ],
     "books": [
       "BK107"
@@ -3747,10 +4145,290 @@
       "Self-authoring"
     ],
     "related": [
-      "10.08"
+      "10.08",
+      "10.14"
     ],
     "books": [
       "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.14",
+    "slug": "katabasis-descent",
+    "name": "Katabasis / Descent",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "Mythic Motif",
+    "tradition": "Comparative Mythology",
+    "difficulty": "intermediate",
+    "evidence": "Traditional",
+    "origin": "Greek, with the oldest surviving instance Sumerian",
+    "date": "c. 1900 BCE onward",
+    "oneSentence": "Going down into the place of the dead on purpose, and the rule that nobody comes back up with everything they took in.",
+    "story": "Inanna, queen of heaven, decided to go down. The texts do not fully explain why. She told her servant Ninshubur that if she had not returned in three days, he was to go to the gods and plead for her, which suggests she knew what she was doing was not safe.\n\nThere were seven gates. At the first, the gatekeeper took her crown. She asked why and was told: be silent, the ways of the underworld are perfect. At the second gate they took the measuring rod of lapis lazuli. At the third, the beads from her neck. At the fourth, the ornaments from her breast. At the fifth, the gold ring. At the sixth, the breastplate. At the seventh they took her robe, and she entered the throne room of her sister Ereshkigal naked and bowed low.\n\nThe seven judges of the underworld looked at her and passed judgement, and she was struck down and hung on a hook, a corpse.\n\nNinshubur waited three days and then did as he had been told. Enki, the god of wisdom, made two creatures from the dirt under his fingernail, and sent them down with the food of life and the water of life. They found her and revived her.\n\nBut the underworld does not release what it has. She could return only if someone took her place. She went back up through the seven gates, receiving each thing at each gate, and the demons came with her to collect. In the end it was her husband Dumuzi who was taken, and then, in some versions, an arrangement: half the year him, half the year his sister. The descent gets paid for. It does not get undone.",
+    "definition": "The pattern recurs in traditions with no contact: Inanna, Ishtar, Orpheus, Persephone, Odysseus, Aeneas, Christ, Izanagi. Its consistent features are deliberate entry, progressive stripping of protections and status, an encounter in the lowest place, and a return that is partial and paid for. Something is always left behind or exchanged. Comparative mythologists treat the recurrence as genuine and disagree about why.",
+    "mechanism": {
+      "chains": [
+        [
+          "the figure enters the lowest place deliberately rather than by accident",
+          "protections, status and ornaments are removed one by one on the way down",
+          "what is encountered at the bottom cannot be met while still equipped",
+          "return is possible but requires an exchange",
+          "the one who comes back is not carrying what they went in with"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"These stories are about heroism, about being brave enough to go down and win.\" The pattern is unusually consistent about the price. Inanna is hung on a hook. Orpheus loses her at the threshold. Persephone eats the seeds and belongs to the place for part of every year afterwards. The structural claim is not that courage prevails but that the underworld keeps something, every time.",
+    "nearestNeighbour": "DEATH-REBIRTH MOTIF. That is the broader pattern of dying and coming back renewed, which can happen to someone involuntarily and often reads as triumph. This specifically involves going down on purpose, being stripped on the way, and paying on the way out.",
+    "discriminateScenario": "He went looking for what happened to his mother in 1983, knowing it would not be good. It took two years and cost him his relationship with his brother, who did not want it looked for. He knows now. He also cannot put back the version of his family he had before he started, and would not say the trade was wrong.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "10.11",
+      "10.13",
+      "10.20",
+      "10.25"
+    ],
+    "books": [
+      "BK058",
+      "BK097"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.19",
+    "slug": "sacred-vs-profane",
+    "name": "Sacred vs. Profane",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Framework",
+    "legacyType": "Mythic Concept",
+    "tradition": "History of Religion",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Mircea Eliade",
+    "date": "1957",
+    "oneSentence": "The claim that religious people live in two kinds of space and time, not one, and that modern life has collapsed them into one.",
+    "story": "",
+    "definition": "Eliade argued that for religious societies, reality is not uniform. Some places and periods are qualitatively different: charged, oriented, real in a way the rest is not. The profane is the undifferentiated remainder, where one patch of ground is equivalent to any other. His large claim is that modern secular life is the first widespread condition in which everything is profane, and that the hunger people feel for ritual and threshold is the residue of a faculty with nothing left to point at.",
+    "mechanism": {
+      "chains": [
+        [
+          "experience is divided into charged and ordinary",
+          "the charged places and times organise everything around them and give direction",
+          "ritual is how a person moves between the two",
+          "remove the division and all space becomes equivalent",
+          "orientation has to be manufactured individually, which is the condition Eliade thought modern people were in"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is just a distinction between religious and everyday activities.\" Eliade was making a claim about the structure of lived reality rather than a list of activities. For the societies he studied, the two were different kinds of space, not the same space used differently. Reducing it to churchgoing versus the rest of the week loses the entire argument.",
+    "nearestNeighbour": "HIEROPHANY. That is the specific event in which something ordinary shows itself as charged, a single moment of irruption. This is the standing two level structure of reality that such an event reveals, and it persists between irruptions.",
+    "discriminateScenario": "She is not religious and has never been. She also will not let anyone sit in her grandmother’s chair, cannot explain why beyond saying it would be wrong, and feels something she has no word for walking into an empty cathedral in a city she is visiting for work.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Clear thinker"
+    ],
+    "related": [
+      "10.20",
+      "10.21",
+      "10.22",
+      "10.23"
+    ],
+    "books": [
+      "BK112"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.20",
+    "slug": "liminality",
+    "name": "Liminality",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Framework",
+    "legacyType": "Mythic Concept",
+    "tradition": "Anthropology",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Arnold van Gennep, developed by Victor Turner",
+    "date": "1909, developed 1969",
+    "oneSentence": "The middle stage of a transition, where the old status is gone and the new one has not arrived, and ordinary rules are suspended.",
+    "story": "",
+    "definition": "Van Gennep found a three part structure in transition rites: separation, a middle phase, and reincorporation. Turner concentrated on the middle, where the person is between categories and therefore nowhere. Initiates in this phase are frequently treated as dead, stripped of name, rank and clothing, and granted licence that would be unthinkable before or after. Turner argued the suspension is not a side effect but the mechanism, because a status cannot be exchanged for another while the first is still being occupied.",
+    "mechanism": {
+      "chains": [
+        [
+          "a person is detached from their existing status",
+          "they occupy a phase belonging to neither the old category nor the new",
+          "ordinary rules do not apply, because the rules are attached to categories",
+          "the old identity can be dismantled, which is impossible while it is still in force",
+          "they are reincorporated with a new status that is socially recognised"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is just a transitional period, the awkward in between bit.\" The term names something stronger than awkwardness: a condition of being genuinely outside the social order, which is why it is so often ritualised as death. The discomfort people report in these phases is not incidental to the change, it is the change happening.",
+    "nearestNeighbour": "RITE OF PASSAGE. That is the whole three part structure, separation and middle and return, and the ceremony that carries it. This is the middle phase alone, and it is where the actual transformation is thought to occur.",
+    "discriminateScenario": "He handed in his notice six weeks ago and starts the new job in nine days. He is not an employee of anywhere. He has been sleeping badly, has reread two novels from his twenties, had a long strange conversation with a stranger on a train and told them things he has not told his wife.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "10.14",
+      "10.19",
+      "10.21"
+    ],
+    "books": [
+      "BK107",
+      "BK112"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.21",
+    "slug": "rite-of-passage",
+    "name": "Rite of Passage",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Framework",
+    "legacyType": "Mythic Concept",
+    "tradition": "Anthropology",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Arnold van Gennep",
+    "date": "1909",
+    "oneSentence": "A three part ceremony that moves someone from one social status to another, and makes the change public so it holds.",
+    "story": "",
+    "definition": "Van Gennep’s finding was structural: across unconnected societies, ceremonies marking a change of status share the same three phases. Separation from the old role, a middle phase outside both, and formal reincorporation with the new status witnessed by the community. His argument for why this is universal is practical. A change in status is a change in how everyone else must behave toward a person, which cannot be accomplished privately. The witnessing is the function, not the decoration.",
+    "mechanism": {
+      "chains": [
+        [
+          "a person needs to move from one social status to another",
+          "the old role is formally ended in front of witnesses",
+          "a middle phase holds them outside both categories",
+          "the new status is conferred publicly",
+          "everyone present updates their behaviour at the same moment, which is what makes the change real"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"These are traditional ceremonies that modern societies have outgrown.\" Modern societies have mostly kept the first and third phases and discarded the middle. A graduation separates and reincorporates in ninety minutes with nothing in between. Van Gennep’s structure predicts what people report: transitions that feel administrative rather than completed, and an identity that has not caught up with its new status.",
+    "nearestNeighbour": "LIMINALITY. That is the middle phase considered on its own, which is where anthropologists think the transformation happens. This is the full three part structure including the public conferral, which is the part that makes the new status stick socially.",
+    "discriminateScenario": "The baby is five months old. There has been no event, nothing witnessed, no moment anyone marked. He is doing everything a father does and still, at work, in his own head, he is a man whose life was interrupted rather than a man who became something. Nobody ever told him, formally, in front of people, that he was now this.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "High integrity"
+    ],
+    "related": [
+      "10.19",
+      "10.20",
+      "10.23"
+    ],
+    "books": [
+      "BK107",
+      "BK112"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.22",
+    "slug": "axis-mundi",
+    "name": "Axis Mundi",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Framework",
+    "legacyType": "Mythic Concept",
+    "tradition": "History of Religion",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Mircea Eliade",
+    "date": "1957",
+    "oneSentence": "A fixed centre, a mountain or tree or pillar, from which everything else takes its position.",
+    "story": "",
+    "definition": "Eliade catalogued the recurring image of a world centre: a mountain, a ladder, a tree, a temple pillar, a stake driven into the ground at a camp. Its function is orientation. Without a fixed point there is no near or far, no here, no possibility of founding anything. He records nomadic peoples who carried a pole and planted it at each new site, and who regarded themselves as unable to live when the pole broke. Not metaphorically unable. They reported it as a catastrophe.",
+    "mechanism": {
+      "chains": [
+        [
+          "undifferentiated space offers no direction and no here",
+          "a point is fixed, by a mountain, a tree, a pole or a built structure",
+          "everything else takes its bearing from that point",
+          "the space becomes inhabitable, because founding anything requires a centre",
+          "lose the point and the space reverts to formlessness"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"These are symbolic representations of a culture’s values.\" Eliade’s records suggest the function was operational rather than expressive. People did not treat the centre as a statement about what mattered; they treated it as what made the place liveable, and reported genuine crisis when it was destroyed. Reading it as symbolism reverses the direction of the claim.",
+    "nearestNeighbour": "BODY-HOUSE-COSMOS ANALOGY. That is the correspondence by which the same structure repeats at three scales, so it concerns nested resemblance. This is specifically the fixed point and the orientation it supplies, and it works without any analogy to a body at all.",
+    "discriminateScenario": "They moved six times in nine years. Her mother’s kitchen table came with them every time, and the unpacking was never finished until it was in place and facing the right way. She describes it as sentimental. Everything about where the plates and the chairs and the mornings go is in fact decided by it.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring"
+    ],
+    "related": [
+      "10.19"
+    ],
+    "books": [
+      "BK112"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.23",
+    "slug": "eternal-return",
+    "name": "Eternal Return",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Framework",
+    "legacyType": "Mythic Concept",
+    "tradition": "History of Religion",
+    "difficulty": "advanced",
+    "evidence": "Framework",
+    "origin": "Mircea Eliade",
+    "date": "1949",
+    "oneSentence": "Time as a circle that ritual periodically resets, rather than a line that accumulates.",
+    "story": "",
+    "definition": "Eliade argued that archaic societies did not experience time as an accumulating sequence. Ritual returned them to the founding moment, and the new year abolished the old one rather than following it. The consequence he drew is the interesting part: under a cyclical conception, suffering is bearable because it is periodically annulled, whereas linear time makes every event permanent and irreversible. He regarded the modern inability to abolish the past as a specific and underexamined burden. This is a philosophical interpretation, not an empirical finding.",
+    "mechanism": {
+      "chains": [
+        [
+          "time is conceived as cyclical rather than accumulating",
+          "ritual re enacts the founding moment and returns the community to it",
+          "the preceding period is abolished rather than added to a record",
+          "nothing accumulates permanently, so suffering is periodically annulled",
+          "under linear time the annulment is unavailable and everything that happened stays happened"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Cyclical time means they believed history repeats itself.\" Eliade’s claim is stranger: that ritual made the founding moment present again rather than resembling it. The participants were not commemorating, they were there. Reading it as a theory of recurring historical patterns is a modern translation that removes the part Eliade thought mattered.",
+    "nearestNeighbour": "DEATH-REBIRTH MOTIF. That is a narrative pattern inside stories, where a figure dies and comes back changed. This is a conception of time itself, held by a whole community and enacted collectively, and it is not a story shape.",
+    "discriminateScenario": "She has done the same three things every thirty first of December for nineteen years, in the same order, alone. She is not superstitious and would struggle to explain it. She knows that by the time she has finished, the year that has just happened is somehow over in a way that the first of January alone would not accomplish.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "10.19",
+      "10.21",
+      "10.36",
+      "10.44"
+    ],
+    "books": [
+      "BK112"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -3790,11 +4468,552 @@
       "Self-authoring",
       "High integrity"
     ],
-    "related": [],
+    "related": [
+      "10.11",
+      "10.14",
+      "10.39"
+    ],
     "books": [
       "BK058",
       "BK107"
     ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.36",
+    "slug": "sisyphus-myth",
+    "name": "The Sisyphus Myth",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Homer and Hesiod, interpreted by Albert Camus",
+    "date": "c. 700 BCE, Camus 1942",
+    "oneSentence": "A labour that is completed and undone in the same motion, forever, and the question of what a person does with that.",
+    "story": "Sisyphus founded Corinth and was, by every account, extremely clever and not good. He killed travellers who came to his house. He informed on Zeus, telling the river god Asopus which way the god had gone with his daughter, because the information was worth something.\n\nZeus sent Death for him. Sisyphus asked Death to demonstrate how the handcuffs worked, and then chained him with them, and while Death sat chained in a cupboard in Corinth nobody on earth could die. Men ran through with spears got up and went home. It took a war god to come and release him.\n\nSisyphus had prepared for the next part. He had instructed his wife to leave his body unburied, so that he could go to Persephone in the underworld and complain that he had not been given proper rites, and ask to go back briefly to arrange them. She agreed. He went back and simply stayed, and lived some years more, until they came and got him.\n\nThe punishment was designed by someone who had thought about him. He rolls a boulder up a hill. Near the top it rolls back down. He goes down after it and begins again. There is no deception available because there is no one to deceive, and no cleverness available because there is nothing to be clever about.\n\nCamus added the sentence the myth is now mostly known for, about the walk back down the hill. That hour, he said, is the one in which Sisyphus is conscious and therefore superior to his fate, and he ends by saying one must imagine him happy. It is an argument rather than a part of the myth, and it is worth knowing which is which.",
+    "definition": "The structure is a labour whose completion is its own undoing, assigned to someone whose entire gift was circumvention. Read as punishment, the point is that the sentence removes the only faculty he had. Camus repurposed it as the human condition under absurdity, where no external meaning is available and the only question left is the attitude taken toward the repetition. Both readings are live, and they are not the same claim.",
+    "mechanism": {
+      "chains": [
+        [
+          "a task is set whose completion immediately reverses it",
+          "no amount of skill alters the outcome, because the reversal is the design",
+          "cleverness and effort are both made irrelevant",
+          "what remains available is only the attitude taken toward the repetition",
+          "the attitude becomes the whole of the moral question"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a story about pointless hard work, like a bad job.\" The specific cruelty is subtler. He was the most resourceful man in Greece, who had twice escaped death by negotiation, and the sentence is built to make resourcefulness inapplicable. It is not the labour that is the punishment, it is the removal of anything for his particular intelligence to work on.",
+    "nearestNeighbour": "THE ICARUS MYTH. That turns on a limit being overshot in a single flight, and it ends. This has no limit and no ending, and nothing is overshot; the whole content is the repetition itself.",
+    "discriminateScenario": "He clears the inbox by seven most evenings. By nine the next morning it is at the same number it was. Nine years of this. He is good at it, measurably faster than anyone, and the speed buys him nothing because the thing he is fast at refills at the rate he empties it.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Disciplined",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "10.12",
+      "10.23",
+      "10.43"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.37",
+    "slug": "prometheus-myth",
+    "name": "The Prometheus Myth",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Hesiod, Theogony, and Aeschylus",
+    "date": "c. 700 BCE",
+    "oneSentence": "Taking something the powerful had reserved, handing it to people who needed it, and paying for it without regret.",
+    "story": "Prometheus was a Titan who had taken the winning side in the war against the Titans, and who liked humans, who at that point had very little.\n\nThere had already been trouble. At Mecone, asked to divide an ox between gods and men, he had wrapped the bones in glistening fat and the meat in the stomach, and invited Zeus to choose. Zeus chose the fat. He knew he was being tricked and chose it anyway, which is its own kind of information about him, and afterwards he took fire away from men.\n\nSo Prometheus went and got it back. The accounts differ on the method, a hollow fennel stalk in most of them, lit at the forge or at the wheel of the sun, and carried down. What men did with it was everything: metal, cooking, warmth, the capacity to work after dark.\n\nZeus had him taken to the Caucasus and fixed to the rock with iron. An eagle came each day and ate his liver, which grew back each night, so that the thing was not survivable once but endless. Aeschylus gives him the line that he knew precisely what he was doing and would do it again.\n\nHe also had something Zeus wanted: he knew which union would produce the son who would overthrow him, and he would not say. That, in Aeschylus, is why the torture goes on so long. Eventually Heracles shot the eagle and he was released, and the secret was traded rather than extracted.",
+    "definition": "A transfer of capability from those who held it to those who did not, performed knowingly, punished absolutely, and not recanted. The structural features are that the gift is irreversible once given, that the giver is the only one who suffers for it, and that he retains one piece of knowledge that makes him impossible to simply destroy. Aeschylus makes the refusal to recant the centre of the play.",
+    "mechanism": {
+      "chains": [
+        [
+          "a capability is held by the powerful and withheld from the rest",
+          "someone with access takes it and distributes it",
+          "the distribution cannot be undone, because the recipients now know how",
+          "the punishment falls entirely on the one who transferred it",
+          "they decline to recant, which is the only thing left that they control"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a story about the dangers of overreaching, like Icarus.\" The myth does not present the theft as an error, and Aeschylus has him affirm it explicitly under torture. The pairing with Icarus comes from a modern habit of reading every Greek myth as a caution. This one is a story about an irreversible transfer and the cost of making it, told sympathetically.",
+    "nearestNeighbour": "THE ICARUS MYTH. That is a genuine cautionary tale: an instruction given, disobeyed, and a fall. This looks similar and inverts the moral, because the transgression is vindicated by the story itself and the transgressor refuses to take it back.",
+    "discriminateScenario": "She published the internal figures. She knew what it would cost and it cost that, plus about four years she will not get back. Thirty thousand people can now see what they are being charged and why. Asked in the hearing whether she regretted it, she said no, and did not elaborate, which the committee found irritating.",
+    "praxisExercise": "",
+    "identityTags": [
+      "High integrity",
+      "Sees power structures",
+      "Self-authoring"
+    ],
+    "related": [
+      "07.29",
+      "10.12",
+      "10.38"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.38",
+    "slug": "pandoras-box",
+    "name": "Pandora’s Box",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Hesiod, Works and Days",
+    "date": "c. 700 BCE",
+    "oneSentence": "An irreversible release, and an argument that has run for two thousand years about whether the thing left inside was a mercy.",
+    "story": "After the fire was stolen, Zeus did not take it back. He made something instead.\n\nHephaestus formed her out of earth and water. Athena taught her weaving and dressed her. Aphrodite gave her grace and the ache that goes with it. Hermes gave her a mind, and gave it a particular shape: Hesiod says a shameless mind and a deceitful nature, and taught her speech. Each god gave something, which is what her name means, all gifts.\n\nShe was sent to Epimetheus, whose name means afterthought, and whose brother Prometheus had warned him specifically to accept nothing from Zeus. He accepted her.\n\nShe had a jar. The Greek is pithos, a storage jar as tall as a person, kept in the ground for grain and oil and wine. It became a box in the sixteenth century when Erasmus translated it, and the box is now unremovable from the story. She opened it, and everything in it went out into the world and does not come back: sickness, toil, the thousand sorrows that walk among men by day and night.\n\nHesiod says one thing stayed inside, under the lid, when she closed it. Elpis. The word is usually translated as hope and is better translated as expectation, which can be hopeful or dreadful. He does not say whether it stayed in because it was being saved for us or because it was being kept from us. Scholars have argued about that line since antiquity and the Greek permits both.",
+    "definition": "A one way release: a sealed state is opened, the contents disperse irreversibly, and a single item remains whose status is deliberately ambiguous. The ambiguity is the live part. If Elpis remained as a gift, humanity keeps the one thing that makes the rest endurable. If it remained because it was withheld, then the sorrows went out and the consolation was kept back. Hesiod’s Greek does not settle it, and neither reading is a misreading.",
+    "mechanism": {
+      "chains": [
+        [
+          "a sealed container holds what has not yet entered the world",
+          "curiosity or ordinary human action opens it",
+          "the contents disperse and cannot be recalled, because dispersal is not a reversible operation",
+          "one item remains inside",
+          "whether that remainder was preserved for us or withheld from us is left open, and the whole meaning of the story turns on it"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Hope was left in the box, so the message is that we always have hope.\" The text does not say that and the Greek word is nearer to expectation than to hope. Read the other way, the jar kept back the one thing that would have helped, which is a bleaker and equally supportable reading. The cheerful version is a later smoothing of a line that was ambiguous on purpose.",
+    "nearestNeighbour": "THE PROMETHEUS MYTH. That is the other half of the same sequence and concerns a transfer that is vindicated by its story. This concerns a release that is not vindicated, performed by someone who was manufactured for the purpose and did not choose her own nature.",
+    "discriminateScenario": "The model is open sourced on a Tuesday afternoon. Within six days there are four thousand forks and it is on machines in countries nobody at the company has visited. Every meeting since has been about mitigations, and every person in those meetings understands that the only decision that mattered was made before lunch on the Tuesday.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sound judgement",
+      "Self-authoring",
+      "Clear thinker"
+    ],
+    "related": [
+      "02.28",
+      "10.37"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.39",
+    "slug": "theseus-and-the-minotaur",
+    "name": "Theseus and the Minotaur",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Plutarch and Apollodorus",
+    "date": "c. 100 CE, from older material",
+    "oneSentence": "The thread matters more than the sword, and the hero who remembers the way in forgets everything else.",
+    "story": "Minos had asked Poseidon for a bull to sacrifice and had received one so beautiful he kept it. His wife Pasiphae bore the thing that resulted, a child with a bull’s head, and Minos had Daedalus build a structure to hold it that nobody could find their way out of.\n\nAthens owed Crete a tribute: seven young men and seven young women, periodically, who went into the labyrinth and did not come out. Theseus, the Athenian prince, put himself among them. His father Aegeus asked him to change the black sail for a white one on the way home, so that he would know from the cliff whether his son was alive.\n\nAriadne, Minos’s daughter, fell in love with him and went to Daedalus, who gave her the answer, which was a ball of thread. She gave it to Theseus and he tied one end at the door.\n\nHe killed the Minotaur. The fight takes a sentence or two in most versions, which is the first clue about where the story’s weight sits. Then he followed the thread back out, which is the part that could not have been improvised, and took the fourteen Athenians and Ariadne and sailed.\n\nHe left Ariadne on Naxos while she slept. The versions that defend him say a god required it. The versions that do not, do not.\n\nThen, coming into harbour, he forgot the sail. Aegeus watched a black sail come round the headland, and threw himself from the rock, and the sea is named after him.",
+    "definition": "The structure places the monster at the centre and resolves it in a line, while giving its attention to the thread, the betrayal of the person who supplied it, and the forgotten signal. Read as a story about courage it is oddly flat. Read as a story about what a person is capable of carrying out of a difficult place and what they leave behind in exchange, it is coherent, and the two abandonments at the end are not incidental.",
+    "mechanism": {
+      "chains": [
+        [
+          "a difficult interior is entered where the danger is getting lost rather than being killed",
+          "someone outside supplies the means of return",
+          "the confrontation at the centre is brief and is not the problem",
+          "the way back is traversed using what was given",
+          "the person who gave it and the promise made on leaving are both discarded, and the story treats this as the cost"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a hero story about killing the monster.\" The monster takes a sentence. The thread, the woman who supplied it, her abandonment on an island and the forgotten sail take the rest, and the story ends with the hero’s father dead by his own hand because of an oversight. Whatever this narrative is doing, celebrating the kill is not it.",
+    "nearestNeighbour": "THE GRAIL QUEST. That turns on a question not asked and failure through omission inside the sacred place itself. This turns on successful completion followed by two discardings on the way home, so the failure sits after the achievement rather than inside it.",
+    "discriminateScenario": "He got the company out of it. Everyone agrees the restructuring was correct and that he was the only one who could have done it. The analyst who built the model it ran on was let go in the second wave, and he has not spoken to his co founder in four years, and if asked he will tell you about the restructuring.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sees power structures",
+      "High integrity",
+      "Sound judgement"
+    ],
+    "related": [
+      "10.11",
+      "10.12",
+      "10.25"
+    ],
+    "books": [
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.40",
+    "slug": "oedipus-myth",
+    "name": "The Oedipus Myth",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek Mythology",
+    "difficulty": "intermediate",
+    "evidence": "Traditional",
+    "origin": "Sophocles, Oedipus Tyrannus",
+    "date": "c. 429 BCE",
+    "oneSentence": "Every action taken to escape the prophecy is the action that fulfils it, and the investigation that solves the crime convicts the investigator.",
+    "story": "Laius and Jocasta of Thebes were told their son would kill his father. When he was born they pinned his ankles together and gave him to a shepherd to leave on the mountain. The shepherd could not do it and passed him to another, who took him to Corinth, where the childless king and queen raised him as their own and told him nothing.\n\nGrown, he heard a rumour he was not their son, and went to Delphi to ask. The oracle did not answer the question he asked. It told him he would kill his father and marry his mother. So he did not go home to Corinth, because he was protecting the two people he believed were his parents. He went the other way.\n\nAt a place where three roads meet he met an old man in a carriage who would not give way. There was an argument about precedence and Oedipus killed him and most of his party.\n\nHe came to Thebes, which was being destroyed by a creature that asked a riddle nobody could answer, and he answered it. They made him king and he married the widowed queen, and they had four children, and for some years it was a good reign.\n\nThen the plague came, and he swore publicly to find whoever had killed the old king, and conducted the investigation himself, with energy, against the advice of everyone who had begun to guess. The herdsman was found. Jocasta understood before he did and went into the house and hanged herself. He took the long pins from her dress and put out his own eyes.",
+    "definition": "The structure is a prophecy whose avoidance supplies its mechanism. Every step he takes to escape it is only taken because he knows it, and each is necessary to its fulfilment. Layered on that is a second structure Sophocles builds: a man conducting a rigorous investigation, refusing every offer to stop, and discovering he is the answer. The second part is what makes it a play rather than a parable.",
+    "mechanism": {
+      "chains": [
+        [
+          "a prophecy is issued and believed",
+          "the people it concerns act to avoid it",
+          "those actions are only taken because the prophecy is known",
+          "each one turns out to be required for it to happen",
+          "the knowledge was the instrument, and ignorance would have broken the chain"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a story about fate being inescapable.\" That reading makes the plot mechanical and misses what Sophocles built. The prophecy works through knowledge of itself: the exposure on the mountain, the flight from Corinth, the road taken instead, every link exists because somebody was told. And the play’s actual engine is not fate but a man who will not stop investigating when stopping is still available.",
+    "nearestNeighbour": "SELF-FULFILLING PROPHECY. That is a social mechanism in which an expectation alters behaviour and brings about the expected outcome, and it is studied empirically. This is a narrative in which avoidance specifically is the mechanism, and the knowing is what causes the thing.",
+    "discriminateScenario": "His father was absent and furious and he resolved at about fourteen never to be that. He took the job with no travel, said yes to everything at home, and has been so careful not to be angry that nothing true has been said in that house in nine years. His daughter has begun describing him to her friends as someone who is not really there.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Clear thinker",
+      "Sound judgement"
+    ],
+    "related": [
+      "10.12",
+      "10.47"
+    ],
+    "books": [
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.41",
+    "slug": "sirens",
+    "name": "The Sirens",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Homer, Odyssey Book 12",
+    "date": "c. 700 BCE",
+    "oneSentence": "Binding yourself in advance because you know your future self will want the wrong thing and will be right to want it.",
+    "story": "Circe told him what was coming before he reached it, which is the only reason any of it was possible.\n\nThe singers sit in a meadow by the water, and around them is a heap of men rotting, with the skin shrivelling on the bones. Anyone who hears them goes to them, and does not come back, and is not forced.\n\nWhat they sing is the part people forget. They do not promise beauty or love. They call him by name, they call him glorious Odysseus, and they offer knowledge: come here and we will tell you, we know everything that happens on the fertile earth. For a man who had spent ten years at a war and was trying to get home, knowing everything was the exact shape of the bait.\n\nSo he did what Circe said. He cut up a great wheel of beeswax, worked it soft in his hands in the sun, and stopped his crew’s ears with it. Then he had them bind him upright to the mast, hands and feet, and he gave them an instruction in advance: if I beg you to let me go, tie me tighter.\n\nThey rowed. He heard it. He signalled with his eyebrows to be released, and then begged, and Perimedes and Eurylochus got up and bound him with more ropes, as he had told them to, and they went past.\n\nIn the other version of the story, the Argonauts came the same way and Orpheus simply played louder, and nobody needed to be tied to anything.",
+    "definition": "A constraint accepted at a moment of clear judgement, designed to survive a future moment when judgement will be gone and will not feel gone. Three features carry the weight: the binding happens in advance, the crew are made unable to hear him so the instruction cannot be overridden by his own authority, and he does not try to resist by willpower, because the story assumes willpower will fail. Orpheus offers the alternative route of being changed enough not to need the rope.",
+    "mechanism": {
+      "chains": [
+        [
+          "a future situation is identified in which judgement will reliably fail",
+          "a constraint is set up now, while judgement is sound",
+          "the constraint is placed outside the person’s own future control",
+          "the moment arrives and the wanting is as strong as predicted",
+          "the constraint holds because it was never dependent on the wanting being resisted"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The song is about lust, and the lesson is to resist temptation.\" In Homer the offer is omniscience, not desire, and the lesson is explicitly not to resist. He expects to fail and arranges to fail safely. The sophisticated part of the story is that he removes his own ability to countermand the plan, which is a design decision rather than an act of character.",
+    "nearestNeighbour": "COMMITMENT DEVICES. That is the modern behavioural category for exactly this move, with its own literature and evidence. This is the founding narrative image of it, and it adds something the category usually omits: the alternative of becoming the kind of person who does not need the rope.",
+    "discriminateScenario": "She gives her sister the password on the Friday and tells her not to return it before Monday whatever happens. On Saturday night she asks for it and gives three good reasons, and her sister, who was warned on Friday that there would be good reasons, says no. On Monday she is grateful and does not remember how reasonable the reasons sounded.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Disciplined",
+      "Self-authoring",
+      "Sound judgement"
+    ],
+    "related": [
+      "03.30"
+    ],
+    "books": [
+      "BK107"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.42",
+    "slug": "tower-of-babel",
+    "name": "The Tower of Babel",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Hebrew Bible",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Genesis 11",
+    "date": "c. 6th century BCE",
+    "oneSentence": "A project large enough to require everyone, stopped not by force but by making them unable to understand each other.",
+    "story": "The whole earth was of one language and one speech. They travelled from the east and found a plain in Shinar and settled there.\n\nThey said to one another, come, let us make brick and burn them thoroughly. And they had brick for stone, and slime for mortar, which is the detail that tells you they were in Mesopotamia, where there is no building stone and everything is mud fired hard.\n\nThen they said: come, let us build us a city and a tower whose top may reach unto heaven. And then the reason, which is the part usually left out: and let us make us a name, lest we be scattered abroad upon the face of the whole earth.\n\nSo the thing they were trying to prevent was dispersal, and the thing they built to prevent it was a monument and a name.\n\nAnd the Lord came down to see the city and the tower which the children of men builded. And he said, behold, the people is one, and they have all one language, and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.\n\nHe did not knock it down. Go to, let us go down, and there confound their language, that they may not understand one another’s speech. And they left off building, and were scattered, which is precisely what they had built the tower to avoid.",
+    "definition": "An intervention aimed at coordination rather than at capability. The builders are not weakened, disarmed or destroyed; nothing is taken from any individual. What is removed is the shared medium, and the project collapses on its own because a sufficiently large undertaking cannot survive the loss of mutual intelligibility. The text is explicit that unity was the threat and that scattering was both the punishment and the thing they had feared.",
+    "mechanism": {
+      "chains": [
+        [
+          "a project requires coordination beyond any individual",
+          "coordination depends on a shared medium of understanding",
+          "the medium is removed while every individual capability is left intact",
+          "the work stops without anyone being stopped",
+          "the group disperses, having built the thing specifically to prevent dispersal"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a story about punishing human pride and reaching too high.\" Height is barely in the text. The builders state their motive as avoiding being scattered and making a name, and the divine objection quoted is that nothing they imagine will be restrained from them, which is about capability through unity. The arrogance reading is available but the text keeps pointing at coordination.",
+    "nearestNeighbour": "THE ICARUS MYTH. That is a genuine story of overreach with a stated limit and an individual who exceeds it. This has no stated limit and no individual, and the failure arrives through the removal of a shared medium rather than through anyone going too far.",
+    "discriminateScenario": "Nobody was fired and no budget was cut. The product team was moved under a different vice president, the engineers kept their old standup, and the two groups now use different words for the same object and different numbers for the same metric. Eight months later the thing is quietly descoped, and no single decision anywhere caused it.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sees power structures",
+      "Clear communicator",
+      "Sound judgement"
+    ],
+    "related": [
+      "10.12"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.43",
+    "slug": "book-of-job",
+    "name": "The Book of Job",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Hebrew Bible",
+    "difficulty": "advanced",
+    "evidence": "Traditional",
+    "origin": "Job",
+    "date": "c. 6th to 4th century BCE",
+    "oneSentence": "Suffering that has no explanation, and a book that refuses to supply one even at the end.",
+    "story": "Job was blameless and upright, and had seven sons and three daughters and a great deal of livestock, and the book says this plainly so that nothing turns on him deserving it.\n\nIn the court of heaven the adversary asks whether Job fears God for nothing, and suggests the obvious test. Permission is granted. In a single day the oxen and the servants are taken by raiders, fire falls and burns the sheep, the camels are driven off, and the house where his children are eating collapses on all ten of them. Then he is covered in sores from his feet to his head and sits in the ashes scraping himself with a piece of broken pot.\n\nHis three friends come and sit with him for seven days and nights and say nothing, which is the one thing in the book everyone agrees they do well. Then they start talking, and for roughly thirty chapters they explain, with increasing conviction and decreasing kindness, that this must be because of something he did, because the alternative is unthinkable. Job keeps saying it is not, and asks for a hearing.\n\nThen God answers, out of a whirlwind, and does not explain. The answer is a long series of questions about the world: where were you when the foundations were laid, can you bind the Pleiades, have you entered the storehouses of the snow, do you know when the mountain goats give birth. Chapter after chapter of the universe being enormous and particular and not about him.\n\nJob says he had heard of these things and now he has seen, and puts his hand over his mouth. His friends are rebuked for not having spoken rightly. He is given twice as much as before and ten more children, which has satisfied nobody for two and a half thousand years.",
+    "definition": "A structure that poses the problem of unmerited suffering, spends most of its length demolishing the available explanations, and then declines to replace them. The friends voice the ordinary theory that suffering is deserved and are explicitly rebuked for it. The voice from the whirlwind does not answer the question but reframes the questioner’s standing to ask. Its literary significance is the refusal: the book is constructed so that no tidy reading survives it.",
+    "mechanism": {
+      "chains": [
+        [
+          "suffering arrives without any available cause in the sufferer",
+          "onlookers supply the explanation that it must be deserved, because the alternative is intolerable to them",
+          "the sufferer refuses the explanation and demands a hearing",
+          "the hearing is granted and the question is not answered",
+          "what is offered instead is scale, and the one who asked stops asking"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a story about patience being rewarded.\" Job is not patient. He curses the day he was born, accuses God of hunting him, and demands a trial for thirty chapters, and the restoration at the end is widely read as a later addition that the body of the book argues against. The patient Job comes from a single line in the Epistle of James rather than from the book itself.",
+    "nearestNeighbour": "THE SISYPHUS MYTH. That is also about a condition with no available meaning, and Camus answers it with a recommended attitude of defiance. This one withholds the answer rather than supplying one, and its final move is the questioner falling silent rather than resolving to continue.",
+    "discriminateScenario": "Three people have now told her, gently, that things happen for a reason and that she will understand it later. A fourth has asked whether she had considered the stress she had been under. She has stopped answering. What she actually wants is the one friend who sat with her for a week in October and said nothing at all.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Emotionally regulated",
+      "Self-authoring",
+      "Clear thinker"
+    ],
+    "related": [
+      "09.01",
+      "10.36"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.44",
+    "slug": "ouroboros",
+    "name": "The Ouroboros",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Egyptian, Greek Alchemy and Gnosticism",
+    "difficulty": "intermediate",
+    "evidence": "Traditional",
+    "origin": "Egyptian funerary texts, later Hellenistic alchemy",
+    "date": "c. 1600 BCE onward",
+    "oneSentence": "The serpent eating its own tail, which is a closed system that consumes itself to continue and is therefore not a picture of progress.",
+    "story": "The oldest one is in a tomb. On a gilded shrine in the burial chamber of Tutankhamun there are two serpents, each with its tail in its mouth, one at the head of the figure and one at the feet. The text around them concerns the sun passing through the night and coming out again, and the serpent is what that passage looks like when drawn.\n\nThe Egyptians had a word for the Nile flood’s return and the sun’s return and the king’s succession, and the figure of the self enclosing serpent belongs with those: not an idea about eternity in the abstract, but about things that come back.\n\nIt travelled. In Hellenistic Alexandria the alchemists took it, and in one of the oldest alchemical drawings, in the Chrysopoeia attributed to Cleopatra, the serpent circles a text that says the one is the all. The alchemists were interested in a process that fed on its own product, where the end of the operation was the material for the beginning.\n\nThe Gnostics used it to enclose the cosmos, and the Norse have a version that is not a symbol at all but an animal: Jormungand, thrown into the sea, grown long enough to encircle the world and bite its own tail, and the story is explicit that when it lets go the world ends.\n\nSo the figure has two faces depending on who is holding it. For the alchemists it is self sustaining. For the Norse it is what is holding everything shut, and the release is the catastrophe.",
+    "definition": "A closed loop in which output is reprocessed as input. Its two traditional readings are not compatible and both are useful. As renewal, it is a system that sustains itself without external supply. As consumption, it is a system that can only continue by eating itself, which means it is not growing and is paying for continuation out of its own substance. The second reading is the one usually dropped, and it is the one that makes the symbol diagnostic rather than decorative.",
+    "mechanism": {
+      "chains": [
+        [
+          "a system produces an output",
+          "the output is fed back as the input",
+          "no external supply is required, so the loop appears self sufficient",
+          "the substance being consumed is its own",
+          "continuation is therefore paid for from the thing that is continuing, which cannot go on indefinitely"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means eternity, infinity, or the cycle of life.\" That is one of the two traditions and the comfortable one. The Norse version is explicit that the biting is what is holding the world together and that release is the end, and the alchemical version is about a process that runs on its own corpse. Flattening it to a tidy image of eternal renewal removes the half that can tell you something.",
+    "nearestNeighbour": "ETERNAL RETURN. That is Eliade’s account of how whole communities conceived of time, enacted through ritual, and it is a claim about calendars and cosmology. This is a single visual figure for a self consuming loop, and it applies as readily to a business or a habit as to time.",
+    "discriminateScenario": "The agency pays for the ads out of the revenue the ads bring in, which means every month is technically funded and nothing has ever been put aside. Three years of this. On paper it works perfectly. There is no version of a bad quarter that it survives, and nobody has said so out loud in a meeting.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sound judgement",
+      "Clear thinker",
+      "Sees power structures"
+    ],
+    "related": [
+      "10.23",
+      "10.45"
+    ],
+    "books": [
+      "BK050"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.45",
+    "slug": "phoenix",
+    "name": "The Phoenix",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Egyptian and Greek",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Herodotus, Histories Book 2",
+    "date": "c. 430 BCE, from older Egyptian material",
+    "oneSentence": "Renewal that requires the complete destruction of the previous form, with nothing carried across intact.",
+    "story": "Herodotus says he never saw one, which is a good start. He says the Egyptians told him about it and showed him a picture, and he reports what he was told without claiming to believe it.\n\nThe bird comes from Arabia to Heliopolis, the city of the sun, once every five hundred years, when its father dies. Herodotus’s version is oddly practical: the young bird encases the body of its parent in myrrh and carries it to the temple and buries it there, and he adds that he does not find this credible.\n\nThe version that survived is the later one. The bird builds a nest of spices, and it burns, and from the ash the next one comes. Not a bird that lives a long time and recovers. A bird that is destroyed and whose replacement comes out of the destruction, and which is somehow the same bird.\n\nBehind it is the Egyptian Bennu, a heron associated with the sun and with Atum and with the flood, standing on the mound that rose out of the water at the beginning. Tacitus mentions a sighting in Egypt in the reign of Tiberius and is sceptical. The early Christians took it up almost immediately as a figure for resurrection.\n\nThe structural point that every version keeps is that there is no overlap. There is never a moment with two birds. The old one has to be entirely gone for the new one to exist, and the new one is not a continuation of a life but a thing made out of the ash.",
+    "definition": "A renewal pattern whose defining constraint is the absence of overlap. The previous form must be wholly destroyed before the next exists; nothing is transferred but the material. This distinguishes it sharply from growth, recovery or adaptation, all of which preserve continuity. Where the figure is applied honestly it names situations in which the old arrangement cannot be reformed and has to end completely first, which is a much more expensive claim than it is usually used to make.",
+    "mechanism": {
+      "chains": [
+        [
+          "a form reaches the end of what it can be",
+          "it is destroyed completely rather than modified, and there is no overlap",
+          "only the material remains",
+          "a new form is constituted from that material",
+          "the result is continuous in substance and discontinuous in identity"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means bouncing back from hardship, rising from the ashes stronger.\" Resilience preserves the thing that was there, which is the opposite of what every version of this describes. There is no moment with two birds and nothing survives the fire but ash. Using it for recovery from a setback inverts the one structural feature the myth never varies.",
+    "nearestNeighbour": "DEATH-REBIRTH MOTIF. That is the broad narrative pattern of dying and returning transformed, and the returning figure is usually recognisably the same one, as with Inanna or Orpheus. This insists on total destruction with no overlap and no survivor, which is a narrower and harder claim.",
+    "discriminateScenario": "They tried for two years to fix the platform while it was running. Every patch had to be compatible with the thing being patched, which was the problem. In the end they turned it off on a Friday, kept nothing but the customer data, and spent nine months with no product at all, which the board very nearly did not allow.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Sound judgement",
+      "Creatively unblocked"
+    ],
+    "related": [
+      "01.29",
+      "10.44"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.46",
+    "slug": "pygmalion-myth",
+    "name": "The Pygmalion Myth",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek and Roman Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Ovid, Metamorphoses Book X",
+    "date": "c. 8 CE",
+    "oneSentence": "Falling in love with something you made, which can never contradict you, and getting your wish.",
+    "story": "Pygmalion of Cyprus had seen what women were and had decided against them. Ovid is specific about the reason: he had seen the women of Amathus doing something monstrous and had turned away from the whole sex, and lived alone, and worked.\n\nHe carved a woman out of ivory, and she was more beautiful than any born, and he fell in love with his own work. Ovid is unsparing about what follows. He touches it to see whether it is flesh and is not sure. He talks to it. He brings it gifts: shells, pebbles, small birds, flowers, beads of amber. He dresses it and puts rings on its fingers and a necklace at its throat, and lays it on a bed on Tyrian purple cushions and calls it his bedfellow, and puts a pillow under its head as though it could feel.\n\nAt the festival of Venus he made his offering and did not dare say what he wanted, and asked instead for a wife like his ivory girl. Venus understood.\n\nHe went home and kissed it and the ivory seemed warm. He kissed it again and touched it and it gave under his fingers like wax in the sun. It was flesh. She opened her eyes and saw the sky and her lover at the same moment.\n\nOvid does not give her a single word. The name Galatea was attached to her more than a thousand years later. In the original she is not named and never speaks, and they have a daughter.",
+    "definition": "A creation that is loved precisely because it originated entirely within the creator and has no independent position. The structure’s features are that the beloved is made rather than met, that the maker had rejected the real version first, and that animation does not produce a separate person: she is given life, a daughter and no voice. The modern Pygmalion effect in psychology borrows the name for something different, the way expectations shape another person’s performance.",
+    "mechanism": {
+      "chains": [
+        [
+          "the real version of something is encountered and rejected",
+          "a substitute is constructed to specification",
+          "it is loved because it cannot contradict the maker",
+          "it is granted enough reality to satisfy him",
+          "it is never granted a position of its own, so the loop is never broken"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a romantic story about love bringing something to life.\" Ovid builds it as a study of a man who rejected real women and made one that could not argue. She has no name and no line of dialogue in the source, and the rings and cushions are there to be uncomfortable. The romance reading comes from Shaw and from later retellings rather than from the text.",
+    "nearestNeighbour": "ANIMA AND ANIMUS. That is Jung’s account of projecting an inner figure onto a real person who then fails to match it. This begins by refusing real people altogether and constructing the figure in material, so there is nobody present to fail.",
+    "discriminateScenario": "He has been talking to it for seven months. It remembers everything he has said, agrees with his reading of the argument with his brother, and has never once been tired or disappointed in him. He has stopped telling his friends about things before he has told it, and he has begun to find ordinary conversation effortful and slightly insulting.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring",
+      "Builds lasting bonds",
+      "Clear thinker"
+    ],
+    "related": [
+      "05.35",
+      "10.05",
+      "10.08"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.47",
+    "slug": "cassandra",
+    "name": "Cassandra",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "",
+    "tradition": "Greek Mythology",
+    "difficulty": "introductory",
+    "evidence": "Traditional",
+    "origin": "Aeschylus, Agamemnon, and the Epic Cycle",
+    "date": "c. 458 BCE",
+    "oneSentence": "Being right, in detail, in advance, and having that make no difference whatsoever.",
+    "story": "Apollo wanted her and offered her prophecy. She took the gift and then refused him. He could not take it back, so he added to it: she would see truly and nobody would ever believe her. In some versions he spat into her mouth.\n\nShe told them about the horse. She said what was in it. Her own brother Helenus said the same thing and there is a version where Laocoon threw a spear at it and the serpents came out of the sea for him. The Trojans took the horse inside the walls because they had decided what it was, and she went on saying what was going to happen to the city while they put it in.\n\nIn Aeschylus she is standing in a chariot outside the palace at Argos, having been taken as a prize, and she will not come down. Clytemnestra speaks to her and she says nothing at all, and Clytemnestra goes inside. Then she speaks, to the chorus, and describes the house: the children eaten, the blood, the net, the axe. She describes her own death and Agamemnon’s in the next few minutes.\n\nThe chorus of old men tell her they can follow the ancient part and are lost in the rest. They say they do not understand. They are not stupid and they are not callous; they simply cannot make the step from what she is saying to acting on it.\n\nThen she goes in, knowing exactly what is in there, and it happens as she said.",
+    "definition": "A structure in which accurate foresight is decoupled from credibility, so correctness has no causal path to action. The curse is precise: not that she is wrong, not that she is silenced, but that being right is made inert. Aeschylus adds the detail that the hearers are neither hostile nor foolish, which is what makes the pattern general. They cannot cross from hearing a true thing to treating it as actionable, and the clarity of the warning does not help.",
+    "mechanism": {
+      "chains": [
+        [
+          "someone sees accurately and in detail what is coming",
+          "they say so plainly and early",
+          "the hearers are unable to convert the warning into action, and are not malicious or stupid",
+          "the event happens as described",
+          "the accuracy is confirmed exactly when it has stopped being useful"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The lesson is that people ignore warnings, so warn harder and more clearly.\" Her warnings are maximally clear and specific, and that is the point of the curse rather than a flaw in her delivery. The pattern is about the absence of a path from true information to collective action, which is a structural problem and not a communication problem, so warning harder is precisely the move the myth rules out.",
+    "nearestNeighbour": "THE OEDIPUS MYTH. That is also about a prophecy that comes true, but there the knowledge is the instrument and acting on it is what causes the outcome. Here acting on it would have prevented everything and the acting is what cannot happen.",
+    "discriminateScenario": "She wrote the memo in March. It named the failure mode, the system, the quarter and roughly the cost. Two people replied saying it was interesting. In November it happened in approximately that order, and in the review someone asked whether anyone had seen this coming, and she found she had no appetite at all for being the one to answer.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sees power structures",
+      "Clear communicator",
+      "Sound judgement"
+    ],
+    "related": [
+      "10.40"
+    ],
+    "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
   {

@@ -548,7 +548,15 @@
     "oneLineTake": "The origin of differentiation of self, triangles and the family as an emotional unit.",
     "primaryDomain": "",
     "concepts": [
-      "10.08"
+      "10.01",
+      "10.02",
+      "10.03",
+      "10.04",
+      "10.05",
+      "10.07",
+      "10.08",
+      "10.10",
+      "10.44"
     ]
   },
   {
@@ -634,6 +642,7 @@
     "oneLineTake": "",
     "primaryDomain": "",
     "concepts": [
+      "10.14",
       "10.25"
     ]
   },
@@ -681,7 +690,9 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "10.04"
+    ]
   },
   {
     "id": "BK063",
@@ -1043,7 +1054,10 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "10.11",
+      "10.14"
+    ]
   },
   {
     "id": "BK098",
@@ -1155,10 +1169,17 @@
     "oneLineTake": "",
     "primaryDomain": "",
     "concepts": [
+      "10.01",
       "10.08",
+      "10.11",
       "10.12",
       "10.13",
-      "10.25"
+      "10.20",
+      "10.21",
+      "10.25",
+      "10.39",
+      "10.40",
+      "10.41"
     ]
   },
   {
@@ -1217,7 +1238,13 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "10.19",
+      "10.20",
+      "10.21",
+      "10.22",
+      "10.23"
+    ]
   },
   {
     "id": "BK113",
@@ -1321,7 +1348,11 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "10.02",
+      "10.03",
+      "10.07"
+    ]
   },
   {
     "id": "BK123",
