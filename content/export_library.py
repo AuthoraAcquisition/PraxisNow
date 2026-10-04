@@ -124,6 +124,11 @@ REQUIRED_ALL = ["One Sentence", "Definition", "Mechanism (ordered chain)",
                 "Common Misconception", "Nearest Neighbour", "Discriminate Scenario"]
 REQUIRED_INTEGRATION = ["Praxis Exercise", "Identity Tags"]
 
+# Domains read for their own sake rather than toward a goal. Comprehend gives
+# these their own shelf and does not surface them under any identity, so a row
+# here carrying no Identity Tag is correct rather than an oversight.
+BROWSE_DOMAINS = {"Myth, Symbol & Spiritual Traditions"}
+
 
 def build_books(raw_books, rep):
     books, seen, seen_titles = {}, set(), {}
@@ -220,7 +225,7 @@ def build_concepts(raw, vocab, books, rep):
         if tier == "integration" and not tags:
             rep.error(where, "Integration tier needs at least one Identity Tag "
                              "or it can never be surfaced by a goal")
-        if tier == "discovery" and not tags:
+        if tier == "discovery" and not tags and cell(r.get("Primary Domain")) not in BROWSE_DOMAINS:
             rep.warn(where, "no Identity Tag, so this concept can appear on the wheel but "
                             "will never be weighted toward anyone's goal")
 

@@ -87,10 +87,56 @@
     ],
     "related": [
       "01.01",
-      "01.29"
+      "01.29",
+      "02.23"
     ],
     "books": [
       "BK059"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "01.05",
+    "slug": "chestertons-fence",
+    "name": "Chesterton’s Fence",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Mental Model",
+    "legacyType": "Mental Model",
+    "tradition": "Conservative Epistemology",
+    "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "G. K. Chesterton",
+    "date": "1929",
+    "oneSentence": "Do not remove something until you can say why it was put there, and the burden is on the remover.",
+    "story": "",
+    "definition": "Chesterton’s image is a fence across a field. The reformer says he sees no use for it and will clear it away. The reply is that if you do not see its use, you must first go and find out, and then you may be permitted to destroy it. The point is a specific allocation of burden rather than a defence of tradition: not seeing a reason is evidence about the observer, not about the fence, and Chesterton makes clearing it permissible once the reason is known.",
+    "mechanism": {
+      "chains": [
+        [
+          "an existing arrangement appears to serve no purpose",
+          "the appearance is a fact about the observer rather than about the arrangement",
+          "the reason, if there is one, is usually held by someone else or recorded somewhere",
+          "finding it is cheaper than discovering it by removal",
+          "once the reason is known, removal becomes a defensible decision rather than a bet"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is an argument for keeping things as they are.\" Chesterton explicitly grants permission to clear the fence once you know why it is there. The argument is about sequence, not preservation, and the fence most often does turn out to be pointless. What it rules out is removing it while the reason is still unknown.",
+    "nearestNeighbour": "STATUS-QUO BIAS. That is the documented tendency to prefer the existing arrangement regardless of its merits, which is a bias to be corrected. This is a deliberate procedural rule about the order of investigation, and it is a prescription rather than a distortion.",
+    "discriminateScenario": "The new engineer removed the thirty line check nobody could explain, and the tests passed, and it shipped. Eleven weeks later it turned out to be handling a currency rounding case that occurs on about four hundred transactions a year, all of them in one country, and the person who wrote it had left in 2021.",
+    "praxisExercise": "FIND THE REASON FIRST\n\n1. Name something you are about to remove, cancel or simplify because it seems pointless.\n2. Spend twenty minutes finding out why it exists. Ask the longest serving person available.\n3. Write what you found, including nothing.\n4. Then decide. Removal is often correct after this, and it is now a decision.\n\nCOMMITMENT (if then):\n\"When I am about to remove something whose purpose I cannot state, I will spend twenty minutes finding out why it is there first.\"",
+    "identityTags": [
+      "Clear thinker",
+      "High integrity"
+    ],
+    "related": [
+      "01.29",
+      "02.01"
+    ],
+    "books": [
+      "BK120"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -274,7 +320,9 @@
       "Clear thinker",
       "High integrity"
     ],
-    "related": [],
+    "related": [
+      "04.01"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -319,6 +367,7 @@
       "Self-authoring"
     ],
     "related": [
+      "07.07",
       "11.29"
     ],
     "books": [],
@@ -409,10 +458,192 @@
     ],
     "related": [
       "01.02",
+      "01.05",
       "10.45"
     ],
     "books": [
       "BK007"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.01",
+    "slug": "second-order-thinking",
+    "name": "Second-Order Thinking",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Mental Model",
+    "legacyType": "Mental Model",
+    "tradition": "Investing and Systems Thinking",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Common in investing, formalised by Ray Dalio and Howard Marks",
+    "date": "2017",
+    "oneSentence": "Asking what happens after the thing you want happens, which is where most of the consequences live.",
+    "story": "",
+    "definition": "First order thinking stops at the immediate result. Second order asks what follows from that result, and then what follows from the response to it. The reason it matters is that other people adjust. A road is widened to reduce congestion, the shorter journey makes driving more attractive, and traffic returns to its previous level. Nothing failed at the first order; the behaviour it changed produced the second.",
+    "mechanism": {
+      "chains": [
+        [
+          "an action produces an immediate effect, which is the one that was intended",
+          "people and systems adjust to the new conditions",
+          "those adjustments produce a second effect, often in the opposite direction",
+          "the second effect frequently dominates over time",
+          "judging the action by the first effect alone gets the sign wrong"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is just thinking things through more carefully.\" The distinguishing move is specific rather than general: it asks what other people will do differently once the first effect lands. Careful analysis of a first order effect, however thorough, is still first order if it leaves out the adjustment.",
+    "nearestNeighbour": "UNINTENDED CONSEQUENCES. That names the outcome, the surprise that arrives afterwards. This is the practice of asking for it in advance, and it is a question you can apply before deciding rather than a label applied after.",
+    "discriminateScenario": "They capped the bonus at thirty per cent to stop reckless selling. Three of the four best salespeople left by September, the cost of replacing them exceeded the saving, and the remaining one now hits the cap in October and stops trying. The policy did reduce reckless selling.",
+    "praxisExercise": "AND THEN WHAT\n\n1. Take a decision you are about to make.\n2. Write the effect you want. Then ask who adjusts their behaviour once that effect lands.\n3. Write what they do, and then what follows from that.\n4. Stop at the third step. Go further and you are guessing.\n\nCOMMITMENT (if then):\n\"When I make a decision that changes other people's incentives, I will write down what they will do differently before I make it.\"",
+    "identityTags": [
+      "Sound judgement",
+      "Disciplined"
+    ],
+    "related": [
+      "01.05",
+      "02.19",
+      "02.23"
+    ],
+    "books": [
+      "BK063",
+      "BK128"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.03",
+    "slug": "expected-value",
+    "name": "Expected Value",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Decision Model",
+    "legacyType": "Decision Model",
+    "tradition": "Probability Theory",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Blaise Pascal and Pierre de Fermat",
+    "date": "1654",
+    "oneSentence": "Each outcome weighted by how likely it is, which separates whether a decision was good from whether it worked.",
+    "story": "",
+    "definition": "Multiply each possible outcome by its probability and add them. Its real function is not arithmetic but separation: it makes the quality of a decision independent of the result of any single instance. A bet with positive expected value can lose, and losing does not make taking it wrong. Annie Duke built her account of decision making around exactly this split, and the discipline it requires is judging the choice by what was knowable at the time.",
+    "mechanism": {
+      "chains": [
+        [
+          "list the possible outcomes and attach a probability and a value to each",
+          "weight each value by its probability and sum them",
+          "the result describes the average over many instances rather than this one",
+          "a single instance can land anywhere in the distribution",
+          "the decision is evaluated against the calculation and not against the instance"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"If the decision was right, it should have worked out.\" That inference is the thing this concept exists to break. Over a single trial, outcome tells you very little about decision quality, and treating a bad result as proof of a bad choice is how people abandon good processes after one loss. The arithmetic matters less than the separation it enforces.",
+    "nearestNeighbour": "OUTCOME BIAS. That is the specific error of judging a decision by how it turned out, so it names the mistake. This is the tool that makes the mistake visible, and it tells you what to judge the decision against instead.",
+    "discriminateScenario": "He put four per cent into it, knowing roughly one in six of these work and that the one that does returns thirty times. It did not work. At the review his co founder calls it a mistake and wants the policy changed, and the arithmetic that justified it has not altered by a single digit.",
+    "praxisExercise": "SEPARATE THE BET FROM THE RESULT\n\n1. Take a recent decision that turned out badly.\n2. Write what you knew at the time, and the rough odds and payoffs as they looked then.\n3. Decide whether the choice was wrong or the result was unlucky. They are different findings.\n4. Only change the process if the first one is true.\n\nCOMMITMENT (if then):\n\"When something I chose turns out badly, I will write what I knew at the time before I decide whether the choice was wrong.\"",
+    "identityTags": [
+      "Sound judgement"
+    ],
+    "related": [
+      "02.04",
+      "02.17",
+      "02.31",
+      "02.32"
+    ],
+    "books": [
+      "BK128"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.04",
+    "slug": "bayesian-updating",
+    "name": "Bayesian Updating",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Decision Model",
+    "legacyType": "Decision Model",
+    "tradition": "Probability Theory",
+    "difficulty": "advanced",
+    "evidence": "Replicated",
+    "origin": "Thomas Bayes, published by Richard Price",
+    "date": "1763",
+    "oneSentence": "Moving a belief by the weight of new evidence rather than replacing it, and starting from how likely it was to begin with.",
+    "story": "",
+    "definition": "Begin with a prior, how probable something was before the new information. Then adjust in proportion to how much more likely the evidence is under that hypothesis than under the alternatives. Two things fall out. A strong prior should not be overturned by one weak observation, and a weak prior should move a long way on good evidence. Most practical use is qualitative: people are not computing, they are asking how surprising this would be if they were wrong.",
+    "mechanism": {
+      "chains": [
+        [
+          "start with how likely the claim was before this evidence arrived",
+          "ask how probable the evidence is if the claim is true, and if it is false",
+          "the ratio between those sets how far the belief should move",
+          "the belief is adjusted rather than switched",
+          "each new piece of evidence operates on the updated position, not on the original one"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Being open minded means following the evidence wherever it leads.\" That omits the prior, which is where most of the error in practice happens. A single surprising study against a hundred years of consistent results should move a belief slightly. Treating each new piece of evidence as if nothing were known beforehand is not open mindedness, it is discarding information.",
+    "nearestNeighbour": "BASE-RATE NEGLECT. That is the specific failure of ignoring how common something is before weighing the specifics. This is the full procedure for combining the two correctly, and the neglect is one way of getting it wrong.",
+    "discriminateScenario": "Nine of their customers have asked for it in a fortnight, which feels overwhelming. They have eleven thousand customers. He is treating a request rate below one in a thousand as a mandate because all nine arrived in the same channel he happens to read.",
+    "praxisExercise": "WRITE THE PRIOR FIRST\n\n1. Take a claim you have recently started believing.\n2. Write how likely you would have said it was a month ago, as a rough percentage.\n3. Write what evidence arrived, and how surprising it would be if the claim were false.\n4. Decide how far it should move you. Usually less than it did.\n\nCOMMITMENT (if then):\n\"When new evidence changes my mind, I will write down what I thought before it arrived and how strong the evidence actually is.\"",
+    "identityTags": [
+      "Sound judgement"
+    ],
+    "related": [
+      "02.03",
+      "02.05"
+    ],
+    "books": [
+      "BK128"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.05",
+    "slug": "base-rate-neglect",
+    "name": "Base-Rate Neglect",
+    "tier": "discovery",
+    "domain": "Decisions & Risk",
+    "type": "Cognitive Bias",
+    "legacyType": "Cognitive Bias",
+    "tradition": "Cognitive Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Daniel Kahneman and Amos Tversky",
+    "date": "1973",
+    "oneSentence": "Judging from the vivid specifics in front of you while ignoring how common the thing is in the first place.",
+    "story": "",
+    "definition": "Kahneman and Tversky found people would read a description of a person and assign them to a profession that fitted the description, with almost no regard for how many people hold that profession. The classic demonstration involves a shy, tidy, detail oriented man: respondents call him a librarian, though farmers outnumber librarians enormously, so the prior probability swamps the resemblance. The effect is robust and shows up in medical diagnosis, hiring and investing.",
+    "mechanism": {
+      "chains": [
+        [
+          "a specific description arrives and is vivid and easy to reason about",
+          "how often the category occurs is abstract and does not come to mind",
+          "similarity to the description drives the judgement",
+          "the prior probability is left out of the calculation entirely",
+          "confident conclusions are reached about rare categories on the strength of resemblance"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is a maths error that better numeracy fixes.\" The experiments find it in statistically trained people, including physicians working on diagnoses in their own speciality. The specifics are available and the frequency is not, and knowing the formula does not make the frequency come to mind at the moment of judging.",
+    "nearestNeighbour": "REPRESENTATIVENESS HEURISTIC. That is the broader shortcut of judging by resemblance to a prototype, and it covers many judgements. This is the specific consequence of that shortcut when it displaces a known frequency, which makes it narrower and easier to check for.",
+    "discriminateScenario": "He has the symptom, and he has read that the symptom appears in about ninety per cent of cases of the rare condition. He has not registered that the condition occurs in about one person in forty thousand, and that the symptom also appears in something extremely ordinary. He has not slept properly in four days.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sound judgement"
+    ],
+    "related": [
+      "02.04"
+    ],
+    "books": [
+      "BK061",
+      "BK128"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -457,6 +688,190 @@
     "books": [
       "BK026",
       "BK061"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.14",
+    "slug": "survivorship-bias",
+    "name": "Survivorship Bias",
+    "tier": "discovery",
+    "domain": "Decisions & Risk",
+    "type": "Cognitive Bias",
+    "legacyType": "Cognitive Bias",
+    "tradition": "Statistics",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Abraham Wald",
+    "date": "1943",
+    "oneSentence": "Studying only what made it through, and drawing conclusions from a sample the failures have been removed from.",
+    "story": "",
+    "definition": "Wald was asked where to add armour to bombers, given data on where returning aircraft had been hit. The hits clustered on wings and fuselage and were sparse on the engines. His answer was to armour the engines, because the aircraft hit there had not come back to be measured. The structure recurs wherever outcomes are studied through those that remain: fund performance, company strategies, the habits of famous people, the durability of old buildings.",
+    "mechanism": {
+      "chains": [
+        [
+          "a population is subject to some process that removes part of it",
+          "the remainder is what can be observed and measured",
+          "conclusions are drawn from the remainder as though it were the population",
+          "whatever caused the removals is invisible by construction",
+          "the inference is confidently wrong in a direction nobody can see from inside the data"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"You just need a bigger sample.\" Size does not help when the selection happens before measurement. Ten thousand returning aircraft still have no data on the ones that fell, and studying more successful founders still tells you nothing about how many did the same things and failed. The fix is finding the missing cases, not gathering more of the present ones.",
+    "nearestNeighbour": "AVAILABILITY HEURISTIC. That concerns what comes to mind easily, which is a fact about memory and attention. This concerns what is present in the data at all, which is a fact about how the sample was formed, and no amount of recall correction reaches it.",
+    "discriminateScenario": "The playbook is built from interviews with forty founders who scaled past a hundred million. Every one of them talks about conviction and ignoring advice. Nobody interviewed the several thousand who also ignored advice with equal conviction, because there is no conference panel for them.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sound judgement"
+    ],
+    "related": [
+      "02.17",
+      "02.32"
+    ],
+    "books": [
+      "BK007",
+      "BK128"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.17",
+    "slug": "outcome-bias",
+    "name": "Outcome Bias",
+    "tier": "discovery",
+    "domain": "Decisions & Risk",
+    "type": "Cognitive Bias",
+    "legacyType": "Cognitive Bias",
+    "tradition": "Cognitive Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Jonathan Baron and John Hershey",
+    "date": "1988",
+    "oneSentence": "Rating a decision by how it turned out, including the part of the result that was never in anyone’s control.",
+    "story": "",
+    "definition": "Baron and Hershey gave participants identical descriptions of a decision and varied only the result. Decisions followed by good outcomes were rated as better reasoned, by more competent people, than the same decisions followed by bad ones. The effect persisted when participants were told explicitly to judge the decision rather than the result. Its organisational consequence is that processes get changed after unlucky losses and preserved after lucky wins.",
+    "mechanism": {
+      "chains": [
+        [
+          "a decision is made under uncertainty",
+          "the result arrives and contains both the decision quality and the luck",
+          "the two are not separable from the result alone",
+          "the whole result is attributed to the decision",
+          "good processes are abandoned after bad luck and bad ones are kept after good luck"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Judging by results is the fair and objective approach.\" It is objective about the result and not about the decision, and it systematically punishes correct choices in high variance situations. The alternative is not ignoring outcomes but asking what was knowable at the time, which is harder and is the only question that improves a process.",
+    "nearestNeighbour": "HINDSIGHT BIAS. That is the sense that the result was foreseeable, a distortion of what you believed beforehand. This is the evaluative consequence: rating the choice by the result. One corrupts the memory of the prediction, the other corrupts the verdict on the decision.",
+    "discriminateScenario": "Two managers each approved a near identical supplier on near identical information. One supplier was fine and one went under in a flood in March. One of them is being considered for the regional role and the other has been asked to document her approval process more thoroughly.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sound judgement"
+    ],
+    "related": [
+      "02.03",
+      "02.14"
+    ],
+    "books": [
+      "BK128"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.19",
+    "slug": "planning-fallacy",
+    "name": "Planning Fallacy",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Cognitive Bias",
+    "legacyType": "Cognitive Bias",
+    "tradition": "Cognitive Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Daniel Kahneman and Amos Tversky",
+    "date": "1979",
+    "oneSentence": "Estimating a project from how it should go rather than from how similar projects have actually gone.",
+    "story": "",
+    "definition": "Kahneman and Tversky observed that forecasts are built by imagining the plan working, which produces a best case and presents it as an expectation. Their proposed correction is reference class forecasting: ignore the specifics and ask how long things of this kind have actually taken. Flyvbjerg later documented the pattern across hundreds of large infrastructure projects, where cost and schedule overruns were the norm rather than the exception, and where the specifics always explained each one.",
+    "mechanism": {
+      "chains": [
+        [
+          "a plan is constructed by imagining the steps succeeding",
+          "each step is estimated at its own best case",
+          "the unknown interruptions have no place in the imagined sequence, because they are unknown",
+          "the sum is a best case presented as an expectation",
+          "the overrun is then explained by the particular things that went wrong, which preserves the method for next time"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Add a buffer of twenty or thirty per cent and the estimate is realistic.\" Buffers are applied to the same imagined scenario and are themselves estimated optimistically. The documented correction is to replace the inside view with the outside one: what similar projects actually took, regardless of why this one is different. It will feel wrong, which is the point.",
+    "nearestNeighbour": "PREMORTEM. That is a specific exercise for surfacing failure modes by imagining the project has already failed. This is the underlying estimation error, and the correction for it is reference data rather than imagination.",
+    "discriminateScenario": "Six weeks, they said, and they had a good reason for each of the twelve items. It took five months. The last three migrations this team ran took four, six and five months, and nobody looked that up, and each of those three also had twelve items with good reasons.",
+    "praxisExercise": "USE THE LAST THREE\n\n1. Before estimating a project, find the three most similar things you or your team have actually completed.\n2. Write how long each took, from start to finished.\n3. Use that range as your estimate. Do not adjust it for why this one is different.\n4. If you must adjust, write the adjustment and the reason, and keep the original visible.\n\nCOMMITMENT (if then):\n\"When I estimate a project, I will look up how long the last three comparable ones took before I write a number.\"",
+    "identityTags": [
+      "Sound judgement",
+      "Disciplined"
+    ],
+    "related": [
+      "02.01",
+      "02.23"
+    ],
+    "books": [
+      "BK026",
+      "BK061"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.23",
+    "slug": "premortem",
+    "name": "Premortem",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Decision Model",
+    "legacyType": "Decision Technique",
+    "tradition": "Decision Science",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Gary Klein",
+    "date": "2007",
+    "oneSentence": "Assume the project has already failed, then have everyone write why, before anything has been committed.",
+    "story": "",
+    "definition": "Klein’s procedure inverts the usual review. Rather than asking what could go wrong, which invites reassurance, the team is told the project failed and asked to explain how. The grammatical shift from could to did is doing the work: it licenses specific criticism without anyone having to be the person raising doubts. Research on the related technique of prospective hindsight found it increased the number and specificity of causes people generated by a substantial margin.",
+    "mechanism": {
+      "chains": [
+        [
+          "a plan exists and raising doubts about it carries a social cost",
+          "the team is told the failure has already happened",
+          "explaining a stated fact is not the same act as objecting to a proposal",
+          "specific causes are produced that nobody would have volunteered",
+          "the plan is amended while amendment is still cheap"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is the same as a risk assessment.\" A risk register asks what might go wrong and collects hedged, general answers because listing risks is a mild accusation against the plan. The stated failure removes that cost, and what comes out is specific and often names people and dates. The difference is social rather than analytical.",
+    "nearestNeighbour": "RED TEAMING. That assigns a group to attack a plan adversarially and from outside it, which is an opposition. This asks the plan’s own authors to explain its failure, so the people who know most about it are the ones generating the causes.",
+    "discriminateScenario": "The question was asked as any concerns, and there were none, for the fourth meeting running. Asked instead to describe the morning they discovered it had gone wrong, the quietest engineer in the room produced a date, a dependency and a name within ninety seconds.",
+    "praxisExercise": "IT ALREADY FAILED\n\n1. Take a plan that has not yet been committed to.\n2. Tell everyone involved that it is twelve months later and the thing failed badly.\n3. Each person writes, privately and silently, two sentences on why. Private and silent, then read out.\n4. Fix the two causes that appear on more than one list.\n\nCOMMITMENT (if then):\n\"When a plan is about to be approved, I will run the already failed version of the question rather than asking for concerns.\"",
+    "identityTags": [
+      "Sound judgement",
+      "Disciplined"
+    ],
+    "related": [
+      "01.02",
+      "02.01",
+      "02.19",
+      "02.27",
+      "07.35"
+    ],
+    "books": [
+      "BK026",
+      "BK128"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -544,7 +959,9 @@
       "Self-authoring",
       "Sound judgement"
     ],
-    "related": [],
+    "related": [
+      "02.23"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -725,6 +1142,7 @@
       "Self-authoring"
     ],
     "related": [
+      "02.03",
       "02.32"
     ],
     "books": [
@@ -769,6 +1187,8 @@
       "Self-authoring"
     ],
     "related": [
+      "02.03",
+      "02.14",
       "02.31"
     ],
     "books": [],
@@ -816,7 +1236,9 @@
       "Self-authoring",
       "Emotionally regulated"
     ],
-    "related": [],
+    "related": [
+      "04.01"
+    ],
     "books": [
       "BK019"
     ],
@@ -1088,6 +1510,188 @@
     ],
     "related": [],
     "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "04.01",
+    "slug": "fundamental-attribution-error",
+    "name": "Fundamental Attribution Error",
+    "tier": "integration",
+    "domain": "Human Nature & Social Behaviour",
+    "type": "Cognitive Bias",
+    "legacyType": "Cognitive Bias",
+    "tradition": "Social Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Lee Ross, building on Jones and Harris",
+    "date": "1977",
+    "oneSentence": "Explaining what other people do by what they are like, and what you do by the situation you were in.",
+    "story": "",
+    "definition": "Jones and Harris had participants read essays and judge the writer’s real opinion. Even when told the writer had been assigned the position and had no choice, participants still inferred the opinion from the essay. Ross named the pattern. The asymmetry is the practical part: we have access to our own constraints and not to anyone else’s, so their behaviour looks like character and ours looks like circumstance. The effect is weaker in some cultures than others, which the original framing overstated.",
+    "mechanism": {
+      "chains": [
+        [
+          "someone else behaves badly",
+          "their situation is invisible and their behaviour is vivid",
+          "character is inferred, because character is the only available explanation",
+          "the same behaviour in oneself comes with full knowledge of the constraints",
+          "it is explained situationally, and the asymmetry is never noticed"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"People do this because they are uncharitable or lazy thinkers.\" The asymmetry is informational before it is moral. You genuinely can see your own constraints and genuinely cannot see theirs, so the error survives good intentions and reappears in people who know about it. Knowing the name does not supply the missing information.",
+    "nearestNeighbour": "ACTOR OBSERVER BIAS. That is the general asymmetry between explaining your own actions and explaining other people’s, across all behaviour. This is specifically the overweighting of disposition when explaining someone else, and it is the half of the asymmetry that does the damage.",
+    "discriminateScenario": "She was twenty minutes late to the review and he has filed it under not taking this seriously. When he was late in January it was the school run and the roadworks, both true. He has never once wondered what her morning contained, and she has not offered, because explaining it would sound like an excuse.",
+    "praxisExercise": "SUPPLY THE SITUATION\n\n1. Think of someone whose recent behaviour you explained by what they are like.\n2. Write three situational explanations that would account for it. They do not have to be true.\n3. Notice that you could not have ruled any of them out.\n4. Ask them, if the relationship allows it.\n\nCOMMITMENT (if then):\n\"When I catch myself explaining someone's behaviour by their character, I will write one situational explanation I cannot rule out before acting on my read.\"",
+    "identityTags": [
+      "Sound judgement",
+      "High integrity"
+    ],
+    "related": [
+      "01.26",
+      "03.13",
+      "04.22"
+    ],
+    "books": [
+      "BK099",
+      "BK111"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "04.14",
+    "slug": "bystander-effect",
+    "name": "Bystander Effect",
+    "tier": "integration",
+    "domain": "Human Nature & Social Behaviour",
+    "type": "Psychological Effect",
+    "legacyType": "Psychological Effect",
+    "tradition": "Social Psychology",
+    "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "John Darley and Bibb Latane",
+    "date": "1968",
+    "oneSentence": "The more people present, the less likely any one of them acts, because responsibility divides.",
+    "story": "",
+    "definition": "Darley and Latane ran experiments after the Genovese killing and found the number of witnesses was the controlling variable: a participant who believed they were the only one hearing an emergency responded quickly and almost always, while one who believed four others could hear responded slower and often not at all. Two mechanisms were identified, diffused responsibility and reading others’ inaction as evidence that nothing is wrong. The original Genovese reporting has since been substantially corrected, though the experimental effect is solid.",
+    "mechanism": {
+      "chains": [
+        [
+          "an ambiguous emergency occurs with several people present",
+          "responsibility divides across everyone who could act",
+          "each person also reads the others’ stillness as information that it is not serious",
+          "the two effects reinforce, since nobody moving confirms nobody needs to",
+          "no one acts, and each believes they behaved reasonably"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"People in cities are callous and nobody wants to get involved.\" The studies vary the number of witnesses and hold everything else constant, including who the participants are. The same person helps alone and does not help in a group, which locates the cause in the structure of the situation rather than in the character of the people in it.",
+    "nearestNeighbour": "PLURALISTIC IGNORANCE. That is a group privately disagreeing with what it believes everyone else thinks, and it concerns beliefs about opinions. This concerns action in an emergency and includes the separate mechanism of responsibility dividing by headcount.",
+    "discriminateScenario": "Forty one people are on the call when the figure comes up that four of them know is wrong. Nobody says anything. Each of the four assumes someone closer to the work will raise it, and the silence of the other forty reads to each of them as evidence that they have misunderstood something.",
+    "praxisExercise": "BE THE ONE\n\n1. Recall a situation where something was wrong and nobody present said so, including you.\n2. Write how many people were there. That number is the explanation.\n3. Decide your rule now: in a group, you name the thing within sixty seconds.\n4. Naming it badly counts. Naming it late does not.\n\nCOMMITMENT (if then):\n\"When I notice something wrong in a group and assume someone else will raise it, I will raise it myself within a minute.\"",
+    "identityTags": [
+      "High integrity",
+      "Manipulation proof"
+    ],
+    "related": [],
+    "books": [
+      "BK123"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "04.22",
+    "slug": "moral-licensing",
+    "name": "Moral Licensing",
+    "tier": "integration",
+    "domain": "Human Nature & Social Behaviour",
+    "type": "Psychological Effect",
+    "legacyType": "Psychological Effect",
+    "tradition": "Social Psychology",
+    "difficulty": "introductory",
+    "evidence": "Contested",
+    "origin": "Benoit Monin and Dale Miller",
+    "date": "2001",
+    "oneSentence": "Doing something good, then treating it as credit that permits something worse.",
+    "story": "",
+    "definition": "Monin and Miller found that people given an opportunity to establish their non prejudiced credentials were subsequently more willing to express a prejudiced preference. The pattern has been reported across charitable giving, consumer choices and honesty. It is worth flagging that the broader literature on moral self regulation has had replication difficulties, and several individual effects in this area are weaker than first reported. The general shape holds better than any specific demonstration of it.",
+    "mechanism": {
+      "chains": [
+        [
+          "a person does something that affirms their moral self image",
+          "the affirmation is banked rather than discharged",
+          "the self image is now secure enough to absorb a lapse",
+          "a worse action is taken and does not threaten the identity",
+          "the ledger closes and both actions are recorded as a reasonable person behaving reasonably"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"People who do this are hypocrites who were never sincere.\" The sincerity is usually real, which is why the mechanism works. The first act is not a cover story, it is a genuine deposit, and the licensing happens because the identity is secure rather than because it was fake. Treating it as hypocrisy makes it something that happens to other people.",
+    "nearestNeighbour": "COVERT CONTRACTS. That involves giving in order to be owed by a specific person, with the ledger held against them. This holds the ledger against oneself, and the thing permitted need not involve the person the good deed was done for at all.",
+    "discriminateScenario": "He cycled to work four days this week and told two people about it. On Friday he booked the flight for the weekend away without the hesitation he would have felt on Monday, and the arithmetic he did in his head was not about carbon at all, it was about what sort of person he had established himself to be.",
+    "praxisExercise": "CHECK THE LEDGER\n\n1. Think of a recent decision you made easily that you would once have found difficult.\n2. Ask what you had done in the preceding week that felt virtuous.\n3. Write whether the second thing was permitted by the first.\n4. The two are unrelated. That is the finding.\n\nCOMMITMENT (if then):\n\"When a choice I would normally hesitate over feels easy, I will ask what I have recently done that I am spending.\"",
+    "identityTags": [
+      "High integrity",
+      "Self-authoring"
+    ],
+    "related": [
+      "04.01",
+      "04.23",
+      "05.26"
+    ],
+    "books": [
+      "BK095",
+      "BK111"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "04.23",
+    "slug": "sacred-values",
+    "name": "Sacred Values",
+    "tier": "discovery",
+    "domain": "Human Nature & Social Behaviour",
+    "type": "Ethical Principle",
+    "legacyType": "Moral-Psychological Concept",
+    "tradition": "Moral Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Philip Tetlock and Jonathan Baron",
+    "date": "2000",
+    "oneSentence": "Commitments that people refuse to price, where offering a trade is itself the offence.",
+    "story": "",
+    "definition": "Tetlock showed that proposing a monetary trade against certain values produces not calculation but moral outrage and a desire to punish the proposer. He called these taboo trade offs. The key finding is about the response to the offer rather than the value itself: participants shown such a proposal reported anger, wanted to cleanse themselves of the association, and judged the proposer harshly. Negotiators who open with compensation on a sacred value reliably make agreement less likely, not more.",
+    "mechanism": {
+      "chains": [
+        [
+          "a commitment is held as beyond price rather than as a strong preference",
+          "someone proposes a trade against it in ordinary terms",
+          "the proposal is processed as a moral violation rather than as an offer",
+          "outrage follows, directed at the proposer",
+          "the position hardens, and a larger offer makes it worse rather than better"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Everyone has a price, so the right offer eventually works.\" Tetlock’s result is that increasing the offer increases the offence, because the magnitude confirms that the thing is being treated as priceable. What does move these positions is symbolic acknowledgement of the value first, which is why the sequence matters more than the size of the offer.",
+    "nearestNeighbour": "MORAL LICENSING. That concerns banking a good act and spending it on a worse one, which is about one person’s internal ledger. This concerns commitments that refuse to enter any ledger, and the characteristic data is how people react to being offered a trade.",
+    "discriminateScenario": "The council offered the families a compensation figure for the footpath, and doubled it when that failed. Attendance at the meetings went up each time. Nobody in that village was ever going to accept money for it, and every improved offer was read as confirmation of what the council thought the place was.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Manipulation proof",
+      "High integrity"
+    ],
+    "related": [
+      "04.22",
+      "09.03"
+    ],
+    "books": [
+      "BK111",
+      "BK121"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -2142,6 +2746,7 @@
       "Self-authoring"
     ],
     "related": [
+      "04.22",
       "05.05",
       "05.24",
       "05.27"
@@ -2997,6 +3602,140 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "07.03",
+    "slug": "three-types-of-legitimate-authority",
+    "name": "Three Types of Legitimate Authority",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Power Framework",
+    "legacyType": "Power Framework",
+    "tradition": "Sociology",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Max Weber",
+    "date": "1922",
+    "oneSentence": "Three different reasons people obey, which fail in three different ways.",
+    "story": "",
+    "definition": "Weber distinguished traditional authority, obeyed because it has always been so, charismatic authority, obeyed because of the extraordinary qualities of a particular person, and rational legal authority, obeyed because of a rule rather than a person. His sharpest observation concerns succession. Charismatic authority has no mechanism for it, since the quality was personal, so it either collapses or is converted into one of the other two. He called that conversion routinisation and regarded it as the central problem of every movement.",
+    "mechanism": {
+      "chains": [
+        [
+          "compliance needs a ground, or it has to be bought with force",
+          "the ground is either precedent, a person, or a rule",
+          "each delivers obedience through a different channel",
+          "each fails differently: precedent fails when conditions change, a person fails when they die, a rule fails when it loses credibility",
+          "charismatic authority must convert into one of the others to survive its founder"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Charismatic leadership is the strongest kind.\" It is the most intense and the least durable, and Weber built his account around that fragility. The quality is lodged in one person, so there is no procedure for passing it on, which is why movements built on it either institutionalise fast or do not outlive the founder by much.",
+    "nearestNeighbour": "BASES OF SOCIAL POWER. That is French and Raven’s psychological taxonomy of how one person influences another, reward, coercion, expertise and so on. This is sociological and concerns why whole populations accept a system as legitimate, which is a different scale and a different question.",
+    "discriminateScenario": "The founder died in June. There is a chief executive now, and a values document, and a committee that approves the things she used to approve in a corridor. It all functions. Everyone who was there before says it is not the same place, and none of them can point at a decision that was made wrongly.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sees power structures",
+      "Manipulation proof"
+    ],
+    "related": [
+      "07.31"
+    ],
+    "books": [
+      "BK060",
+      "BK088"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.07",
+    "slug": "ooda-loop",
+    "name": "OODA Loop",
+    "tier": "integration",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Strategic Principle",
+    "legacyType": "Strategic Framework",
+    "tradition": "Military Strategy",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "John Boyd",
+    "date": "1976",
+    "oneSentence": "Observe, orient, decide, act, and win by getting round the cycle faster than the other side can update.",
+    "story": "",
+    "definition": "Boyd, a fighter pilot and strategist, described decision making under conflict as a loop. His argument was that the decisive variable is tempo rather than quality: a faster loop means the opponent is responding to a situation that has already changed, and after a few cycles their picture no longer matches reality. He regarded orientation as the hard step, because that is where existing beliefs distort what the observation meant, and a wrong orientation makes the rest of the loop fast and useless.",
+    "mechanism": {
+      "chains": [
+        [
+          "observe what is actually happening",
+          "orient, which means fitting it into a model of the situation and is where error enters",
+          "decide",
+          "act, which changes the situation",
+          "the opponent now observes a state that your next cycle has already left behind",
+          "repeated faster, their model and reality come apart"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means make decisions quickly.\" Speed through the whole loop is the claim, and the step people cut to get it is orientation, which is the one Boyd thought mattered most. A fast loop with a stale orientation produces confident action against a situation that is not there, which is worse than deciding slowly.",
+    "nearestNeighbour": "DOUBLE LOOP LEARNING. That concerns examining the assumptions behind a decision rule, and it is deliberately slow and reflective. This is about cycle speed in a contest with an opponent who is also cycling, and the comparison with them is the whole point.",
+    "discriminateScenario": "The incumbent runs a quarterly planning cycle and the challenger ships weekly. By the time the quarterly plan is approved it is addressing the competitor’s March position, which was abandoned in April. Every individual decision in the plan is sound and the plan has been wrong on arrival for two years.",
+    "praxisExercise": "CHECK THE ORIENTATION\n\n1. Name a situation where you are reacting to a moving opponent or market.\n2. Write how long your cycle takes from noticing to acting.\n3. Before the next decision, write the one assumption your orientation rests on, and check whether it still holds.\n4. Shorten the cycle only after that check is part of it.\n\nCOMMITMENT (if then):\n\"When I am moving fast against a changing situation, I will name the assumption I am orienting on before I act, not after.\"",
+    "identityTags": [
+      "Sees power structures",
+      "Disciplined"
+    ],
+    "related": [
+      "01.27"
+    ],
+    "books": [
+      "BK017"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.11",
+    "slug": "batna",
+    "name": "BATNA",
+    "tier": "integration",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Strategic Principle",
+    "legacyType": "Negotiation Concept",
+    "tradition": "Negotiation Theory",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Roger Fisher and William Ury",
+    "date": "1981",
+    "oneSentence": "Your best alternative if this deal collapses, which is the only thing that actually sets your power in the room.",
+    "story": "",
+    "definition": "Short for best alternative to a negotiated agreement. Fisher and Ury’s argument is that leverage comes not from need, charm or information but from what you will do if you walk. A party with a strong alternative can decline comfortably; a party with none has to accept whatever is offered, however well they argue. The practical implications are two: know yours before you enter, and spend effort improving it rather than rehearsing arguments, because improving it changes the outcome and rehearsing rarely does.",
+    "mechanism": {
+      "chains": [
+        [
+          "each side has some course of action available if no deal is struck",
+          "the quality of that alternative sets what they can refuse",
+          "refusal capacity rather than argument determines the range of acceptable terms",
+          "improving the alternative moves the range",
+          "the party who knows theirs and has improved it negotiates from a different position without saying anything different"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Negotiation is about persuasion and reading the other person.\" Those matter at the margin. The structural fact is what each side does on a no deal, and a weak alternative cannot be talked around. The common error is preparing arguments when the hours would have been better spent generating a second option.",
+    "nearestNeighbour": "RESERVATION POINT. That is the specific number past which you decline, a line on a scale. This is the whole alternative course of action, and it is what the number is derived from rather than the number itself.",
+    "discriminateScenario": "She has one offer and rent due on the twelfth. She has prepared a strong case for twelve per cent more and delivers it well. He says the band does not allow it and she accepts, and her case was always irrelevant, because they both knew she was not going to stand up and leave.",
+    "praxisExercise": "BUILD THE SECOND OPTION\n\n1. Name a negotiation coming up in the next month.\n2. Write, in one sentence, exactly what you will do if it fails. If you cannot, you have none.\n3. Spend one hour this week making that alternative better rather than preparing arguments.\n4. Enter the room having done that.\n\nCOMMITMENT (if then):\n\"When I am preparing for a negotiation, I will spend the first hour improving what I do if it fails, before I write a single argument.\"",
+    "identityTags": [
+      "Sees power structures",
+      "Manipulation proof"
+    ],
+    "related": [
+      "07.14"
+    ],
+    "books": [
+      "BK022"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "07.14",
     "slug": "positions-vs-interests",
     "name": "Positions vs. Interests",
@@ -3036,9 +3775,96 @@
       "Clear communicator",
       "High integrity"
     ],
-    "related": [],
+    "related": [
+      "07.11"
+    ],
     "books": [
       "BK022"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.18",
+    "slug": "tit-for-tat",
+    "name": "Tit for Tat",
+    "tier": "integration",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Strategic Principle",
+    "legacyType": "Strategy",
+    "tradition": "Game Theory",
+    "difficulty": "intermediate",
+    "evidence": "Replicated",
+    "origin": "Anatol Rapoport, tested by Robert Axelrod",
+    "date": "1980",
+    "oneSentence": "Start cooperative, copy whatever they just did, and forgive immediately once they stop defecting.",
+    "story": "",
+    "definition": "Axelrod ran a tournament of strategies for the repeated prisoner’s dilemma. The winner, submitted by Rapoport, was four lines of code: cooperate first, then do whatever the opponent did last time. It beat far more elaborate entries, and won again in a second tournament where everyone knew it had won. Axelrod attributed its success to four properties: it is nice, meaning never the first to defect; retaliatory; forgiving; and clear enough that the other side can work out what it is doing.",
+    "mechanism": {
+      "chains": [
+        [
+          "the first move is cooperative, which makes mutual gain available",
+          "each later move copies the opponent’s last one",
+          "defection is answered immediately, so exploiting it never pays",
+          "cooperation is resumed the moment they resume, so the punishment never compounds",
+          "the pattern is simple enough to be recognised, which is what lets the other side choose cooperation"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Nice strategies lose to ruthless ones.\" The tournament result is the reverse: every top finisher was nice in Axelrod’s sense, never defecting first. Its weakness is different and worth knowing. Against a copy of itself a single mistaken defection produces an unending alternation, which is why variants that forgive slightly more than they punish do better in noisy conditions.",
+    "nearestNeighbour": "REPEATED GAMES. That is the general condition that makes cooperation rational at all, since a one off encounter rewards defection. This is one specific strategy played inside that condition, and it is the one that won.",
+    "discriminateScenario": "The supplier short delivered in March so he held the next payment back by exactly the shortfall and said why in one line. They made it up in April and he paid on time in May without comment, and has done since. He did not escalate it and he did not let it go.",
+    "praxisExercise": "MATCH AND RESET\n\n1. Name one ongoing relationship where you have been either exploited or holding a grudge.\n2. Decide the single proportionate response you will make next time, and make it legible.\n3. The move after they correct course is the one that matters: return to cooperation immediately.\n4. Do not carry the last round into the next one.\n\nCOMMITMENT (if then):\n\"When someone I deal with repeatedly defects, I will answer once and in proportion, and go back to cooperating the moment they do.\"",
+    "identityTags": [
+      "Sees power structures",
+      "High integrity",
+      "Manipulation proof"
+    ],
+    "related": [],
+    "books": [
+      "BK092"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "07.19",
+    "slug": "schelling-points",
+    "name": "Schelling Points",
+    "tier": "discovery",
+    "domain": "Power, Strategy & Conflict",
+    "type": "Game-Theory Concept",
+    "legacyType": "Game-Theory Concept",
+    "tradition": "Game Theory",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Thomas Schelling",
+    "date": "1960",
+    "oneSentence": "The answer everyone picks because they expect everyone else to pick it, with no communication needed.",
+    "story": "",
+    "definition": "Schelling asked students where they would go to meet someone in New York, having agreed neither place nor time. A large share said Grand Central information booth at noon. Nothing about that spot is optimal. It is the obvious one, and obviousness is self reinforcing: it is the right answer precisely because the other person will reason the same way. He used it to explain why conventions, round numbers, borders along rivers and tacit limits in conflict hold without being negotiated.",
+    "mechanism": {
+      "chains": [
+        [
+          "two parties need to coordinate and cannot communicate",
+          "each asks not what is best but what the other will expect",
+          "some option is conspicuous for any reason at all, including arbitrary ones",
+          "both choose it because both expect the other to",
+          "the expectation becomes the reason, and the option is now the convention"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"These are just sensible defaults that people converge on.\" Conspicuousness rather than quality does the work, which is why so many conventions are arbitrary and why they are extremely hard to shift once set. A better option does not win, because unilaterally choosing it means arriving somewhere alone.",
+    "nearestNeighbour": "NASH EQUILIBRIUM. That is a state where no player gains by changing strategy alone, which can describe many situations at once. This is specifically about which of several equilibria gets selected, and the answer turns on salience rather than payoff.",
+    "discriminateScenario": "Nobody decided the all hands would be the first Monday at ten. It happened twice that way in 2019 and now four hundred people in six countries arrange their week around it, and the two proposals to move it to a better slot have both quietly failed because moving requires everybody to move at once.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Sees power structures",
+      "Clear communicator"
+    ],
+    "related": [],
+    "books": [
+      "BK118"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -3169,6 +3995,7 @@
       "Self-authoring"
     ],
     "related": [
+      "07.03",
       "07.29",
       "07.30",
       "12.31"
@@ -3346,6 +4173,7 @@
       "Self-authoring"
     ],
     "related": [
+      "02.23",
       "07.34",
       "07.36"
     ],
@@ -3591,6 +4419,96 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "09.03",
+    "slug": "virtue-ethics",
+    "name": "Virtue Ethics",
+    "tier": "discovery",
+    "domain": "Meaning, Ethics & Philosophy",
+    "type": "Ethical Principle",
+    "legacyType": "Ethical Framework",
+    "tradition": "Greek Philosophy",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Aristotle, Nicomachean Ethics",
+    "date": "c. 340 BCE",
+    "oneSentence": "Asking what kind of person an action makes you rather than whether the action followed a rule.",
+    "story": "",
+    "definition": "Aristotle’s question is not what should I do but what should I become. Virtues are stable dispositions, acquired by practice rather than instruction, each sitting between two failures: courage between cowardice and recklessness, generosity between meanness and prodigality. The claim that distinguishes it is that character is built by repetition, so right action is the product of habituation rather than of deliberation, and the person of good character often does not need to deliberate at all.",
+    "mechanism": {
+      "chains": [
+        [
+          "an action is performed, once and then repeatedly",
+          "repetition forms a disposition rather than leaving a record",
+          "the disposition makes the same action easier and more natural next time",
+          "character is the accumulated set of dispositions",
+          "what a person does follows from what they have become, which is why the formation matters more than any single choice"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Virtue ethics is vague because it does not tell you what to do in a given case.\" Aristotle regarded that as a feature. He argued no rule can anticipate particulars, which is why he placed practical wisdom at the centre: the capacity to see what this situation calls for. The complaint and the position are the same observation, valued differently.",
+    "nearestNeighbour": "DEONTOLOGY. That locates rightness in conformity to a rule or duty, so the act is judged and the actor is incidental. This judges the actor and treats acts as the means by which an actor is formed, which is a different object of evaluation entirely.",
+    "discriminateScenario": "He could keep the overpayment. Nobody would know, no rule covers it clearly, and the sum is small enough that no one would blame him. What stops him is not an argument. It is that he has returned things like this perhaps thirty times and has stopped experiencing the decision as a decision.",
+    "praxisExercise": "",
+    "identityTags": [
+      "High integrity"
+    ],
+    "related": [
+      "04.23",
+      "09.20"
+    ],
+    "books": [
+      "BK003",
+      "BK053",
+      "BK117"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "09.20",
+    "slug": "veil-of-ignorance",
+    "name": "Veil of Ignorance",
+    "tier": "integration",
+    "domain": "Meaning, Ethics & Philosophy",
+    "type": "Thought Experiment",
+    "legacyType": "Thought Experiment / Ethical Model",
+    "tradition": "Political Philosophy",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "John Rawls",
+    "date": "1971",
+    "oneSentence": "Choose the rules without knowing which position in the arrangement will be yours.",
+    "story": "",
+    "definition": "Rawls asks what principles people would agree to if they did not know their own class, talents, sex, race, generation or conception of the good. His argument is that choosing under that constraint produces fairness structurally rather than by appealing to anyone’s goodwill, because self interest and justice are made to point the same way. He concluded such parties would protect the worst off position, since any of them might occupy it. The conclusion is contested; the device is widely used independently of it.",
+    "mechanism": {
+      "chains": [
+        [
+          "a rule has to be chosen that will apply to everyone",
+          "the chooser is deprived of knowledge about which position they will hold",
+          "they can no longer design around their own advantage, because they do not know what it is",
+          "self interest now requires attending to every position, including the worst",
+          "the resulting rule is fair by construction rather than by intention"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means being impartial and setting your own interests aside.\" Rawls does not ask for selflessness and his argument does not need it. The parties are self interested throughout; the information is what has been removed. That is why it works as a practical test on people who are not trying to be saintly, and why it is a device rather than a virtue.",
+    "nearestNeighbour": "UTILITARIANISM. That evaluates arrangements by total welfare, which permits a very bad position for a few if the sum is high enough. This is the procedure Rawls designed to rule exactly that out, and his disagreement with it is the point of the book.",
+    "discriminateScenario": "The partners are setting the parental leave policy. Every one of them is past that stage of life, and the policy they have drafted is defensible and thin. Nobody in the room will be affected by it, and the two people who will be are not in the room because they are too junior to be.",
+    "praxisExercise": "WRITE IT BLIND\n\n1. Take a policy or rule you are setting that affects people in different positions.\n2. List the positions, including the worst one.\n3. Rewrite the rule as if you did not know which you would hold.\n4. If the rewrite differs from the draft, the draft was designed from where you sit.\n\nCOMMITMENT (if then):\n\"When I set a rule that affects people in different positions, I will write the version I would accept from the worst position before signing the one I prefer.\"",
+    "identityTags": [
+      "High integrity",
+      "Clear thinker"
+    ],
+    "related": [
+      "09.03"
+    ],
+    "books": [
+      "BK101"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "09.25",
     "slug": "ship-of-theseus",
     "name": "Ship of Theseus",
@@ -3663,10 +4581,7 @@
     "nearestNeighbour": "COLLECTIVE UNCONSCIOUS. That is the proposed layer of mind these patterns are said to live in, so it is the container. These are the patterns themselves, the recurring shapes, and they can be discussed and catalogued without accepting the container.",
     "discriminateScenario": "She reads a Finnish folk tale about a girl who goes under a lake to recover something a dead parent left behind, and feels a jolt of recognition she cannot account for. She has never heard the story. Two months later she notices the same shape in a Japanese film and in something her grandmother used to say.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Clear thinker"
-    ],
+    "identityTags": [],
     "related": [
       "10.02",
       "10.03",
@@ -3712,10 +4627,7 @@
     "nearestNeighbour": "ARCHETYPES. Those are the specific recurring patterns, which can be studied comparatively by anyone, whatever they think about where they come from. This is the explanation Jung offered for why they recur, and it is the part that cannot be tested.",
     "discriminateScenario": "A psychiatrist notices a patient with no education in the subject describing a sun with a tube hanging from it, and later finds a near identical image in a Greek text the patient could not have read. He concludes the image came from somewhere other than the man’s own history, and builds a theory of mind on that single coincidence.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Clear thinker"
-    ],
+    "identityTags": [],
     "related": [
       "10.01",
       "10.07",
@@ -3731,7 +4643,7 @@
     "id": "10.03",
     "slug": "shadow",
     "name": "Shadow",
-    "tier": "integration",
+    "tier": "discovery",
     "domain": "Myth, Symbol & Spiritual Traditions",
     "type": "Jungian Concept",
     "legacyType": "Jungian Concept",
@@ -3758,12 +4670,8 @@
     "misconception": "\"The shadow is the dark side, the part of you that wants to do harm.\" Jung described it as whatever is incompatible with the self image, which for many people means the forbidden good things. A person who built an identity on being easygoing has their anger down there. Someone who built one on modesty has their hunger for recognition. The content depends on the mask, not on morality.",
     "nearestNeighbour": "PERSONA. That is the face assembled for the outside world, the presentation. This is the material excluded in order to assemble it. They are made in the same act, which is why the two are usually discussed together and why one predicts the contents of the other.",
     "discriminateScenario": "There is a man at work he finds unbearable, and he can produce a detailed account of exactly why: the self promotion, the way he angles for credit. Nobody else finds him that irritating. He has mentioned him at home four times this week, and has never once wondered why this particular failing is the one he cannot let alone.",
-    "praxisExercise": "THE DISPROPORTIONATE REACTION\n\n1. Name the person whose behaviour irritates you most out of all proportion.\n2. Write the exact quality that does it. One word if possible.\n3. Ask where that quality operates in you, in a form you would describe differently.\n4. The answer is usually available within a minute and unwelcome.\n\nCOMMITMENT (if then):\n\"When my reaction to someone is larger than the occasion, I will ask what the quality is doing in me before I describe it in them again.\"",
-    "identityTags": [
-      "Self-authoring",
-      "Emotionally regulated",
-      "High integrity"
-    ],
+    "praxisExercise": "",
+    "identityTags": [],
     "related": [
       "10.01",
       "10.04",
@@ -3807,10 +4715,7 @@
     "nearestNeighbour": "SHADOW. That is the material the mask excluded, so the two are produced in the same act. This is the construction itself and is largely useful, where the other is what the construction left out and is largely unconscious.",
     "discriminateScenario": "Thirty one years as the person everyone brought problems to. Six weeks after the retirement party his wife asks what he actually wants to do this afternoon and he cannot answer. He makes a joke instead, the kind he has always made, and goes out to tidy a shed that does not need tidying.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "High integrity"
-    ],
+    "identityTags": [],
     "related": [
       "10.01",
       "10.03",
@@ -3855,10 +4760,7 @@
     "nearestNeighbour": "SCHEMA CHEMISTRY. That is a clinical account of why the strongest pull goes toward people who confirm an existing belief about love, and it is testable. This is Jung’s version, framed around an inner contrasexual figure rather than a learned belief, and it is a position rather than a finding.",
     "discriminateScenario": "Four months in he tells her she has changed. She has not. He had assembled something out of the first three conversations and the way she looked across a room, and has spent the time since explaining to her which parts of herself are a departure from it. She has started to find it difficult to be in the same room as his idea of her.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Builds lasting bonds"
-    ],
+    "identityTags": [],
     "related": [
       "05.35",
       "10.01",
@@ -3902,10 +4804,7 @@
     "nearestNeighbour": "HERO’S JOURNEY. That is the narrative shape, a story told about a figure who departs and returns transformed. This is the psychological process Jung thought the story is describing, and it has no plot, no antagonist and no return.",
     "discriminateScenario": "At fifty one he has the job, the house and the standing he worked out he wanted at twenty four. For about eight months he has been waking at four with the sense of having completed something that was not his. He has not had an affair or bought a motorcycle. He has started reading again and telling the truth in small conversations.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "High integrity"
-    ],
+    "identityTags": [],
     "related": [
       "10.02",
       "10.03",
@@ -3950,10 +4849,7 @@
     "nearestNeighbour": "THE ICARUS MYTH. That one turns on disobeying a specific instruction and overshooting a limit. This one turns on recognition, and on an attachment to an image that cannot answer. One is about excess, the other about mistaking a reflection for a person.",
     "discriminateScenario": "He checks the account forty times a day. The version of himself that lives there is funny and unbothered, and people respond to it warmly. He knows it is not quite him. He keeps feeding it anyway, and the distance between the two has stopped being something he notices.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Emotionally regulated"
-    ],
+    "identityTags": [],
     "related": [
       "10.04",
       "10.12",
@@ -3998,10 +4894,7 @@
     "nearestNeighbour": "APOPHENIA AND PATTERN RECOGNITION. That names the ordinary tendency to see connection in noise, and it is an account of the observer. This is Jung’s claim that some of the connections are really out there, which is a claim about the world and a much larger one.",
     "discriminateScenario": "The morning after dreaming about her father’s watch, a parcel arrives containing her father’s watch. She tells the story for years, and it is a good story. She has never counted the hundreds of mornings she dreamed of something and no parcel came, because those mornings left nothing behind to count.",
     "praxisExercise": "",
-    "identityTags": [
-      "Clear thinker",
-      "Self-authoring"
-    ],
+    "identityTags": [],
     "related": [
       "10.01",
       "10.02"
@@ -4044,10 +4937,7 @@
     "nearestNeighbour": "INDIVIDUATION. That is Jung’s psychological process of becoming a particular person, with no plot and no return. This is the narrative shape, told about a figure, and Campbell’s claim is specifically about stories rather than about development.",
     "discriminateScenario": "She spent eleven months doing the thing everyone had told her not to do, came back with no money and a changed face, and has been home for three weeks. The part nobody warned her about is this part: sitting at her sister’s table, being asked how the trip was, and discovering there is no sentence that transfers any of it.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Creatively unblocked"
-    ],
+    "identityTags": [],
     "related": [
       "10.07",
       "10.14",
@@ -4091,10 +4981,7 @@
     "nearestNeighbour": "THE NARCISSUS MYTH. That turns on an image that cannot be reached and on failing to recognise oneself. This turns on a clear instruction, correctly given and not followed. One is about recognition, the other about limits.",
     "discriminateScenario": "Every year she is offered work that would stretch her and every year she takes the safer contract instead. She is careful, well regarded and completely secure. At forty one she cannot name a single thing she has made that she would defend, and nobody has ever warned her about this direction.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Disciplined"
-    ],
+    "identityTags": [],
     "related": [
       "10.08",
       "10.36",
@@ -4140,10 +5027,7 @@
     "nearestNeighbour": "KATABASIS, the descent into the underworld. That is the broader motif of going down into darkness and returning changed, and many stories share it. This is one particular descent, and its weight sits in the condition attached to the return rather than in the journey.",
     "discriminateScenario": "They agreed to give it six months without discussing it, and let the thing settle on its own. In the eleventh week he asked her where they stood. She told him honestly, which was that she had not known yet and now had to answer. The asking is what produced the answer.",
     "praxisExercise": "",
-    "identityTags": [
-      "Emotionally regulated",
-      "Self-authoring"
-    ],
+    "identityTags": [],
     "related": [
       "10.08",
       "10.14"
@@ -4185,10 +5069,7 @@
     "nearestNeighbour": "DEATH-REBIRTH MOTIF. That is the broader pattern of dying and coming back renewed, which can happen to someone involuntarily and often reads as triumph. This specifically involves going down on purpose, being stripped on the way, and paying on the way out.",
     "discriminateScenario": "He went looking for what happened to his mother in 1983, knowing it would not be good. It took two years and cost him his relationship with his brother, who did not want it looked for. He knows now. He also cannot put back the version of his family he had before he started, and would not say the trade was wrong.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Emotionally regulated"
-    ],
+    "identityTags": [],
     "related": [
       "10.11",
       "10.13",
@@ -4233,10 +5114,7 @@
     "nearestNeighbour": "HIEROPHANY. That is the specific event in which something ordinary shows itself as charged, a single moment of irruption. This is the standing two level structure of reality that such an event reveals, and it persists between irruptions.",
     "discriminateScenario": "She is not religious and has never been. She also will not let anyone sit in her grandmother’s chair, cannot explain why beyond saying it would be wrong, and feels something she has no word for walking into an empty cathedral in a city she is visiting for work.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Clear thinker"
-    ],
+    "identityTags": [],
     "related": [
       "10.20",
       "10.21",
@@ -4280,10 +5158,7 @@
     "nearestNeighbour": "RITE OF PASSAGE. That is the whole three part structure, separation and middle and return, and the ceremony that carries it. This is the middle phase alone, and it is where the actual transformation is thought to occur.",
     "discriminateScenario": "He handed in his notice six weeks ago and starts the new job in nine days. He is not an employee of anywhere. He has been sleeping badly, has reread two novels from his twenties, had a long strange conversation with a stranger on a train and told them things he has not told his wife.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Emotionally regulated"
-    ],
+    "identityTags": [],
     "related": [
       "10.14",
       "10.19",
@@ -4327,10 +5202,7 @@
     "nearestNeighbour": "LIMINALITY. That is the middle phase considered on its own, which is where anthropologists think the transformation happens. This is the full three part structure including the public conferral, which is the part that makes the new status stick socially.",
     "discriminateScenario": "The baby is five months old. There has been no event, nothing witnessed, no moment anyone marked. He is doing everything a father does and still, at work, in his own head, he is a man whose life was interrupted rather than a man who became something. Nobody ever told him, formally, in front of people, that he was now this.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "High integrity"
-    ],
+    "identityTags": [],
     "related": [
       "10.19",
       "10.20",
@@ -4374,9 +5246,7 @@
     "nearestNeighbour": "BODY-HOUSE-COSMOS ANALOGY. That is the correspondence by which the same structure repeats at three scales, so it concerns nested resemblance. This is specifically the fixed point and the orientation it supplies, and it works without any analogy to a body at all.",
     "discriminateScenario": "They moved six times in nine years. Her mother’s kitchen table came with them every time, and the unpacking was never finished until it was in place and facing the right way. She describes it as sentimental. Everything about where the plates and the chairs and the mornings go is in fact decided by it.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring"
-    ],
+    "identityTags": [],
     "related": [
       "10.19"
     ],
@@ -4417,10 +5287,7 @@
     "nearestNeighbour": "DEATH-REBIRTH MOTIF. That is a narrative pattern inside stories, where a figure dies and comes back changed. This is a conception of time itself, held by a whole community and enacted collectively, and it is not a story shape.",
     "discriminateScenario": "She has done the same three things every thirty first of December for nineteen years, in the same order, alone. She is not superstitious and would struggle to explain it. She knows that by the time she has finished, the year that has just happened is somehow over in a way that the first of January alone would not accomplish.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Emotionally regulated"
-    ],
+    "identityTags": [],
     "related": [
       "10.19",
       "10.21",
@@ -4464,10 +5331,7 @@
     "nearestNeighbour": "KATABASIS, the descent into the underworld. That concerns going down into darkness and coming back altered. This concerns a moment of ordinary hospitality in a lit hall, where nothing is demanded except speech, and speech is the thing withheld.",
     "discriminateScenario": "Everyone in the meeting could see the number did not add up. The partner presenting it was senior and well liked and nobody wanted to be the one. They moved to the next item. Eleven months later the same number appeared in a report that could not be withdrawn.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "High integrity"
-    ],
+    "identityTags": [],
     "related": [
       "10.11",
       "10.14",
@@ -4511,11 +5375,7 @@
     "nearestNeighbour": "THE ICARUS MYTH. That turns on a limit being overshot in a single flight, and it ends. This has no limit and no ending, and nothing is overshot; the whole content is the repetition itself.",
     "discriminateScenario": "He clears the inbox by seven most evenings. By nine the next morning it is at the same number it was. Nine years of this. He is good at it, measurably faster than anyone, and the speed buys him nothing because the thing he is fast at refills at the rate he empties it.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Disciplined",
-      "Emotionally regulated"
-    ],
+    "identityTags": [],
     "related": [
       "10.12",
       "10.23",
@@ -4556,11 +5416,7 @@
     "nearestNeighbour": "THE ICARUS MYTH. That is a genuine cautionary tale: an instruction given, disobeyed, and a fall. This looks similar and inverts the moral, because the transgression is vindicated by the story itself and the transgressor refuses to take it back.",
     "discriminateScenario": "She published the internal figures. She knew what it would cost and it cost that, plus about four years she will not get back. Thirty thousand people can now see what they are being charged and why. Asked in the hearing whether she regretted it, she said no, and did not elaborate, which the committee found irritating.",
     "praxisExercise": "",
-    "identityTags": [
-      "High integrity",
-      "Sees power structures",
-      "Self-authoring"
-    ],
+    "identityTags": [],
     "related": [
       "07.29",
       "10.12",
@@ -4601,11 +5457,7 @@
     "nearestNeighbour": "THE PROMETHEUS MYTH. That is the other half of the same sequence and concerns a transfer that is vindicated by its story. This concerns a release that is not vindicated, performed by someone who was manufactured for the purpose and did not choose her own nature.",
     "discriminateScenario": "The model is open sourced on a Tuesday afternoon. Within six days there are four thousand forks and it is on machines in countries nobody at the company has visited. Every meeting since has been about mitigations, and every person in those meetings understands that the only decision that mattered was made before lunch on the Tuesday.",
     "praxisExercise": "",
-    "identityTags": [
-      "Sound judgement",
-      "Self-authoring",
-      "Clear thinker"
-    ],
+    "identityTags": [],
     "related": [
       "02.28",
       "10.37"
@@ -4645,11 +5497,7 @@
     "nearestNeighbour": "THE GRAIL QUEST. That turns on a question not asked and failure through omission inside the sacred place itself. This turns on successful completion followed by two discardings on the way home, so the failure sits after the achievement rather than inside it.",
     "discriminateScenario": "He got the company out of it. Everyone agrees the restructuring was correct and that he was the only one who could have done it. The analyst who built the model it ran on was let go in the second wave, and he has not spoken to his co founder in four years, and if asked he will tell you about the restructuring.",
     "praxisExercise": "",
-    "identityTags": [
-      "Sees power structures",
-      "High integrity",
-      "Sound judgement"
-    ],
+    "identityTags": [],
     "related": [
       "10.11",
       "10.12",
@@ -4692,11 +5540,7 @@
     "nearestNeighbour": "SELF-FULFILLING PROPHECY. That is a social mechanism in which an expectation alters behaviour and brings about the expected outcome, and it is studied empirically. This is a narrative in which avoidance specifically is the mechanism, and the knowing is what causes the thing.",
     "discriminateScenario": "His father was absent and furious and he resolved at about fourteen never to be that. He took the job with no travel, said yes to everything at home, and has been so careful not to be angry that nothing true has been said in that house in nine years. His daughter has begun describing him to her friends as someone who is not really there.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Clear thinker",
-      "Sound judgement"
-    ],
+    "identityTags": [],
     "related": [
       "10.12",
       "10.47"
@@ -4738,11 +5582,7 @@
     "nearestNeighbour": "COMMITMENT DEVICES. That is the modern behavioural category for exactly this move, with its own literature and evidence. This is the founding narrative image of it, and it adds something the category usually omits: the alternative of becoming the kind of person who does not need the rope.",
     "discriminateScenario": "She gives her sister the password on the Friday and tells her not to return it before Monday whatever happens. On Saturday night she asks for it and gives three good reasons, and her sister, who was warned on Friday that there would be good reasons, says no. On Monday she is grateful and does not remember how reasonable the reasons sounded.",
     "praxisExercise": "",
-    "identityTags": [
-      "Disciplined",
-      "Self-authoring",
-      "Sound judgement"
-    ],
+    "identityTags": [],
     "related": [
       "03.30"
     ],
@@ -4783,11 +5623,7 @@
     "nearestNeighbour": "THE ICARUS MYTH. That is a genuine story of overreach with a stated limit and an individual who exceeds it. This has no stated limit and no individual, and the failure arrives through the removal of a shared medium rather than through anyone going too far.",
     "discriminateScenario": "Nobody was fired and no budget was cut. The product team was moved under a different vice president, the engineers kept their old standup, and the two groups now use different words for the same object and different numbers for the same metric. Eight months later the thing is quietly descoped, and no single decision anywhere caused it.",
     "praxisExercise": "",
-    "identityTags": [
-      "Sees power structures",
-      "Clear communicator",
-      "Sound judgement"
-    ],
+    "identityTags": [],
     "related": [
       "10.12"
     ],
@@ -4826,11 +5662,7 @@
     "nearestNeighbour": "THE SISYPHUS MYTH. That is also about a condition with no available meaning, and Camus answers it with a recommended attitude of defiance. This one withholds the answer rather than supplying one, and its final move is the questioner falling silent rather than resolving to continue.",
     "discriminateScenario": "Three people have now told her, gently, that things happen for a reason and that she will understand it later. A fourth has asked whether she had considered the stress she had been under. She has stopped answering. What she actually wants is the one friend who sat with her for a week in October and said nothing at all.",
     "praxisExercise": "",
-    "identityTags": [
-      "Emotionally regulated",
-      "Self-authoring",
-      "Clear thinker"
-    ],
+    "identityTags": [],
     "related": [
       "09.01",
       "10.36"
@@ -4870,11 +5702,7 @@
     "nearestNeighbour": "ETERNAL RETURN. That is Eliade’s account of how whole communities conceived of time, enacted through ritual, and it is a claim about calendars and cosmology. This is a single visual figure for a self consuming loop, and it applies as readily to a business or a habit as to time.",
     "discriminateScenario": "The agency pays for the ads out of the revenue the ads bring in, which means every month is technically funded and nothing has ever been put aside. Three years of this. On paper it works perfectly. There is no version of a bad quarter that it survives, and nobody has said so out loud in a meeting.",
     "praxisExercise": "",
-    "identityTags": [
-      "Sound judgement",
-      "Clear thinker",
-      "Sees power structures"
-    ],
+    "identityTags": [],
     "related": [
       "10.23",
       "10.45"
@@ -4916,11 +5744,7 @@
     "nearestNeighbour": "DEATH-REBIRTH MOTIF. That is the broad narrative pattern of dying and returning transformed, and the returning figure is usually recognisably the same one, as with Inanna or Orpheus. This insists on total destruction with no overlap and no survivor, which is a narrower and harder claim.",
     "discriminateScenario": "They tried for two years to fix the platform while it was running. Every patch had to be compatible with the thing being patched, which was the problem. In the end they turned it off on a Friday, kept nothing but the customer data, and spent nine months with no product at all, which the board very nearly did not allow.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Sound judgement",
-      "Creatively unblocked"
-    ],
+    "identityTags": [],
     "related": [
       "01.29",
       "10.44"
@@ -4960,11 +5784,7 @@
     "nearestNeighbour": "ANIMA AND ANIMUS. That is Jung’s account of projecting an inner figure onto a real person who then fails to match it. This begins by refusing real people altogether and constructing the figure in material, so there is nobody present to fail.",
     "discriminateScenario": "He has been talking to it for seven months. It remembers everything he has said, agrees with his reading of the argument with his brother, and has never once been tired or disappointed in him. He has stopped telling his friends about things before he has told it, and he has begun to find ordinary conversation effortful and slightly insulting.",
     "praxisExercise": "",
-    "identityTags": [
-      "Self-authoring",
-      "Builds lasting bonds",
-      "Clear thinker"
-    ],
+    "identityTags": [],
     "related": [
       "05.35",
       "10.05",
@@ -5005,15 +5825,98 @@
     "nearestNeighbour": "THE OEDIPUS MYTH. That is also about a prophecy that comes true, but there the knowledge is the instrument and acting on it is what causes the outcome. Here acting on it would have prevented everything and the acting is what cannot happen.",
     "discriminateScenario": "She wrote the memo in March. It named the failure mode, the system, the quarter and roughly the cost. Two people replied saying it was interesting. In November it happened in approximately that order, and in the review someone asked whether anyone had seen this coming, and she found she had no appetite at all for being the one to answer.",
     "praxisExercise": "",
-    "identityTags": [
-      "Sees power structures",
-      "Clear communicator",
-      "Sound judgement"
-    ],
+    "identityTags": [],
     "related": [
       "10.40"
     ],
     "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.09",
+    "slug": "adjacent-possible",
+    "name": "Adjacent Possible",
+    "tier": "discovery",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Creativity Concept",
+    "legacyType": "Systems / Creativity Concept",
+    "tradition": "Complexity Theory",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Stuart Kauffman, popularised by Steven Johnson",
+    "date": "2002",
+    "oneSentence": "The set of things reachable in one step from where you are, which expands every time you take one.",
+    "story": "",
+    "definition": "Kauffman’s term from biology for the states a system can reach with a single change from its current configuration. Johnson applied it to innovation. Its consequence is that the next move is constrained by the present position, not by imagination, and that each move taken opens options that were not available before it. This explains why the same invention appears in several places at once: a particular combination becomes reachable, and several people standing nearby reach it.",
+    "mechanism": {
+      "chains": [
+        [
+          "a system occupies a current state",
+          "only certain configurations are one step away",
+          "taking one of those steps changes which configurations are now one step away",
+          "the frontier moves rather than being crossed",
+          "distant possibilities become available only by traversing the ones in between, and cannot be jumped to"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Breakthroughs come from thinking far outside the current situation.\" The record suggests they come from a position where the breakthrough had just become reachable, which is why multiple independent discovery is so common. The useful implication is unglamorous: moving nearer to a frontier is more productive than imagining harder from where you are.",
+    "nearestNeighbour": "COMBINATORIAL CREATIVITY. That is about new things arising from recombining existing parts, which concerns the mechanism of generation. This concerns which combinations are available to be made at all from a given position, and it is a constraint rather than a method.",
+    "discriminateScenario": "Three unconnected teams filed on it within five months of each other in 2019. None of them had the idea first in any meaningful sense. The two component technologies had both become cheap in 2018, and after that the combination was sitting one step away from anyone who happened to be looking at both.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Creatively unblocked"
+    ],
+    "related": [],
+    "books": [
+      "BK086"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.14",
+    "slug": "resistance",
+    "name": "Resistance",
+    "tier": "integration",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Mental Model",
+    "legacyType": "Author Framework",
+    "tradition": "Craft and Creative Practice",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Steven Pressfield",
+    "date": "2002",
+    "oneSentence": "The force that opposes the work, which is strongest against whatever matters most and arrives disguised as good reasons.",
+    "story": "",
+    "definition": "Pressfield named the internal opposition to doing the work and treated it as a predictable force rather than a mood. Its properties as he describes them are specific and testable against your own week: it is strongest in proportion to how much the work matters, it never announces itself as fear, and it supplies instead an inexhaustible supply of plausible alternatives, research, preparation, tidying, a different project. His practical conclusion is that it cannot be defeated, only shown up against, which is why he frames the solution as turning professional.",
+    "mechanism": {
+      "chains": [
+        [
+          "work that matters is approached",
+          "opposition rises in proportion to how much it matters",
+          "it presents as reasonable alternatives rather than as fear, so it is not recognised",
+          "those alternatives are acted on and feel productive",
+          "the work is not done, and the force is strongest tomorrow against exactly the same task"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"If you are putting something off, you do not want it enough.\" Pressfield’s inversion is the useful part: the strength of the avoidance is evidence of importance rather than of indifference. The thing you keep not starting is, on this account, the thing to start, and the reasons for not starting it will be the best reasons you have about anything.",
+    "nearestNeighbour": "RUTS AND GROOVES. That is Tharp on habits of execution that make work automatic once started, and it concerns the shape of the work itself. This is about the force that operates before any work begins, and it has nothing to say about what you do once you are in.",
+    "discriminateScenario": "The novel has been nine months away for four years. In that time he has read eleven books about structure, reorganised the files twice, and built a very good website for it. He has never once sat down on a Tuesday morning and written badly for an hour, and everything he has done instead has been genuinely useful.",
+    "praxisExercise": "THE THING YOU KEEP NOT STARTING\n\n1. Name the project you have been about to begin for longest.\n2. List the three most reasonable things you have done instead. Notice how good they were.\n3. Tomorrow, do ninety minutes of the actual work before any of them.\n4. Permit it to be bad. Badness is not the obstacle.\n\nCOMMITMENT (if then):\n\"When I notice I am preparing rather than working, I will do ninety minutes of the real thing first and allow it to be poor.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Disciplined",
+      "Self-authoring"
+    ],
+    "related": [
+      "11.28",
+      "11.30"
+    ],
+    "books": [
+      "BK125"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -5198,6 +6101,7 @@
       "Creatively unblocked"
     ],
     "related": [
+      "11.14",
       "11.27"
     ],
     "books": [
@@ -5294,7 +6198,8 @@
       "Self-authoring"
     ],
     "related": [
-      "03.26"
+      "03.26",
+      "11.14"
     ],
     "books": [
       "BK134"
