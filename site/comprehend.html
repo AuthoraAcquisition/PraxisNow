@@ -131,6 +131,18 @@ p{margin:0 0 1em}
   font-size:.95rem;transition:border-color .16s,background .16s}
 .cbtn:hover{border-color:var(--gold-hi)}
 
+/* ---- provenance ---- */
+.prov{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 18px;
+  font-size:.84rem;color:var(--muted)}
+.ev{display:inline-block;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;
+  border:1px solid var(--faint);border-radius:99px;padding:3px 11px;color:var(--muted)}
+.ev.strong{border-color:var(--good);color:var(--good)}
+.ev.weak{border-color:var(--gold);color:var(--gold-hi)}
+.caution{border:1px solid var(--gold);background:rgba(146,116,62,.1);border-radius:10px;
+  padding:14px 16px;margin:0 0 20px;font-size:.95rem;color:var(--cream)}
+.caution b{color:var(--gold-hi);font-family:var(--f-title);font-weight:400}
+.crow .flag{color:var(--gold-hi);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap}
+
 /* ---- feedback ---- */
 .fb{border-top:1px solid var(--faint);padding-top:22px}
 .verdict{font-family:var(--f-title);font-size:1.5rem;margin-bottom:.35em}
@@ -512,6 +524,36 @@ function downloadNotes(){
   URL.revokeObjectURL(a.href);
 }
 
+/* How far a reader should trust this as a claim about the world. A branded
+   framework and a replicated finding look identical on a card unless the
+   card says otherwise, and most of the library is not an empirical claim
+   at all. */
+const EV_NOTE = {
+  Replicated:   'A robust finding that holds up across independent studies.',
+  Supported:    'There is real research behind this, though it is less settled than a replicated finding.',
+  Contested:    'This is widely taught, and the evidence behind it is disputed. Worth knowing, worth doubting.',
+  Framework:    'A way of organising thinking rather than a claim about the world. Judge it by whether it is useful.',
+  Philosophical:'An argument or a position, not an empirical finding.',
+  Traditional:  'From a wisdom, mythic or religious tradition rather than from research.'
+};
+const EV_CLASS = { Replicated:'strong', Supported:'strong', Contested:'weak' };
+
+function provenance(c){
+  if (!c.evidence) return '';
+  const who = [c.origin, c.date].filter(Boolean).join(', ');
+  return `<div class="prov">
+    <span class="ev ${EV_CLASS[c.evidence] || ''}">${esc(c.evidence)}</span>
+    <span>${esc(EV_NOTE[c.evidence] || '')}</span>
+    ${who ? `<span>${esc(who)}</span>` : ''}
+  </div>`;
+}
+function caution(c){
+  return c.evidence === 'Contested'
+    ? `<div class="caution"><b>Treat this one carefully.</b> It is taught almost everywhere, and the
+       research behind it is genuinely disputed. The vocabulary is useful. The mechanism is not established.</div>`
+    : '';
+}
+
 function render(html){ app.innerHTML = html; window.scrollTo({top:0,behavior:'instant'}); }
 
 /* --------------------------- goals ---------------------------
@@ -599,6 +641,7 @@ function chooser(){
           ${byDomain[d].sort((a,b) => a.id.localeCompare(b.id)).map(c => `
             <button class="crow ${isDone(c.id) ? 'done' : ''}" data-id="${esc(c.id)}" type="button">
               <span class="nm">${esc(c.name)}</span>
+              ${c.evidence === 'Contested' ? '<span class="flag">Contested</span>' : ''}
               ${isDone(c.id) ? '<span class="tick">Comprehended</span>'
                              : `<span class="meta2">${esc(c.type)}</span>`}
             </button>`).join('')}
@@ -669,6 +712,7 @@ function reveal(q, picked, confidence){
     <div class="fb">
       <div class="verdict ${right?'ok':'no'}">${right ? 'That is it.' : 'Not that one.'}</div>
       <p>${esc(q.why)}</p>
+      ${step === rungs.length - 1 ? provenance(concept) + caution(concept) : ''}
       ${flagged ? `<div class="flagged"><b>Worth noticing.</b> You were certain and it was wrong.
         That is the most useful kind of mistake there is, because it is a blind spot you did not know you had.
         Praxis will bring this one back sooner.</div>` : ''}
@@ -694,6 +738,8 @@ function summary(){
       <div class="seal">${passed ? 'Comprehended' : 'Not yet'}</div>
     </div>
     <h2 style="text-align:center">${esc(concept.name)}</h2>
+    ${provenance(concept)}
+    ${caution(concept)}
     <table class="sum">
       <tr><th>Question</th><th>You said</th><th></th></tr>
       ${results.map(r => `<tr>

@@ -1,8 +1,8 @@
 {
   "counts": {
-    "concepts": 21,
-    "integration": 19,
-    "discovery": 2,
+    "concepts": 37,
+    "integration": 34,
+    "discovery": 3,
     "books": 133
   },
   "identities": {
@@ -30,17 +30,37 @@
       "01.09",
       "01.10",
       "01.11",
+      "01.26",
+      "01.27",
+      "01.28",
+      "01.29",
       "02.06",
+      "02.26",
+      "02.27",
+      "02.28",
+      "02.30",
+      "02.31",
       "03.13",
+      "03.27",
       "08.25",
       "09.25"
     ],
     "Disciplined": [
       "01.02",
+      "01.29",
       "02.06",
+      "02.26",
+      "02.28",
+      "02.29",
+      "03.26",
+      "03.27",
+      "03.29",
+      "03.30",
+      "03.31",
       "08.25"
     ],
     "Emotionally regulated": [
+      "02.29",
       "03.13",
       "05.20",
       "06.01",
@@ -50,6 +70,8 @@
     ],
     "High integrity": [
       "01.09",
+      "01.26",
+      "02.30",
       "05.20",
       "06.25",
       "07.14"
@@ -59,7 +81,14 @@
       "06.12"
     ],
     "Self-authoring": [
-      "03.13"
+      "01.27",
+      "02.27",
+      "02.31",
+      "03.13",
+      "03.26",
+      "03.28",
+      "03.30",
+      "03.31"
     ]
   },
   "domains": {
@@ -76,7 +105,13 @@
       "06.25"
     ],
     "Decisions & Risk": [
-      "02.06"
+      "02.06",
+      "02.26",
+      "02.27",
+      "02.28",
+      "02.29",
+      "02.30",
+      "02.31"
     ],
     "Learning, Memory & Attention": [
       "08.25"
@@ -92,13 +127,23 @@
       "01.02",
       "01.09",
       "01.10",
-      "01.11"
+      "01.11",
+      "01.26",
+      "01.27",
+      "01.28",
+      "01.29"
     ],
     "Relationships & Attraction": [
       "05.20"
     ],
     "Self-Knowledge & Behaviour": [
-      "03.13"
+      "03.13",
+      "03.26",
+      "03.27",
+      "03.28",
+      "03.29",
+      "03.30",
+      "03.31"
     ]
   },
   "scenarioPool": [
@@ -107,8 +152,24 @@
     "01.09",
     "01.10",
     "01.11",
+    "01.26",
+    "01.27",
+    "01.28",
+    "01.29",
     "02.06",
+    "02.26",
+    "02.27",
+    "02.28",
+    "02.29",
+    "02.30",
+    "02.31",
     "03.13",
+    "03.26",
+    "03.27",
+    "03.28",
+    "03.29",
+    "03.30",
+    "03.31",
     "05.20",
     "06.01",
     "06.02",
@@ -153,6 +214,7 @@
       "Ethical Principle",
       "Expertise Concept",
       "Fallacy",
+      "Framework",
       "Game-Theory Concept",
       "Heuristic",
       "Influence Principle",
@@ -195,6 +257,22 @@
       "Drafted",
       "In review",
       "Stub"
+    ],
+    "Evidence": [
+      "Contested",
+      "Framework",
+      "Philosophical",
+      "Replicated",
+      "Supported",
+      "Traditional"
+    ],
+    "What it means": [
+      "A robust empirical finding that holds up across independent studies",
+      "A way of organising thinking. Useful or not, rather than true or false",
+      "An argument or position, not an empirical claim",
+      "From a wisdom, mythic or religious tradition",
+      "Real research behind it, but less settled or narrower than replicated",
+      "Widely used and widely taught, but the evidence is disputed"
     ]
   }
 }

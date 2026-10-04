@@ -8,9 +8,10 @@
     "type": "Mental Model",
     "legacyType": "Mental Model",
     "tradition": "Reasoning / Philosophy",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Rene Descartes",
+    "date": "1637",
     "oneSentence": "Break a problem down to what you know is true, then rebuild from there.",
     "definition": "Reasoning from foundational truths rather than by analogy to how things are already done. Descartes resolved to doubt everything he could and rebuild only on what survived the doubting. The move is to strip a problem back to the things you can actually defend, then reason forward from those alone.",
     "mechanism": {
@@ -36,7 +37,8 @@
       "Clear thinker"
     ],
     "related": [
-      "01.02"
+      "01.02",
+      "01.28"
     ],
     "books": [
       "BK030"
@@ -52,9 +54,10 @@
     "type": "Mental Model",
     "legacyType": "Mental Model",
     "tradition": "Decision Theory / Practical Reasoning",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Carl Jacobi, popularised by Charlie Munger",
+    "date": "2005",
     "oneSentence": "Solve a problem backwards by asking what would guarantee failure.",
     "definition": "Rather than asking how to succeed, you ask how you would reliably fail, then remove those conditions. Attributed to the mathematician Carl Jacobi, who advised inverting difficult problems, and made a standing habit of thought by Charlie Munger.",
     "mechanism": {
@@ -81,7 +84,8 @@
       "Disciplined"
     ],
     "related": [
-      "01.01"
+      "01.01",
+      "01.29"
     ],
     "books": [
       "BK059"
@@ -97,9 +101,10 @@
     "type": "Influence Principle",
     "legacyType": "Argumentation Principle",
     "tradition": "Philosophy / Argumentation",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "Neil Wilson and Donald Davidson",
+    "date": "1959",
     "oneSentence": "Interpreting what someone said in its strongest reasonable sense.",
     "definition": "A principle of interpretation holding that when a statement admits of several readings, you should engage the one that is most coherent and most likely to be meant. It is not generosity for its own sake. A weak reading of an argument tells you nothing about whether the argument is any good, so charity is a condition of learning anything from disagreement.",
     "mechanism": {
@@ -144,9 +149,10 @@
     "type": "Influence Principle",
     "legacyType": "Argumentation Technique",
     "tradition": "Argumentation / Debate",
-    "origin": "",
-    "date": "",
     "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Attributed to Daniel Dennett and others",
+    "date": "2013",
     "oneSentence": "Building the strongest version of an argument before you take it apart.",
     "definition": "A practice of constructing the best case for a position, including improvements its actual defenders have not made, and then responding to that. Where charity asks you to read fairly, steelmanning asks you to build. Its purpose is partly honesty and partly self interest, because an objection that only defeats a weak version has told you nothing about whether you are right.",
     "mechanism": {
@@ -190,9 +196,10 @@
     "type": "Fallacy",
     "legacyType": "Fallacy",
     "tradition": "Informal Logic",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "Classical informal logic",
+    "date": "",
     "oneSentence": "Refuting a distorted version of an argument instead of the real one.",
     "definition": "An error of reasoning in which a position is restated in a weakened or exaggerated form, and the weakened form is then defeated. The appearance of victory comes from the substitution, not from the argument. It is often unintentional, since the distorted version is usually the one that felt easiest to answer.",
     "mechanism": {
@@ -225,6 +232,177 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "01.26",
+    "slug": "ladder-of-inference",
+    "name": "Ladder of Inference",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Organisational Learning",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Chris Argyris",
+    "date": "1970",
+    "oneSentence": "We climb from what happened to what we conclude in steps we never notice taking.",
+    "definition": "A description of the ascent from observation to action. You start with everything available, select part of it, add meaning drawn from your own experience, form an assumption, reach a conclusion, adopt a belief and act. The climb is fast and feels like a single act of perception, and the belief at the top then shapes what you select next time.",
+    "mechanism": {
+      "chains": [
+        [
+          "everything observable",
+          "you select part of it",
+          "you add meaning from experience",
+          "you form an assumption",
+          "you conclude",
+          "you act",
+          "the belief shapes what you select next time"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means your conclusions are wrong.\" The ladder is how all thinking works and nobody can avoid climbing it. The useful move is not to stop, it is to be able to say which rung you are standing on, and to climb back down to what was actually observable when someone sees it differently.",
+    "nearestNeighbour": "CONFIRMATION BIAS. That is the tendency to seek and favour evidence fitting what you already believe. This describes the whole ascent from observation to action, of which that bias distorts one step, the selecting.",
+    "discriminateScenario": "A manager notices one person is quiet in meetings, decides they are disengaged, stops asking for their opinion, and six months later has a year of evidence that they contribute nothing. Every step along the way felt like observation. Only the very first one was.",
+    "praxisExercise": "CLIMB BACK DOWN\n\n1. Take a conclusion you hold about a person or a situation.\n2. Write what you actually observed, with no interpretation in it at all.\n3. Write what you selected from that, and what you added.\n4. Ask whether a different reasonable person could have climbed somewhere else.\n\nCOMMITMENT (if then):\n\"When I find myself certain about someone's motives, I will write down what I actually saw before I act on it.\"",
+    "identityTags": [
+      "Clear thinker",
+      "High integrity"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "01.27",
+    "slug": "double-loop-learning",
+    "name": "Double Loop Learning",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Organisational Learning",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Chris Argyris and Donald Schon",
+    "date": "1974",
+    "oneSentence": "Fixing the error is one loop. Questioning the goal that produced it is the second.",
+    "definition": "A distinction between two kinds of correction. Single loop learning adjusts actions to hit an existing target. Double loop learning puts the target itself, and the assumptions behind it, up for revision. Argyris found organisations overwhelmingly do the first, because the second requires examining commitments people would rather leave alone.",
+    "mechanism": {
+      "chains": [
+        [
+          "result falls short",
+          "you adjust your actions",
+          "the aim behind it is never examined",
+          "the same kind of error returns wearing different clothes"
+        ],
+        [
+          "result falls short",
+          "you ask whether the aim was right",
+          "the assumption that produced the error changes"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Double loop learning means reflecting more.\" Reflecting on how to do the thing better is still the first loop, however deep it goes. The second loop only begins when the goal, the measure or the governing assumption is itself available for revision, which is uncomfortable in a way that ordinary reflection is not.",
+    "nearestNeighbour": "GOODHART'S LAW. That describes what happens when a measure becomes a target and stops measuring anything useful. This is the wider move of putting the target itself in question, and Goodhart is one of the reasons you might need to.",
+    "discriminateScenario": "A charity's email open rates fall, so they test new subject lines for a year and claw back a few points. Nobody asks whether email is still how their supporters want to hear from them, because improving the number was the brief from the beginning.",
+    "praxisExercise": "QUESTION THE TARGET\n\n1. Name something you are currently trying to improve.\n2. Write the measure you are improving it against.\n3. Ask who chose that measure, and what it was standing in for.\n4. Write what you would do differently if the measure were wrong.\n\nCOMMITMENT (if then):\n\"When I have been trying to improve a number for more than a quarter, I will ask what it was standing in for.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Self-authoring"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "01.28",
+    "slug": "cynefin-framework",
+    "name": "Cynefin Framework",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Systems Thinking",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Dave Snowden",
+    "date": "1999",
+    "oneSentence": "Different kinds of problem need different kinds of response, and the first job is telling which kind you have.",
+    "definition": "A way of placing a situation before deciding how to act on it. Clear situations have an obvious right answer. Complicated ones have a right answer an expert can find. Complex ones have no answer available in advance, only patterns that appear once you act. Chaotic ones require acting first to establish any stability at all.",
+    "mechanism": {
+      "chains": [
+        [
+          "one way of deciding is applied everywhere",
+          "it fits some situations and fails in others",
+          "the failures are read as poor execution"
+        ],
+        [
+          "the situation is placed first",
+          "each kind gets the response that suits it",
+          "established practice is used only where established practice exists"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It sorts problems by how hard they are.\" Difficulty is not the distinction. A complicated problem can be extremely hard and still have a correct answer waiting for the right expert. A complex one can be simple to describe and have no answer available in advance at all, which is a different situation requiring a different move.",
+    "nearestNeighbour": "FIRST PRINCIPLES THINKING. That is a method for stripping a problem back to what you know is true, and it suits situations where an answer exists to be found. This is the prior question of whether the situation in front of you is that kind at all.",
+    "discriminateScenario": "A hospital rolls out a checklist that cut infections dramatically in one unit. In a second unit it changes nothing. In a third it makes handovers worse. The checklist was never wrong. It was answering a question only the first unit was actually asking.",
+    "praxisExercise": "PLACE IT FIRST\n\n1. Take a problem you are stuck on.\n2. Ask whether there is a known right answer, an answer an expert could find, or no answer available yet.\n3. If there is no answer available yet, name one small safe thing you could try to learn from.\n4. Do that rather than planning further.\n\nCOMMITMENT (if then):\n\"When a plan keeps failing in execution, I will ask whether the situation has a knowable answer before planning again.\"",
+    "identityTags": [
+      "Clear thinker"
+    ],
+    "related": [
+      "01.01"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "01.29",
+    "slug": "via-negativa",
+    "name": "Via Negativa",
+    "tier": "integration",
+    "domain": "Reasoning & Sensemaking",
+    "type": "Philosophical Principle",
+    "legacyType": "Philosophical Principle",
+    "tradition": "Apophatic Theology",
+    "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "Ancient, popularised by Nassim Nicholas Taleb",
+    "date": "2012",
+    "oneSentence": "You often improve something faster by removing what harms it than by adding what helps.",
+    "definition": "A principle holding that subtraction is more reliable than addition. Its root is theological, defining the divine by what it is not, and it carries into practical matters as a claim about knowledge: we know what damages a system with far greater confidence than we know what improves it, so acting on the first is the better bet.",
+    "mechanism": {
+      "chains": [
+        [
+          "improvement sought by adding",
+          "each addition brings effects of its own",
+          "the system grows more complicated and the original problem persists"
+        ],
+        [
+          "improvement sought by removing",
+          "what is gone cannot misbehave",
+          "the change is more reliable than anything you could have added"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means do less.\" It is not minimalism and it is not about effort. It is a claim about where reliable knowledge sits. Harm is easier to identify than benefit, so removing a known harm is a safer bet than adding a supposed good, and that holds whether you end up busier or not.",
+    "nearestNeighbour": "INVERSION. That flips a question to ask what would guarantee failure, and it is a move you make while thinking. This is a claim about which kind of action is more trustworthy once you have an answer, and it favours removal over addition.",
+    "discriminateScenario": "Asked how to sleep better, a man has already bought a tracker, a weighted blanket and three supplements. His doctor asks what time he stops drinking coffee. Nothing he had added was useless. The thing that was actually hurting him had never been on the list.",
+    "praxisExercise": "SUBTRACT ONE THING\n\n1. Name something you are trying to improve.\n2. List everything you have added in order to improve it.\n3. Now list what might be harming it, however small.\n4. Remove one item from the second list this week, and add nothing.\n\nCOMMITMENT (if then):\n\"When I want to improve something, I will look for one thing to remove before I add anything.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Disciplined"
+    ],
+    "related": [
+      "01.02"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "02.06",
     "slug": "sunk-cost-fallacy",
     "name": "Sunk-Cost Fallacy",
@@ -233,9 +411,10 @@
     "type": "Cognitive Bias",
     "legacyType": "Cognitive Bias",
     "tradition": "Behavioral Economics / Decision Science",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Hal Arkes and Catherine Blumer",
+    "date": "1985",
     "oneSentence": "Carrying on with something because of what you already spent on it.",
     "definition": "A sunk cost is a cost already paid that cannot be recovered. The fallacy is letting it influence a decision about the future. Rationally, only the costs and benefits still ahead of you should count; in practice, what has already gone in exerts a strong pull toward continuing.",
     "mechanism": {
@@ -265,6 +444,258 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "02.26",
+    "slug": "eisenhower-matrix",
+    "name": "Eisenhower Matrix",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Time Management",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Attributed to Dwight D. Eisenhower, set out by Stephen Covey",
+    "date": "1989",
+    "oneSentence": "Sort what you have to do by urgent and important, and most of what feels pressing turns out to be neither.",
+    "definition": "A sorting device that places every task on two axes, how urgent it is and how important it is. The four resulting groups get different treatment: important and urgent is done now, important and not urgent is scheduled, urgent and not important is declined or handed on, and neither is dropped.",
+    "mechanism": {
+      "chains": [
+        [
+          "urgency is felt, importance is not",
+          "attention goes to whatever is loudest",
+          "important work is never started"
+        ],
+        [
+          "both axes are marked",
+          "the urgent and unimportant becomes visible",
+          "it can be refused"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a to do list with four boxes.\" Sorting is not the point, and the matrix does nothing if you then work through all four groups anyway. Its whole function is to make the urgent but unimportant group visible so that you decline it, which is the one group most people never act on.",
+    "nearestNeighbour": "OPPORTUNITY COST. That is about what you give up by choosing one thing over another, and it applies to any choice at all. This is a specific sorting device for time, and its work is done by the axis of importance rather than by comparing alternatives.",
+    "discriminateScenario": "Every week Omar clears his inbox, answers each message the day it arrives, and leaves at seven feeling productive. The strategy document he has been meaning to write has not moved in four months. Nothing he did was wasted, and none of it was the thing that mattered most.",
+    "praxisExercise": "THE QUADRANT AUDIT\n\n1. List everything you did yesterday, in half hour blocks.\n2. Mark each one urgent or not, and important or not.\n3. Add up the time that went to urgent and not important.\n4. Pick one recurring item from that group and decide who else could hold it, or what happens if nobody does.\n\nCOMMITMENT (if then):\n\"When something arrives marked urgent, I will ask whether it is important before I touch it.\"",
+    "identityTags": [
+      "Disciplined",
+      "Clear thinker"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.27",
+    "slug": "regret-minimisation-framework",
+    "name": "Regret Minimisation Framework",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Decision Making",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Jeff Bezos",
+    "date": "1994",
+    "oneSentence": "Choose by imagining yourself at eighty, looking back on whether you did it.",
+    "definition": "A way of reframing a hard choice by projecting yourself to the end of your life and asking which option you would regret not taking. Bezos describes using it to decide whether to leave a secure job, on the grounds that the things people regret at eighty are rarely the risks they took.",
+    "mechanism": {
+      "chains": [
+        [
+          "decision made from where you stand",
+          "the near term costs loom largest",
+          "you optimise to avoid discomfort now"
+        ],
+        [
+          "decision made from age eighty",
+          "the near term costs shrink and the things not done grow",
+          "you optimise for what will still matter"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means always take the bold option.\" It is not a bias toward risk. Plenty of choices look equally fine from eighty, and the framework says nothing about those. It only separates decisions where one option will still sting decades later from ones where it will not.",
+    "nearestNeighbour": "PREMORTEM. That imagines a particular plan has already failed and works backwards to find the risks, so you can prevent them. This imagines a whole life rather than one project, and it weighs the things you did not do rather than the ways a plan could go wrong.",
+    "discriminateScenario": "Ines has been offered a place on an expedition that would mean leaving a job she is comfortable in. She spends a week listing the risks. Then she asks what the version of her at eighty would say about it, and finds that the job does not appear anywhere in the answer.",
+    "praxisExercise": "THE VIEW FROM EIGHTY\n\n1. Write the decision you are avoiding, in one line.\n2. Picture yourself at eighty, looking back, and write what that person says about each option.\n3. Note which option only looks frightening from where you are standing now.\n4. Name the smallest step toward it you could take this month.\n\nCOMMITMENT (if then):\n\"When a decision has been sitting unmade for more than a week, I will write what I would say about it at eighty before deciding.\"",
+    "identityTags": [
+      "Self-authoring",
+      "Clear thinker"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.28",
+    "slug": "one-way-and-two-way-doors",
+    "name": "One-Way and Two-Way Doors",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Decision Making",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Jeff Bezos",
+    "date": "2015",
+    "oneSentence": "Decisions you can reverse deserve far less deliberation than ones you cannot.",
+    "definition": "A way of sorting decisions by whether they can be undone. A two way door can be walked back through at modest cost, so it should be made quickly and corrected if wrong. A one way door cannot, so it deserves slow and careful treatment. The claim is that most decisions are the first kind and are treated as though they were the second.",
+    "mechanism": {
+      "chains": [
+        [
+          "every decision gets the same process",
+          "reversible ones are deliberated as heavily as permanent ones",
+          "everything slows and the permanent ones are still rushed"
+        ],
+        [
+          "doors are sorted first",
+          "reversible ones are made quickly and corrected",
+          "care is spent where it cannot be undone"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means move fast on everything.\" The framework is as much about slowing down as speeding up. If most decisions are reversible and over deliberated, the small number that are not should be getting far more care than they currently receive, and usually they are not.",
+    "nearestNeighbour": "OPTIONALITY. That is about deliberately keeping future choices open, and it is a position you hold over time. This is a judgement you make once about the decision in front of you, by asking what it would cost to walk it back.",
+    "discriminateScenario": "A team spends six weeks and four meetings choosing which project tool to adopt, a change they could undo in an afternoon. The same month they sign a three year lease on an office after a single visit, because the landlord needed an answer by Friday.",
+    "praxisExercise": "SORT THE DOORS\n\n1. List the five decisions currently open in front of you.\n2. For each, write what it would cost to reverse in six months.\n3. Mark which are genuinely one way.\n4. Make one of the reversible ones today, and give one of the one way ones a proper hearing.\n\nCOMMITMENT (if then):\n\"When a decision is taking more than a week, I will first write what it would cost to undo.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Disciplined"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.29",
+    "slug": "ten-ten-ten",
+    "name": "Ten Ten Ten",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Decision Making",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Suzy Welch",
+    "date": "2009",
+    "oneSentence": "Ask how you will feel about this in ten minutes, ten months and ten years.",
+    "definition": "A device for holding a decision at three timescales at once. The ten minute answer captures the immediate feeling, the ten month answer captures the practical consequence, and the ten year answer captures whether it touches anything that lasts. Choices that look different across the three are the ones worth slowing down for.",
+    "mechanism": {
+      "chains": [
+        [
+          "a choice is felt at one timescale only",
+          "immediate discomfort dominates",
+          "the decision serves the next hour"
+        ],
+        [
+          "the same choice is held at three timescales",
+          "what only stings briefly separates from what compounds",
+          "the decision serves the longer view"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The ten year answer is the one that counts.\" All three horizons are meant to be weighed. Some things genuinely matter in ten minutes and not at all in ten years, and a device that always deferred to the longest view would have you ignore every immediate need you have.",
+    "nearestNeighbour": "PRESENT BIAS. That is the documented tendency to overweight immediate rewards against future ones. This is a practical device for countering it in the moment, and it can be used by someone who has never heard of the bias.",
+    "discriminateScenario": "Mid argument, Dan is about to say the thing that would end it in his favour. He stops and asks what it will look like at the end of the week, and then at the end of the year. The first answer is satisfying. The other two are not, and he says something else.",
+    "praxisExercise": "THREE HORIZONS\n\n1. Take a decision you are sitting on.\n2. Write how you will feel about it in ten minutes.\n3. Then in ten months.\n4. Then in ten years.\n5. If the three answers disagree, write which one you were about to act on.\n\nCOMMITMENT (if then):\n\"When I am about to act on how I feel right now, I will write the ten month and ten year answers first.\"",
+    "identityTags": [
+      "Emotionally regulated",
+      "Disciplined"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.30",
+    "slug": "circle-of-competence",
+    "name": "Circle of Competence",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Investing",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Warren Buffett and Charlie Munger",
+    "date": "1996",
+    "oneSentence": "Know where the edge of what you actually understand sits, and treat crossing it as the decision.",
+    "definition": "The area in which you have real working knowledge, bounded by an edge you can describe. Buffett's argument is that the size of the circle matters far less than knowing where its boundary runs, because confidence does not drop when you cross it and you will go on deciding as though you were still informed.",
+    "mechanism": {
+      "chains": [
+        [
+          "the edge of your knowledge is unmarked",
+          "confidence stays level as you cross it",
+          "you decide outside it without noticing"
+        ],
+        [
+          "the edge is marked in advance",
+          "crossing becomes a visible act",
+          "you either get help or decline"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means staying in your lane and never learning anything new.\" The size of the circle is not the point and Buffett has been explicit that it can be widened. What matters is knowing where the edge runs, because a small circle with a well marked boundary is worth far more than a large one with a vague one.",
+    "nearestNeighbour": "ILLUSION OF EXPLANATORY DEPTH. That is the finding that people believe they understand things in far more detail than they do, and it explains why the edge is hard to see from inside. This is the practical response, which is to mark the boundary before you are under pressure rather than after.",
+    "discriminateScenario": "A founder who has built three software companies joins the board of a biotechnology firm, reasoning that business is business. Eighteen months in, he cannot say whether the central scientific claim in their pitch is plausible, and he has been voting on it the whole time.",
+    "praxisExercise": "DRAW THE EDGE\n\n1. Name an area where people treat you as knowledgeable.\n2. Write three questions in it you could answer confidently.\n3. Write three you could not, and would have to guess at.\n4. That second list is the edge. Say it out loud next time one of them comes up.\n\nCOMMITMENT (if then):\n\"When I am asked for a view outside what I can defend, I will say where my knowledge stops before I answer.\"",
+    "identityTags": [
+      "Clear thinker",
+      "High integrity"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "02.31",
+    "slug": "barbell-strategy",
+    "name": "Barbell Strategy",
+    "tier": "integration",
+    "domain": "Decisions & Risk",
+    "type": "Framework",
+    "legacyType": "Framework",
+    "tradition": "Risk Management",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Nassim Nicholas Taleb",
+    "date": "2012",
+    "oneSentence": "Put most of what you have somewhere very safe and a little somewhere very risky, and nothing in the middle.",
+    "definition": "A way of arranging exposure so that the worst case cannot ruin you and the best case can still pay. Most of your resources sit in something close to safe, a small portion goes into things with large potential upside, and the moderate middle is deliberately avoided. Taleb's argument is that the middle carries real downside without the upside that would justify it.",
+    "mechanism": {
+      "chains": [
+        [
+          "resources sit in the moderate middle",
+          "a shock does real damage",
+          "and the upside was capped anyway"
+        ],
+        [
+          "resources split between very safe and very risky",
+          "the safe side survives any shock",
+          "the small risky side can pay off without threatening the rest"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is just a way of saying diversify.\" Diversification spreads bets across the middle and relies on them not failing together. This explicitly empties the middle, on the argument that moderate risk carries genuine downside while capping the sort of gain that makes carrying downside worthwhile.",
+    "nearestNeighbour": "MARGIN OF SAFETY. That is about leaving enough room in a single decision that an error does not become a disaster. This is about the shape of a whole set of positions at once, and the safe half is what performs the function margin of safety performs inside one of them.",
+    "discriminateScenario": "A writer keeps a steady part time contract that covers her rent and spends the rest of her week on a book with no advance and no guarantee. Colleagues keep telling her to find a better paid full time role in publishing. She points out that it would eat the time the book needs and still not be secure.",
+    "praxisExercise": "FIND YOUR MIDDLE\n\n1. List where your time, money or reputation is currently committed.\n2. Mark each one safe, moderate or genuinely risky.\n3. Look at the moderate pile and ask what it is actually protecting you from.\n4. Move one item out of the middle, in either direction.\n\nCOMMITMENT (if then):\n\"When I commit time or money to something moderate, I will ask whether it belongs at one end instead.\"",
+    "identityTags": [
+      "Clear thinker",
+      "Self-authoring"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "03.13",
     "slug": "solomons-paradox",
     "name": "Solomon’s Paradox",
@@ -273,9 +704,10 @@
     "type": "Paradox",
     "legacyType": "Psychological Effect / Paradox",
     "tradition": "Social Psychology / Wisdom Research",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Igor Grossmann and Ethan Kross",
+    "date": "2014",
     "oneSentence": "We reason more wisely about other people's problems than our own.",
     "definition": "Named for King Solomon, who counselled others wisely but governed his own household badly. Grossmann and Kross found that people reason about their own problems with measurably less wisdom, by which is meant acknowledging the limits of what they know, allowing for change, weighing other perspectives and seeking compromise, than about an identical problem belonging to someone else.",
     "mechanism": {
@@ -311,6 +743,257 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "03.26",
+    "slug": "fogg-behavior-model",
+    "name": "Fogg Behavior Model",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Behavioural Principle",
+    "legacyType": "Behavioral Model",
+    "tradition": "Behaviour Design",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "B. J. Fogg, Stanford",
+    "date": "2009",
+    "oneSentence": "A behaviour happens when motivation, ability and a prompt arrive at the same moment.",
+    "definition": "A model holding that three things must coincide for any behaviour to occur: enough motivation, enough ability, and a prompt to act. Where the behaviour is easy, very little motivation is needed. Where it is hard, a great deal is. If the prompt is missing, nothing happens regardless of the other two.",
+    "mechanism": {
+      "chains": [
+        [
+          "prompt arrives",
+          "motivation is sufficient for how hard the thing is",
+          "the behaviour happens"
+        ],
+        [
+          "prompt arrives",
+          "the thing is too hard for the motivation available",
+          "nothing happens, and wanting it more later does not recover that moment"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"If someone is not doing it, they do not want it enough.\" The model's central claim is the opposite. Motivation is the least reliable of the three and the hardest to raise on demand, so making the behaviour easier, or supplying a prompt that was missing, works in situations where encouragement does nothing at all.",
+    "nearestNeighbour": "IMPLEMENTATION INTENTIONS. That is a specific technique, writing an if then plan that ties an action to a situation. This is a model of why such a technique works, since the if clause is supplying exactly the prompt the model says must be present.",
+    "discriminateScenario": "A gym runs a discount, then a motivational campaign, then a competition. Attendance barely moves. They then shift the sign in desk to the entrance and put clean towels by the door, and attendance climbs, having never once addressed how badly anyone wanted to come.",
+    "praxisExercise": "FIND THE MISSING ONE\n\n1. Name something you keep meaning to do and do not.\n2. Ask whether you genuinely could do it in the moment it should happen, with the time and tools you have.\n3. Ask whether anything prompts you at that moment.\n4. Fix whichever of those two is missing, and leave motivation alone.\n\nCOMMITMENT (if then):\n\"When I fail to do something I intended, I will ask what made it hard or what failed to prompt me, before deciding I lacked discipline.\"",
+    "identityTags": [
+      "Disciplined",
+      "Self-authoring"
+    ],
+    "related": [
+      "03.29"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.27",
+    "slug": "com-b-model",
+    "name": "COM-B Model",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Behavioural Principle",
+    "legacyType": "Behavioral Model",
+    "tradition": "Health Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Susan Michie, Maartje van Stralen and Robert West",
+    "date": "2011",
+    "oneSentence": "Behaviour needs capability, opportunity and motivation, and the one that is missing is the one to fix.",
+    "definition": "A diagnostic model from health psychology holding that any behaviour requires three conditions. Capability is whether the person can physically and mentally do it. Opportunity is whether their environment and social world permit it. Motivation is whether they want to. It underpins the Behaviour Change Wheel and is widely used in public health.",
+    "mechanism": {
+      "chains": [
+        [
+          "behaviour does not happen",
+          "motivation is assumed to be the cause",
+          "effort goes into persuading"
+        ],
+        [
+          "behaviour does not happen",
+          "capability, opportunity and motivation are checked separately",
+          "the condition actually missing gets treated"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a model of motivation.\" Motivation is one third of it, and in practice frequently the third that is already fine. The model exists partly to stop people reaching for motivational solutions when the real obstacle is that somebody does not know how, or cannot do it where they are.",
+    "nearestNeighbour": "SELF-DETERMINATION THEORY. That is a theory of motivation itself, concerned with autonomy, competence and relatedness, and it goes deep on what good motivation is made of. This is a wider diagnostic that treats motivation as one of three conditions and says almost nothing about its internal structure.",
+    "discriminateScenario": "A clinic cannot get patients to take a daily medication, so it runs an education campaign explaining why the medication matters. Uptake does not move. A nurse eventually discovers that most of them understood perfectly well and could not open the bottle.",
+    "praxisExercise": "CHECK ALL THREE\n\n1. Name a behaviour you want from yourself or from someone else.\n2. Ask: can they actually do it, physically and mentally?\n3. Ask: does their environment and the people around them allow it?\n4. Only then ask whether they want to. Act on the first condition that fails.\n\nCOMMITMENT (if then):\n\"When someone is not doing what was asked, I will check capability and opportunity before I conclude anything about their motivation.\"",
+    "identityTags": [
+      "Disciplined",
+      "Clear thinker"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.28",
+    "slug": "stages-of-change",
+    "name": "Stages of Change",
+    "tier": "discovery",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Behavioural Principle",
+    "legacyType": "Psychological Theory",
+    "tradition": "Clinical Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Contested",
+    "origin": "James Prochaska and Carlo DiClemente",
+    "date": "1983",
+    "oneSentence": "Change is described as a sequence running from not considering it, through preparing, to keeping it up.",
+    "definition": "Also called the transtheoretical model. It describes change as movement through precontemplation, contemplation, preparation, action and maintenance, with relapse treated as a return to an earlier stage rather than a failure. It is taught very widely in health, counselling and addiction settings.",
+    "mechanism": {
+      "chains": [
+        [
+          "precontemplation",
+          "contemplation",
+          "preparation",
+          "action",
+          "maintenance, with relapse returning a person to an earlier stage rather than ending the sequence"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"People move through the stages in order, and the model is well established.\" It is taught almost everywhere and the evidence is considerably thinner than its popularity suggests. A Cochrane review of stage based interventions for diet and activity found the evidence limited and inconclusive and rated its quality very low. The stages are a useful vocabulary. Treating them as a verified mechanism is not supported.",
+    "nearestNeighbour": "FOUR STAGES OF HABIT FORMATION. That describes the loop a single habit runs on within one repetition, cue, craving, response and reward. This describes a person's readiness to change across months or years, so the two are operating at completely different timescales.",
+    "discriminateScenario": "A counsellor records a client as being in preparation and plans the next six weeks accordingly. The client has in fact already tried and stopped four times this year, and twice in that period behaved exactly as though he had never considered it at all. The label holds none of that.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Self-authoring"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.29",
+    "slug": "habit-stacking",
+    "name": "Habit Stacking",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Behavioural Principle",
+    "legacyType": "Behavior-Change Technique",
+    "tradition": "Behaviour Design",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "B. J. Fogg, popularised by James Clear",
+    "date": "2018",
+    "oneSentence": "Attach a new habit to one you already do without thinking about it.",
+    "definition": "A technique for supplying a reliable trigger. Rather than relying on remembering, a new behaviour is tied directly to the end of an existing automatic one, in the form after I do X, I will do Y. The existing habit becomes the prompt, so the new behaviour does not depend on intention surviving a busy day.",
+    "mechanism": {
+      "chains": [
+        [
+          "new habit has no trigger",
+          "you have to remember it",
+          "remembering fails on the first difficult day"
+        ],
+        [
+          "new habit is tied to an existing automatic one",
+          "the old habit supplies the prompt",
+          "no remembering is required"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Habit stacking is about doing things in a sensible order.\" Order is incidental. The mechanism is that an already automatic behaviour is reliable enough to act as a cue, which is why stacking onto something you do every single day works and stacking onto something you merely do often does not.",
+    "nearestNeighbour": "IMPLEMENTATION INTENTIONS. Those tie an action to a situation, which might be a time, a place or an event. This ties it specifically to another habit, which makes the trigger far more reliable but restricts you to moments you already reliably have.",
+    "discriminateScenario": "Someone who has wanted to floss for years finally manages it by keeping the floss beside the kettle and using it while the water boils. The intention had never been the problem. He had simply never had a moment that reliably arrived and belonged to it.",
+    "praxisExercise": "FIND A RELIABLE MOMENT\n\n1. List five things you do every single day without deciding to.\n2. Pick the new habit you want.\n3. Tie it to whichever of those five sits closest in time and place.\n4. Write it as: after I do X, I will do Y. Keep Y under two minutes for the first fortnight.\n\nCOMMITMENT (if then):\n\"When I want to build a new habit, I will attach it to something I already do daily rather than to a time of day.\"",
+    "identityTags": [
+      "Disciplined"
+    ],
+    "related": [
+      "03.26"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.30",
+    "slug": "temptation-bundling",
+    "name": "Temptation Bundling",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Behavioural Principle",
+    "legacyType": "Behavior-Change Technique",
+    "tradition": "Behavioural Economics",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Katherine Milkman, Julia Minson and Kevin Volpp",
+    "date": "2014",
+    "oneSentence": "Only allow yourself something you enjoy while you are doing something you avoid.",
+    "definition": "A technique that pairs a tempting activity with one that is good for you but unappealing, and restricts the tempting one so it is only available during the other. The restriction is what distinguishes it, since it makes the moment itself rewarding rather than offering a reward at the end.",
+    "mechanism": {
+      "chains": [
+        [
+          "the enjoyable thing is available whenever you like",
+          "the avoided thing has nothing attached to it",
+          "the avoided thing keeps losing"
+        ],
+        [
+          "the enjoyable thing is restricted to the avoided one",
+          "the moment carries its own reward",
+          "starting becomes easier"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is just rewarding yourself afterwards.\" A reward afterwards is a separate event, and one you can usually take anyway without doing the hard part first. The mechanism here depends on the restriction, which is precisely the element most people drop and precisely the element doing the work.",
+    "nearestNeighbour": "COMMITMENT DEVICES. Those bind your future self by removing an option or attaching a cost, and the pressure they apply is unpleasant. This also restricts an option, but the thing restricted is enjoyable and the effect is to make the hard thing attractive rather than the easy thing expensive.",
+    "discriminateScenario": "A man who has not been to the gym in a year starts going four times a week after deciding he may only listen to a particular audiobook series while on the treadmill. He now looks forward to something he used to dread, and is no longer certain which of the two he is turning up for.",
+    "praxisExercise": "BUNDLE ONE PAIR\n\n1. Name something you enjoy and do freely.\n2. Name something good for you that you avoid.\n3. Make the first available only during the second, for two weeks.\n4. Note whether you kept the restriction, because that is the part that fails.\n\nCOMMITMENT (if then):\n\"When I notice I am avoiding something, I will attach one thing I enjoy to it and allow it nowhere else.\"",
+    "identityTags": [
+      "Disciplined",
+      "Self-authoring"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.31",
+    "slug": "fresh-start-effect",
+    "name": "Fresh Start Effect",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Psychological Effect",
+    "legacyType": "Psychological Effect",
+    "tradition": "Behavioural Economics",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Hengchen Dai, Katherine Milkman and Jason Riis",
+    "date": "2014",
+    "oneSentence": "Dates that feel like a new beginning make people more willing to start something hard.",
+    "definition": "The observation that people pursue goals more readily after moments that mark a boundary in time, such as a birthday, a Monday or the start of a month. The proposed mechanism is that such moments separate a person from their past record of failure, making the imperfect version of themselves feel like someone previous.",
+    "mechanism": {
+      "chains": [
+        [
+          "an ordinary day",
+          "today is continuous with your record of not managing it",
+          "starting means contradicting yourself"
+        ],
+        [
+          "a day that marks a boundary",
+          "it reads as a new chapter",
+          "the old record belongs to a previous version of you"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is why New Year resolutions work.\" It is closer to why they feel possible, which is a different claim. The effect concerns willingness to begin, and the research describes a rise in people starting rather than a rise in people finishing. Nothing about it suggests the second week is any easier.",
+    "nearestNeighbour": "IMPLEMENTATION INTENTIONS. Those concern specifying when and where you will act, and they improve whether you follow through. This concerns which moments make a person willing to commit in the first place, and it says nothing at all about what happens afterwards.",
+    "discriminateScenario": "A woman has been meaning to restart her studies for three years. She finally enrols on the first Monday after her birthday, having had exactly the same information, the same money and the same free evenings for the whole of that time.",
+    "praxisExercise": "USE A BOUNDARY\n\n1. Name something you have been meaning to start.\n2. Find the next date that genuinely reads as a boundary: a birthday, a month, a move, a return from somewhere.\n3. Put the first small step on that date.\n4. Then put a second step eight days later, because the boundary will have worn off by then.\n\nCOMMITMENT (if then):\n\"When I use a fresh start to begin something, I will plan the second week on the same day I plan the first.\"",
+    "identityTags": [
+      "Self-authoring",
+      "Disciplined"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "05.20",
     "slug": "gottmans-four-horsemen",
     "name": "Gottman’s Four Horsemen",
@@ -319,9 +1002,10 @@
     "type": "Relationship Pattern",
     "legacyType": "Relationship Framework",
     "tradition": "Relationship Research",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Contested",
+    "origin": "John Gottman",
+    "date": "1994",
     "oneSentence": "Four patterns in conflict that predict a relationship is in trouble.",
     "definition": "Gottman's observational work identified four communication patterns that reliably predict relationship breakdown: criticism, which attacks character rather than behaviour, contempt, which conveys superiority, defensiveness, which deflects responsibility, and stonewalling, which withdraws from the exchange altogether. Contempt was the strongest single predictor.",
     "mechanism": {
@@ -337,7 +1021,7 @@
       ],
       "prose": []
     },
-    "misconception": "\"It means couples who argue are in trouble.\" Arguing frequency was not what predicted anything. Stable couples argued plenty. What separated them was the absence of these four patterns inside the arguing, particularly contempt.",
+    "misconception": "\"Gottman can predict divorce with over ninety per cent accuracy.\" That figure comes from models fitted to couples whose outcomes were already known, which is a much weaker thing than predicting an unknown future, and independent attempts to reproduce it have not matched it. The four behaviours are real and worth knowing. The accuracy claim attached to them is not settled.",
     "nearestNeighbour": "DEMAND WITHDRAW PATTERN. That is one specific cycle where one partner pursues and the other retreats, and it maps closely onto two of the four, criticism and stonewalling. The four horsemen are a wider set of markers rather than a single interactional loop.",
     "discriminateScenario": "Every time the finances come up, one of them starts with you never and the other starts with well you are the one who. Within four minutes one has stopped responding and is looking at their phone. They have had this exact exchange perhaps thirty times and have never once discussed the actual budget.",
     "praxisExercise": "SPOT YOUR OWN\n\n1. Recall your last difficult conversation with someone close.\n2. Of the four, which one did you supply? Be specific about the sentence.\n3. Write what the behaviour based version of that sentence would have been.\n4. Use it next time the subject arises.\n\nCOMMITMENT (if then):\n\"When I catch myself starting a sentence with you always or you never, I will stop and name the specific behaviour instead.\"",
@@ -363,9 +1047,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication Practice",
     "tradition": "Communication Studies / Counseling",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Carl Rogers and Richard Farson",
+    "date": "1957",
     "oneSentence": "Listening to understand the person rather than to prepare your reply.",
     "definition": "A practice in which the listener's whole attention goes to building an accurate picture of what the speaker means, and the speaker can see that happening. It involves not interrupting, not rehearsing a response while the other person talks, and checking your understanding out loud before responding to it. Rogers and Farson set it out as a working method rather than a personality trait.",
     "mechanism": {
@@ -410,9 +1095,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication Practice",
     "tradition": "Counseling / Communication",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Carl Rogers",
+    "date": "1951",
     "oneSentence": "Saying back what you understood, so the speaker can correct you.",
     "definition": "A technique in which the listener restates the speaker's meaning in their own words and invites correction. Its value is not politeness. It converts a private, unverified guess about what someone meant into something they can confirm or fix, which is the only way to know whether you understood.",
     "mechanism": {
@@ -457,9 +1143,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication / Emotion Technique",
     "tradition": "Affective Science / Communication",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Matthew Lieberman",
+    "date": "2007",
     "oneSentence": "Naming an emotion out loud reduces its intensity.",
     "definition": "Putting a feeling into words measurably lowers its grip, in yourself and in the person you are speaking to. Lieberman's imaging work found that labelling an emotion reduced activity in the amygdala and raised it in regions associated with deliberate control. In conversation it means naming what the other person appears to feel rather than arguing with it.",
     "mechanism": {
@@ -503,9 +1190,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication Technique",
     "tradition": "Communication / Counseling",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Standard interviewing and counselling practice",
+    "date": "",
     "oneSentence": "Questions that cannot be answered yes or no, so the other person chooses what matters.",
     "definition": "A question built so the answer has to be constructed rather than selected. Closed questions test a hypothesis you already have. Open questions hand the choice of direction to the other person, which is how you find out the thing you did not know to ask about.",
     "mechanism": {
@@ -549,9 +1237,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication Principle",
     "tradition": "Pragmatics / Linguistics",
-    "origin": "",
-    "date": "",
     "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Paul Grice",
+    "date": "1975",
     "oneSentence": "Conversation runs on an unspoken agreement to be informative, truthful, relevant and clear.",
     "definition": "Grice proposed that conversation is governed by a cooperative principle and four maxims: say enough but not too much, say what you believe true, say what is relevant, and say it clearly. The maxims are not rules people obey. They are expectations that let a listener work out what is meant from what is said, including when a maxim is deliberately broken.",
     "mechanism": {
@@ -589,9 +1278,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication Concept",
     "tradition": "Psycholinguistics / Communication",
-    "origin": "",
-    "date": "",
     "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Herbert Clark",
+    "date": "1996",
     "oneSentence": "Conversation works by building a shared store of what both people already know.",
     "definition": "Clark's account of conversation as a joint activity, in which participants continuously track what they can assume the other already knows. Every reference to a previous point, every shorthand, every it or that draws on this store. Where the store is thin, speakers must spell more out; where it is thick, a few words carry a great deal.",
     "mechanism": {
@@ -636,9 +1326,10 @@
     "type": "Cognitive Bias",
     "legacyType": "Cognitive Bias",
     "tradition": "Cognitive Psychology / Communication",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Colin Camerer, George Loewenstein and Martin Weber",
+    "date": "1989",
     "oneSentence": "Once you know something, you cannot imagine not knowing it.",
     "definition": "A bias in which knowing something makes it very hard to model the mind of someone who does not. It shows up whenever an expert explains their field: the steps they skip are invisible to them, because the knowledge that fills them is already in place. Demonstrated memorably in Elizabeth Newton's tapping study, where tappers wildly overestimated how often listeners would recognise the tune.",
     "mechanism": {
@@ -678,9 +1369,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication Principle",
     "tradition": "Rhetoric / Behavioral Science",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Replicated",
+    "origin": "Amos Tversky and Daniel Kahneman",
+    "date": "1981",
     "oneSentence": "The same fact persuades differently depending on how it is framed.",
     "definition": "Tversky and Kahneman showed that logically identical information produces different choices depending on presentation. A treatment described as having a ninety per cent survival rate is chosen more often than one with a ten per cent mortality rate. Framing is not a way of adding information. It is a choice about which true description of the same thing you put forward.",
     "mechanism": {
@@ -720,9 +1412,10 @@
     "type": "Influence Principle",
     "legacyType": "Rhetorical Framework",
     "tradition": "Classical Rhetoric",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "Aristotle",
+    "date": "c. 350 BCE",
     "oneSentence": "Persuasion rests on character, feeling and reasoning together.",
     "definition": "Aristotle's account of the three available means of persuasion: ethos, the credibility of the speaker, pathos, the emotional state of the audience, and logos, the reasoning of the argument itself. His point was not that all three are equally weighted in every case, but that an argument relying on only one of them is doing a third of the available work.",
     "mechanism": {
@@ -763,9 +1456,10 @@
     "type": "Communication Principle",
     "legacyType": "Communication Framework",
     "tradition": "Conflict Resolution / Communication",
-    "origin": "",
-    "date": "",
     "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Marshall Rosenberg",
+    "date": "1999",
     "oneSentence": "Separating what happened from how you felt, what you need and what you are asking.",
     "definition": "Rosenberg's framework splits a difficult statement into four parts: the observation, stripped of evaluation, the feeling it produced, the need underneath that feeling, and a specific request. Its work is done by the separation itself, since most conflict comes from these four arriving fused into a single accusation.",
     "mechanism": {
@@ -812,9 +1506,10 @@
     "type": "Strategic Principle",
     "legacyType": "Negotiation Principle",
     "tradition": "Negotiation Theory",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Roger Fisher and William Ury",
+    "date": "1981",
     "oneSentence": "What someone demands is rarely the same as what they actually need.",
     "definition": "From Fisher and Ury's work on negotiation. A position is the stated demand. An interest is the underlying need the demand is meant to serve. Positions conflict far more often than interests do, which is why negotiations that trade positions tend to deadlock while negotiations that surface interests often find room neither side knew was there.",
     "mechanism": {
@@ -855,9 +1550,10 @@
     "type": "Learning Principle",
     "legacyType": "Learning Technique",
     "tradition": "Practical Learning / Pedagogy",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Attributed to Richard Feynman",
+    "date": "1985",
     "oneSentence": "Explain it simply, and the parts you cannot explain are what you do not know.",
     "definition": "A study method in which you write an explanation of a topic as though to someone with no background, find the points where the explanation fails or retreats into jargon, go back to the source for those points specifically, and repeat. Its value is diagnostic: it locates what is missing rather than filling it.",
     "mechanism": {
@@ -901,9 +1597,10 @@
     "type": "Thought Experiment",
     "legacyType": "Thought Experiment / Paradox",
     "tradition": "Metaphysics / Philosophy of Identity",
-    "origin": "",
-    "date": "",
     "difficulty": "introductory",
+    "evidence": "Philosophical",
+    "origin": "Plutarch, recording an older puzzle",
+    "date": "c. 100 CE",
     "oneSentence": "If every part of a thing is replaced over time, is it still the same thing?",
     "definition": "The ship on which Theseus returned was preserved by the Athenians, who replaced each plank as it decayed until no original timber remained. Plutarch records that philosophers disagreed over whether it was still the same ship. The puzzle probes what we mean when we say something persists through change.",
     "mechanism": {

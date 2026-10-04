@@ -191,9 +191,13 @@ def build_concepts(raw, vocab, books, rep):
             rep.error(where, "Discovery tier must not have a Praxis Exercise. "
                              "Either clear it or promote the concept to Integration")
 
+        if not cell(r.get("Evidence")):
+            rep.error(where, "status is Done but 'Evidence' is empty. Every finished concept "
+                             "has to say how well supported it is")
+
         # controlled vocabulary
         for field, key in (("Primary Domain", "Domains"), ("Type", "Types"),
-                           ("Difficulty", "Difficulty")):
+                           ("Difficulty", "Difficulty"), ("Evidence", "Evidence")):
             v = cell(r.get(field))
             if v and v not in vocab.get(key, set()):
                 rep.error(where, f"{field} '{v}' is not in the Vocabulary sheet")
@@ -245,9 +249,10 @@ def build_concepts(raw, vocab, books, rep):
             "type": cell(r.get("Type")),
             "legacyType": cell(r.get("Legacy Type")),
             "tradition": cell(r.get("Tradition")),
+            "difficulty": cell(r.get("Difficulty")).lower(),
+            "evidence": cell(r.get("Evidence")),
             "origin": cell(r.get("Origin")),
             "date": cell(r.get("Date")),
-            "difficulty": cell(r.get("Difficulty")).lower(),
             "oneSentence": cell(r.get("One Sentence")),
             "definition": cell(r.get("Definition")),
             "mechanism": {"chains": chains, "prose": prose},
