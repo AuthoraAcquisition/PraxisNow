@@ -594,8 +594,6 @@ function goalPicker(){
     <div class="row">
       <button class="btn ghost" id="allc" type="button">Show me everything instead</button>
     </div>
-    <p class="note">The library holds 300 ideas. The counts above are the ones written so far,
-    and they grow as the library fills.</p>
   `);
   app.querySelectorAll('.goal').forEach(b => b.onclick = () => {
     if (!forGoal(b.dataset.g).length) return;
