@@ -311,7 +311,9 @@
       "Clear thinker",
       "Self-authoring"
     ],
-    "related": [],
+    "related": [
+      "11.29"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -650,7 +652,8 @@
       "High integrity"
     ],
     "related": [
-      "08.17"
+      "08.17",
+      "11.26"
     ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
@@ -826,7 +829,9 @@
       "Self-authoring"
     ],
     "related": [
-      "03.29"
+      "03.29",
+      "11.15",
+      "11.30"
     ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
@@ -949,7 +954,8 @@
       "Disciplined"
     ],
     "related": [
-      "03.26"
+      "03.26",
+      "11.15"
     ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
@@ -1089,7 +1095,7 @@
     "name": "Active Listening",
     "tier": "integration",
     "domain": "Communication & Influence",
-    "type": "Communication Principle",
+    "type": "Practice",
     "legacyType": "Communication Practice",
     "tradition": "Communication Studies / Counseling",
     "difficulty": "introductory",
@@ -1137,7 +1143,7 @@
     "name": "Reflective Listening",
     "tier": "integration",
     "domain": "Communication & Influence",
-    "type": "Communication Principle",
+    "type": "Practice",
     "legacyType": "Communication Practice",
     "tradition": "Counseling / Communication",
     "difficulty": "introductory",
@@ -1805,6 +1811,285 @@
     "books": [
       "BK109",
       "BK117"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.15",
+    "slug": "ritualized-creative-practice",
+    "name": "Ritualized Creative Practice",
+    "tier": "integration",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Practice",
+    "legacyType": "Creative Practice",
+    "tradition": "Choreography and Creative Craft",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Twyla Tharp",
+    "date": "2003",
+    "oneSentence": "A repeatable first action that gets you working before you can talk yourself out of it.",
+    "definition": "Tharp begins each day by putting on workout clothes, leaving her apartment, hailing a taxi and telling the driver where to go. She is precise that the ritual is not the workout. It is the cab. The moment the destination is spoken the ritual is complete, and everything after it follows without further argument.",
+    "mechanism": {
+      "chains": [
+        [
+          "a working session has no fixed way in",
+          "beginning requires a decision every single time",
+          "the decision can go either way, and often does"
+        ],
+        [
+          "a small fixed action opens every session",
+          "the decision was made once",
+          "you are working before reluctance arrives"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The ritual is the productive part.\" It is not, and Tharp's is finished before any work happens. It is deliberately small enough that it cannot be failed. Its only job is to carry you over a threshold, which is why a ritual that grows demanding has quietly become one more thing to avoid.",
+    "nearestNeighbour": "HABIT STACKING. That attaches a new behaviour to an existing automatic one, so the old habit supplies the cue. This concerns the way into a single session of work, and the action is chosen for being impossible to miss rather than for already being automatic.",
+    "discriminateScenario": "A novelist who struggled for years to start now makes the same coffee in the same cup and carries it to the same chair before opening anything. The coffee is not the point and he knows it. By the time he sits down, the question of whether he is working today has already been settled.",
+    "praxisExercise": "ONE SMALL THRESHOLD\n\n1. Choose a physical action that takes under two minutes and cannot fail.\n2. Do it immediately before every working session for one week, with no exceptions.\n3. Do not make it bigger or more meaningful when it starts to feel easy.\n4. At the end of the week, note whether beginning took less argument.\n\nCOMMITMENT (if then):\n\"When I sit down to do creative work, I will do my one small action first rather than deciding whether I feel ready.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Disciplined"
+    ],
+    "related": [
+      "03.26",
+      "03.29"
+    ],
+    "books": [
+      "BK134"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.26",
+    "slug": "creative-dna",
+    "name": "Creative DNA",
+    "tier": "integration",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Practice",
+    "legacyType": "Creative Practice",
+    "tradition": "Choreography and Creative Craft",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Twyla Tharp",
+    "date": "2003",
+    "oneSentence": "The tendencies that keep reappearing in your work, which you can stretch but not swap.",
+    "definition": "Tharp's term for the preferences visible across everything a person makes: the scale they work at, the themes they return to, the kind of problem that makes them want to engage. She includes a diagnostic she calls focal length, meaning whether your attention naturally sharpens at great distance, at arm's length, or in close up.",
+    "mechanism": {
+      "chains": [
+        [
+          "you work against your own tendencies",
+          "every start fights the way you actually see",
+          "the effort goes into the fight rather than into the work"
+        ],
+        [
+          "you know what you repeatedly notice",
+          "you choose problems that suit it",
+          "stretching happens from a foundation instead of against one"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Knowing your tendencies means staying comfortable.\" Tharp's warning runs the other way. She uses the phrase DNA denial for people who keep forcing themselves toward a form that contradicts their instincts, and she admires artists who grow while remaining recognisably themselves. The point is to stretch from a foundation rather than to avoid stretching.",
+    "nearestNeighbour": "CIRCLE OF COMPETENCE. That concerns the boundary of what you reliably know, and crossing it is a problem of knowledge. This concerns what you are drawn to and how your attention naturally works, which can be strong in a field you know almost nothing about.",
+    "discriminateScenario": "Asked to describe a landscape he wants to paint, a young man produces two pages of vivid prose and not one colour. His teacher points it out. He has spent three years trying to become a painter and has never noticed that his attention reaches for language before it reaches for anything visible.",
+    "praxisExercise": "FIND YOUR FOCAL LENGTH\n\n1. Go somewhere public and watch two people together. Write down twenty things they do, with no judgement at all.\n2. Now watch a different pair and write down only the twenty things you found interesting.\n3. The second list will take far longer.\n4. Study it. What you kept is your taste, and it is the clearest evidence you have of how you see.\n\nCOMMITMENT (if then):\n\"When a piece of work keeps refusing to start, I will ask whether it suits how I actually see before I try harder.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Self-authoring"
+    ],
+    "related": [
+      "02.30"
+    ],
+    "books": [
+      "BK134"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.27",
+    "slug": "box",
+    "name": "The Box",
+    "tier": "integration",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Practice",
+    "legacyType": "Creative Practice",
+    "tradition": "Choreography and Creative Craft",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Twyla Tharp",
+    "date": "2003",
+    "oneSentence": "Give every project a container, and begin it by putting one thing inside.",
+    "definition": "Tharp starts every piece with a file box, writes the project name on it, and fills it with everything that feeds the work: notebooks, clippings, recordings, photographs, objects. It is a record of the research rather than a filing system, and its first value arrives at the beginning, when naming a box is a way of starting something you cannot yet describe.",
+    "mechanism": {
+      "chains": [
+        [
+          "a project has no physical home",
+          "material scatters and the project exists only as an intention",
+          "beginning stays abstract and keeps being postponed"
+        ],
+        [
+          "a box is named and opened",
+          "one item goes in",
+          "the project now exists as a thing, and everything found later has somewhere to land"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is just a way of staying organised.\" Tharp says the box makes her feel she has her act together even when she has no idea where she is going, which is a claim about morale rather than filing. Its real work happens at the start, where naming it converts a vague intention into something that has been begun.",
+    "nearestNeighbour": "SCRATCHING. That is the active hunt for material when you have none. This is where material goes once it has been found. One is the search and the other is the store, and doing either without the other wastes most of what it produces.",
+    "discriminateScenario": "Two writers have the same idea for a book in January. One keeps meaning to start. The other buys a document wallet that afternoon, writes a working title on the front and puts in a single newspaper cutting. By March the first still has an intention and the second has forty items and a sense of the shape.",
+    "praxisExercise": "NAME A BOX TODAY\n\n1. Take a project you have been meaning to begin.\n2. Find a physical container, or a single folder, and put its name on the outside.\n3. Put one thing in it today. Anything that belongs to the project counts.\n4. For two weeks, add whatever turns up without sorting or judging it.\n\nCOMMITMENT (if then):\n\"When I decide a project is real, I will name a container for it the same day and put one thing in.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Disciplined"
+    ],
+    "related": [
+      "11.28",
+      "11.29"
+    ],
+    "books": [
+      "BK134"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.28",
+    "slug": "scratching",
+    "name": "Scratching",
+    "tier": "integration",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Practice",
+    "legacyType": "Creative Practice",
+    "tradition": "Choreography and Creative Craft",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Twyla Tharp",
+    "date": "2003",
+    "oneSentence": "When you have no idea, go looking for one rather than waiting for it.",
+    "definition": "Tharp's name for the active search for raw material at the start of a piece. She compares it to scratching a lottery ticket, and to clawing at a mountainside for a toehold. It covers reading, travelling, watching other people's work, and anything else that brings you into contact with material you did not have an hour ago.",
+    "mechanism": {
+      "chains": [
+        [
+          "no idea has arrived",
+          "you wait for one",
+          "the waiting produces nothing and becomes the activity itself"
+        ],
+        [
+          "you go digging",
+          "small fragments turn up",
+          "one of them offers enough traction to move, and the rest become material"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It means brainstorming, or thinking harder.\" It is not an internal activity at all. Tharp's examples are physical and outward: visiting shops, taking a flight, walking through a quarry. She says the act of changing your environment is itself the scratch, which is precisely the thing that thinking harder in the same chair cannot do.",
+    "nearestNeighbour": "INCUBATION EFFECT. That is the finding that stepping away from a problem lets a solution surface, and it works by not attending to the thing. This is the opposite posture, an active and deliberate hunt, and it is what you do when there is nothing yet to incubate.",
+    "discriminateScenario": "Facing an empty studio with a performance booked, a choreographer does not sit and think. She spends the week in galleries, rereads a book she loved at nineteen, watches a boxing match and takes a train somewhere she has never been. None of it is the piece. By Friday she has three fragments that might be.",
+    "praxisExercise": "GO AND LOOK\n\n1. Take a project where you have nothing yet.\n2. Choose three places to go this week that have no obvious connection to it.\n3. Bring something back from each, however small or irrelevant it seems.\n4. Put all three in the project's box before deciding whether any is useful.\n\nCOMMITMENT (if then):\n\"When I have no idea and notice I am waiting for one, I will leave the room and go somewhere that might contain material.\"",
+    "identityTags": [
+      "Creatively unblocked"
+    ],
+    "related": [
+      "11.27"
+    ],
+    "books": [
+      "BK134"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.29",
+    "slug": "spine",
+    "name": "Spine",
+    "tier": "integration",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Practice",
+    "legacyType": "Creative Practice",
+    "tradition": "Choreography and Creative Craft",
+    "difficulty": "intermediate",
+    "evidence": "Framework",
+    "origin": "Twyla Tharp",
+    "date": "2003",
+    "oneSentence": "The private statement of what the work is trying to do, which you return to when it wanders.",
+    "definition": "Tharp defines the spine as the statement you make to yourself outlining your intentions for the work. It is not the theme an audience perceives and it need not be visible in the finished piece at all. Its function is navigational. When the work begins drifting, the spine is the thing that tells you which direction was ever yours.",
+    "mechanism": {
+      "chains": [
+        [
+          "no intention is stated",
+          "every new possibility looks as valid as any other",
+          "the work grows in several directions at once and loses its centre"
+        ],
+        [
+          "the intention is written down early",
+          "each choice can be held against it",
+          "drifting becomes visible while it is still cheap to correct"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"The spine is the message, or the theme.\" It is neither, and Tharp keeps hers private. A theme is what a finished work says to the people receiving it. A spine is an instruction you give yourself about what you are trying to do, and it can be something nobody else ever detects.",
+    "nearestNeighbour": "DOUBLE LOOP LEARNING. That is the move of putting the goal itself up for revision when results keep falling short. This is the prior work of stating a goal clearly enough that you can tell when you have wandered away from it at all.",
+    "discriminateScenario": "Four months into the record the band has twenty songs that are each fine and together sound like three different albums. In the first week someone wrote a sentence about what they were trying to make. Nobody has looked at it since. When they find it, it rules out eleven of the twenty immediately.",
+    "praxisExercise": "WRITE THE SENTENCE\n\n1. Take a project already underway.\n2. Write one sentence, for yourself only, stating what you intend it to do.\n3. List the three most recent decisions you made on it.\n4. Mark any that the sentence does not support. Those are where it started wandering.\n\nCOMMITMENT (if then):\n\"When a project reaches its second week, I will write the one sentence of what it is for and keep it where I will see it.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Clear thinker"
+    ],
+    "related": [
+      "01.27",
+      "11.27"
+    ],
+    "books": [
+      "BK134"
+    ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "11.30",
+    "slug": "ruts-and-grooves",
+    "name": "Ruts and Grooves",
+    "tier": "integration",
+    "domain": "Creativity, Craft & Mastery",
+    "type": "Practice",
+    "legacyType": "Creative Practice",
+    "tradition": "Choreography and Creative Craft",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Twyla Tharp",
+    "date": "2003",
+    "oneSentence": "Spinning your wheels is not the same as being stopped, and the two need different answers.",
+    "definition": "Tharp's distinction for reading your own momentum. In a rut the engine runs and you are moving, but nothing advances. In a groove the wheels turn and the work goes forward with little effort. She separates both sharply from a creative block, in which the engine has stopped entirely and the tank is empty.",
+    "mechanism": {
+      "chains": [
+        [
+          "effort is producing nothing",
+          "it is read as being blocked",
+          "you wait for the block to pass",
+          "the wheels keep turning in the same place"
+        ],
+        [
+          "the state is named correctly",
+          "something specific about how you are working is changed",
+          "movement resumes"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"A rut is the same thing as writer's block.\" Tharp treats them as different conditions with different cures. In a rut the motor is running and you have a destination, you are simply not advancing. Being blocked means the engine has shut down, which she calls a failure of nerve whose only answer is to do something, anything.",
+    "nearestNeighbour": "FOGG BEHAVIOR MODEL. That explains why a behaviour does not occur at all, through motivation, ability and a prompt. This concerns work that is very much occurring and going nowhere, which no amount of prompting will solve because the prompt was never the problem.",
+    "discriminateScenario": "Three weeks into the redesign the team is busy. They meet daily and produce new versions constantly. Nothing has improved since the first week. Everyone is working hard and would say so honestly if asked, and nobody has said out loud that the thing they are doing is not the thing that will fix it.",
+    "praxisExercise": "NAME THE STATE\n\n1. Take a piece of work that is not going well.\n2. Decide honestly which it is: stopped entirely, moving but not advancing, or moving well.\n3. If it is stopped, do any small part of it today.\n4. If it is moving but not advancing, change one specific thing about how you are working, not how hard.\n\nCOMMITMENT (if then):\n\"When work feels bad, I will name whether I am stopped or spinning before I decide what to do about it.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Self-authoring"
+    ],
+    "related": [
+      "03.26"
+    ],
+    "books": [
+      "BK134"
     ],
     "author": "Claude draft, needs Lindsay review"
   }

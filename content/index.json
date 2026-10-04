@@ -1,9 +1,9 @@
 {
   "counts": {
-    "concepts": 41,
-    "integration": 38,
+    "concepts": 47,
+    "integration": 44,
     "discovery": 3,
-    "books": 133
+    "books": 134
   },
   "identities": {
     "Clear communicator": [
@@ -46,7 +46,16 @@
       "08.16",
       "08.17",
       "08.25",
-      "09.25"
+      "09.25",
+      "11.29"
+    ],
+    "Creatively unblocked": [
+      "11.15",
+      "11.26",
+      "11.27",
+      "11.28",
+      "11.29",
+      "11.30"
     ],
     "Disciplined": [
       "01.02",
@@ -61,7 +70,9 @@
       "03.30",
       "03.31",
       "08.16",
-      "08.25"
+      "08.25",
+      "11.15",
+      "11.27"
     ],
     "Emotionally regulated": [
       "02.29",
@@ -96,7 +107,9 @@
       "03.30",
       "03.31",
       "08.17",
-      "09.01"
+      "09.01",
+      "11.26",
+      "11.30"
     ]
   },
   "domains": {
@@ -111,6 +124,14 @@
       "06.12",
       "06.14",
       "06.25"
+    ],
+    "Creativity, Craft & Mastery": [
+      "11.15",
+      "11.26",
+      "11.27",
+      "11.28",
+      "11.29",
+      "11.30"
     ],
     "Decisions & Risk": [
       "02.06",
@@ -199,7 +220,13 @@
     "08.17",
     "08.25",
     "09.01",
-    "09.25"
+    "09.25",
+    "11.15",
+    "11.26",
+    "11.27",
+    "11.28",
+    "11.29",
+    "11.30"
   ],
   "vocabulary": {
     "Domains": [
@@ -242,6 +269,7 @@
       "Paradox",
       "Philosophical Principle",
       "Power Framework",
+      "Practice",
       "Psychological Effect",
       "Relationship Pattern",
       "Social Dynamic",
