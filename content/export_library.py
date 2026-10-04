@@ -323,6 +323,63 @@ def build_index(concepts, books, vocab):
     }
 
 
+# ---------------------------------------------------------------- spinner
+
+def update_spinner(wb, site_html, rep):
+    """Rewrite the Discover spinner's inline DATA from the workbook.
+
+    Discover shows the whole library, stubs included, because discovery is
+    browsing. Comprehend shows only finished concepts, because nobody can be
+    questioned on something nobody has written. One source, two audiences.
+
+    Existing entries keep their book references exactly: those were authored
+    on the page and are not in the workbook.
+    """
+    if not site_html.exists():
+        rep.warn("Spinner", f"{site_html} not found, leaving the spinner alone")
+        return None
+
+    html = site_html.read_text(encoding="utf-8")
+    m = re.search(r"const DATA = (\[.*?\]);", html, re.S)
+    if not m:
+        rep.warn("Spinner", "could not find the DATA array in the page")
+        return None
+    old = {d["id"]: d for d in json.loads(m.group(1))}
+
+    books = {}
+    for row in read_sheet(wb["Books"]):
+        bid = cell(row.get("Book ID"))
+        if bid:
+            books[bid] = {"t": cell(row.get("Title")), "a": cell(row.get("Author")),
+                          "y": cell(row.get("Year")), "k": "book"}
+
+    out, added = [], 0
+    for r in read_sheet(wb["Concepts"]):
+        pid, name = cell(r.get("Praxis ID")), cell(r.get("Canonical Name"))
+        if not pid or not name:
+            continue
+        prev = old.get(pid, {})
+        refs = prev.get("r")
+        if refs is None:
+            refs = [books[b] for b in split_list(r.get("Book IDs")) if b in books]
+        if pid not in old:
+            added += 1
+        out.append({
+            "id": pid,
+            "c": name,
+            "d": cell(r.get("Primary Domain")),
+            "t": cell(r.get("Legacy Type")) or cell(r.get("Type")),
+            "s": cell(r.get("Tradition")),
+            "b": prev.get("b"),
+            "r": refs,
+        })
+    out.sort(key=lambda d: d["id"])
+
+    new_html = html[:m.start(1)] + json.dumps(out, ensure_ascii=False) + html[m.end(1):]
+    site_html.write_text(new_html, encoding="utf-8")
+    return len(out), added
+
+
 # ---------------------------------------------------------------- main
 
 def main():
@@ -369,10 +426,16 @@ def main():
         ("books.json", sorted(books.values(), key=lambda b: b["id"])),
         ("index.json", build_index(concepts, books, vocab)),
     ]
+    site_html = Path(args.workbook).resolve().parent.parent / "site" / "index.html"
+    spin = update_spinner(wb, site_html, rep)
+
     for fname, data in payload:
         (out / fname).write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n",
                                  encoding="utf-8")
         print(f"  wrote {out / fname}")
+
+    if spin:
+        print(f"  spinner now carries {spin[0]} concepts ({spin[1]} newly added)")
 
     nwarn = sum(len(v) for v in rep.warnings.values())
     print(f"\nDone{f', with {nwarn} warning(s) above, nothing blocking' if nwarn else ''}.\n")
