@@ -126,7 +126,7 @@ REQUIRED_INTEGRATION = ["Praxis Exercise", "Identity Tags"]
 
 
 def build_books(raw_books, rep):
-    books, seen = {}, set()
+    books, seen, seen_titles = {}, set(), {}
     for r in raw_books:
         bid = cell(r.get("Book ID"))
         title = cell(r.get("Title"))
@@ -141,6 +141,12 @@ def build_books(raw_books, rep):
         if bid in seen:
             rep.error(where, f"duplicate Book ID '{bid}'")
         seen.add(bid)
+        key = re.sub(r"[^a-z0-9]", "", title.lower().split(":")[0])[:18]
+        if key and key in seen_titles:
+            rep.warn(where, f"looks like a duplicate of {seen_titles[key]}. Two rows for one book "
+                            "split its concepts between them, and neither page shows the whole picture")
+        elif key:
+            seen_titles[key] = bid
         books[bid] = {
             "id": bid,
             "title": title,

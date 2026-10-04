@@ -69,7 +69,10 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "01.29",
+      "02.31"
+    ]
   },
   {
     "id": "BK008",
@@ -119,7 +122,11 @@
     "summaryStatus": "",
     "oneLineTake": "",
     "primaryDomain": "",
-    "concepts": []
+    "concepts": [
+      "03.26",
+      "03.29",
+      "03.30"
+    ]
   },
   {
     "id": "BK013",
@@ -509,16 +516,6 @@
     ]
   },
   {
-    "id": "BK049",
-    "title": "Make It Stick: The Science of Successful Learning",
-    "author": "Peter C. Brown, Henry L. Roediger III & Mark A. McDaniel",
-    "year": "2014",
-    "summaryStatus": "",
-    "oneLineTake": "",
-    "primaryDomain": "",
-    "concepts": []
-  },
-  {
     "id": "BK050",
     "title": "Man & His Symbols",
     "author": "Carl G. Jung",
@@ -623,7 +620,8 @@
     "oneLineTake": "",
     "primaryDomain": "",
     "concepts": [
-      "01.02"
+      "01.02",
+      "02.30"
     ]
   },
   {
@@ -1438,5 +1436,37 @@
       "07.32",
       "07.33"
     ]
+  },
+  {
+    "id": "BK137",
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "year": "1989",
+    "summaryStatus": "Summarised",
+    "oneLineTake": "",
+    "primaryDomain": "",
+    "concepts": [
+      "02.26"
+    ]
+  },
+  {
+    "id": "BK138",
+    "title": "Mindset: The New Psychology of Success",
+    "author": "Carol S. Dweck",
+    "year": "2006",
+    "summaryStatus": "Summarised",
+    "oneLineTake": "",
+    "primaryDomain": "",
+    "concepts": []
+  },
+  {
+    "id": "BK139",
+    "title": "The Sacred and the Profane",
+    "author": "Mircea Eliade",
+    "year": "1957",
+    "summaryStatus": "Summarised",
+    "oneLineTake": "",
+    "primaryDomain": "",
+    "concepts": []
   }
 ]

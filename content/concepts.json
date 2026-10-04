@@ -410,7 +410,9 @@
     "related": [
       "01.02"
     ],
-    "books": [],
+    "books": [
+      "BK007"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -495,7 +497,9 @@
       "Clear thinker"
     ],
     "related": [],
-    "books": [],
+    "books": [
+      "BK137"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -670,7 +674,9 @@
       "08.17",
       "11.26"
     ],
-    "books": [],
+    "books": [
+      "BK059"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -715,7 +721,9 @@
     "related": [
       "02.32"
     ],
-    "books": [],
+    "books": [
+      "BK007"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -852,7 +860,9 @@
       "11.15",
       "11.30"
     ],
-    "books": [],
+    "books": [
+      "BK012"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -979,7 +989,9 @@
       "03.26",
       "11.15"
     ],
-    "books": [],
+    "books": [
+      "BK012"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
@@ -1022,7 +1034,9 @@
       "Self-authoring"
     ],
     "related": [],
-    "books": [],
+    "books": [
+      "BK012"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {
