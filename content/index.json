@@ -34,23 +34,13 @@
       "01.27",
       "01.28",
       "01.29",
-      "02.06",
-      "02.26",
-      "02.27",
-      "02.28",
-      "02.30",
-      "02.31",
-      "02.32",
       "03.13",
       "03.27",
-      "07.33",
-      "07.35",
       "08.16",
       "08.17",
       "08.25",
       "09.25",
-      "11.29",
-      "12.31"
+      "11.29"
     ],
     "Creatively unblocked": [
       "11.15",
@@ -132,6 +122,20 @@
       "10.25",
       "11.26",
       "11.30"
+    ],
+    "Sound judgement": [
+      "02.06",
+      "02.26",
+      "02.27",
+      "02.28",
+      "02.30",
+      "02.31",
+      "02.32"
+    ],
+    "Systems literate": [
+      "07.33",
+      "07.35",
+      "12.31"
     ]
   },
   "domains": {
@@ -337,7 +341,9 @@
       "Emotionally regulated",
       "High integrity",
       "Manipulation proof",
-      "Self-authoring"
+      "Self-authoring",
+      "Sound judgement",
+      "Systems literate"
     ],
     "Difficulty": [
       "Advanced",

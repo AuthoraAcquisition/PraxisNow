@@ -571,6 +571,8 @@ function render(html){ app.innerHTML = html; window.scrollTo({top:0,behavior:'in
    later weight the wheel on Discover. */
 const GOALS = [
   { id:'Clear thinker',         claim:'I am a critical thinker' },
+  { id:'Sound judgement',       claim:'I decide well under uncertainty' },
+  { id:'Systems literate',      claim:'I see why things turn out as they do' },
   { id:'Clear communicator',    claim:'I am a clear communicator' },
   { id:'Emotionally regulated', claim:'I have a calm nervous system' },
   { id:'Manipulation proof',    claim:'I understand human nature' },
@@ -583,6 +585,18 @@ const forGoal = g => g === 'all' ? CONCEPTS : CONCEPTS.filter(c => (c.identityTa
 const isDone  = id => !!(store.concepts[id] && store.concepts[id].comprehended);
 
 function setGoal(g){ store.goal = g; save(store); }
+
+/* Clear thinker was split into three. A returning person whose saved goal no
+   longer matches anything is moved to the nearest of its descendants rather
+   than being dropped back to the picker with their progress apparently gone. */
+(function migrate(){
+  if (store.goal && store.goal !== 'all' && !GOALS.some(g => g.id === store.goal)) {
+    const heirs = ['Clear thinker', 'Sound judgement', 'Systems literate'];
+    const best = heirs.map(h => [h, forGoal(h).length]).sort((a,b) => b[1]-a[1])[0];
+    store.goal = best && best[1] ? best[0] : null;
+    save(store);
+  }
+})();
 
 function goalPicker(){
   render(`
