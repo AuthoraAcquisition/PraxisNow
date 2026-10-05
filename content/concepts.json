@@ -4810,7 +4810,8 @@
       "10.03",
       "10.04",
       "10.05",
-      "10.11"
+      "10.11",
+      "10.48"
     ],
     "books": [
       "BK050",
@@ -4942,7 +4943,8 @@
       "10.07",
       "10.14",
       "10.25",
-      "10.39"
+      "10.39",
+      "10.48"
     ],
     "books": [
       "BK097",
@@ -5074,7 +5076,8 @@
       "10.11",
       "10.13",
       "10.20",
-      "10.25"
+      "10.25",
+      "10.48"
     ],
     "books": [
       "BK058",
@@ -5119,7 +5122,8 @@
       "10.20",
       "10.21",
       "10.22",
-      "10.23"
+      "10.23",
+      "10.48"
     ],
     "books": [
       "BK112"
@@ -5830,6 +5834,51 @@
       "10.40"
     ],
     "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "10.48",
+    "slug": "allegory-of-the-cave",
+    "name": "The Allegory of the Cave",
+    "tier": "discovery",
+    "domain": "Myth, Symbol & Spiritual Traditions",
+    "type": "Mythic Concept",
+    "legacyType": "Allegory",
+    "tradition": "Greek Philosophy",
+    "difficulty": "intermediate",
+    "evidence": "Philosophical",
+    "origin": "Plato, Republic Book VII",
+    "date": "c. 375 BCE",
+    "oneSentence": "Climbing out, seeing what was actually there, and being obliged to go back down to people who will not thank you for it.",
+    "story": "Socrates asks Glaucon to picture people in a cave, held since childhood with their legs and necks fixed so that they can only look straight ahead at the wall in front of them.\n\nBehind them, higher up, a fire burns. Between the fire and the prisoners there is a raised path with a low wall along it, like the screen a puppeteer works behind. People carry things along that path, statues of men and animals, and what the prisoners see on the wall in front of them is the shadows. When one of the carriers speaks, the echo comes off the wall, so the voices seem to belong to the shadows. They name the shadows. They are good at it. If a prisoner were quickest at predicting which shadow came next, the others would think him wise.\n\nNow suppose one is released and made to stand and turn around. It hurts. The fire dazzles him and he cannot make out the objects whose shadows he knew perfectly, and if someone told him that the things he is now looking at are more real than what he had been watching his whole life, he would not believe it and would want to turn back.\n\nHe is dragged up the slope and out, and that is worse. In daylight he can see nothing at all at first. He has to begin with shadows on the ground, then reflections in water, then the things themselves, then the night sky, the moon and stars being easier than the day. Last of all he can look at the sun, and then he understands that it is the sun that governs the seasons and the years and everything in the visible world, including the fire and the shadows he used to be expert in.\n\nThen Socrates asks the part that is usually left out. Send him back down. His eyes are now useless in the dark. He will be slower at naming the shadows than men who never left, and they will say that he went up and came back with his sight ruined, and that it is not worth anyone's while to go. And if he tried to release them and lead them up, Socrates says, they would kill him if they could get their hands on him.",
+    "definition": "A two level account of reality in which what most people take for the world is a derived appearance, and the harder, brighter level is reachable only by a painful reorientation. Plato states the moral directly and it is not about illusion: education is not a matter of putting sight into blind eyes, it is turning a soul that already has sight toward the right direction. The second half of his argument is the obligation. Whoever gets out does not get to stay out. The descent, the loss of competence down there, and the hostility of those who never left are all part of what he is describing.",
+    "mechanism": {
+      "chains": [
+        [
+          "attention is fixed on appearances from the beginning, so they are what the world is",
+          "expertise develops in reading those appearances and is genuinely rewarded",
+          "the first turn away is painful and feels like losing competence rather than gaining anything",
+          "the ascent proceeds by degrees, from reflections to objects to the source",
+          "the return is obligatory, and the one who returns is worse at the game below and resented for saying so"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"It is a story about how we are all trapped in illusion and need to wake up.\" That reading stops at the turn and skips what Plato spends the rest of the passage on. His emphasis is on the descent: the one who climbed out is obliged to go back, is now measurably worse at what people down there actually do, will be told the journey damaged him, and would be killed for trying to lead anyone up. Written a generation after Athens executed Socrates, that ending is not decoration.",
+    "nearestNeighbour": "KATABASIS / DESCENT. That one goes down on purpose into the lowest place and is stripped on the way, and the return is partial and has to be paid for. This moves the other way, up and into more light, and its costly part is the descent afterwards, which is imposed as a duty rather than negotiated as an escape.",
+    "discriminateScenario": "He spent two years on the research and came back able to explain why the number the department runs on does not measure anything. In meetings he is now slower than everyone else at producing that number, which is the work. Two colleagues have said, kindly and in private, that the time away seems to have made him worse at his job.",
+    "praxisExercise": "",
+    "identityTags": [],
+    "related": [
+      "10.07",
+      "10.11",
+      "10.14",
+      "10.19"
+    ],
+    "books": [
+      "BK145",
+      "BK003"
+    ],
     "author": "Claude draft, needs Lindsay review"
   },
   {

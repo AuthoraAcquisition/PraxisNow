@@ -30,7 +30,8 @@
     "oneLineTake": "",
     "primaryDomain": "",
     "concepts": [
-      "09.03"
+      "09.03",
+      "10.48"
     ]
   },
   {
@@ -1645,6 +1646,18 @@
       "05.01",
       "05.02",
       "05.31"
+    ]
+  },
+  {
+    "id": "BK145",
+    "title": "Republic",
+    "author": "Plato",
+    "year": "c. 375 BCE",
+    "summaryStatus": "Not started",
+    "oneLineTake": "The dialogue that contains the cave, the sun and the divided line, and argues that whoever climbs out is obliged to climb back down.",
+    "primaryDomain": "",
+    "concepts": [
+      "10.48"
     ]
   }
 ]
