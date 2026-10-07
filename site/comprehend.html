@@ -686,6 +686,9 @@ function chooser(){
   /* Grouped by domain, so a long list reads as a few short ones. A browse
      selection is already one domain, so grouping by it would print the same
      heading once. Those group by type instead. */
+  /* The Story badge is only information while the list is mixed. Once every
+     concept in view opens with one, it marks nothing and is dropped. */
+  const mixedStories = pool.some(c => c.story) && pool.some(c => !c.story);
   const key = browse ? (c => c.type) : (c => c.domain);
   const byDomain = {};
   pool.forEach(c => (byDomain[key(c)] = byDomain[key(c)] || []).push(c));
@@ -711,7 +714,7 @@ function chooser(){
           ${byDomain[d].sort((a,b) => a.id.localeCompare(b.id)).map(c => `
             <button class="crow ${isDone(c.id) ? 'done' : ''}" data-id="${esc(c.id)}" type="button">
               <span class="nm">${esc(c.name)}</span>
-              ${c.story ? '<span class="meta2">Story</span>' : ''}
+              ${mixedStories && c.story ? '<span class="meta2">Story</span>' : ''}
               ${c.evidence === 'Contested' ? '<span class="flag">Contested</span>' : ''}
               ${isDone(c.id) ? '<span class="tick">Comprehended</span>'
                              : `<span class="meta2">${esc(c.type)}</span>`}
