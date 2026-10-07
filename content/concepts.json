@@ -588,7 +588,7 @@
       "prose": []
     },
     "misconception": "\"Being open minded means following the evidence wherever it leads.\" That omits the prior, which is where most of the error in practice happens. A single surprising study against a hundred years of consistent results should move a belief slightly. Treating each new piece of evidence as if nothing were known beforehand is not open mindedness, it is discarding information.",
-    "nearestNeighbour": "BASE-RATE NEGLECT. That is the specific failure of ignoring how common something is before weighing the specifics. This is the full procedure for combining the two correctly, and the neglect is one way of getting it wrong.",
+    "nearestNeighbour": "BASE RATE FALLACY. That is the specific failure of ignoring how common something is before weighing the specifics. This is the full procedure for combining the two correctly, and the neglect is one way of getting it wrong.",
     "discriminateScenario": "Nine of their customers have asked for it in a fortnight, which feels overwhelming. They have eleven thousand customers. He is treating a request rate below one in a thousand as a mandate because all nine arrived in the same channel he happens to read.",
     "praxisExercise": "WRITE THE PRIOR FIRST\n\n1. Take a claim you have recently started believing.\n2. Write how likely you would have said it was a month ago, as a rough percentage.\n3. Write what evidence arrived, and how surprising it would be if the claim were false.\n4. Decide how far it should move you. Usually less than it did.\n\nCOMMITMENT (if then):\n\"When new evidence changes my mind, I will write down what I thought before it arrived and how strong the evidence actually is.\"",
     "identityTags": [
@@ -605,8 +605,8 @@
   },
   {
     "id": "02.05",
-    "slug": "base-rate-neglect",
-    "name": "Base-Rate Neglect",
+    "slug": "base-rate-fallacy",
+    "name": "Base Rate Fallacy",
     "tier": "discovery",
     "domain": "Decisions & Risk",
     "type": "Cognitive Bias",
@@ -1012,8 +1012,8 @@
   },
   {
     "id": "02.29",
-    "slug": "ten-ten-ten",
-    "name": "Ten Ten Ten",
+    "slug": "101010-rule",
+    "name": "The 10/10/10 Rule",
     "tier": "integration",
     "domain": "Decisions & Risk",
     "type": "Framework",
@@ -1823,7 +1823,7 @@
       "prose": []
     },
     "misconception": "\"Anxious people are clingy and need to learn to give others space.\" Space is the one intervention that reliably makes it worse, because the fear being managed is abandonment and distance is the feared thing itself. What settles the pattern is not less contact but more predictable contact, which is the opposite of the usual advice.",
-    "nearestNeighbour": "ATTACHMENT PROTEST BEHAVIOUR. That is one specific set of actions, the moves made in the moment of feeling dropped. This is the standing orientation that produces those moves, and it is present on quiet days when nothing has triggered it.",
+    "nearestNeighbour": "PROTEST BEHAVIOUR. That is one specific set of actions, the moves made in the moment of feeling dropped. This is the standing orientation that produces those moves, and it is present on quiet days when nothing has triggered it.",
     "discriminateScenario": "He has read the message four times looking for the tone. She said sounds good and he has decided that sounds good is cold. He drafts something light, deletes it, sends something lighter, then sends a second one explaining the first. By the time she answers warmly he has spent two hours on an exchange she experienced as nothing at all.",
     "praxisExercise": "NAME IT BEFORE YOU ACT\n\n1. Think of the last time you felt dropped by someone close and did something about it within the hour.\n2. Write the action you took. Then write the sentence you actually needed to say.\n3. Notice how much shorter the second one is.\n4. Next time, say the short one first.\n\nCOMMITMENT (if then):\n\"When I notice I am about to send a second message to manage how the first one landed, I will stop and say plainly what I need instead.\"",
     "identityTags": [
@@ -1897,8 +1897,8 @@
   },
   {
     "id": "05.05",
-    "slug": "attachment-protest-behaviour",
-    "name": "Attachment Protest Behaviour",
+    "slug": "protest-behaviour",
+    "name": "Protest Behaviour",
     "tier": "integration",
     "domain": "Relationships & Attraction",
     "type": "Relationship Pattern",
@@ -2500,7 +2500,7 @@
       "prose": []
     },
     "misconception": "\"One of them is the problem, usually whoever is shouting.\" The pattern is a loop and has no author. The loudest person looks like the cause and is responding to silence, while the quietest looks reasonable and is producing the volume. Both halves have to move, and the one who moves first is usually whoever notices the shape.",
-    "nearestNeighbour": "ATTACHMENT PROTEST BEHAVIOUR. That is one person’s moves when they feel the bond slipping, describable without reference to anyone else. This needs two people and exists only as a loop between them.",
+    "nearestNeighbour": "PROTEST BEHAVIOUR. That is one person’s moves when they feel the bond slipping, describable without reference to anyone else. This needs two people and exists only as a loop between them.",
     "discriminateScenario": "She brings up his mother’s visit. He says now is not a good time, three nights running. On the fourth she raises it at eleven at night with some heat in it, and he says this is exactly why he did not want to do this now, and walks to the kitchen. Both of them believe they have just been proved right.",
     "praxisExercise": "NAME THE LOOP, NOT THE PERSON\n\n1. Identify one subject where you and someone close reliably take these two positions.\n2. Write which half you supply. Be honest; the quiet half counts.\n3. Agree one rule in advance: a time limit, or a scheduled return, whichever your half needs.\n4. Use it on that subject only, three times, before judging it.\n\nCOMMITMENT (if then):\n\"When I notice myself either pressing harder or going quiet, I will name the loop out loud instead of playing my half better.\"",
     "identityTags": [
@@ -3489,7 +3489,7 @@
       "prose": []
     },
     "misconception": "\"Framing is a polite word for spin.\" Spin involves saying things that are not true or hiding things that are. Every statement has a frame, including the plainest one available, so the choice is never between framing and not framing. It is between choosing the frame deliberately and letting it fall where it lands.",
-    "nearestNeighbour": "ANCHORING. That is the pull of a specific number that was mentioned first, which then drags later estimates toward it. Framing is about which description of a situation is offered. One works through a numeric reference point, the other through the shape of the description.",
+    "nearestNeighbour": "ANCHORING EFFECT. That is the pull of a specific number that was mentioned first, which then drags later estimates toward it. Framing is about which description of a situation is offered. One works through a numeric reference point, the other through the shape of the description.",
     "discriminateScenario": "A subscription team tests two versions of the same price. One reads twelve pounds a month, the other reads under forty pence a day. The cost is identical and both are accurate. The second converts markedly better, and nobody involved said anything untrue.",
     "praxisExercise": "TWO TRUE FRAMES\n\n1. Take something you need to communicate this week.\n2. Write it in the frame that comes naturally.\n3. Write a second version, equally true, from the opposite direction.\n4. Choose deliberately, and note why.\n\nCOMMITMENT (if then):\n\"When I write anything meant to persuade, I will draft a second equally true framing before choosing.\"",
     "identityTags": [
@@ -3785,8 +3785,8 @@
   },
   {
     "id": "07.18",
-    "slug": "tit-for-tat",
-    "name": "Tit for Tat",
+    "slug": "tit-for-tat-game-theory",
+    "name": "Tit for Tat (Game Theory)",
     "tier": "integration",
     "domain": "Power, Strategy & Conflict",
     "type": "Strategic Principle",
@@ -3812,7 +3812,7 @@
       "prose": []
     },
     "misconception": "\"Nice strategies lose to ruthless ones.\" The tournament result is the reverse: every top finisher was nice in Axelrod’s sense, never defecting first. Its weakness is different and worth knowing. Against a copy of itself a single mistaken defection produces an unending alternation, which is why variants that forgive slightly more than they punish do better in noisy conditions.",
-    "nearestNeighbour": "REPEATED GAMES. That is the general condition that makes cooperation rational at all, since a one off encounter rewards defection. This is one specific strategy played inside that condition, and it is the one that won.",
+    "nearestNeighbour": "REPEATED GAMES (GAME THEORY). That is the general condition that makes cooperation rational at all, since a one off encounter rewards defection. This is one specific strategy played inside that condition, and it is the one that won.",
     "discriminateScenario": "The supplier short delivered in March so he held the next payment back by exactly the shortfall and said why in one line. They made it up in April and he paid on time in May without comment, and has done since. He did not escalate it and he did not let it go.",
     "praxisExercise": "MATCH AND RESET\n\n1. Name one ongoing relationship where you have been either exploited or holding a grudge.\n2. Decide the single proportionate response you will make next time, and make it legible.\n3. The move after they correct course is the one that matters: return to cooperation immediately.\n4. Do not carry the last round into the next one.\n\nCOMMITMENT (if then):\n\"When someone I deal with repeatedly defects, I will answer once and in proportion, and go back to cooperating the moment they do.\"",
     "identityTags": [
@@ -3870,8 +3870,8 @@
   },
   {
     "id": "07.29",
-    "slug": "condign-power",
-    "name": "Condign Power",
+    "slug": "condign-power-galbraith",
+    "name": "Condign Power (Galbraith)",
     "tier": "discovery",
     "domain": "Power, Strategy & Conflict",
     "type": "Power Framework",
@@ -3896,7 +3896,7 @@
       "prose": []
     },
     "misconception": "\"Condign power means violence or cruelty.\" The defining feature is the adverse consequence attached to refusal, not its severity. Galbraith's point is that it is the most visible of the three instruments precisely because the person submitting can usually name what they were avoiding.",
-    "nearestNeighbour": "COMPENSATORY POWER. That wins submission by offering something wanted, so the person accepts rather than avoids. Both are transactions the person is aware of, and the difference is only the direction: one removes something if you refuse, the other adds something if you agree.",
+    "nearestNeighbour": "COMPENSATORY POWER (GALBRAITH). That wins submission by offering something wanted, so the person accepts rather than avoids. Both are transactions the person is aware of, and the difference is only the direction: one removes something if you refuse, the other adds something if you agree.",
     "discriminateScenario": "Nobody in the department has said the new reporting process is unworkable, though in private most of them say exactly that. The last person who raised a process objection was moved to a different team within the quarter. Nothing was announced, and everyone drew the same conclusion.",
     "praxisExercise": "",
     "identityTags": [
@@ -3916,8 +3916,8 @@
   },
   {
     "id": "07.30",
-    "slug": "compensatory-power",
-    "name": "Compensatory Power",
+    "slug": "compensatory-power-galbraith",
+    "name": "Compensatory Power (Galbraith)",
     "tier": "discovery",
     "domain": "Power, Strategy & Conflict",
     "type": "Power Framework",
@@ -3942,7 +3942,7 @@
       "prose": []
     },
     "misconception": "\"If someone is paid or rewarded, that is just a fair exchange rather than power.\" Galbraith's argument is that an exchange and an exercise of power are frequently the same event. The test is whether the person would have made that choice without the inducement, and in a great many cases the honest answer is no.",
-    "nearestNeighbour": "CONDIGN POWER. That wins submission by making refusal costly. This wins it by making agreement rewarding. The structures mirror each other, and the practical difference is that this one is far less likely to be experienced as being made to do something.",
+    "nearestNeighbour": "CONDIGN POWER (GALBRAITH). That wins submission by making refusal costly. This wins it by making agreement rewarding. The structures mirror each other, and the practical difference is that this one is far less likely to be experienced as being made to do something.",
     "discriminateScenario": "The consultant genuinely believes the recommendation she is about to give. She also knows which recommendation leads to a follow on contract and which one ends the relationship cleanly. She has never once written a report she thought was dishonest, and she could not tell you where the line sits.",
     "praxisExercise": "",
     "identityTags": [
@@ -3960,8 +3960,8 @@
   },
   {
     "id": "07.31",
-    "slug": "conditioned-power",
-    "name": "Conditioned Power",
+    "slug": "conditioned-power-galbraith",
+    "name": "Conditioned Power (Galbraith)",
     "tier": "integration",
     "domain": "Power, Strategy & Conflict",
     "type": "Power Framework",
@@ -3986,7 +3986,7 @@
       "prose": []
     },
     "misconception": "\"Conditioned power is just another word for brainwashing.\" Galbraith's claim is more unsettling. Conditioning is ordinary, continuous and mostly invisible, and it works best on people who believe they are thinking independently. There is no moment of capture to point at, which is exactly why it is the hardest of the three to notice from inside.",
-    "nearestNeighbour": "CONDIGN POWER. That makes refusal costly, and the person submitting can name what they were avoiding. This one leaves nothing to name, because the preference itself was formed earlier. Galbraith's whole point in separating them is that only the first is visible to the person it acts on.",
+    "nearestNeighbour": "CONDIGN POWER (GALBRAITH). That makes refusal costly, and the person submitting can name what they were avoiding. This one leaves nothing to name, because the preference itself was formed earlier. Galbraith's whole point in separating them is that only the first is visible to the person it acts on.",
     "discriminateScenario": "Asked why she works the hours she does, she says she simply likes to be thorough and always has. No manager has ever asked her to stay late. Everyone around her stayed late during her first year, nobody discussed it, and she has never once considered that the preference arrived from outside.",
     "praxisExercise": "WHERE DID THIS BELIEF COME FROM\n\n1. Name something about how you work or live that feels obviously correct to you.\n2. Write down when you first believed it.\n3. Ask who around you believed it at that time, and what it would have cost to disagree.\n4. Decide whether you would choose it today from scratch. Keeping it is fine. Keeping it knowingly is the point.\n\nCOMMITMENT (if then):\n\"When I catch myself saying that something is just obvious, I will ask where I first learned it.\"",
     "identityTags": [
@@ -4007,8 +4007,8 @@
   },
   {
     "id": "07.32",
-    "slug": "naked-power",
-    "name": "Naked Power",
+    "slug": "naked-power-russell",
+    "name": "Naked Power (Russell)",
     "tier": "discovery",
     "domain": "Power, Strategy & Conflict",
     "type": "Power Framework",
@@ -4077,7 +4077,7 @@
       "prose": []
     },
     "misconception": "\"Power based on genuine belief is safer than power based on force.\" Russell does not grant that. A creed held sincerely can license more cruelty than naked force, because those carrying it out are certain they are right. His concern is structural: a good ruler today can be replaced tomorrow, so the restraint must sit in the institutions rather than in anyone's conscience.",
-    "nearestNeighbour": "NAKED POWER. That rests on force with nothing legitimating it, so it is costly and brittle. This rests on belief, which makes it cheap and durable, and which also removes the ordinary brakes that self interest places on a cynical ruler.",
+    "nearestNeighbour": "NAKED POWER (RUSSELL). That rests on force with nothing legitimating it, so it is costly and brittle. This rests on belief, which makes it cheap and durable, and which also removes the ordinary brakes that self interest places on a cynical ruler.",
     "discriminateScenario": "Everyone who joined in the first year still talks about the mission in the same words. Three people have left saying the place had become hard to question. Each time, those who remained concluded the leavers had never really understood what they were part of.",
     "praxisExercise": "",
     "identityTags": [
@@ -4641,8 +4641,8 @@
   },
   {
     "id": "10.03",
-    "slug": "shadow",
-    "name": "Shadow",
+    "slug": "jungian-shadow",
+    "name": "The Jungian Shadow",
     "tier": "discovery",
     "domain": "Myth, Symbol & Spiritual Traditions",
     "type": "Jungian Concept",
@@ -4712,7 +4712,7 @@
       "prose": []
     },
     "misconception": "\"Being authentic means dropping the persona.\" Jung did not treat it as a flaw to be removed. A person with no presented self is not more authentic, they are unable to function in company. The task he described is holding the mask consciously, knowing it is one, which is a different thing from having none.",
-    "nearestNeighbour": "SHADOW. That is the material the mask excluded, so the two are produced in the same act. This is the construction itself and is largely useful, where the other is what the construction left out and is largely unconscious.",
+    "nearestNeighbour": "THE JUNGIAN SHADOW. That is the material the mask excluded, so the two are produced in the same act. This is the construction itself and is largely useful, where the other is what the construction left out and is largely unconscious.",
     "discriminateScenario": "Thirty one years as the person everyone brought problems to. Six weeks after the retirement party his wife asks what he actually wants to do this afternoon and he cannot answer. He makes a joke instead, the kind he has always made, and goes out to tidy a shed that does not need tidying.",
     "praxisExercise": "",
     "identityTags": [],
@@ -5799,8 +5799,8 @@
   },
   {
     "id": "10.47",
-    "slug": "cassandra",
-    "name": "Cassandra",
+    "slug": "cassandra-metaphor",
+    "name": "The Cassandra Metaphor",
     "tier": "discovery",
     "domain": "Myth, Symbol & Spiritual Traditions",
     "type": "Mythic Concept",
