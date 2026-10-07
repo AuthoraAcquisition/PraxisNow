@@ -368,8 +368,7 @@
       "Self-authoring"
     ],
     "related": [
-      "07.07",
-      "11.29"
+      "07.07"
     ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
@@ -460,7 +459,8 @@
     "related": [
       "01.02",
       "01.05",
-      "10.45"
+      "10.45",
+      "11.29"
     ],
     "books": [
       "BK007"
@@ -1095,8 +1095,7 @@
       "High integrity"
     ],
     "related": [
-      "08.17",
-      "11.26"
+      "08.17"
     ],
     "books": [
       "BK059"
@@ -1287,8 +1286,7 @@
     ],
     "related": [
       "03.29",
-      "11.15",
-      "11.30"
+      "11.15"
     ],
     "books": [
       "BK012"
@@ -1374,7 +1372,8 @@
       "Self-authoring"
     ],
     "related": [
-      "03.65"
+      "03.65",
+      "03.68"
     ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
@@ -1467,6 +1466,7 @@
     ],
     "related": [
       "03.65",
+      "03.68",
       "10.41"
     ],
     "books": [
@@ -1514,7 +1514,8 @@
       "Disciplined"
     ],
     "related": [
-      "03.65"
+      "03.65",
+      "03.68"
     ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
@@ -1560,6 +1561,95 @@
       "03.28",
       "03.30",
       "03.31"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.68",
+    "slug": "procrastination-as-emotion-regulation",
+    "name": "Procrastination as Emotion Regulation",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Psychological Effect",
+    "legacyType": "Behavioural Finding",
+    "tradition": "Psychology",
+    "difficulty": "introductory",
+    "evidence": "Supported",
+    "origin": "Fuschia Sirois and Timothy Pychyl",
+    "date": "2013",
+    "oneSentence": "Putting something off is a repair to how you feel right now, not a failure to manage your time.",
+    "story": "For decades procrastination was studied as a problem of planning. People were assumed to be bad at estimating, or weak on willpower, and the interventions followed: better calendars, smaller steps, stricter deadlines. They worked poorly and nobody could say why.\n\nSirois and Pychyl reframed it. Their claim is that the delay is not aimed at the task at all. It is aimed at a feeling the task produces right now: boredom, resentment, anxiety, self-doubt, the fear of finding out you are not good enough at it. Avoiding the task removes the feeling immediately, which is the whole of the reward.\n\nPychyl puts it as giving in to feel good. The relief arrives in seconds and is completely real.\n\nWhat follows explains the bit that never made sense under the time-management account. The behaviour persists even when the person knows the cost, because short-term mood repair reliably beats long-term interest when the two are set against each other.\n\nAnd it explains the finding they built on: self-compassion after procrastinating predicts less procrastination afterwards, while self-criticism predicts more. Under the old model that is backwards. Under this one it is obvious, because the criticism produces exactly the feeling the next delay will be aimed at.",
+    "definition": "An account of procrastination as a short-term mood repair strategy rather than a deficit in planning or self-control. The delay is reinforced because it works immediately on the aversive feeling attached to the task. The two practical implications both run against intuition: the lever is the feeling rather than the schedule, and being hard on yourself about it reliably makes the next episode more likely rather than less.",
+    "mechanism": {
+      "chains": [
+        [
+          "a task produces an immediate aversive feeling, which may have nothing to do with its difficulty",
+          "avoiding it removes the feeling within seconds",
+          "the relief reinforces the avoidance",
+          "the task returns with the original feeling plus guilt",
+          "harsh self-criticism adds more of exactly the feeling the next delay will be aimed at"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Procrastinators need better systems and more discipline.\" Systems address the schedule, and the research locates the cause in the feeling. This is why people who are highly organised in every other part of their life still have one or two things they cannot start, and why the same person has no trouble with harder tasks that carry no dread.",
+    "nearestNeighbour": "TEMPTATION BUNDLING. That pairs something you should do with something you want, so the arrangement supplies a pull. This concerns what is being pushed away rather than what is pulling, and it says the specific feeling attached to the task is the thing to work on.",
+    "discriminateScenario": "He has rebuilt his task system three times this year and each one works beautifully for everything except the one email to the accountant. Eleven weeks now. It would take four minutes. He has done genuinely harder things every single one of those eleven weeks without noticing them.",
+    "praxisExercise": "NAME THE FEELING, NOT THE TASK\n\n1. Pick the thing you have been putting off longest.\n2. Write what you feel in the two seconds after you think about starting it. One word. Dread, boredom, shame, resentment.\n3. That feeling is the target, not the task.\n4. Do two minutes of it while holding the feeling rather than waiting for it to go.\n\nCOMMITMENT (if then):\n\"When I catch myself avoiding something, I will name the feeling it produces before I reorganise my schedule around it, and I will not be hard on myself about the delay.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Disciplined",
+      "Self-authoring",
+      "Emotionally regulated"
+    ],
+    "related": [
+      "03.28",
+      "03.30",
+      "03.31"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.69",
+    "slug": "openness-to-experience",
+    "name": "Openness to Experience",
+    "tier": "discovery",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Psychological Effect",
+    "legacyType": "Personality Trait",
+    "tradition": "Personality Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Replicated",
+    "origin": "The five factor model, from Tupes and Christal onward",
+    "date": "1961 onward",
+    "oneSentence": "The trait that predicts creative output better than anything else measured, and it is a disposition rather than a gift.",
+    "story": "",
+    "definition": "One of the five personality factors that recur across languages and cultures when trait adjectives are analysed. It covers imagination, aesthetic sensitivity, intellectual curiosity and tolerance for the unfamiliar. Of the five, it is the one that predicts creative achievement most consistently, and the relationship holds across the arts and the sciences. It is partly heritable and it is not fixed: it shifts with sustained exposure to unfamiliar material, and it declines in adulthood for most people unless something keeps pushing against it.",
+    "mechanism": {
+      "chains": [
+        [
+          "a person varies in how readily they attend to unfamiliar material",
+          "higher openness means less is filtered out before it is examined",
+          "more material reaches the point where it can be combined with something else",
+          "combination is where novel output comes from",
+          "creative achievement follows the intake rather than any separate creative faculty"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Creative people have a special ability other people lack.\" What the trait research finds is a difference in what gets let in rather than a separate creative organ. It also finds the trait moves: deliberately spending time with unfamiliar work shifts it, which means the predictor of creative output is closer to a habit of attention than to an endowment.",
+    "nearestNeighbour": "ADJACENT POSSIBLE. That describes which combinations are available from where you currently stand, a fact about position. This is a fact about the person: how much of what is available they actually take in.",
+    "discriminateScenario": "Two architects, same training, same firm, same hours. One reads about mycology and medieval tax law and goes to concerts of music she does not enjoy. The other reads architecture. Fifteen years on, their technical skill is indistinguishable and only one of them is ever described as original.",
+    "praxisExercise": "",
+    "identityTags": [
+      "Creatively unblocked",
+      "Self-authoring"
+    ],
+    "related": [
+      "08.33",
+      "11.09"
     ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
@@ -4470,6 +4560,132 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
+    "id": "08.30",
+    "slug": "cognitive-apprenticeship",
+    "name": "Cognitive Apprenticeship",
+    "tier": "integration",
+    "domain": "Learning, Memory & Attention",
+    "type": "Learning Principle",
+    "legacyType": "Instructional Model",
+    "tradition": "Education Research",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Allan Collins, John Seely Brown and Susan Newman",
+    "date": "1989",
+    "oneSentence": "Learning a thinking skill the way a trade is learned, by watching it done, being held up while you try, and having the support withdrawn.",
+    "story": "",
+    "definition": "Collins and Brown observed that traditional apprenticeship works because the work is visible: the apprentice sees the master cut the joint. Thinking is not visible, so school teaches the product and hides the process. Their model has four moves. Modelling, in which the expert makes their reasoning audible, including the false starts. Coaching, watching the learner attempt it. Scaffolding, supplying the parts they cannot yet do. Fading, removing that support deliberately rather than leaving it in place.",
+    "mechanism": {
+      "chains": [
+        [
+          "an expert performs the task with their reasoning spoken aloud, so the invisible part becomes visible",
+          "the learner attempts it while the expert watches",
+          "the expert supplies only the parts the learner cannot yet manage",
+          "that support is withdrawn on purpose and on a schedule",
+          "the learner performs unaided, having never been allowed to become dependent on the scaffold"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Watch one, do one, teach one, so copying comes first and understanding follows.\" The model is explicit that what gets modelled is the reasoning rather than the performance, including the dead ends an expert would normally edit out. A polished demonstration teaches almost nothing, because the part the learner needs is the part the expert has stopped noticing they do.",
+    "nearestNeighbour": "DELIBERATE PRACTICE. That concerns the structure of solitary repetition against feedback over years. This concerns the handover between two people and specifically the withdrawal of support, which deliberate practice has nothing to say about.",
+    "discriminateScenario": "She sends him the finished memo as an example, which is beautiful and teaches him nothing. What would have helped is twenty minutes of her writing a bad first paragraph out loud, saying why she hated it, and rewriting it in front of him with the wrong turns left in.",
+    "praxisExercise": "MAKE THE THINKING AUDIBLE\n\n1. Pick something you are good at that someone near you is learning.\n2. Do a small piece of it in front of them, narrating your reasoning including the parts you reject.\n3. Let them do the next one while you watch, and only supply what they genuinely cannot.\n4. Agree in advance which support you will remove next time.\n\nCOMMITMENT (if then):\n\"When I show someone how to do something, I will narrate the reasoning and leave the wrong turns in, rather than handing them a finished example.\"",
+    "identityTags": [
+      "Clear communicator",
+      "Disciplined",
+      "Creatively unblocked"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "08.32",
+    "slug": "distributed-cognition",
+    "name": "Distributed Cognition",
+    "tier": "integration",
+    "domain": "Learning, Memory & Attention",
+    "type": "Learning Principle",
+    "legacyType": "Cognitive Science Concept",
+    "tradition": "Cognitive Science",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Edwin Hutchins",
+    "date": "1995",
+    "oneSentence": "Thinking that happens across people, instruments and notes rather than inside one head.",
+    "story": "Hutchins went to sea with the United States Navy to watch how a ship is navigated, and what he found was that no one aboard was doing it.\n\nBringing a vessel into harbour requires a continuous fix on its position. On the ship he studied this was produced by a team. Two people on the wings of the bridge taking bearings on landmarks through telescopic sights. Someone on a phone circuit writing the numbers into a log. Someone else plotting them on a chart with a device called a hoey. A supervisor watching the whole thing.\n\nNo individual in that chain held the position of the ship. The bearing takers did not know where the ship was. The plotter did not know what the landmarks looked like. The knowledge was in the arrangement, in the chart and the log and the instruments and the sequence of handoffs, as much as in any of the people.\n\nHutchins pushed it further. When something went wrong, the system reorganised around it without anyone redesigning it, and the recovery was also not located in a person.\n\nHis argument is that this is not a special case for ships. It is what thinking mostly looks like once it leaves the laboratory, and treating cognition as an event inside a single skull is a convenience of method rather than a description of the world.",
+    "definition": "The claim that cognitive processes are properly described across a system of people, tools and representations rather than within one mind. Hutchins identified three directions it extends: across members of a group, between a person and the structure of their environment, and through time, as earlier products shape later ones. The practical consequence is that improving thinking often means changing the arrangement, the notebook, the checklist, the layout, rather than trying to think harder.",
+    "mechanism": {
+      "chains": [
+        [
+          "a task exceeds what one person can hold at once",
+          "parts of it are offloaded into tools, notes and other people",
+          "each holder carries a fragment and nobody holds the whole",
+          "the arrangement does the computing, not any single participant",
+          "changing the arrangement changes what the group is capable of, without anyone getting cleverer"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Writing things down is a crutch for a bad memory.\" Hutchins’s point is that the external structure is not a substitute for the thinking, it is part of where the thinking occurs. Expert performance in navigation, surgery and aviation is built on external representations, and removing them does not reveal the real underlying skill. It removes a working component.",
+    "nearestNeighbour": "THE COLLECTIVE BRAIN. That is a claim from cultural evolution about why larger connected populations accumulate more technology over generations. This is about a single task in a single afternoon and the arrangement of people and instruments that performs it.",
+    "discriminateScenario": "The handover sheet is a scruffy laminated card by the kettle with six boxes on it. The ward runs on it. When the new manager replaced it with a system that each nurse fills in privately on a tablet, nothing was lost on paper and three things were missed in the first fortnight that the card had been catching for years.",
+    "praxisExercise": "PUT IT OUTSIDE YOUR HEAD\n\n1. Pick something you are currently holding mentally and keep dropping.\n2. Build the smallest external structure that could hold it: one list, one card, one place on a wall.\n3. Use it for a week without improving it.\n4. Notice what you stopped having to remember, and what you can now do with the attention.\n\nCOMMITMENT (if then):\n\"When I notice I am trying to keep something in my head across days, I will put it into a structure outside my head instead.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Disciplined",
+      "Clear thinker"
+    ],
+    "related": [],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "08.33",
+    "slug": "information-foraging",
+    "name": "Information Foraging",
+    "tier": "integration",
+    "domain": "Learning, Memory & Attention",
+    "type": "Learning Principle",
+    "legacyType": "Information Science Concept",
+    "tradition": "Information Science",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Peter Pirolli and Stuart Card, at Xerox PARC",
+    "date": "1995",
+    "oneSentence": "Looking for information behaves like an animal looking for food, including when to abandon a patch that is still producing.",
+    "story": "Pirolli and Card were at Xerox PARC trying to understand how people search, and they borrowed their model from a literature nobody in computing was reading: ecology.\n\nOptimal foraging theory describes an animal working a patch of berries. The first handful is easy. The patch depletes. At some point the animal should leave for another patch, and the ecologists had worked out exactly when: the moment the rate of return here drops below the average rate for the whole environment, travel time included. Not when the patch is empty. While it is still giving something.\n\nApplied to information, the pieces map cleanly. Patches are documents, sites, conversations, shelves. Scent is the thing Pirolli and Card called information scent: the cues on a link or a title that tell you, before you commit, whether there is anything down there. Diet is what you choose to attend to at all.\n\nThe finding that follows is the uncomfortable one. People persist in a depleted patch far past the point where leaving would pay, because leaving feels like waste and staying feels like progress. And strong scent will pull someone down a path that smells right and turns out to contain nothing, while a weakly labelled source holding exactly what they need is passed over.",
+    "definition": "A model of information seeking built on optimal foraging theory. Its three components are patches, the places information sits, scent, the cues that estimate value before you commit, and diet, what you accept as worth attending to. Its central prediction is about departure: the rational moment to leave a source is when its rate of return falls below the environment’s average including the cost of moving, which is considerably earlier than when it runs dry. It has been well supported in studies of web behaviour and used to redesign interfaces.",
+    "mechanism": {
+      "chains": [
+        [
+          "a search begins across patches of varying richness",
+          "cues give an estimate of value before any patch is entered",
+          "the chosen patch yields quickly and then depletes",
+          "staying still returns something, so leaving feels like waste",
+          "the return rate falls below what a fresh patch would give, and the time after that point is the loss"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Thorough research means exhausting a source before moving on.\" The model says the opposite and so does the ecology it came from. The correct moment to leave is while the source is still producing, judged against what else is available. Finishing a book that stopped teaching you anything at chapter four is not thoroughness, it is a foraging error with a respectable name.",
+    "nearestNeighbour": "EXPLORE-EXPLOIT TRADE-OFF. That is the general problem of balancing known returns against unknown ones, and it applies to careers, restaurants and algorithms alike. This is the specific version for seeking information, and it adds scent: judging a source before entering it.",
+    "discriminateScenario": "She is on page sixty of a report that gave her everything useful in its first eight pages. She keeps going because stopping would mean she had wasted the hour, and because the next section might. Three sources she has not opened are sitting in a tab each, and one of them has what she came for.",
+    "praxisExercise": "LEAVE WHILE IT IS STILL GIVING\n\n1. Next time you are researching something, note the time when a source stops surprising you.\n2. Keep going for ten more minutes and write down what you got in those ten minutes.\n3. Compare that with what you got in the first ten.\n4. Use the comparison as your rule for when to leave the next one.\n\nCOMMITMENT (if then):\n\"When a source stops surprising me, I will leave it for a different one rather than finishing it out of thoroughness.\"",
+    "identityTags": [
+      "Creatively unblocked",
+      "Clear thinker",
+      "Disciplined"
+    ],
+    "related": [
+      "03.69",
+      "11.09"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
     "id": "09.01",
     "slug": "dichotomy-of-control",
     "name": "Dichotomy of Control",
@@ -6016,55 +6232,13 @@
     "identityTags": [
       "Creatively unblocked"
     ],
-    "related": [],
+    "related": [
+      "03.69",
+      "08.33",
+      "11.29"
+    ],
     "books": [
       "BK086"
-    ],
-    "author": "Claude draft, needs Lindsay review"
-  },
-  {
-    "id": "11.14",
-    "slug": "resistance",
-    "name": "Resistance",
-    "tier": "integration",
-    "domain": "Creativity, Craft & Mastery",
-    "type": "Mental Model",
-    "legacyType": "Author Framework",
-    "tradition": "Craft and Creative Practice",
-    "difficulty": "introductory",
-    "evidence": "Framework",
-    "origin": "Steven Pressfield",
-    "date": "2002",
-    "oneSentence": "The force that opposes the work, which is strongest against whatever matters most and arrives disguised as good reasons.",
-    "story": "",
-    "definition": "Pressfield named the internal opposition to doing the work and treated it as a predictable force rather than a mood. Its properties as he describes them are specific and testable against your own week: it is strongest in proportion to how much the work matters, it never announces itself as fear, and it supplies instead an inexhaustible supply of plausible alternatives, research, preparation, tidying, a different project. His practical conclusion is that it cannot be defeated, only shown up against, which is why he frames the solution as turning professional.",
-    "mechanism": {
-      "chains": [
-        [
-          "work that matters is approached",
-          "opposition rises in proportion to how much it matters",
-          "it presents as reasonable alternatives rather than as fear, so it is not recognised",
-          "those alternatives are acted on and feel productive",
-          "the work is not done, and the force is strongest tomorrow against exactly the same task"
-        ]
-      ],
-      "prose": []
-    },
-    "misconception": "\"If you are putting something off, you do not want it enough.\" Pressfield’s inversion is the useful part: the strength of the avoidance is evidence of importance rather than of indifference. The thing you keep not starting is, on this account, the thing to start, and the reasons for not starting it will be the best reasons you have about anything.",
-    "nearestNeighbour": "RUTS AND GROOVES. That is Tharp on habits of execution that make work automatic once started, and it concerns the shape of the work itself. This is about the force that operates before any work begins, and it has nothing to say about what you do once you are in.",
-    "discriminateScenario": "The novel has been nine months away for four years. In that time he has read eleven books about structure, reorganised the files twice, and built a very good website for it. He has never once sat down on a Tuesday morning and written badly for an hour, and everything he has done instead has been genuinely useful.",
-    "praxisExercise": "THE THING YOU KEEP NOT STARTING\n\n1. Name the project you have been about to begin for longest.\n2. List the three most reasonable things you have done instead. Notice how good they were.\n3. Tomorrow, do ninety minutes of the actual work before any of them.\n4. Permit it to be bad. Badness is not the obstacle.\n\nCOMMITMENT (if then):\n\"When I notice I am preparing rather than working, I will do ninety minutes of the real thing first and allow it to be poor.\"",
-    "identityTags": [
-      "Creatively unblocked",
-      "Disciplined",
-      "Self-authoring"
-    ],
-    "related": [
-      "11.28",
-      "11.30"
-    ],
-    "books": [
-      "BK125"
     ],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -6117,238 +6291,45 @@
     "author": "Claude draft, needs Lindsay review"
   },
   {
-    "id": "11.26",
-    "slug": "creative-dna",
-    "name": "Creative DNA",
-    "tier": "integration",
-    "domain": "Creativity, Craft & Mastery",
-    "type": "Practice",
-    "legacyType": "Creative Practice",
-    "tradition": "Choreography and Creative Craft",
-    "difficulty": "introductory",
-    "evidence": "Framework",
-    "origin": "Twyla Tharp",
-    "date": "2003",
-    "oneSentence": "The tendencies that keep reappearing in your work, which you can stretch but not swap.",
-    "story": "",
-    "definition": "Tharp's term for the preferences visible across everything a person makes: the scale they work at, the themes they return to, the kind of problem that makes them want to engage. She includes a diagnostic she calls focal length, meaning whether your attention naturally sharpens at great distance, at arm's length, or in close up.",
-    "mechanism": {
-      "chains": [
-        [
-          "you work against your own tendencies",
-          "every start fights the way you actually see",
-          "the effort goes into the fight rather than into the work"
-        ],
-        [
-          "you know what you repeatedly notice",
-          "you choose problems that suit it",
-          "stretching happens from a foundation instead of against one"
-        ]
-      ],
-      "prose": []
-    },
-    "misconception": "\"Knowing your tendencies means staying comfortable.\" Tharp's warning runs the other way. She uses the phrase DNA denial for people who keep forcing themselves toward a form that contradicts their instincts, and she admires artists who grow while remaining recognisably themselves. The point is to stretch from a foundation rather than to avoid stretching.",
-    "nearestNeighbour": "CIRCLE OF COMPETENCE. That concerns the boundary of what you reliably know, and crossing it is a problem of knowledge. This concerns what you are drawn to and how your attention naturally works, which can be strong in a field you know almost nothing about.",
-    "discriminateScenario": "Asked to describe a landscape he wants to paint, a young man produces two pages of vivid prose and not one colour. His teacher points it out. He has spent three years trying to become a painter and has never noticed that his attention reaches for language before it reaches for anything visible.",
-    "praxisExercise": "FIND YOUR FOCAL LENGTH\n\n1. Go somewhere public and watch two people together. Write down twenty things they do, with no judgement at all.\n2. Now watch a different pair and write down only the twenty things you found interesting.\n3. The second list will take far longer.\n4. Study it. What you kept is your taste, and it is the clearest evidence you have of how you see.\n\nCOMMITMENT (if then):\n\"When a piece of work keeps refusing to start, I will ask whether it suits how I actually see before I try harder.\"",
-    "identityTags": [
-      "Creatively unblocked",
-      "Self-authoring"
-    ],
-    "related": [
-      "02.30"
-    ],
-    "books": [
-      "BK134"
-    ],
-    "author": "Claude draft, needs Lindsay review"
-  },
-  {
-    "id": "11.27",
-    "slug": "box",
-    "name": "The Box",
-    "tier": "integration",
-    "domain": "Creativity, Craft & Mastery",
-    "type": "Practice",
-    "legacyType": "Creative Practice",
-    "tradition": "Choreography and Creative Craft",
-    "difficulty": "introductory",
-    "evidence": "Framework",
-    "origin": "Twyla Tharp",
-    "date": "2003",
-    "oneSentence": "Give every project a container, and begin it by putting one thing inside.",
-    "story": "",
-    "definition": "Tharp starts every piece with a file box, writes the project name on it, and fills it with everything that feeds the work: notebooks, clippings, recordings, photographs, objects. It is a record of the research rather than a filing system, and its first value arrives at the beginning, when naming a box is a way of starting something you cannot yet describe.",
-    "mechanism": {
-      "chains": [
-        [
-          "a project has no physical home",
-          "material scatters and the project exists only as an intention",
-          "beginning stays abstract and keeps being postponed"
-        ],
-        [
-          "a box is named and opened",
-          "one item goes in",
-          "the project now exists as a thing, and everything found later has somewhere to land"
-        ]
-      ],
-      "prose": []
-    },
-    "misconception": "\"It is just a way of staying organised.\" Tharp says the box makes her feel she has her act together even when she has no idea where she is going, which is a claim about morale rather than filing. Its real work happens at the start, where naming it converts a vague intention into something that has been begun.",
-    "nearestNeighbour": "SCRATCHING. That is the active hunt for material when you have none. This is where material goes once it has been found. One is the search and the other is the store, and doing either without the other wastes most of what it produces.",
-    "discriminateScenario": "Two writers have the same idea for a book in January. One keeps meaning to start. The other buys a document wallet that afternoon, writes a working title on the front and puts in a single newspaper cutting. By March the first still has an intention and the second has forty items and a sense of the shape.",
-    "praxisExercise": "NAME A BOX TODAY\n\n1. Take a project you have been meaning to begin.\n2. Find a physical container, or a single folder, and put its name on the outside.\n3. Put one thing in it today. Anything that belongs to the project counts.\n4. For two weeks, add whatever turns up without sorting or judging it.\n\nCOMMITMENT (if then):\n\"When I decide a project is real, I will name a container for it the same day and put one thing in.\"",
-    "identityTags": [
-      "Creatively unblocked",
-      "Disciplined"
-    ],
-    "related": [
-      "11.28",
-      "11.29"
-    ],
-    "books": [
-      "BK134"
-    ],
-    "author": "Claude draft, needs Lindsay review"
-  },
-  {
-    "id": "11.28",
-    "slug": "scratching",
-    "name": "Scratching",
-    "tier": "integration",
-    "domain": "Creativity, Craft & Mastery",
-    "type": "Practice",
-    "legacyType": "Creative Practice",
-    "tradition": "Choreography and Creative Craft",
-    "difficulty": "introductory",
-    "evidence": "Framework",
-    "origin": "Twyla Tharp",
-    "date": "2003",
-    "oneSentence": "When you have no idea, go looking for one rather than waiting for it.",
-    "story": "",
-    "definition": "Tharp's name for the active search for raw material at the start of a piece. She compares it to scratching a lottery ticket, and to clawing at a mountainside for a toehold. It covers reading, travelling, watching other people's work, and anything else that brings you into contact with material you did not have an hour ago.",
-    "mechanism": {
-      "chains": [
-        [
-          "no idea has arrived",
-          "you wait for one",
-          "the waiting produces nothing and becomes the activity itself"
-        ],
-        [
-          "you go digging",
-          "small fragments turn up",
-          "one of them offers enough traction to move, and the rest become material"
-        ]
-      ],
-      "prose": []
-    },
-    "misconception": "\"It means brainstorming, or thinking harder.\" It is not an internal activity at all. Tharp's examples are physical and outward: visiting shops, taking a flight, walking through a quarry. She says the act of changing your environment is itself the scratch, which is precisely the thing that thinking harder in the same chair cannot do.",
-    "nearestNeighbour": "INCUBATION EFFECT. That is the finding that stepping away from a problem lets a solution surface, and it works by not attending to the thing. This is the opposite posture, an active and deliberate hunt, and it is what you do when there is nothing yet to incubate.",
-    "discriminateScenario": "Facing an empty studio with a performance booked, a choreographer does not sit and think. She spends the week in galleries, rereads a book she loved at nineteen, watches a boxing match and takes a train somewhere she has never been. None of it is the piece. By Friday she has three fragments that might be.",
-    "praxisExercise": "GO AND LOOK\n\n1. Take a project where you have nothing yet.\n2. Choose three places to go this week that have no obvious connection to it.\n3. Bring something back from each, however small or irrelevant it seems.\n4. Put all three in the project's box before deciding whether any is useful.\n\nCOMMITMENT (if then):\n\"When I have no idea and notice I am waiting for one, I will leave the room and go somewhere that might contain material.\"",
-    "identityTags": [
-      "Creatively unblocked"
-    ],
-    "related": [
-      "11.14",
-      "11.27"
-    ],
-    "books": [
-      "BK134"
-    ],
-    "author": "Claude draft, needs Lindsay review"
-  },
-  {
     "id": "11.29",
-    "slug": "spine",
-    "name": "Spine",
+    "slug": "unity-of-action",
+    "name": "Unity of Action",
     "tier": "integration",
     "domain": "Creativity, Craft & Mastery",
-    "type": "Practice",
-    "legacyType": "Creative Practice",
-    "tradition": "Choreography and Creative Craft",
-    "difficulty": "intermediate",
-    "evidence": "Framework",
-    "origin": "Twyla Tharp",
-    "date": "2003",
-    "oneSentence": "The private statement of what the work is trying to do, which you return to when it wanders.",
-    "story": "",
-    "definition": "Tharp defines the spine as the statement you make to yourself outlining your intentions for the work. It is not the theme an audience perceives and it need not be visible in the finished piece at all. Its function is navigational. When the work begins drifting, the spine is the thing that tells you which direction was ever yours.",
-    "mechanism": {
-      "chains": [
-        [
-          "no intention is stated",
-          "every new possibility looks as valid as any other",
-          "the work grows in several directions at once and loses its centre"
-        ],
-        [
-          "the intention is written down early",
-          "each choice can be held against it",
-          "drifting becomes visible while it is still cheap to correct"
-        ]
-      ],
-      "prose": []
-    },
-    "misconception": "\"The spine is the message, or the theme.\" It is neither, and Tharp keeps hers private. A theme is what a finished work says to the people receiving it. A spine is an instruction you give yourself about what you are trying to do, and it can be something nobody else ever detects.",
-    "nearestNeighbour": "DOUBLE LOOP LEARNING. That is the move of putting the goal itself up for revision when results keep falling short. This is the prior work of stating a goal clearly enough that you can tell when you have wandered away from it at all.",
-    "discriminateScenario": "Four months into the record the band has twenty songs that are each fine and together sound like three different albums. In the first week someone wrote a sentence about what they were trying to make. Nobody has looked at it since. When they find it, it rules out eleven of the twenty immediately.",
-    "praxisExercise": "WRITE THE SENTENCE\n\n1. Take a project already underway.\n2. Write one sentence, for yourself only, stating what you intend it to do.\n3. List the three most recent decisions you made on it.\n4. Mark any that the sentence does not support. Those are where it started wandering.\n\nCOMMITMENT (if then):\n\"When a project reaches its second week, I will write the one sentence of what it is for and keep it where I will see it.\"",
-    "identityTags": [
-      "Creatively unblocked",
-      "Clear thinker"
-    ],
-    "related": [
-      "01.27",
-      "11.27"
-    ],
-    "books": [
-      "BK134"
-    ],
-    "author": "Claude draft, needs Lindsay review"
-  },
-  {
-    "id": "11.30",
-    "slug": "ruts-and-grooves",
-    "name": "Ruts and Grooves",
-    "tier": "integration",
-    "domain": "Creativity, Craft & Mastery",
-    "type": "Practice",
-    "legacyType": "Creative Practice",
-    "tradition": "Choreography and Creative Craft",
+    "type": "Creativity Concept",
+    "legacyType": "Compositional Principle",
+    "tradition": "Greek Philosophy and Dramatic Theory",
     "difficulty": "introductory",
-    "evidence": "Framework",
-    "origin": "Twyla Tharp",
-    "date": "2003",
-    "oneSentence": "Spinning your wheels is not the same as being stopped, and the two need different answers.",
-    "story": "",
-    "definition": "Tharp's distinction for reading your own momentum. In a rut the engine runs and you are moving, but nothing advances. In a groove the wheels turn and the work goes forward with little effort. She separates both sharply from a creative block, in which the engine has stopped entirely and the tank is empty.",
+    "evidence": "Philosophical",
+    "origin": "Aristotle, Poetics",
+    "date": "c. 335 BCE",
+    "oneSentence": "A work is one action, and anything you could remove without anyone noticing was never part of it.",
+    "story": "Aristotle is trying to work out why some plays hold together and others do not, and he keeps running into the same wrong answer.\n\nThe obvious theory is that a story is unified because it is about one person. He rejects it outright. An enormous number of things happen to any one man, he says, and most of them make no single action. Homer could have written everything that ever happened to Odysseus and did not. He left out the wound on Parnassus and the feigned madness at the mustering, because neither one needed the other to exist.\n\nThen he gives the test, and it is a removal test rather than an addition test. The parts must be so arranged that if any one of them is displaced or taken away, the whole is disjointed and disturbed. Because a thing whose presence or absence makes no visible difference is not an organic part of the whole.\n\nThat is a harsher standard than it first sounds. It does not ask whether a scene is good. It asks whether pulling it out would damage anything.\n\nLater critics bolted two companions onto it, unity of time and unity of place, and attributed all three to him. He argued for one of the three. The other two were largely invented in sixteenth century Italy and hung on his name.",
+    "definition": "A compositional principle: a work has one action to which every part is subordinate, and the test of membership is removal rather than quality. Aristotle contrasts it with unity of hero, which he treats as the common error, and with episodic structure, where scenes follow one another without necessity. The useful severity is that a passage can be the best thing in the work and still fail the test, because the question is not whether it is good but whether anything depends on it.",
     "mechanism": {
       "chains": [
         [
-          "effort is producing nothing",
-          "it is read as being blocked",
-          "you wait for the block to pass",
-          "the wheels keep turning in the same place"
-        ],
-        [
-          "the state is named correctly",
-          "something specific about how you are working is changed",
-          "movement resumes"
+          "a single action is identified that the work is about",
+          "every part is tested by removal rather than by merit",
+          "parts whose absence changes nothing are cut regardless of how good they are",
+          "what remains is mutually dependent",
+          "the work reads as necessary rather than as a sequence of things that happened"
         ]
       ],
       "prose": []
     },
-    "misconception": "\"A rut is the same thing as writer's block.\" Tharp treats them as different conditions with different cures. In a rut the motor is running and you have a destination, you are simply not advancing. Being blocked means the engine has shut down, which she calls a failure of nerve whose only answer is to do something, anything.",
-    "nearestNeighbour": "FOGG BEHAVIOR MODEL. That explains why a behaviour does not occur at all, through motivation, ability and a prompt. This concerns work that is very much occurring and going nowhere, which no amount of prompting will solve because the prompt was never the problem.",
-    "discriminateScenario": "Three weeks into the redesign the team is busy. They meet daily and produce new versions constantly. Nothing has improved since the first week. Everyone is working hard and would say so honestly if asked, and nobody has said out loud that the thing they are doing is not the thing that will fix it.",
-    "praxisExercise": "NAME THE STATE\n\n1. Take a piece of work that is not going well.\n2. Decide honestly which it is: stopped entirely, moving but not advancing, or moving well.\n3. If it is stopped, do any small part of it today.\n4. If it is moving but not advancing, change one specific thing about how you are working, not how hard.\n\nCOMMITMENT (if then):\n\"When work feels bad, I will name whether I am stopped or spinning before I decide what to do about it.\"",
+    "misconception": "\"Aristotle said a drama needs unity of time, place and action.\" He argued for one of those three. Unity of place is barely in the Poetics at all, and the rigid three unities were assembled by Italian and French critics well over a thousand years later and attached to his authority. The one he actually defended is also the only one that transfers to anything outside the theatre.",
+    "nearestNeighbour": "VIA NEGATIVA. That is the broader principle that removal is often the stronger intervention, applied to decisions, health and design alike. This is specifically about composition, and it supplies a particular test: not what is harmful, but what is merely present.",
+    "discriminateScenario": "The deck is nineteen slides and every one of them is defensible. Slide eleven is the best thing in it, a genuinely interesting chart she spent a weekend on. Pull it out and nothing before it or after it changes in the slightest, which is the fact she has been avoiding for two days.",
+    "praxisExercise": "THE REMOVAL TEST\n\n1. Take something you are making: a talk, an essay, a plan, a set of slides.\n2. Say in one sentence what single thing it is about. If you cannot, that is the finding.\n3. Go through part by part and ask what breaks if this is gone. Not whether it is good.\n4. Cut everything that breaks nothing, including the part you are proudest of.\n\nCOMMITMENT (if then):\n\"When I am deciding whether to cut something I like, I will ask what else stops working without it, rather than whether it is any good.\"",
     "identityTags": [
       "Creatively unblocked",
-      "Self-authoring"
+      "Clear thinker",
+      "Clear communicator"
     ],
     "related": [
-      "03.26",
-      "11.14"
+      "01.29",
+      "11.09"
     ],
     "books": [
       "BK134"
