@@ -230,7 +230,8 @@
     ],
     "related": [
       "01.09",
-      "01.11"
+      "01.11",
+      "06.33"
     ],
     "books": [
       "BK022"
@@ -1237,7 +1238,8 @@
       "Emotionally regulated"
     ],
     "related": [
-      "04.01"
+      "04.01",
+      "06.33"
     ],
     "books": [
       "BK019"
@@ -1371,7 +1373,9 @@
     "identityTags": [
       "Self-authoring"
     ],
-    "related": [],
+    "related": [
+      "03.65"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -1462,6 +1466,7 @@
       "Self-authoring"
     ],
     "related": [
+      "03.65",
       "10.41"
     ],
     "books": [
@@ -1508,7 +1513,54 @@
       "Self-authoring",
       "Disciplined"
     ],
-    "related": [],
+    "related": [
+      "03.65"
+    ],
+    "books": [],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "03.65",
+    "slug": "opponent-process-theory",
+    "name": "Opponent-Process Theory",
+    "tier": "integration",
+    "domain": "Self-Knowledge & Behaviour",
+    "type": "Psychological Effect",
+    "legacyType": "",
+    "tradition": "Behavioural Psychology",
+    "difficulty": "intermediate",
+    "evidence": "Supported",
+    "origin": "Richard Solomon and John Corbit",
+    "date": "1974",
+    "oneSentence": "Every strong feeling triggers an opposite one underneath it, and the opposite is the half that grows with repetition.",
+    "story": "Solomon and Corbit started with dogs and shocks, which is not the part worth keeping, and then they went looking at parachutists.\n\nA first-time jumper on the way down is terrified. Pupils wide, face rigid, the whole body in alarm. Then they land, and for several minutes they are not merely relieved. They are elated, walking around, talking too fast.\n\nNow watch the same person on their thirtieth jump. The terror has flattened into something closer to tense anticipation, fairly mild. But the state afterwards has gone the other way. It is stronger, it lasts longer, and it is the thing they are now jumping for.\n\nSolomon kept finding the same shape wherever he looked. Opiate users whose first dose was euphoric and whose withdrawal was mild, and who years later felt almost nothing on dosing and were destroyed without it. Dog owners and newborn chicks and people in saunas.\n\nWhat he proposed is that the nervous system does not simply register a state. It fights it. Anything that pushes you off baseline provokes a second, opposing process whose job is to drag you back, and the two are not matched. The first stays roughly the size it always was. The second gets faster to arrive, larger, and slower to leave, every single time it is used.",
+    "definition": "The model has two processes. The a-process is the direct response to the stimulus and stays stable across repetitions. The b-process is the body’s opposing correction, and it strengthens with use, starts sooner and decays more slowly. What you feel at any moment is the sum. Early on the a-process dominates and the experience is the thing itself. With repetition the b-process has grown enough to cancel most of it, and what remains once the stimulus stops is an after-state that was barely noticeable the first time and is now the loudest thing in the room.",
+    "mechanism": {
+      "chains": [
+        [
+          "a stimulus pushes you off baseline",
+          "the body generates an opposing process to pull you back",
+          "the first process stays the same size with repetition while the opposing one strengthens",
+          "the experience of the thing flattens",
+          "the after-state deepens, so you continue in order to escape the absence rather than to get the thing"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"Things stop feeling good because you get used to them.\" That describes the flattening and misses the half that matters. Getting used to something would mean the peak and the trough both fade toward nothing. What actually happens is that the peak fades and the trough deepens, which is why the end state of a long pleasure is not indifference but discomfort when it is absent.",
+    "nearestNeighbour": "FRESH START EFFECT. That is about the moments when a person is most able to begin something, which is a question of timing and motivation. This is about what happens to a repeated experience over months and years, and it predicts the direction of travel rather than the moment to act.",
+    "discriminateScenario": "The first glass on a Friday used to be a small event. Now the first glass is barely anything, and the Fridays without one are unexpectedly bleak in a way that has nothing to do with the drink and that she would struggle to describe to anyone. Nothing has gone wrong. This is what eight years looks like.",
+    "praxisExercise": "CHECK WHICH HALF IS MOVING\n\n1. Name something you have done regularly for over a year that you began because you enjoyed it.\n2. Rate how good it is now, out of ten, honestly.\n3. Rate how bad a week without it would be, out of ten.\n4. If the second number is larger than the first, you are maintaining a baseline rather than getting something.\n\nCOMMITMENT (if then):\n\"When something I do regularly stops being enjoyable but a break from it feels unbearable, I will take the break and treat the discomfort as information rather than as a reason to resume.\"",
+    "identityTags": [
+      "Self-authoring",
+      "Emotionally regulated",
+      "Disciplined"
+    ],
+    "related": [
+      "03.28",
+      "03.30",
+      "03.31"
+    ],
     "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
@@ -3221,7 +3273,8 @@
     ],
     "related": [
       "06.01",
-      "06.04"
+      "06.04",
+      "06.33"
     ],
     "books": [
       "BK022",
@@ -3593,12 +3646,59 @@
     ],
     "related": [
       "05.20",
-      "06.04"
+      "06.04",
+      "06.33"
     ],
     "books": [
       "BK022",
       "BK103"
     ],
+    "author": "Claude draft, needs Lindsay review"
+  },
+  {
+    "id": "06.33",
+    "slug": "pillow-method",
+    "name": "The Pillow Method",
+    "tier": "integration",
+    "domain": "Communication & Influence",
+    "type": "Practice",
+    "legacyType": "",
+    "tradition": "Interpersonal Communication",
+    "difficulty": "introductory",
+    "evidence": "Framework",
+    "origin": "Developed by Japanese schoolchildren, reported by Paul Reps, taught via Adler and Towne",
+    "date": "1970s",
+    "oneSentence": "Standing a disagreement on each of its five sides in turn, including the side where it does not matter.",
+    "story": "The usual story told about this is that it came out of a Japanese school, from children rather than from a researcher, and that a pillow with four sides and a middle is where the shape comes from.\n\nThe problem it was built for is a specific one. Not an argument you are losing. An argument you have already won, in your own head, repeatedly, and cannot put down.\n\nThe instruction is to take one position you hold and move it through five stations, in order, and to actually write or say each one rather than nodding at it.\n\nI am right and they are wrong. This is the one you arrive with, so get it out in full.\n\nThey are right and I am wrong. Not a concession. An attempt to make their case as well as they would make it, which is harder than it sounds and is where most people stop.\n\nBoth right and both wrong. Where is each of you correct, and where does each of you overreach.\n\nThe issue is not important. Zoom out far enough that the thing is genuinely small. Most people resist this one hardest.\n\nThere is truth in all four positions. Hold all of them at once without picking.\n\nIt is taught in interpersonal communication courses as an exercise rather than offered as a theory, and the claim attached to it is modest: you will not usually change your mind, and you will usually stop being able to hold the other person in contempt.",
+    "definition": "A structured perspective-taking exercise with five fixed positions, worked through in sequence. Its design feature is that the positions are mandatory rather than optional, so the person cannot skip the two that are uncomfortable. The fourth position, in which the issue is unimportant, is the one most often reported as hardest and most useful, because a dispute that cannot be made small is usually carrying something other than its stated content. The stated aim is not agreement but the loss of certainty that the other person is simply wrong.",
+    "mechanism": {
+      "chains": [
+        [
+          "a position is held with certainty and rehearsed",
+          "rehearsal strengthens it, so thinking about it more makes it harder rather than easier to move",
+          "the five stations force occupation of positions the rehearsal never visits",
+          "the other person stops being a category and becomes someone with reasons",
+          "certainty drops even where the original position is kept"
+        ]
+      ],
+      "prose": []
+    },
+    "misconception": "\"This is about seeing both sides and meeting in the middle.\" There are five positions rather than two, and compromise is not among them. The exercise is explicit that you may finish holding your original view entirely. What it targets is the contempt rather than the disagreement, and those come apart more easily than people expect.",
+    "nearestNeighbour": "STEELMANNING. That is building the strongest version of an opposing argument, which is one position and is aimed at the argument. This runs five positions including the one where the whole dispute is unimportant, and it is aimed at the relationship rather than at who is correct.",
+    "discriminateScenario": "He has had the conversation with his brother about the house roughly forty times, alone, in the car. He wins every time. They have not actually spoken since April, and the version of his brother he has been arguing with for seven months has no reasons at all, only motives.",
+    "praxisExercise": "FIVE SIDES\n\n1. Pick a disagreement you keep rehearsing when nobody is there.\n2. Write each of the five positions out in full sentences. Right, wrong, both, unimportant, all true.\n3. Do not skip the fourth. It is the one you will want to skip.\n4. Notice whether you still think they are a bad person.\n\nCOMMITMENT (if then):\n\"When I catch myself rehearsing an argument alone, I will write the five positions before I have the conversation for real.\"",
+    "identityTags": [
+      "Clear communicator",
+      "Emotionally regulated",
+      "High integrity"
+    ],
+    "related": [
+      "01.10",
+      "03.13",
+      "06.02",
+      "06.25"
+    ],
+    "books": [],
     "author": "Claude draft, needs Lindsay review"
   },
   {
